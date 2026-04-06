@@ -26,6 +26,8 @@ public class Prologue : MonoBehaviour
     private DialogueLine[] dialogueLines;
 
     private int index = 0;
+    
+    private int currentLine;
 
     void Start()
     {
@@ -266,6 +268,17 @@ public class Prologue : MonoBehaviour
         {
             ShowNextLine();
         }
+    }
+
+    void NextLine()
+    {
+        currentLine++;
+
+        PlayerPrefs.SetString("LastScene", "Prologue");
+        PlayerPrefs.SetInt("DialogueIndex", currentLine);
+        PlayerPrefs.Save();
+
+        ShowNextLine();
     }
 
     void ShowNextLine()
