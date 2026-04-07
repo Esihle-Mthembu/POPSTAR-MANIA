@@ -2,36 +2,17 @@
 using TMPro;
 using UnityEngine.InputSystem;
 
-
-public class DialogueLine
-{
-    public string characterName;
-    public string line;
-
-    public DialogueLine(string name, string text)
-    {
-        characterName = name;
-        line = text;
-    }
-}
-
-
 public class Prologue : MonoBehaviour
 {
-    // UI fields
-    public TextMeshProUGUI nameText;
-    public TextMeshProUGUI dialogueText;
+    [SerializeField] private DialogueLine[] dialogueLines;
 
-    // Dialogue data stored in an array of DialogueLine
-    private DialogueLine[] dialogueLines;
+    [SerializeField] private TMP_Text dialogueText;
+    [SerializeField] private TMP_Text nameText;
 
     private int index = 0;
-    
-    private int currentLine;
 
     void Start()
     {
-        // Assign lines directly in the script
         dialogueLines = new DialogueLine[]
         {
         new DialogueLine("Yeonhee", "Hi, I’m Lim Yeonhee."),
@@ -263,22 +244,10 @@ public class Prologue : MonoBehaviour
 
     void Update()
     {
-        if ((Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame) ||
-            (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame))
+        if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame)
         {
             ShowNextLine();
         }
-    }
-
-    void NextLine()
-    {
-        currentLine++;
-
-        PlayerPrefs.SetString("LastScene", "Prologue");
-        PlayerPrefs.SetInt("DialogueIndex", currentLine);
-        PlayerPrefs.Save();
-
-        ShowNextLine();
     }
 
     void ShowNextLine()
@@ -290,17 +259,10 @@ public class Prologue : MonoBehaviour
             return;
         }
 
-        dialogueText.text = dialogueLines[index].line;
+        DialogueLine line = dialogueLines[index];
 
-        // If character name is empty → hide name
-        if (string.IsNullOrEmpty(dialogueLines[index].characterName))
-        {
-            nameText.text = "";  // no name shown
-        }
-        else
-        {
-            nameText.text = dialogueLines[index].characterName;
-        }
+        dialogueText.text = line.dialogueText;
+        nameText.text = line.characterName;
 
         index++;
     }
