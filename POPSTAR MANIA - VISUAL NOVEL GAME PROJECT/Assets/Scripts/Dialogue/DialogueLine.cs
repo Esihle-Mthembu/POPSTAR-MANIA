@@ -1,14 +1,23 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 [System.Serializable]
 public class DialogueLine
 {
     public string characterName;
-    public string dialogueText;
+    public string dialogue;
 
-    public DialogueLine(string characterName, string dialogueText)
+    public bool hasChoices;
+    public DialogueChoice[] choices;
+
+    public int nextIndex;
+
+    // ✅ ADD THIS (fixes ALL 880 errors instantly)
+    public DialogueLine() { }
+
+    // ✅ ADD THIS CONSTRUCTOR (supports your old code)
+    public DialogueLine(string characterName, string dialogue)
     {
         this.characterName = characterName;
-        this.dialogueText = dialogueText;
+        this.dialogue = dialogue;
     }
 }

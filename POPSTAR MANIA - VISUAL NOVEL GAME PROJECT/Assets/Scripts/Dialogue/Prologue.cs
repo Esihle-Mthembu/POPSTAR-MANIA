@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 using UnityEngine.InputSystem;
 
 public class Prologue : MonoBehaviour
 {
     [SerializeField] private DialogueLine[] dialogueLines;
-
-    [SerializeField] private TMP_Text dialogueText;
+    [SerializeField] private TMP_Text dialogue;
     [SerializeField] private TMP_Text nameText;
 
     private int index = 0;
@@ -254,14 +254,14 @@ public class Prologue : MonoBehaviour
     {
         if (index >= dialogueLines.Length)
         {
-            dialogueText.text = "End of Prologue";
+            dialogue.text = "End of Prologue";
             nameText.text = "";
             return;
         }
 
         DialogueLine line = dialogueLines[index];
 
-        dialogueText.text = line.dialogueText;
+        dialogue.text = line.dialogue;
         nameText.text = line.characterName;
 
         index++;

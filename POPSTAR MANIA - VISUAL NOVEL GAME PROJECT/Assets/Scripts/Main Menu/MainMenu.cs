@@ -21,7 +21,7 @@ public class MainMenu : MonoBehaviour
         PlayerPrefs.DeleteKey("DialogueIndex");
 
         PlayerPrefs.SetString("LastScene", "Prologue");
-        SceneManager.LoadScene("Prologue");
+        SceneManager.LoadScene("Prologue scene");
     }
 
     public void Settings()
