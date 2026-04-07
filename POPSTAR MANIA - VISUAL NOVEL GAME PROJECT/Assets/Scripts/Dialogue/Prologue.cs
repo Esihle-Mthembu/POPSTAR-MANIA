@@ -2,10 +2,10 @@
 using TMPro;
 using UnityEngine.InputSystem;
 
+
 public class DialogueLine
 {
     public string characterName;
-    [TextArea(2, 5)]
     public string line;
 
     public DialogueLine(string name, string text)
@@ -14,6 +14,7 @@ public class DialogueLine
         line = text;
     }
 }
+
 
 public class Prologue : MonoBehaviour
 {
