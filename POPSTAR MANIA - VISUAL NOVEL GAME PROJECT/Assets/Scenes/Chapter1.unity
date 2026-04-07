@@ -482,7 +482,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67bc431369635f46af579e0bd0ee46c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Chapter1
-  nameText: {fileID: 2111665598}
   dialogueText: {fileID: 1716905499}
 --- !u!1 &1716905497
 GameObject:
@@ -607,7 +606,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -296.74146, y: 160.20407, z: -384.12537, w: -286.72876}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -744,7 +743,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -324.04886, y: 87.38406, z: 196.61398, w: -110.14021}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

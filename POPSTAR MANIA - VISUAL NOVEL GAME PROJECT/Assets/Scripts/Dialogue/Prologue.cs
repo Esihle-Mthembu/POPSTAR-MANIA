@@ -2,7 +2,6 @@
 using TMPro;
 using UnityEngine.InputSystem;
 
-[System.Serializable]
 public class DialogueLine
 {
     public string characterName;
