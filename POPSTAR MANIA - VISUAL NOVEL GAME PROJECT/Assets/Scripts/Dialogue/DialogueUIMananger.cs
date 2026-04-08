@@ -30,7 +30,7 @@ public class DialogueUIManager : MonoBehaviour
     {
         Debug.Log("ShowChoices called");
 
-        // ⭐ SHOW PANEL
+        // SHOW PANEL
         if (choicesPanel != null)
             choicesPanel.SetActive(true);
 
@@ -63,6 +63,12 @@ public class DialogueUIManager : MonoBehaviour
             Destroy(child.gameObject);
 
         // HIDE PANEL
+        if (choicesPanel != null)
+            choicesPanel.SetActive(false);
+    }
+
+    public void HideChoices()
+    {
         if (choicesPanel != null)
             choicesPanel.SetActive(false);
     }
