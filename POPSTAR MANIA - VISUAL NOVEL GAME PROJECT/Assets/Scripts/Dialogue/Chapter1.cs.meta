@@ -1,2 +1,16 @@
 fileFormatVersion: 2
 guid: f67bc431369635f46af579e0bd0ee46c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - characterNameText: {instanceID: 0}
+  - dialogueText: {instanceID: 0}
+  - choicePanel: {instanceID: 0}
+  - choiceContainer: {instanceID: 0}
+  - choiceButtonPrefab: {fileID: 6155727267924834740, guid: b86ec702b546feb4d90a655dbbc661a2, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

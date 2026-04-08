@@ -5,10 +5,8 @@ using UnityEngine.InputSystem;
 
 public class Prologue : MonoBehaviour
 {
-    [SerializeField] private DialogueLine[] dialogueLines;
-    [SerializeField] private TMP_Text dialogue;
-    [SerializeField] private TMP_Text nameText;
-
+    public DialogueLine[] dialogueLines;
+    public DialogueUIManager ui;
     private int index = 0;
 
     void Start()
@@ -252,18 +250,17 @@ public class Prologue : MonoBehaviour
 
     void ShowNextLine()
     {
-        if (index >= dialogueLines.Length)
-        {
-            dialogue.text = "End of Prologue";
-            nameText.text = "";
-            return;
-        }
+        var line = dialogueLines[index];
 
-        DialogueLine line = dialogueLines[index];
+        ui.ShowLine(line.characterName, line.dialogueText);
 
-        dialogue.text = line.dialogue;
-        nameText.text = line.characterName;
+        if (line.choices != null && line.choices.Length > 0)
+            ui.ShowChoices(line.choices);
+    }
 
+    public void NextLine()
+    {
         index++;
+        ShowNextLine();
     }
 }

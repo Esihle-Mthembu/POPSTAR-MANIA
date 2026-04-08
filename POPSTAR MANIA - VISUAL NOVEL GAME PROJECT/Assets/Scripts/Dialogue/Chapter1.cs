@@ -6,152 +6,157 @@ using UnityEngine.UI;
 
 public class Chapter1 : MonoBehaviour
 {
+    public DialogueLine[] dialogueLines;
+    public DialogueUIManager ui;
+
     public DialogueLine[] chapterLines;
+    private int index = 0;
 
-    public TMP_Text characterNameText;
-    public TMP_Text dialogueText;
-
-    public GameObject choicePanel;
-    public Transform choiceContainer;
-    public GameObject choiceButtonPrefab;
-
-    private int currentIndex = 0;
+    private bool isChoosing = false;
 
     void Start()
     {
-        chapterLines = new DialogueLine[]
+        dialogueLines = new DialogueLine[]
         {
 //OUTSIDE THE COMPANY BUILDING
-new DialogueLine(" ", "When I got back home, my parents and friends were so excited about the news. Even my dad, who was so against the idea, finally warmed up to it."),
+new DialogueLine(" ", "When I got back home, my parents and friends were so excited about the news. Even my dad, who was so against the idea, finally warmed up to it."),//0
 new DialogueLine(" ", "And now, here I am, standing outside this building with my parents, wondering what my future will look like when I achieve my dreams. Standing here feels weird… I never thought this would happen to me."),
 new DialogueLine( " ", "I’m nervous about meeting the other girls."),
 new DialogueLine( " ", "I heard they’ve been here longer than me… that gives them an advantage. I really need to work my ass off. But for now, I’ll just try to get the hang of things."),
 new DialogueLine( "Mom", " You should call us if anything happens, okay?"),
-new DialogueLine( "Dad", " Don’t forget about your schoolwork while you're here."),
+new DialogueLine( "Dad", " Don’t forget about your schoolwork while you're here."),//5
 new DialogueLine( " ", "Hearing my dad say this while holding my bags makes it feel real."),
 new DialogueLine( " ", "I roll my eyes before answering."),
 new DialogueLine( "Yeonhee", "I won't forget and I promise to call."),
 new DialogueLine( "", "After a short wait, the door swings open, and a familiar face steps out."),
-new DialogueLine( "Panel member 1", " It’s good to see you again, Yeonhee. This must be your parents, I assume?"),
+new DialogueLine( "Panel member 1", " It’s good to see you again, Yeonhee. This must be your parents, I assume?"),//10
 new DialogueLine( " ", "Oh… the panel member from that day. Her smile still looks creepy. I nod."),
 new DialogueLine( "Panel member 1", " Thank you for bringing her. I’ll take over from here."),
 new DialogueLine( "Dad", " Oh? We were hoping we could just come in and."),
 new DialogueLine( " ", "The panel member cuts him off, still smiling."),
-new DialogueLine( "Panel member 1", " I’m sorry, but parents aren’t allowed in the dorms. Not allowed?"),
+new DialogueLine( "Panel member 1", " I’m sorry, but parents aren’t allowed in the dorms. Not allowed?"),//15
 new DialogueLine( "Mom", " Uhh… I guess it’s okay. You’ll be fine alone, right?"),
 new DialogueLine( " ", "I nod, unsure."),
 new DialogueLine( "Yeonhee", "Yeah… I’ll be fine."),
 new DialogueLine( " ", "I hug my parents quickly, my heart racing as I watch their car disappear."),
 
 //COMPANY LOBBY
-new DialogueLine( "Panel member 1", " Before we proceed, I’ll need your phone."),
+new DialogueLine( "Panel member 1", " Before we proceed, I’ll need your phone."),//20
 new DialogueLine( "Yeonhee", "…My phone?"),
 new DialogueLine( "Panel member 1", " Personal devices aren’t permitted. You’ll be provided with an alternative."),
 new DialogueLine( "Yeonhee", "But how will I call my parents? I promised I would."),
 new DialogueLine( " ", "The panel member reaches out her hand, still smiling, without answering. This feels weird… but I guess it’s just company rules."),
-new DialogueLine( " ", "I hand over my phone."),
+new DialogueLine( " ", "I hand over my phone."),//25
 new DialogueLine( "Panel member 1", " Thank you. Follow me."),
 new DialogueLine( " ", "As we walk through the hallway, I notice how quiet the company is, even though we pass training rooms."),
 new DialogueLine( " ", "We enter a large door, and behind it are different units stretching down the hall. This must be it…"),
 new DialogueLine( "Panel member 1", " This is where the other trainees live. Your unit is right down this hall."),
-new DialogueLine( " ", "The panel member fumbles through her keys. I stand behind her, listening to the chatter bleeding through the walls. Everyone is talking about training or diets… nothing fun."),
+new DialogueLine( " ", "The panel member fumbles through her keys. I stand behind her, listening to the chatter bleeding through the walls. Everyone is talking about training or diets… nothing fun."),//30
 new DialogueLine( "Panel member 1", " Got it. Here’s your unit and your key."),
 new DialogueLine( "Panel member 1", " This is where I’ll leave you. I can’t wait to bump into you again, Yeonhee."),
 new DialogueLine( " ", "We exchange smiles."),
 new DialogueLine( " ", "I look down at my keys and try the door, and it's already unlocked. I guess everyone’s home…"),
 
 //DORM
-new DialogueLine( " ", "I step in anxiously, and before I can look around, all seven trainees greet me. As everyone introduced themselves I tried to peek through the small gaps to see what the unit looked like, but everyone was taller than me, making it harder to take a peak."),
+new DialogueLine( " ", "I step in anxiously, and before I can look around, all seven trainees greet me. As everyone introduced themselves I tried to peek through the small gaps to see what the unit looked like, but everyone was taller than me, making it harder to take a peak."),//35
 new DialogueLine( " ", "Geez, why is everyone in my face…"),
 new DialogueLine( "Cheonmi", " Hi, I’m Cheomni, I’m 19."),
 new DialogueLine( " ", "She looks me up and down."),
 new DialogueLine( "Cheonmi", " I hope you pick things up quickly."),
-new DialogueLine( " ", "Okay that sounds a bit rude… but she's so pretty. She actually looks like an idol already."),
+new DialogueLine( " ", "Okay that sounds a bit rude… but she's so pretty. She actually looks like an idol already."),//40
 new DialogueLine( "Yeonseo", " Hi, I’m Yeonseo, I’m 23…i’ve been training here the longest but please don’t call me unnie. Also don’t mind Cheomni, she gets like that sometimes. If you need help, call me."),
 new DialogueLine( "Xuan Mo", " Hi, I’m Xuan Mo, 16… it’s nice to meet you."),
 new DialogueLine( " ", "Finally, someone my height. She’s the youngest and looks the most depressed… life hasn’t been easy for her, I guess."),
 new DialogueLine( "Rose", "Hi! I’m Rose, I’m Filipina, 20. I’ll also be a call away if you need help, with literally anything."),
-new DialogueLine( " ", "She’s way shorter than me, that's actually very rare… I’d like to be friends, she seems free spirited just like me."),
+new DialogueLine( " ", "She’s way shorter than me, that's actually very rare… I’d like to be friends, she seems free spirited just like me."),//45
 new DialogueLine( " ", "Everyone seems nice and unique… I feel less anxious."),
 new DialogueLine( "Yeonhee", "Hi! Uh… I didn’t prepare an intro, but I’m Yeonhee, 18.. (I bow)."),
 new DialogueLine( " ", "Cheomni laughs and walks away."),
 new DialogueLine( " ", "Seems people like laughing here…"),
-new DialogueLine( " ", "Everyone else disappears into the unit, except Rose. She stares at me for a moment before speaking."),
+new DialogueLine( " ", "Everyone else disappears into the unit, except Rose. She stares at me for a moment before speaking."),//50
 new DialogueLine( "Rose", " Your bags are heavy."),
 new DialogueLine( " ", "Let me help you carry them to our room"),
 new DialogueLine( "Yeonhee", "Oh… you’re my roommate?"),
 new DialogueLine( " ", "Rose smiles."),
-new DialogueLine( "Rose", " We all stay in the same room."),
+new DialogueLine( "Rose", " We all stay in the same room."),//55
 new DialogueLine( "Yeonhee", "We all share one… room?"),
 
 //DORM ROOM
 new DialogueLine( " ", "Rose opened the door and I froze. I had never seen so many bunk beds crammed into one room before."),
 new DialogueLine( " ", "A single tiny window let in a bit of light."),
 new DialogueLine( " ", "Everyone had to share a single makeup table, which was covered in neatly labeled products."),
-new DialogueLine( " ", "Lipsticks, foundations, lotions, hair dryers, even shoes were all lined up. Somehow, despite seven people living here, the room was surprisingly tidy."),
+new DialogueLine( " ", "Lipsticks, foundations, lotions, hair dryers, even shoes were all lined up. Somehow, despite seven people living here, the room was surprisingly tidy."),//60
 new DialogueLine( "Rose", " Yep, this is where we all live. You share a bunk with Xuan Mo, your bed is on top."),
 new DialogueLine( "Yeonhee", "Wow… it’s my first time seeing someone willingly choose the bottom bunk."),
 new DialogueLine( "Rose", " Hah, yeah…"),
 new DialogueLine( "Rose", " Anyways, there’s a tablet on your bed. It’s your personal tablet from the company. You can chat with the other trainees, get updates, and track your progress after every challenge."),
-new DialogueLine( "Yeonhee", "Challenges?"),
+new DialogueLine( "Yeonhee", "Challenges?"),//65
 new DialogueLine( "Rose", " I’ll explain after we check everything else."),
 new DialogueLine( "Rose", " You’ve seen the room, right?"),
 new DialogueLine( "Yeonhee", "Yeah… not much to look at."),
 new DialogueLine( "Rose", " Don’t forget this."),
-new DialogueLine( " ", "She points to a scale outside the door."),
+new DialogueLine( " ", "She points to a scale outside the door."),//70
 new DialogueLine( "Yeonhee", "A scale?"),
 new DialogueLine( "Rose", " We weigh ourselves every morning for the trainers. You can’t go over 50kg or under 45kg. They want us fit, but not sickly looking."),
 new DialogueLine( "Yeonhee", "Uh… okay?"),
 new DialogueLine( " ", "50kg for adults? I haven’t checked in years… I snack a lot…"),
-new DialogueLine( "Rose", " Let’s check your weight."),
+new DialogueLine( "Rose", " Let’s check your weight."),//75
 new DialogueLine( " ", "I step on the scale nervously."),
 new DialogueLine( "Yeonhee", "Okay…"),
 new DialogueLine( " ", "49.7kg. My heart sinks."),
 new DialogueLine( "Rose", " You’re treading on thin ice already… keep your weight in check. This is strict… I knew K-pop companies checked weight, but not like this…"),
 
 //DORM KITCHEN
-new DialogueLine( "Rose", " Anyways this is the kitchen, we share meals here and talk…sometimes, this is the fridge we share with everyone in the unit."),
+new DialogueLine( "Rose", " Anyways this is the kitchen, we share meals here and talk…sometimes, this is the fridge we share with everyone in the unit."),//80
 new DialogueLine( " ", "Rose points to the bar fridge."),
 new DialogueLine( "Yeonhee", "Who’s fridge is this?"),
 new DialogueLine( "Rose", " It's everyone's fridge."),
 new DialogueLine( " ", "One bar fridge?."),
-new DialogueLine( " ", "I opened it and I couldn't help but hide my shocked expression, it was empty, just a few Diet soda’s and eggs."),
+new DialogueLine( " ", "I opened it and I couldn't help but hide my shocked expression, it was empty, just a few Diet soda’s and eggs."),//85
 new DialogueLine( " ", "I guess my snacks will fit."),
 new DialogueLine( " ", "I pull out snacks my mom packed. Rose’s face goes grey."),
 new DialogueLine( " ", "Cheomni walks over aggressively."),
 new DialogueLine( "Cheonmi", " What are you doing? You’re not putting… THAT… in there."),
-new DialogueLine( "Yeonhee", "Excuse me?"),
+new DialogueLine( "Yeonhee", "Excuse me?"),//90
 new DialogueLine( "Cheonmi", " Throw it away."),
-new DialogueLine( " ", "I grip my snacks, thinking… What should I say?"),
-//1. No, what’s your deal with my things anyways?
-//2. My mom made these for me, so I won’t waste her food.
-//3.Oh… yeah, I get it, it’s unhealthy… I’ll throw them away, sorry.
+
+
+    new DialogueLine(" ", "I grip my snacks, thinking… What should I say?")
+{
+        hasChoices = true,
+        choices = new DialogueChoice[]
+        {
+            new DialogueChoice { choiceText = "1. No, what’s your deal with my things anyways?", nextLineIndex = 93 },
+            new DialogueChoice { choiceText = "2. My mom made these for me, so I won’t waste her food.", nextLineIndex = 93 },
+            new DialogueChoice { choiceText = "3. Oh… yeah, I get it, it’s unhealthy… I’ll throw them away, sorry.", nextLineIndex = 167 }
+        }
+},
 
 //option 1 and 2 outcome
 //[OPTIONS 1 AND 2]
 //[Relationship status with Xuan Mo:Grows, trainees: Neutral, Cheonmi: lowers] 
 
 //COMPANY LOBBY
-new DialogueLine("Cheonmi", ": Are you actually joking?"),
+new DialogueLine("Cheonmi", "Are you actually joking?"),
 new DialogueLine("Yeonhee", "Why would I?, you can’t just tell me what-"),
-new DialogueLine(" ", "Rose laughs anxiously and pushes me away from the situation"),
+new DialogueLine(" ", "Rose laughs anxiously and pushes ime away from the situation"),//95
 new DialogueLine("Yeonhee", "Hey, stop pushing me."),
 new DialogueLine("Rose", " Sorry, it’s just… I wouldn’t recommend annoying Cheomni or pressing her buttons."),
 new DialogueLine("Yeonhee", "Why?"),
 new DialogueLine("Rose", " Just don’t."),
-new DialogueLine(" ", "Who is she anyways? It’s annoying how everyone treats her like a god…"),
+new DialogueLine(" ", "Who is she anyways? It’s annoying how everyone treats her like a god…"),//100
 
 //DANCE STUDIO
 new DialogueLine(" ", "Rose stops at a door."),
 new DialogueLine("Rose", " You were pretty cool though, the last person to stand up to Cheomni was Xuan Mo."),
 new DialogueLine("Yeonhee", "…and?"),
 new DialogueLine("Rose", " Nothing happened. I’m just saying. I didn’t ask if something happened…"),
-new DialogueLine(" ", "I watch as Rose quietly opens the door and points down at another scale near the entrance."),
+new DialogueLine(" ", "I watch as Rose quietly opens the door and points down at another scale near the entrance."),//105
 new DialogueLine(" ", "Another scale? Is this for when I forget to weigh myself in the morning?"),
 new DialogueLine("Rose", " Yeah, we have another scale. This one is for the manager to track our weight. He asks for your weight in the morning and then weighs you again."),
 new DialogueLine("Yeonhee", "What happens if I go over the weight limit?"),
 new DialogueLine("Rose", " You just have to go on a diet… and do a few things…"),
-new DialogueLine(" ", "What things…"),
+new DialogueLine(" ", "What things…"),//110
 new DialogueLine("Rose", " Anyways, this is the dance studio. We do all our practice here."),
 new DialogueLine(" ", "Rose takes me through the vocal studio and explains how after each practice, we have a challenge round where we all compete for points."),
 
@@ -169,62 +174,62 @@ new DialogueLine("Rose", " To access your scoreboard at any point, just tap this
 //7.Rose
 //8.Yeonhee
 
-new DialogueLine(" ", "I notice that Rose, Xuan Mo, and I are all at the bottom while Cheomni is right at the top."),
+new DialogueLine(" ", "I notice that Rose, Xuan Mo, and I are all at the bottom while Cheomni is right at the top."),//115
 new DialogueLine(" ", "I can’t help but dissociate and stare at the scoreboard…"),
 new DialogueLine(" ", "Yeonseo taps my shoulder."),
 new DialogueLine("Yeonseo", " If you want to reach Cheomni’s position, you’ll have to really try hard in every single thing you do."),
 new DialogueLine("Yeonhee", "Huh?"),
-new DialogueLine("Yeonseo", " Nothing… you should go get changed, we’re about to have training."),
+new DialogueLine("Yeonseo", " Nothing… you should go get changed, we’re about to have training."),//120
 new DialogueLine("Yeonhee", "Okay…"),
 
 //DORM ROOM
 new DialogueLine(" ", "I throw myself onto the bed and try to breathe through the stuffy room."),
 new DialogueLine(" ", "That was weird… but I’ll just forget about it for now. She’s probably trying to throw me off. It’s a competition at the end of the day anyways."),
 new DialogueLine(" ", "The person I’m most curious about is Cheomni. I hope I didn’t get on her bad side, but she was honestly doing the most."),
-new DialogueLine(" ", "Rose seems pretty cool too, the fact that she showed me around is nice. And Xuan Mo… I don’t know much about her. She hasn’t spoken another word since she introduced herself."),
+new DialogueLine(" ", "Rose seems pretty cool too, the fact that she showed me around is nice. And Xuan Mo… I don’t know much about her. She hasn’t spoken another word since she introduced herself."),//125
 new DialogueLine(" ", "The company seems strict, and the living conditions are a bit uncomfortable. I wish I could talk to my mom right now, but I guess I have to be strong."),
 new DialogueLine(" ", "Cheomni walks into the room, looks up at me, and sighs. She grabs her shoes and leaves.I get up and notice the dorm is quieter. Rose swings the door open quickly."),
 new DialogueLine("Rose", " You’re going to be late for practice. Didn’t Cheomni come in and call you? Come on. put on your shoes. We have lyrical practice."),
 new DialogueLine("Yeonhee", "No, she didn’t. I’ll be down now."),
-new DialogueLine(" ", "She literally walked in and didn’t tell me about practice… I guess the only people I can depend on are Rose and possibly Yeonseo."),
+new DialogueLine(" ", "She literally walked in and didn’t tell me about practice… I guess the only people I can depend on are Rose and possibly Yeonseo."),//130
 
 //PRACTICE ROOM
 new DialogueLine(" ", "When we arrive, the manager stands at the door with a piece of paper. He’s a tall, tanned man in an all-black suit."),
 new DialogueLine(" ", "His stare creeps me out."),
 new DialogueLine(" ", "I peek inside and see the trainer with his feet propped on the table. I breathed a sigh of relief…"),
 new DialogueLine(" ", "He seems to be more relaxed than the manager."),
-new DialogueLine("Manager", " I hope you’re all well rested and ready for practice. We’ve decided to add another scale at the vocal practice room. Don’t ask me why, I really tried to convince them otherwise girls, they just wouldn't budge."),
+new DialogueLine("Manager", " I hope you’re all well rested and ready for practice. We’ve decided to add another scale at the vocal practice room. Don’t ask me why, I really tried to convince them otherwise girls, they just wouldn't budge."),//135
 new DialogueLine(" ", "He smiles, but something tells me that’s a lie."),
 new DialogueLine(" ", "Xuan Mo scratches her neck anxiously. The manager notices and looks straight at her."),
 new DialogueLine("Manager", " Xuan Mo, let’s start with you. What is your weight?"),
 new DialogueLine("Xuan Mo", " Uhh… 44.9 kg."),
-new DialogueLine(" ", "Rose whispers under her breath: Still underweight."),
+new DialogueLine(" ", "Rose whispers under her breath: Still underweight."),//140
 new DialogueLine(" ", "She steps on the scale, and it goes to 43 kg. The manager’s face changes immediately."),
 new DialogueLine("Manager", " You lied, Xuan Mo. When will you get your weight up? Fix this by next practice. Today I’ll excuse you because we have a new trainee."),
 new DialogueLine(" ", "Xuan Mo shakes past him. I watch as each girl walks in, anxiety written all over their faces. Cheomni is the only one looking confident."),
 new DialogueLine(" ", "When it’s finally my turn, I get cold feet."),
-new DialogueLine("Manager", " Hi Yeonhee, I’m so upset these are our introductions… but this is my job, you understand right…"),
+new DialogueLine("Manager", " Hi Yeonhee, I’m so upset these are our introductions… but this is my job, you understand right…"),//145
 new DialogueLine(" ", "I nod anxiously"),
 new DialogueLine("Manager", " What is your weight?"),
 new DialogueLine(" ", "Shoot… what was it again, dammit I forgot… be confident, be confident, be confident."),
 new DialogueLine("Yeonhee", "49.7 kg"),
-new DialogueLine(" ", "Yes I remembered."),
+new DialogueLine(" ", "Yes I remembered."),//150
 new DialogueLine("Manager", " Hmmmm"),
 new DialogueLine(" ", "I step on the scale. The number drops by one… 49. 6 kg. I feel his glare pierce through me."),
 new DialogueLine("Manager", " One point wrong… and you need to start a diet."),
 new DialogueLine(" ", "I walk past him shaky. That was the most intense feeling I’ve had in a long time… not even my school exams stressed me this bad."),
-new DialogueLine("Trainer", " Welcome back girls, and Yeonhee, I hope you’ve settled in well. Today we’re going to memorize lyrics. As you know, when you perform, we expect you to remember all your parts, even if you’re lip-syncing. Memorizing the lyrics makes it look realistic."),
+new DialogueLine("Trainer", " Welcome back girls, and Yeonhee, I hope you’ve settled in well. Today we’re going to memorize lyrics. As you know, when you perform, we expect you to remember all your parts, even if you’re lip-syncing. Memorizing the lyrics makes it look realistic."),//155
 new DialogueLine(" ", "I’ll play the lyrics a few times, and each of you will have to memorize them. I may test you now or later this week, so hold onto that thought."),
 new DialogueLine(" ", "Cheomni leans in and whispers in my ear."),
 new DialogueLine("Cheonmi", " Trainers usually say this when they’ll give you the material to practice at home. I feel like they’re going easy because of you."),
 new DialogueLine("Trainer", " Yeonhee! No chatter. Don’t be a troublemaker just because you’re new. All the other trainees stare at me."),
-new DialogueLine("Yeonhee", "Sorry, it won’t happen again…"),
+new DialogueLine("Yeonhee", "Sorry, it won’t happen again…"),//160
 new DialogueLine(" ", "Why did he scold me when it wasn’t even my fault?"),
 new DialogueLine("Trainer", " Today we’ll sing a new song so nobody has an advantage over Yeonhee. This song has been in progress. We’re going in the direction of cute girl krush concepts today. When you sing it back, try to sound cute… more aegyo."),
 new DialogueLine(" ", "Cute? Girl krush? Are you joking?"),
 new DialogueLine("Trainer", " Pay attention to the lyrics. We’ll play the songs twice today. The trainer glaring at me."),
-new DialogueLine(" ", "I immediately tense up."),
-new DialogueLine("Cheonmi", " Wow… generous. She says out loud."),
+new DialogueLine(" ", "I immediately tense up."),//165
+new DialogueLine("Cheonmi", " Wow… generous. She says out loud.")
 
 //Practice starts
 //Lyrics:
@@ -247,15 +252,19 @@ new DialogueLine("Cheonmi", " Wow… generous. She says out loud."),
 //Oh boy
 //Tuu tuu tuuu
 
+{
+    isEnding = true
+},
+
 //option 3 outcome
 //[OPTION 3]
 //[Relationship status trainees: Neutral, Cheonmi: grows] 
 
 //COMPANY LOBBY
-new DialogueLine("Cheonmi", ": Great. Don’t bring that around again."),
+new DialogueLine("Cheonmi", "Great. Don’t bring that around again."),//167
 new DialogueLine(" ", "My face instantly changed, despite me agreeing, I couldn’t help but get annoyed."),
 new DialogueLine(" ", "Rose laughs nervously and pushes me away from the situation."),
-new DialogueLine("Yeonhee", " Hey, stop pushing me."),
+new DialogueLine("Yeonhee", " Hey, stop pushing me."),//170
 new DialogueLine("Rose", " Sorry, it’s just… I wouldn’t recommend annoying Cheomni or pressing her buttons again."),
 new DialogueLine("Rose", " It’s a good thing you were able to calm down the situation."),
 new DialogueLine("Yeonhee", "Why?"),
@@ -355,7 +364,7 @@ new DialogueLine("Trainer", " Pay attention to the lyrics. We’ll play the song
 new DialogueLine("Cheonmi", " Wow… generous. She says out loud."),
 new DialogueLine(" ", "The trainer winks at me."),
 new DialogueLine(" ", "I immediately get chills."),
-new DialogueLine(" ", "Weird…he was just scolding me a few seconds ago."),
+new DialogueLine(" ", "Weird…he was just scolding me a few seconds ago.")
 
 //Practice starts
 //Lyrics:
@@ -372,6 +381,10 @@ new DialogueLine(" ", "Weird…he was just scolding me a few seconds ago."),
 //Ohhh
 //So stop playing these games Ohhhh
 //Hey boy x10
+
+{
+    isEnding = true
+},
 
 //Cheomni's good side branch2
 //[Gained good points during the challenge]
@@ -872,12 +885,14 @@ new DialogueLine(" ", "Lol… What a childish way to scare competition. I’m go
 new DialogueLine(" ", "Ugh… never mind.")
         };
 
-        currentIndex = 0;
+        index = 0;
         ShowLine();
     }
 
     void Update()
     {
+        if (isChoosing) return; // BLOCK SPACE INPUT
+
         if (Keyboard.current != null &&
             Keyboard.current.spaceKey.wasPressedThisFrame)
         {
@@ -885,67 +900,56 @@ new DialogueLine(" ", "Ugh… never mind.")
         }
     }
 
+    void ShowLine()
+    {
+        if (ui == null)
+        {
+            Debug.LogError("UI is not assigned in Chapter1!");
+            return;
+        }
+
+        if (dialogueLines == null || dialogueLines.Length == 0)
+        {
+            Debug.LogError("DialogueLines is empty!");
+            return;
+        }
+
+        if (index < 0 || index >= dialogueLines.Length)
+        {
+            Debug.Log("End reached.");
+            return;
+        }
+
+        var line = dialogueLines[index];
+
+        if (line == null)
+        {
+            Debug.LogError("DialogueLine is null at index: " + index);
+            return;
+        }
+
+        ui.ShowLine(line.characterName, line.dialogueText);
+    }
+
     public void NextLine()
     {
-        currentIndex++;
-        ShowLine();
-    }
+        var line = dialogueLines[index];
 
-    public void NextButton()
-    {
-        ShowLine();
-    }
-
-    public void ShowLine()
-    {
-        if (currentIndex >= chapterLines.Length)
+        if (line.hasChoices && line.choices != null && line.choices.Length > 0)
         {
-            Debug.Log("Chapter finished");
+            isChoosing = true;
+            ui.ShowChoices(line.choices);
             return;
         }
 
-        DialogueLine line = chapterLines[currentIndex];
-
-        characterNameText.text = line.characterName;
-        dialogueText.text = line.dialogue;
-
-        if (line.hasChoices)
-        {
-            ShowChoices(line.choices);
-            return;
-        }
-
-        currentIndex++; // FIXED
+        index++;
+        ShowLine();
     }
 
-    public void ShowChoices(DialogueChoice[] choices)
+    public void OnChoiceSelected(DialogueChoice choice)
     {
-        choicePanel.SetActive(true);
-
-        foreach (Transform child in choiceContainer)
-        {
-            Destroy(child.gameObject);
-        }
-
-        foreach (DialogueChoice choice in choices)
-        {
-            GameObject btn = Instantiate(choiceButtonPrefab, choiceContainer);
-
-            btn.GetComponentInChildren<TMP_Text>().text = choice.choiceText;
-
-            btn.GetComponent<Button>().onClick.AddListener(() =>
-            {
-                OnChoiceSelected(choice.nextIndex);
-            });
-        }
-    }
-
-    public void OnChoiceSelected(int nextIndex)
-    {
-        choicePanel.SetActive(false);
-
-        currentIndex = nextIndex;
-
+        ui.ClearChoices(); // hide panel
+        index = choice.nextLineIndex;
         ShowLine();
     }
 }
