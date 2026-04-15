@@ -5,9 +5,8 @@ using UnityEngine.InputSystem;
 
 public class Prologue : MonoBehaviour
 {
+    public DialogueManager dialogueManager;
     public DialogueLine[] dialogueLines;
-    public DialogueUIManager ui;
-    private int index = 0;
 
     void Start()
     {
@@ -173,38 +172,8 @@ public class Prologue : MonoBehaviour
         new DialogueLine("", "All I can think about is my debut.")
         };
 
-        ShowNextLine();
-    }
-
-    void Update()
-    {
-        if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame)
-        {
-            ShowNextLine();
-        }
-    }
-
-    void ShowNextLine()
-    {
-        if (dialogueLines == null || dialogueLines.Length == 0)
-        {
-            Debug.LogError("No dialogue lines assigned!");
-            return;
-        }
-
-        if (index >= dialogueLines.Length)
-        {
-            Debug.Log("End of Prologue");
-            return;
-        }
-
-        var line = dialogueLines[index];
-
-        ui.ShowLine(line.characterName, line.dialogueText);
-
-        if (line.choices != null && line.choices.Length > 0)
-            ui.ShowChoices(line.choices);
-        else
-            ui.HideChoices(); 
+        dialogueManager.dialogueLines = dialogueLines;
+        dialogueManager.index = 0;
+        dialogueManager.ShowCurrentLine();
     }
 }

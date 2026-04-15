@@ -467,8 +467,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 915e2b78677e4974baa40b85715155d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Prologue
-  nameText: {fileID: 264032179}
-  dialogueText: {fileID: 1591379327}
+  dialogueLines: []
+  ui: {fileID: 0}
 --- !u!4 &842598765
 Transform:
   m_ObjectHideFlags: 0

@@ -1,22 +1,17 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class Chapter1 : MonoBehaviour
 {
-    public DialogueLine[] dialogueLines;
-    public DialogueUIManager ui;
-
+    public DialogueManager dialogueManager;
     public DialogueLine[] chapterLines;
-    private int index = 0;
-
-    private bool isChoosing = false;
 
     void Start()
     {
-        dialogueLines = new DialogueLine[]
+        
+        chapterLines = new DialogueLine[]
         {
 //OUTSIDE THE COMPANY BUILDING
 new DialogueLine(" ", "When I got back home, my parents and friends were so excited about the news. Even my dad, who was so against the idea, finally warmed up to it."),//0
@@ -104,7 +99,8 @@ new DialogueLine( "Rose", " Let’s check your weight."),//75
 new DialogueLine( " ", "I step on the scale nervously."),
 new DialogueLine( "Yeonhee", "Okay…"),
 new DialogueLine( " ", "49.7kg. My heart sinks."),
-new DialogueLine( "Rose", " You’re treading on thin ice already… keep your weight in check. This is strict… I knew K-pop companies checked weight, but not like this…"),
+new DialogueLine( "Rose", " You’re treading on thin ice already… keep your weight in check."),
+new DialogueLine( " ", "This is strict… I knew K-pop companies checked weight, but not like this…"),
 
 //DORM KITCHEN
 new DialogueLine( "Rose", " Anyways this is the kitchen, we share meals here and talk…sometimes, this is the fridge we share with everyone in the unit."),//80
@@ -128,7 +124,7 @@ new DialogueLine( "Cheonmi", " Throw it away."),
         {
             new DialogueChoice { choiceText = "1. No, what’s your deal with my things anyways?", nextLineIndex = 93 },
             new DialogueChoice { choiceText = "2. My mom made these for me, so I won’t waste her food.", nextLineIndex = 93 },
-            new DialogueChoice { choiceText = "3. Oh… yeah, I get it, it’s unhealthy… I’ll throw them away, sorry.", nextLineIndex = 167 }
+            new DialogueChoice { choiceText = "3. Oh… yeah, I get it, it’s unhealthy… I’ll throw them away, sorry.", nextLineIndex = 168 }
         }
 },
 
@@ -885,71 +881,8 @@ new DialogueLine(" ", "Lol… What a childish way to scare competition. I’m go
 new DialogueLine(" ", "Ugh… never mind.")
         };
 
-        index = 0;
-        ShowLine();
-    }
-
-    void Update()
-    {
-        if (isChoosing) return; // BLOCK SPACE INPUT
-
-        if (Keyboard.current != null &&
-            Keyboard.current.spaceKey.wasPressedThisFrame)
-        {
-            NextLine();
-        }
-    }
-
-    void ShowLine()
-    {
-        if (ui == null)
-        {
-            Debug.LogError("UI is not assigned in Chapter1!");
-            return;
-        }
-
-        if (dialogueLines == null || dialogueLines.Length == 0)
-        {
-            Debug.LogError("DialogueLines is empty!");
-            return;
-        }
-
-        if (index < 0 || index >= dialogueLines.Length)
-        {
-            Debug.Log("End reached.");
-            return;
-        }
-
-        var line = dialogueLines[index];
-
-        if (line == null)
-        {
-            Debug.LogError("DialogueLine is null at index: " + index);
-            return;
-        }
-
-        ui.ShowLine(line.characterName, line.dialogueText);
-    }
-
-    public void NextLine()
-    {
-        var line = dialogueLines[index];
-
-        if (line.hasChoices && line.choices != null && line.choices.Length > 0)
-        {
-            isChoosing = true;
-            ui.ShowChoices(line.choices);
-            return;
-        }
-
-        index++;
-        ShowLine();
-    }
-
-    public void OnChoiceSelected(DialogueChoice choice)
-    {
-        ui.ClearChoices(); // hide panel
-        index = choice.nextLineIndex;
-        ShowLine();
+        dialogueManager.dialogueLines = chapterLines;
+        dialogueManager.index = 0;
+        dialogueManager.ShowCurrentLine();
     }
 }

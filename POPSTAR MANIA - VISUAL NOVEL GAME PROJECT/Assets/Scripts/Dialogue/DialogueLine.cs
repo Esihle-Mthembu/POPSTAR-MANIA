@@ -4,16 +4,15 @@
 public class DialogueLine
 {
     public string characterName;
+    [TextArea(1,3)]
     public string dialogueText;
+    public Sprite characterSprite;
     public DialogueChoice[] choices;
-
 
     public bool hasChoices;
     public bool isEnding;
 
     public int nextLineIndex;
-
-    public DialogueLine() { }
 
     public DialogueLine(string characterName, string dialogueText)
     {
