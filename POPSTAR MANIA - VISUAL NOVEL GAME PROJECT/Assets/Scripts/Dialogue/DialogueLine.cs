@@ -3,20 +3,16 @@
 [System.Serializable]
 public class DialogueLine
 {
-    public string characterName;
-    [TextArea(1,3)]
+    public string speakerName;
+
+    [TextArea(3, 5)]
     public string dialogueText;
+
     public Sprite characterSprite;
+    public Sprite background;
+
     public DialogueChoice[] choices;
 
-    public bool hasChoices;
     public bool isEnding;
-
-    public int nextLineIndex;
-
-    public DialogueLine(string characterName, string dialogueText)
-    {
-        this.characterName = characterName;
-        this.dialogueText = dialogueText;
-    }
+    public bool isEndOfBranch;
 }

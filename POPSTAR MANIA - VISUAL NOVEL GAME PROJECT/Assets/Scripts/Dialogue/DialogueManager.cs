@@ -1,166 +1,140 @@
-using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using System.Collections.Generic;
+using UnityEngine.InputSystem;
 
 public class DialogueManager : MonoBehaviour
 {
-    public DialogueLine[] dialogueLines;
-    public int index = 0;
+    public TextMeshProUGUI speakerText;
+    public TextMeshProUGUI dialogueText;
 
-    public float typingSpeed = 0.5f;
+    public DialogueUIManager uiManager;
 
-    public bool isTyping = false;
-    public bool isAuto = false;
-    public bool isSkipping = false;
+    public DialogueData prologueDialogue;
+    public DialogueData chapter1Dialogue;
 
-    void Start()
+    private DialogueData currentDialogue;
+    private int currentIndex;
+
+    private bool isPrologue = true;
+    private bool isDialogueActive = true;
+    private bool waitingForChoice = false;
+
+    public void StartGame()
     {
+        StartDialogue(prologueDialogue);
+    }
+
+    public void StartDialogue(DialogueData dialogueData)
+    {
+        currentDialogue = dialogueData;
+        currentIndex = 0;
+
+        isDialogueActive = true;
+
+        DisplayNextLine();
+    }
+
+    public void DisplayNextLine()
+    {
+        currentIndex++;
+
+        if (currentIndex >= currentDialogue.lines.Count)
+        {
+            EndDialogue();
+            return;
+        }
+
         ShowCurrentLine();
     }
 
     public void ShowCurrentLine()
     {
-        if (dialogueLines == null || dialogueLines.Length == 0)
-        {
-            Debug.LogError("No dialogue lines assigned!");
-            return;
-        }
+        DialogueLine line = currentDialogue.lines[currentIndex];
 
-        if (index >= dialogueLines.Length)
-        {
-            Debug.Log("End of dialogue");
-            return;
-        }
+        uiManager.SetLine(line);
 
-        StopAllCoroutines();
-        StartCoroutine(TypeLine(dialogueLines[index]));
-    }
-
-    public DialogueUIManager uiManager;
-    IEnumerator TypeLine(DialogueLine line)
-    {
-        isTyping = true;
-
-        uiManager.SetName(line.characterName);
-        uiManager.SetText("");
-
-        foreach (char c in line.dialogueText)
-        {
-            uiManager.AppendText(c.ToString());
-            yield return new WaitForSeconds(typingSpeed);
-        }
-
-        isTyping = false;
-
-        // Show choices if available
-        if (line.hasChoices && line.choices != null && line.choices.Length > 0)
+        if (line.choices != null && line.choices.Length > 0)
         {
             uiManager.ShowChoices(line.choices);
-        }
-    }
-
-    public void NextLine()
-    {
-        if (dialogueLines == null || dialogueLines.Length == 0) return;
-
-        if (isTyping)
-        {
-            StopAllCoroutines();
-            isTyping = false;
-
-            var line = dialogueLines[index];
-            uiManager.SetText(line.dialogueText);
-
             return;
         }
 
-        index++;
-
-        if (index < dialogueLines.Length)
+        // Hiding choices if line has none
+        if (line.choices == null || line.choices.Length == 0)
         {
-            ShowCurrentLine();
+            uiManager.ClearChoices();
         }
-        else
-        {
-            Debug.Log("End of dialogue");
-        }
-    }
 
-    public void Rewind()
-    {
-        if (index > 0)
+        if (line.isEndOfBranch)
         {
-            index--;
-            ShowCurrentLine();
+            EndDialogue();
+            return;
         }
     }
 
-    public void ToggleAuto()
+    public void SelectChoice(DialogueChoice choice)
     {
-        isAuto = !isAuto;
+        uiManager.ClearChoices(); // hide panel + buttons
 
-        if (isAuto)
-            StartCoroutine(AutoPlay());
-    }
+        currentIndex = choice.nextLineIndex;
 
-    IEnumerator AutoPlay()
-    {
-        while (isAuto)
-        {
-            yield return new WaitForSeconds(2f);
-
-            if (!isTyping)
-                NextLine();
-        }
-    }
-
-    public void StartSkip()
-    {
-        isSkipping = true;
-        StartCoroutine(Skip());
-    }
-
-    public void StopSkip()
-    {
-        isSkipping = false;
-    }
-
-    IEnumerator Skip()
-    {
-        while (isSkipping)
-        {
-            yield return null;
-
-            if (!isTyping)
-                NextLine();
-        }
-    }
-
-    public void SaveGame()
-    {
-        PlayerPrefs.SetInt("DialogueIndex", index);
-        PlayerPrefs.Save();
-    }
-
-    public void LoadGame()
-    {
-        if (PlayerPrefs.HasKey("DialogueIndex"))
-        {
-            index = PlayerPrefs.GetInt("DialogueIndex");
-            ShowCurrentLine();
-        }
+        ShowCurrentLine();
     }
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) // left click
+        if (Keyboard.current == null)
+            return;
+
+        if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
-            NextLine();
+            if (currentDialogue == null)
+                return;
+
+            if (currentIndex >= currentDialogue.lines.Count)
+            {
+                EndDialogue();
+                return;
+            }
+
+            if (!isDialogueActive)
+                return;
+
+            if (waitingForChoice)
+                return;
+
+            DialogueLine line = currentDialogue.lines[currentIndex];
+
+            // Blocks skipping during choices
+            if (line.choices != null && line.choices.Length > 0)
+                return;
+
+            DisplayNextLine();
         }
     }
 
-    public void OnChoiceSelected(DialogueChoice choice)
+    void EndDialogue()
     {
-        index = choice.nextLineIndex;
-        ShowCurrentLine();
+        Debug.Log("Dialogue Finished");
+
+        uiManager.ClearChoices();
+
+        //IF WE ARE IN PROLOGUE GO TO CHAPTER 1
+        if (isPrologue && chapter1Dialogue != null)
+        {
+            isPrologue = false;
+            StartDialogue(chapter1Dialogue);
+            return;
+        }
+
+        //OTHERWISE END THE GAME
+        speakerText.text = "";
+        dialogueText.text = "";
+
+        isDialogueActive = false;
+
+        gameObject.SetActive(false);
     }
 }

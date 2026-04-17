@@ -1,0 +1,2049 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e05ad892727404cbf0e9f236e5d962, type: 3}
+  m_Name: Chapter1 Dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: 
+    dialogueText: 'When I got back home, my parents and friends were so excited about
+      the news. Even my dad, who was so against the idea, finally warmed up to it. '
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "And now, here I am, standing outside this building with my parents,
+      wondering what my future will look like when I achieve my dreams. Standing
+      here feels weird\u2026 I never thought this would happen to me. "
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I\u2019m nervous about meeting the other girls. "
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I heard they\u2019ve been here longer than me\u2026 that gives
+      them an advantage. I really need to work my ass off. But for now, I\u2019ll
+      just try to get the hang of things. "
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Mom
+    dialogueText: 'You should call us if anything happens, okay? '
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Dad
+    dialogueText: "Don\u2019t forget about your schoolwork while you're here."
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: Hearing my dad say this while holding my bags makes it feel real.
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'I roll my eyes before answering. '
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: I won't forget and I promise to call.
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: After a short wait, the door swings open, and a familiar face steps
+      out.
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Panel member 1
+    dialogueText: "It\u2019s good to see you again, Yeonhee. This must be your parents,
+      I assume? "
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Oh\u2026 the panel member from that day. Her smile still looks
+      creepy. I nod. "
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Panel member 1
+    dialogueText: "Thank you for bringing her. I\u2019ll take over from here."
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Dad
+    dialogueText: Oh? We were hoping we could just come in and...
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'The panel member cuts him off, still smiling. '
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Panel member 1
+    dialogueText: "I\u2019m sorry, but parents aren\u2019t allowed in the dorms.
+      Not allowed? "
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Mom
+    dialogueText: "Uhh\u2026 I guess it\u2019s okay. You\u2019ll be fine alone, right? "
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: I nod, unsure
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: "Yeah\u2026 I\u2019ll be fine. "
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: I hug my parents quickly, my heart racing as I watch their car
+      disappear.
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Panel member 1
+    dialogueText: "Before we proceed, I\u2019ll need your phone."
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: ...My phone?
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Panel member 1
+    dialogueText: "Personal devices aren\u2019t permitted. You\u2019ll be provided
+      with an alternative."
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: But how will I call my parents? I promised I would.
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'The panel member reaches out her hand, still smiling, without
+      answering. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "This feels weird\u2026 but I guess it\u2019s just company rules. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'I hand over my phone. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Panel member 1
+    dialogueText: 'Thank you. Follow me. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: As we walk through the hallway, I notice how quiet the company
+      is, even though we pass training rooms.
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: We enter a large door, and behind it are different units stretching
+      down the hall.
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "This must be it\u2026"
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Panel member 1
+    dialogueText: This is where the other trainees live. Your unit is right down
+      this hall.
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "The panel member fumbles through her keys. I stand behind her,
+      listening to the chatter bleeding through the walls. Everyone is talking about
+      training or diets\u2026 nothing fun. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Panel member 1
+    dialogueText: "Got it. Here\u2019s your unit and your key."
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Panel member 1
+    dialogueText: "This is where I\u2019ll leave you. I can\u2019t wait to bump into
+      you again, Yeonhee. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'We exchange smiles. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I look down at my keys and try the door, and it's already unlocked.
+      I guess everyone\u2019s home\u2026 "
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'I step in anxiously, and before I can look around, all seven trainees
+      greet me. As everyone introduced themselves I tried to peek through the small
+      gaps to see what the unit looked like, but everyone was taller than me, making
+      it harder to take a peak. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Geez, why is everyone in my face\u2026 "
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Cheonmi
+    dialogueText: Hi, I'm Cheonmi, I'm 19.
+    characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'She looks me up and down. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Cheonmi
+    dialogueText: I hope you pick things up quickly.
+    characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Okay that sounds a bit rude\u2026 but she's so pretty. She actually
+      looks like an idol already. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonseo
+    dialogueText: "Hi, I\u2019m Yeonseo, I\u2019m 23\u2026i\u2019ve been training
+      here the longest but please don\u2019t call me unnie. Also don\u2019t mind
+      Cheomni, she gets like that sometimes. If you need help, call me."
+    characterSprite: {fileID: 21300000, guid: e47a7ce3f72188449bc331584f5fbca2, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "She seems cool\u2026 At least I have a unnie uhh I mean friend
+      I can depend on."
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Xuan Mo
+    dialogueText: "Hi, I\u2019m Xuan Mo, 16\u2026 it\u2019s nice to meet you. "
+    characterSprite: {fileID: 21300000, guid: 1f51ddd53d9275e47889865fa1d989ea, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Finally, someone my height. She\u2019s the youngest and looks
+      the most depressed\u2026 life hasn\u2019t been easy for her, I guess. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: "Hi! I\u2019m Rose, I\u2019m Filipina, 20. I\u2019ll also be a
+      call away if you need help, with literally anything."
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "She\u2019s way shorter than me, that's actually very rare\u2026
+      I\u2019d like to be friends, she seems free spirited just like me. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Everyone seems nice and unique\u2026 I feel less anxious. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: "Hi! Uh\u2026 I didn\u2019t prepare an intro, but I\u2019m Yeonhee,
+      18.. "
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'I bow. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Cheonmi laughs and walks away. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Seems people like laughing here\u2026"
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: Everyone else disappears into the unit, except Rose. She stares
+      at me for a moment before speaking.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: Your bags are heavy. Let me help you carry them to our room.
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Rose smiles. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: We all stay in the same room.
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: "We all share one\u2026 room?"
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Rose opened the door and I froze. I had never seen so many bunk
+      beds crammed into one room before. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'A single tiny window let in a bit of light. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Everyone had to share a single makeup table, which was covered
+      in neatly labeled products. Lipsticks, foundations, lotions, hair dryers, even
+      shoes were all lined up. Somehow, despite seven people living here, the room
+      was surprisingly tidy. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: 'Yep, this is where we all live. You share a bunk with Xuan Mo,
+      your bed is on top. '
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: "Wow\u2026 it\u2019s my first time seeing someone willingly choose
+      the bottom bunk."
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: Hah, yeah...
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: Awkward.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: "Anyways, there\u2019s a tablet on your bed. It\u2019s your personal
+      tablet from the company. You can chat with the other trainees, get updates,
+      and track your progress after every challenge."
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: Challenges?
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: "I\u2019ll explain after we check everything else."
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: Interesting.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: "You\u2019ve seen the room, right?"
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: "Yeah\u2026not much to look at. "
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: Don't forget this
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'She points to a scale outside the door. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: A scale?
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: "We weigh ourselves every morning for the trainers. You can\u2019t
+      go over 50kg or under 45kg. They want us fit, but not sickly looking. "
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: Uh...okay?
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "50kg for adults? I haven\u2019t checked in years\u2026 I snack
+      a lot\u2026"
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: Let's check your weight
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'I step on the scale nervously. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: Okay...
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: '49.7kg. My heart sinks. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: "You\u2019re treading on thin ice already\u2026 keep your weight
+      in check. "
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "This is strict\u2026 I knew K-pop companies checked weight, but
+      not like this\u2026"
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: "Anyways this is the kitchen, we share meals here and talk\u2026sometimes,
+      this is the fridge we share with everyone in the unit."
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: Rose points to the bar fridge.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: " Who\u2019s fridge is this?"
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: It's everyone's fridge.
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: One bar fridge?
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I opened it and I couldn't help but hide my shocked expression,
+      it was empty, just a few Diet soda\u2019s and eggs. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'I guess my snacks will fit. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I pull out snacks my mom packed. Rose\u2019s face goes grey. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Cheonmi walks over aggressively. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Cheonmi
+    dialogueText: "What are you doing? You\u2019re not putting\u2026 THAT\u2026 in
+      there."
+    characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: Excuse me?
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Cheonmi
+    dialogueText: Throw it away.
+    characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: "I grip my snacks, thinking\u2026 What should I say? "
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices:
+    - choiceText: "No, what\u2019s your deal with my things anyways?"
+      nextLineIndex: 97
+    - choiceText: "My mom made these for me, so I won\u2019t waste her food."
+      nextLineIndex: 97
+    - choiceText: "Oh\u2026 yeah, I get it, it\u2019s unhealthy\u2026 I\u2019ll throw
+        them away, sorry. "
+      nextLineIndex: 179
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Cheonmi
+    dialogueText: Are you actually joking?
+    characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: "Why would I?, you can\u2019t just tell me what -"
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: Rose laughs anxiously and pushes me away from the situation.
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: Hey, stop pushing me.
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: "Sorry, it\u2019s just\u2026 I wouldn\u2019t recommend annoying
+      Cheonmi or pressing her buttons. "
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: Why?
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: Just don't.
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Who is she anyways? It\u2019s annoying how everyone treats her
+      like a god\u2026"
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Rose stops at a door. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: 'You were pretty cool though, the last person to stand up to Cheonmi
+      was Xuan Mo. '
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: ...and?
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: "Nothing happened. I\u2019m just saying."
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I didn\u2019t ask if something happened\u2026"
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'I watch as Rose quietly opens the door and points down at another
+      scale near the entrance. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: 'Another scale? Is this for when I forget to weigh myself in the
+      morning? '
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: Yeah, we have another scale. This one is for the manager to track
+      our weight. He asks for your weight in the morning and then weighs you again.
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: 'What happens if I go over the weight limit? '
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: "You just have to go on a diet\u2026 and do a few things\u2026"
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "What things\u2026"
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: Anyways, this is the dance studio. We do all our practice here.
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Rose takes me through the vocal studio and explains how after
+      each practice, we have a challenge round where we all compete for points. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "When we get back to the dorm, she finally shows me the scoreboard
+      she said she\u2019d show me earlier. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: " To access your scoreboard at any point, just tap this icon on
+      your tablet and the scoreboard will pop up. But after challenges, we check
+      our scores immediately. It\u2019s the first thing all the girls love to check
+      after practice."
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Score of the day: \r\n1. Cheomni \r\n2. Yoenseo \r\n3. Kandy \r\n4.
+      Minjii \r\n5. Mei\r\n6. Xuan Mo \r\n7. Rose \r\n8. Yeonhee "
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'I notice that Rose, Xuan Mo, and I are all at the bottom while
+      Cheomni is right at the top. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I can\u2019t help but dissociate and stare at the scoreboard\u2026"
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Yeonseo taps my shoulder. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonseo
+    dialogueText: "If you want to reach Cheonmi\u2019s position, you\u2019ll have
+      to really try hard in every single thing you do."
+    characterSprite: {fileID: 21300000, guid: e47a7ce3f72188449bc331584f5fbca2, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: Huh?
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonseo
+    dialogueText: " Nothing\u2026 you should go get changed, we\u2019re about to
+      have training."
+    characterSprite: {fileID: 21300000, guid: e47a7ce3f72188449bc331584f5fbca2, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: Okay...
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'I throw myself onto the bed and try to breathe through the stuffy
+      room. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "That was weird\u2026 but I\u2019ll just forget about it for now.
+      She\u2019s probably trying to throw me off. It\u2019s a competition at the
+      end of the day anyways. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "The person I\u2019m most curious about is Cheonmi. I hope I didn\u2019t
+      get on her bad side, but she was honestly doing the most. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Rose seems pretty cool too, the fact that she showed me around
+      is nice. And Xuan Mo\u2026 I don\u2019t know much about her. She hasn\u2019t
+      spoken another word since she introduced herself. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: The company seems strict, and the living conditions are a bit uncomfortable.
+      I wish I could talk to my mom right now, but I guess I have to be strong.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Cheonmi walks into the room, looks up at me, and sighs. She grabs
+      her shoes and leaves. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'I get up and notice the dorm is quieter. Rose swings the door
+      open quickly. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: "You\u2019re going to be late for practice. Didn\u2019t Cheomni
+      come in and call you? Come on. put on your shoes. We have lyrical practice."
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: "No, she didn\u2019t. I\u2019ll be down now."
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "She literally walked in and didn\u2019t tell me about practice\u2026
+      I guess the only people I can depend on are Rose and possibly Yeonseo. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "When we arrive, the manager stands at the door with a piece of
+      paper. He\u2019s a tall, tanned man in an all-black suit. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'His stare creeps me out. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I peek inside and see the trainer with his feet propped on the
+      table. I breathed a sigh of relief\u2026"
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'He seems to be more relaxed than the manager. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Manager
+    dialogueText: "I hope you\u2019re all well rested and ready for practice. We\u2019ve
+      decided to add another scale at the vocal practice room. Don\u2019t ask me
+      why, I really tried to convince them otherwise girls, they just wouldn't budge."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "He smiles, but something tells me that\u2019s a lie. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: Xuan Mo scratches her neck anxiously. The manager notices and looks
+      straight at her.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Manager
+    dialogueText: "Xuan Mo, let\u2019s start with you. What is your weight?"
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Xuan Mo
+    dialogueText: Uhh...44.9kg
+    characterSprite: {fileID: 21300000, guid: 1f51ddd53d9275e47889865fa1d989ea, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Rose whispers under her breath '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: Still underweight.
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "She steps on the scale, and it goes to 43 kg. The manager\u2019s
+      face changes immediately. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Manager
+    dialogueText: "You lied, Xuan Mo. When will you get your weight up? Fix this
+      by next practice. Today I\u2019ll excuse you because we have a new trainee."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Xuan Mo shakes past him. I watch as each girl walks in, anxiety
+      written all over their faces. Cheonmi is the only one looking confident. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "When it\u2019s finally my turn, I get cold feet. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Manager
+    dialogueText: "Hi Yeonhee, I\u2019m so upset these are our introductions\u2026
+      but this is my job, you understand right\u2026"
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: I nod anxiously.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Manager
+    dialogueText: What is your weight?
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Shoot\u2026 what was it again, dammit I forgot\u2026 be confident,
+      be confident, be confident."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: 49.7kg
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: Yes I remembered.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Manager
+    dialogueText: Hmmmm
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I step on the scale. The number drops by one\u2026 49. 6 kg. I
+      feel his glare pierce through me."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Manager
+    dialogueText: "One point wrong\u2026 and you need to start a diet."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I walk past him shaky. That was the most intense feeling I\u2019ve
+      had in a long time\u2026 not even my school exams stressed me this bad. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Trainer
+    dialogueText: "Welcome back girls, and Yeonhee, I hope you\u2019ve settled in
+      well. Today we\u2019re going to memorize lyrics. As you know, when you perform,
+      we expect you to remember all your parts, even if you\u2019re lip-syncing.
+      Memorizing the lyrics makes it look realistic."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Trainer
+    dialogueText: "I\u2019ll play the lyrics a few times, and each of you will have
+      to memorize them. I may test you now or later this week, so hold onto that
+      thought."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Cheonmi leans in and whispers in my ear. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Cheonmi
+    dialogueText: "Trainers usually say this when they\u2019ll give you the material
+      to practice at home. I feel like they\u2019re going easy because of you."
+    characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Trainer
+    dialogueText: "Yeonhee! No chatter. Don\u2019t be a troublemaker just because
+      you\u2019re new."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'All the other trainees stare at me. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: Sorry, it won't happen again...
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Why did he scold me when it wasn\u2019t even my fault? "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Trainer
+    dialogueText: " Today we\u2019ll sing a new song so nobody has an advantage over
+      Yeonhee. This song has been in progress. We\u2019re going in the direction
+      of cute girl krush concepts today. When you sing it back, try to sound cute\u2026
+      more aegyo."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Cute? Girl krush? Are you joking? '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Trainer
+    dialogueText: "Pay attention to the lyrics. We\u2019ll play the songs twice today.
+      The trainer glaring at me."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'I immediately tense up. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Cheonmi
+    dialogueText: "Wow\u2026 generous."
+    characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: She says out loud.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: Practice starts.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Don\u2019t be afraid \r\nTo depend on me \r\nDon\u2019t be afraid
+      to show me love \r\nI want to be in your arms \r\nForever and always \r\ndon\u2019t
+      break my heart \r\nDon\u2019t be afraid \r\nTuu tuuu tuuu tuuu \r\nDon\u2019t
+      be afraid \r\nTuu Tuu \r\nShow me love \r\nTuu tuu tuuu \r\nDon\u2019t be afraid
+      to call on me \r\nWhenever you need \r\nBoy \r\nTuu tuu tuuu \r\nOh boy \r\nTuu
+      tuu tuuu"
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 1
+    isEndOfBranch: 1
+  - speakerName: Cheonmi
+    dialogueText: "Great. Don\u2019t bring that around again."
+    characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "My face instantly changed, despite me agreeing, I couldn\u2019t
+      help but get annoyed."
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Rose laughs nervously and pushes me away from the situation. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: Hey, stop pushing me.
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: "Sorry, it\u2019s just\u2026 I wouldn\u2019t recommend annoying
+      Cheonmi or pressing her buttons again."
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: "It\u2019s a good thing you were able to calm down the situation."
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: Why?
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: "Just don\u2019t do it again."
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Who is she anyway? It\u2019s annoying that everyone treats her
+      like a god. I only agreed not to start anything because I didn\u2019t want
+      conflict on my first day. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Rose stops at a door. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: The only person who has stood up to Cheonmi was Xuan Mo.
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: ...and?
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: "Nothing happened. I\u2019m just saying."
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I never asked if anything happened\u2026"
+    characterSprite: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'I watch as Rose quietly opens the door and points down at another
+      scale at the entrance. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: 'Another scale? Is this for when I forget to weigh myself in the
+      morning? '
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: Yeah, we have another scale. This one is for the manager to track
+      our weight. He asks for your weight in the morning and then weighs you again.
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: What happens if I go over the weight limit?
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: "You just have to go on a diet\u2026 and do a few things\u2026"
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "What things\u2026"
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: 'Anyways, this is the dance studio. We do all our practice here. '
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Rose takes me through the vocal studio and explains that after
+      each practice we have a challenge round where everyone competes for points
+      to impress the managers and recruiters. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "When we get back to the dorm, she finally shows me the scoreboard
+      she said she\u2019d show me earlier. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: "To access your scoreboard at any point, just tap this icon on
+      your tablet and the scoreboard will pop up. But after challenges, we check
+      our scores immediately. It\u2019s the first thing all the girls love to check
+      after practice."
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'I notice that Rose, Xuan Mo, and I are all at the bottom while
+      Cheonmi is right at the top. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Score of the day: \r\n1. Cheomni \r\n2. Yoenseo \r\n3. Kandy\r\n4.
+      Minjii \r\n5. Mei \r\n6. Xuan Mo \r\n7. Rose \r\n8. Yeonhee "
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I can\u2019t help but dissociate and stare at the scoreboard\u2026"
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: Yeonseo taps me.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonseo
+    dialogueText: "If you want to reach Cheonmi\u2019s position, you\u2019ll have
+      to really try hard in everything you do."
+    characterSprite: {fileID: 21300000, guid: e47a7ce3f72188449bc331584f5fbca2, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: Huh?
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonseo
+    dialogueText: "Nothing\u2026 you should go get changed, we\u2019re about to have
+      training."
+    characterSprite: {fileID: 21300000, guid: e47a7ce3f72188449bc331584f5fbca2, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: Okay...
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'I throw myself onto the bed and try to breathe in the stuffy room. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "That was weird\u2026 but I\u2019ll just forget about it for now.
+      She\u2019s probably trying to throw me off. It\u2019s a competition at the
+      end of the day anyways."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "The person I\u2019m most curious about is Cheonmi. I hope I was
+      actually able to calm down the situation., but she was honestly doing the most."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Rose seems pretty cool too, the fact that she showed me around
+      is nice. And Xuan Mo\u2026 I don\u2019t know much about her. She hasn\u2019t
+      spoken another word since she introduced herself."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: The company seems strict, and the living conditions are a bit uncomfortable.
+      I wish I could talk to my mom right now, but I guess I have to be strong.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Cheonmi walks into the room, looks up at me, and sighs. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Cheonmi
+    dialogueText: "Don\u2019t rest yet. We have practice right now."
+    characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: Really? Thank you for telling me.
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: Cheonmi smiles and grabs her shoes.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: A few seconds later, Rose walks in.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: Oh, you're already dressed. Did Cheonmi just come in and call you?
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: Yeah, she did
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: " Oh\u2026 okay, let\u2019s go."
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Why does she look confused? I guess Cheonmi doesn\u2019t do this
+      often\u2026 lucky me. It seems I have a lot of people I can depend on. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "When we arrive, the manager stands at the door with a piece of
+      paper. He\u2019s a tall, tanned man in an all-black suit. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: His stare creeps me out.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I peek inside and see the trainer with his feet propped on the
+      table. I breathed a sigh of relief\u2026"
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: He seems to be more relaxed than the manager.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Manager
+    dialogueText: " I hope you\u2019re all well rested and ready for practice. We\u2019ve
+      decided to add another scale at the vocal practice room. Don\u2019t ask me
+      why, I really tried to convince them otherwise girls, they just wouldn't budge."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "He smiles, but something tells me that\u2019s a lie."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: Xuan Mo scratches her neck anxiously. The manager notices and looks
+      straight at her.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Manager
+    dialogueText: " Xuan Mo, let\u2019s start with you. What is your weight?"
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Xuan Mo
+    dialogueText: "Uhh\u2026 44.9 kg."
+    characterSprite: {fileID: 21300000, guid: 1f51ddd53d9275e47889865fa1d989ea, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: Rose whispers under her breath.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Rose
+    dialogueText: Sill underweight.
+    characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "She steps on the scale, and it goes to 43 kg. The manager\u2019s
+      face changes immediately."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Manager
+    dialogueText: "You lied, Xuan Mo. When will you get your weight up? Fix this
+      by next practice. Today I\u2019ll excuse you because we have a new trainee."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Xuan Mo shakes past him. I watch as each girl walks in, anxiety
+      written all over their faces. Cheomni is the only one looking confident. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "When it\u2019s finally my turn, I get cold feet."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Manager
+    dialogueText: "Hi Yeonhee, I\u2019m so upset these are our introductions\u2026
+      but this is my job, you understand right\u2026"
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: I nod anxiously
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Manager
+    dialogueText: What is your weight?
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Shoot\u2026 what was it again, dammit I forgot\u2026 be confident,
+      be confident, be confident."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: 49.7kg
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: Yes I remembered.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Manager
+    dialogueText: Hmmmm
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I step on the scale. The number drops by one\u2026 49. 6 kg. I
+      feel his glare pierce through me."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Manager
+    dialogueText: "One point wrong\u2026 and you need to start a diet."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I walk past him shaky. That was the most intense feeling I\u2019ve
+      had in a long time\u2026 not even my school exams stressed me this bad. \r\n"
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Trainer
+    dialogueText: "Welcome back girls, and Yeonhee, I hope you\u2019ve settled in
+      well. Today we\u2019re going to memorize lyrics. As you know, when you perform,
+      we expect you to remember all your parts, even if you\u2019re lip-syncing.
+      Memorizing the lyrics makes it look realistic."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Trainer
+    dialogueText: "I\u2019ll play the lyrics a few times, and each of you will have
+      to memorize them. I may test you now or later this week, so hold onto that
+      thought."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Cheonmi leans in and whispers in my ear. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Cheonmi
+    dialogueText: Trainers usually say this when they expect you to pick things up
+      quickly.
+    characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Trainer
+    dialogueText: "Yeonhee! No chatter. Don\u2019t be a troublemaker just because
+      you're new."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: All the other trainees stare at me.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Cheonmi
+    dialogueText: "It was my fault. It won\u2019t happen again."
+    characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: The trainer smiles.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Trainer
+    dialogueText: "Okay, I\u2019ll let this slide since it\u2019s not your usual
+      behaviour."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Why did he only scold me when it wasn\u2019t my fault? I\u2019m
+      just glad Cheomni stood up for me."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Trainer
+    dialogueText: "Today we\u2019ll sing a new song so nobody has an advantage over
+      Yeonhee. This song has been in progress. We\u2019re going in the direction
+      of cute and girl krush concepts today. When you sing it back, try to sound
+      cute\u2026 use more aegyo."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: Cute? Girl krush? Are you joking?
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Trainer
+    dialogueText: "Pay attention to the lyrics. We\u2019ll play the songs twice today."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Cheonmi
+    dialogueText: "Wow\u2026 generous. She says out loud."
+    characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: I immediately get chills.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Weird\u2026he was just scolding me a few seconds ago."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: Practice starts
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Lyrics
+    dialogueText: "Lyrics:  Hey Boy  Listen up boy  I got a question for you  Question
+      for you  Boy am I your girl  Could i depend on you  Depend on you,  Cause you
+      know  Ohhh  You know i\u2019m a call away Ohhh  So stop playing these games
+      Ohhhh  Hey boy x10 "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    isEnding: 1
+    isEndOfBranch: 1

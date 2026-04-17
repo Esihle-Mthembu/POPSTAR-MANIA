@@ -1,0 +1,852 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e05ad892727404cbf0e9f236e5d962, type: 3}
+  m_Name: Prologue Dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: Yeonhee
+    dialogueText: Hi, I'm Lim Yeonhee
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: Your average student at Joesei Secondary school.
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: "I\u2019m in my third year of high school, which has been a bit
+      hectic but fun."
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: "My study stream is Humanities, which my parents hated. They wanted
+      me to become something \u201Creputable\u201D, but I don\u2019t really care
+      about people\u2019s opinions that much.\r\n"
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: "I\u2019m what you call a die hard kpop fan, but don\u2019t worry
+      I'm not a Sasaeng. I just really love K-pop. "
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: I love the glitz and glamour around it, and I love watching Idols
+      live their day to day lives.
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: "Sometimes it makes me wonder what my life would look like if I
+      were a K-pop idol. If I had the opportunity to become one, I\u2019d immediately
+      take it. No questions asked. "
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: "I just didn\u2019t expect that chance would come so soon."
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: ...anyways
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: I think their life is so much cooler compared to mine.
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: It's not like I don't have any talent either, so I'd fit into the
+      idol world pretty well.
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: ...and maybe I'll finally get to talk to my lovely Joon.
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: Sigh...
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: My routine is the same everyday. I get there early, meet up with
+      my friends, and we sit together scrolling through posts from the night before.
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yuna
+    dialogueText: Did you see the post about Starlight's new girl group?
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Ji-a
+    dialogueText: Oh my God yes.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yuna
+    dialogueText: They look so young, I was actually confused.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yuna
+    dialogueText: Apparently oldest one in the group is thirteen.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: I saw that too...but their concept looks really cool.
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yuna
+    dialogueText: "That doesn\u2019t change the fact that they\u2019re probably getting
+      exploited."
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: I shrug a little.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: I guess...
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: Then I turn my phone toward them, already smiling.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: Anyways, did you see Joon's post? Oh my gosh, he looks so good.
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: Yuna sideeyes Yeonhee while Ji-a giggles beside her.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Ji-a
+    dialogueText: His post was kind of hot. I won't lie.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: "I know, right? I grin, leaning back in my chair. I\u2019m actually
+      so excited for their new vampire concept."
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: I sigh dramatically
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: "I seriously can\u2019t wait to debut. Joon and I definitely have
+      Kemi."
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: Yuna rolls her eyes.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yuna
+    dialogueText: "Delusional. Anyways, sir\u2019s coming."
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: The teacher walks into the classroom.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Teacher
+    dialogueText: Everyone back to your seats. I only want to see Art History books
+      on the table. No maths, no English, or anything related to another subject.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: The class sighs loudly.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'We move slowly, dragging chairs and bags across the floor. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: Yeonhee mutters under her breath.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: "I swear it\u2019s always something."
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'A painting appears on the screen. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: "The Painter\u2019s Studio:A Real Allegory Summing Up Seven Years
+      of My Life as an Artist by Gustave Courbet, dated 1855. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Teacher
+    dialogueText: The left side represents the exploited, the teacher explains, gesturing
+      toward it. And the right side represents the exploiters. The artist stands
+      in the middle, observing both.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: "I look at it for a moment, trying to see what he means\u2026"
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: I tried to focus.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'But my attention drifts back to my laptop. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: A pop-up appears.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: What's this now?
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'The screen flickers slightly before the text settles in. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: "FIND YOUR DREAM AT DIAMOND ENT. \r\nGLOBAL AUDITIONS OPEN NOW.
+      \r\nLOOKING FOR THE NEXT MEMBER OF A 4-MEMBER GIRL GROUP."
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'My eyes widened.  '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: Wait, I mumble under my breath, leaning closer to the screen. DIAMOND
+      ENT. !?
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Teacher
+    dialogueText: Lim Yeonhee
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'I freeze and slowly look up.  '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'The teacher is staring directly at me. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Teacher
+    dialogueText: Would you like to share something with the class?
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: He asks flatly.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: No, sir.
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Teacher
+    dialogueText: Then I suggest you focus, this is your first warning.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: I quickly nod and look back down, pretending to read my notes.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: "\u2026but my heart is already racing. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: The bell rings a few minutes later.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Teacher
+    dialogueText: "Alright class, I\u2019m giving you this half period to study for
+      your next assignment. No chatting."
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'His eyes narrow and land directly on me. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'The class giggles.  '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: I turn to my friends immediately, pushing my laptop toward them.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: Look at this.
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: They lean in.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Ji-a
+    dialogueText: Is this real?
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yuna
+    dialogueText: It has to be fake.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: This is destiny.
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: I whisper.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yuna
+    dialogueText: "No it\u2019s not, and the wording just looks weird."
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Ji-a
+    dialogueText: Yeah, it's probably a scam.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: I shake my head, eyes glued to the screen.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: "It\u2019s literally just an advert. You guys are overthinking
+      it .... Look, there\u2019s an address and everything. It\u2019s a real company."
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: I can feel the excitement building in my chest.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: "I\u2019m going to audition this Saturday. "
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Ji-a
+    dialogueText: "I don\u2019t know, Yeonhee\u2026 "
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'They exchange a worried look.  '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yuna
+    dialogueText: "We really don\u2019t think you should."
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Teacher
+    dialogueText: GIRLS!
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: We all jump.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'The teacher slams his pen against the desk.  '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Teacher
+    dialogueText: 'Do I have to separate you ? '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: Sorry, sir. I was just showing them something for the essay.
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: He sighs, shaking his head.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Teacher
+    dialogueText: 'Yeonhee, if you spent half as much time studying as you do staring
+      at K-pop idols, you might actually rank first in this class. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'I sit up straighter, closing my laptop. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Teacher
+    dialogueText: This is your last warning.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: "After that day, everything in my life began to change\u2026 and
+      I didn\u2019t even notice at first."
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: "Two mornings later, I\u2019m standing in front of the company. "
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: My stomach drops as I take it in.
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: "It\u2019s\u2026 smaller than I expected."
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: "The paint is peeling for a new company and the building feels
+      strangely quiet, like no one\u2019s really there."
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: For a second, something about it feels off.
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'But I ignore it. '
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'This is my chance. '
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: I step out of the car and walk toward the entrance, my heart pounding
+      with excitement.
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: "Inside, it\u2019s even quieter. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'A recruiter sits at the front desk and looks up as I approach. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Recruiter
+    dialogueText: You must be Lim Yeonhee?
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: I bow quickly.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: Yes.
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Recruiter
+    dialogueText: "Come with me. I\u2019ll take you to the boardroom."
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'As we walk down the hallway, I notice how empty everything looks.
+      no trainees, no noise, just silence. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: "strange\u2026 "
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: The door opens.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'Three people are sitting inside. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'Watching me as I stand in the middle of the room. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: For some reason, it reminds me of that painting from class.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: "Hi! I\u2019m Yeonhee and I can sing and dance and-"
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: The CEO suddenly laughs.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'Is that a good or bad sign? '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Panel member 1
+    dialogueText: "Don\u2019t worry, we already know who you are. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'A contract slides across the table toward me. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Panel member 2
+    dialogueText: "He\u2019s looking for people who are willing to dedicate themselves,
+      not fans chasing fantasies."
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: I straighten my posture.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: "I\u2019m in the top ten of my grade. I\u2019m serious about anything
+      I do."
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: I bow again.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: 'Please take me in. '
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: The CEO smiles.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: CEO
+    dialogueText: "You\u2019re in. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: Yeonhee
+    dialogueText: "What? Just like that? I didn\u2019t even audition. "
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: CEO
+    dialogueText: That was the audition.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'The contract sits in front of me. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'For a moment, I hesitate.  '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: 'I should probably read it. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: "Something in the back of my mind tells me I should\u2026"
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: "But I don\u2019t."
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: I signed it without a second thought.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: "The CEO\u2019s smile widens."
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: I stand up and bow, barely able to contain my excitement.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: My dream is finally starting.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: As I walk out of the room, I hear a quiet voice behind me.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: "\u201CAnother one signed.\u201D I pause for a second."
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: "\u2026but I shake it off and keep walking."
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0
+  - speakerName: 
+    dialogueText: All I can think about is my debut.
+    characterSprite: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    isEnding: 0

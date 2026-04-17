@@ -6,11 +6,20 @@ public class DialogueUIManager : MonoBehaviour
 {
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
+    public Image backgroundImage;
+    public Image characterImage;
 
+    public GameObject choicePanel;
     public GameObject choiceButtonPrefab;
     public Transform choicesContainer;
 
     private DialogueManager dialogueManager;
+
+    void Awake()
+    {
+        if (choicePanel != null)
+            choicePanel.SetActive(false);
+    }
 
     void Start()
     {
@@ -21,15 +30,24 @@ public class DialogueUIManager : MonoBehaviour
     {
         ClearChoices();
 
+        if (choicePanel != null)
+            choicePanel.SetActive(true);
+
         foreach (DialogueChoice choice in choices)
         {
             GameObject buttonObj = Instantiate(choiceButtonPrefab, choicesContainer);
-            TextMeshProUGUI buttonText = buttonObj.GetComponentInChildren<TextMeshProUGUI>();
 
+            TextMeshProUGUI buttonText = buttonObj.GetComponentInChildren<TextMeshProUGUI>();
             buttonText.text = choice.choiceText;
 
             Button btn = buttonObj.GetComponent<Button>();
-            btn.onClick.AddListener(() => dialogueManager.OnChoiceSelected(choice));
+
+            DialogueChoice capturedChoice = choice;
+
+            btn.onClick.AddListener(() =>
+            {
+                dialogueManager.SelectChoice(capturedChoice);
+            });
         }
     }
 
@@ -39,6 +57,20 @@ public class DialogueUIManager : MonoBehaviour
         {
             Destroy(child.gameObject);
         }
+
+        if (choicePanel != null)
+            choicePanel.SetActive(false);
+    }
+
+    public void SetLine(DialogueLine line)
+    {
+        nameText.text = line.speakerName;
+        dialogueText.text = line.dialogueText;
+
+        characterImage.sprite = line.characterSprite;
+
+        if (line.background != null)
+            backgroundImage.sprite = line.background;
     }
 
     public void SetName(string name)
