@@ -247,7 +247,7 @@ public class DialogueManager : MonoBehaviour
             yield return new WaitUntil(() => !isTyping);
 
             // SMALL CONTROLLED DELAY
-            yield return new WaitForSeconds(0.08f);
+            yield return new WaitForSeconds(0.15f);
 
             DisplayNextLine();
         }
