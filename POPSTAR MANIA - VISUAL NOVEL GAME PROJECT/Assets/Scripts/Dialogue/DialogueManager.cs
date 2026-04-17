@@ -224,7 +224,9 @@ public class DialogueManager : MonoBehaviour
         isSkipping = !isSkipping;
 
         if (isSkipping)
+        {
             StartCoroutine(SkipDialogue());
+        }
     }
 
     IEnumerator SkipDialogue()
@@ -234,17 +236,20 @@ public class DialogueManager : MonoBehaviour
             if (currentDialogue == null)
                 yield break;
 
-            // instantly finish typing if still typing
+            // Finish typing instantly if still typing
             if (isTyping)
             {
-                StopCoroutine(typingCoroutine);
                 dialogueText.text = fullLineText;
                 isTyping = false;
             }
 
-            DisplayNextLine();
+            // Wait until typing is fully finished
+            yield return new WaitUntil(() => !isTyping);
 
-            yield return null;
+            // SMALL CONTROLLED DELAY
+            yield return new WaitForSeconds(0.08f);
+
+            DisplayNextLine();
         }
     }
 
@@ -262,23 +267,6 @@ public class DialogueManager : MonoBehaviour
         {
             currentIndex = PlayerPrefs.GetInt("DialogueIndex");
             ShowCurrentLine();
-        }
-    }
-
-    //Settings button
-    public void OpenSettings()
-    {
-        if (SettingsMenu.Instance != null)
-        {
-            SettingsMenu.Instance.OpenSettings();
-        }
-    }
-
-    public void CloseSettings()
-    {
-        if (SettingsMenu.Instance != null)
-        {
-            SettingsMenu.Instance.CloseSettings();
         }
     }
 
