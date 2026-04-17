@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    //Continue button
     public void ContinueGame()
     {
         if (PlayerPrefs.HasKey("LastScene"))
@@ -16,6 +17,7 @@ public class MainMenu : MonoBehaviour
         }
     }
 
+    //New Game button
     public void NewGame()
     {
         PlayerPrefs.DeleteKey("DialogueIndex");
@@ -24,14 +26,16 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Prologue scene");
     }
 
+    //Settings button
     public void Settings()
     {
         Debug.Log("Open Settings Menu");
     }
 
-    public void Exit()
+    //Exit button
+    public void QuitGame()
     {
-        Debug.Log("Exit Game");
+        Debug.Log("Quit Game triggered");
         Application.Quit();
     }
 }

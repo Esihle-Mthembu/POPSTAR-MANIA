@@ -1,11 +1,16 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+
 
 public class DialogueManager : MonoBehaviour
 {
+    public float typingSpeed = 30f;
+
     public TextMeshProUGUI speakerText;
     public TextMeshProUGUI dialogueText;
 
@@ -17,9 +22,13 @@ public class DialogueManager : MonoBehaviour
     private DialogueData currentDialogue;
     private int currentIndex;
 
+    private bool isTyping;
     private bool isPrologue = true;
     private bool isDialogueActive = true;
     private bool waitingForChoice = false;
+
+    private bool isAutoMode = false;
+    private bool isSkipping = false;
 
     public void StartGame()
     {
@@ -53,20 +62,34 @@ public class DialogueManager : MonoBehaviour
     {
         DialogueLine line = currentDialogue.lines[currentIndex];
 
-        uiManager.SetLine(line);
+        // Speaker
+        speakerText.text = line.speakerName;
 
+        // Choices FIRST (so UI logic is correct)
         if (line.choices != null && line.choices.Length > 0)
         {
             uiManager.ShowChoices(line.choices);
             return;
         }
 
-        // Hiding choices if line has none
-        if (line.choices == null || line.choices.Length == 0)
+        uiManager.ClearChoices();
+
+        // Stop previous typing
+        if (typingCoroutine != null)
         {
-            uiManager.ClearChoices();
+            StopCoroutine(typingCoroutine);
         }
 
+        // Start typing
+        typingCoroutine = StartCoroutine(TypeLine(line.dialogueText));
+
+        if (line.characterSprite != null)
+            uiManager.characterImage.sprite = line.characterSprite;
+
+        if (line.background != null)
+            uiManager.backgroundImage.sprite = line.background;
+
+        // End branch check AFTER starting logic is fine
         if (line.isEndOfBranch)
         {
             EndDialogue();
@@ -76,7 +99,7 @@ public class DialogueManager : MonoBehaviour
 
     public void SelectChoice(DialogueChoice choice)
     {
-        uiManager.ClearChoices(); // hide panel + buttons
+        uiManager.ClearChoices(); // hide panel and choice buttons
 
         currentIndex = choice.nextLineIndex;
 
@@ -107,8 +130,12 @@ public class DialogueManager : MonoBehaviour
 
             DialogueLine line = currentDialogue.lines[currentIndex];
 
-            // Blocks skipping during choices
+            // block skipping during choices
             if (line.choices != null && line.choices.Length > 0)
+                return;
+
+            // ONLY go to next line if typing is finished
+            if (isTyping)
                 return;
 
             DisplayNextLine();
@@ -136,5 +163,136 @@ public class DialogueManager : MonoBehaviour
         isDialogueActive = false;
 
         gameObject.SetActive(false);
+    }
+
+    Coroutine typingCoroutine;
+    string fullLineText;
+
+    IEnumerator TypeLine(string line)
+    {
+        isTyping = true;
+
+        dialogueText.text = "";
+        fullLineText = line;
+
+        foreach (char letter in line)
+        {
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(1f / typingSpeed);
+        }
+
+        isTyping = false;
+    }
+
+    //IN-GAME MENU BUTTONS
+
+    //Rewind button
+    public void Rewind()
+    {
+        if (currentIndex > 0)
+        {
+            currentIndex -= 2; // step back correctly
+            DisplayNextLine();
+        }
+    }
+
+    //Auto button
+    IEnumerator AutoPlay()
+    {
+        while (isAutoMode)
+        {
+            if (!isTyping)
+            {
+                DisplayNextLine();
+            }
+
+            yield return new WaitForSeconds(0.5f);
+        }
+    }
+
+    public void ToggleAuto()
+    {
+        isAutoMode = !isAutoMode;
+
+        if (isAutoMode)
+            StartCoroutine(AutoPlay());
+    }
+
+    //Skip button
+    public void ToggleSkip()
+    {
+        isSkipping = !isSkipping;
+
+        if (isSkipping)
+            StartCoroutine(SkipDialogue());
+    }
+
+    IEnumerator SkipDialogue()
+    {
+        while (isSkipping)
+        {
+            if (currentDialogue == null)
+                yield break;
+
+            // instantly finish typing if still typing
+            if (isTyping)
+            {
+                StopCoroutine(typingCoroutine);
+                dialogueText.text = fullLineText;
+                isTyping = false;
+            }
+
+            DisplayNextLine();
+
+            yield return null;
+        }
+    }
+
+    //Save button
+    public void SaveGame()
+    {
+        PlayerPrefs.SetInt("DialogueIndex", currentIndex);
+        PlayerPrefs.Save();
+    }
+
+    //For loading saved game later
+    public void LoadGame()
+    {
+        if (PlayerPrefs.HasKey("DialogueIndex"))
+        {
+            currentIndex = PlayerPrefs.GetInt("DialogueIndex");
+            ShowCurrentLine();
+        }
+    }
+
+    //Settings button
+    public void OpenSettings()
+    {
+        if (SettingsMenu.Instance != null)
+        {
+            SettingsMenu.Instance.OpenSettings();
+        }
+    }
+
+    public void CloseSettings()
+    {
+        if (SettingsMenu.Instance != null)
+        {
+            SettingsMenu.Instance.CloseSettings();
+        }
+    }
+
+    public void ToggleSettings()
+    {
+        if (SettingsMenu.Instance != null)
+        {
+            SettingsMenu.Instance.ToggleSettings();
+        }
+    }
+
+    //Exit button
+    public void ReturnToMainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
     }
 }

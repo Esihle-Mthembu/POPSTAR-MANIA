@@ -61,30 +61,4 @@ public class DialogueUIManager : MonoBehaviour
         if (choicePanel != null)
             choicePanel.SetActive(false);
     }
-
-    public void SetLine(DialogueLine line)
-    {
-        nameText.text = line.speakerName;
-        dialogueText.text = line.dialogueText;
-
-        characterImage.sprite = line.characterSprite;
-
-        if (line.background != null)
-            backgroundImage.sprite = line.background;
-    }
-
-    public void SetName(string name)
-    {
-        nameText.text = name;
-    }
-
-    public void SetText(string text)
-    {
-        dialogueText.text = text;
-    }
-
-    public void AppendText(string text)
-    {
-        dialogueText.text += text;
-    }
 }
