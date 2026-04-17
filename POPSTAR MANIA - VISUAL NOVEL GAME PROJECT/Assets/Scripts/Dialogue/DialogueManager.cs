@@ -65,7 +65,7 @@ public class DialogueManager : MonoBehaviour
         // Speaker
         speakerText.text = line.speakerName;
 
-        // Choices FIRST (so UI logic is correct)
+        // Choices first
         if (line.choices != null && line.choices.Length > 0)
         {
             uiManager.ShowChoices(line.choices);
@@ -89,7 +89,7 @@ public class DialogueManager : MonoBehaviour
         if (line.background != null)
             uiManager.backgroundImage.sprite = line.background;
 
-        // End branch check AFTER starting logic is fine
+        // End branch check after starting logic is fine
         if (line.isEndOfBranch)
         {
             EndDialogue();
