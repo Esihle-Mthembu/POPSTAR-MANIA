@@ -297,35 +297,35 @@ MonoBehaviour:
       gaps to see what the unit looked like, but everyone was taller than me, making
       it harder to take a peak. '
     characterSprite: {fileID: 0}
-    background: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
     dialogueText: "Geez, why is everyone in my face\u2026 "
     characterSprite: {fileID: 0}
-    background: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Cheonmi
     dialogueText: Hi, I'm Cheonmi, I'm 19.
     characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
-    background: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
     dialogueText: 'She looks me up and down. '
     characterSprite: {fileID: 0}
-    background: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Cheonmi
     dialogueText: I hope you pick things up quickly.
     characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
-    background: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
@@ -333,7 +333,7 @@ MonoBehaviour:
     dialogueText: "Okay that sounds a bit rude\u2026 but she's so pretty. She actually
       looks like an idol already. "
     characterSprite: {fileID: 0}
-    background: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
@@ -342,7 +342,7 @@ MonoBehaviour:
       here the longest but please don\u2019t call me unnie. Also don\u2019t mind
       Cheomni, she gets like that sometimes. If you need help, call me."
     characterSprite: {fileID: 21300000, guid: e47a7ce3f72188449bc331584f5fbca2, type: 3}
-    background: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
@@ -350,14 +350,14 @@ MonoBehaviour:
     dialogueText: "She seems cool\u2026 At least I have a unnie uhh I mean friend
       I can depend on."
     characterSprite: {fileID: 0}
-    background: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Xuan Mo
     dialogueText: "Hi, I\u2019m Xuan Mo, 16\u2026 it\u2019s nice to meet you. "
     characterSprite: {fileID: 21300000, guid: 1f51ddd53d9275e47889865fa1d989ea, type: 3}
-    background: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
@@ -365,7 +365,7 @@ MonoBehaviour:
     dialogueText: "Finally, someone my height. She\u2019s the youngest and looks
       the most depressed\u2026 life hasn\u2019t been easy for her, I guess. "
     characterSprite: {fileID: 0}
-    background: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
@@ -396,28 +396,28 @@ MonoBehaviour:
     dialogueText: "Hi! Uh\u2026 I didn\u2019t prepare an intro, but I\u2019m Yeonhee,
       18.. "
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
-    background: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
     dialogueText: 'I bow. '
     characterSprite: {fileID: 0}
-    background: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
     dialogueText: 'Cheonmi laughs and walks away. '
     characterSprite: {fileID: 0}
-    background: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
     dialogueText: "Seems people like laughing here\u2026"
     characterSprite: {fileID: 0}
-    background: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
@@ -425,35 +425,35 @@ MonoBehaviour:
     dialogueText: Everyone else disappears into the unit, except Rose. She stares
       at me for a moment before speaking.
     characterSprite: {fileID: 0}
-    background: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
     dialogueText: Your bags are heavy. Let me help you carry them to our room.
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
-    background: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
     dialogueText: 'Rose smiles. '
     characterSprite: {fileID: 0}
-    background: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
     dialogueText: We all stay in the same room.
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
-    background: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: "We all share one\u2026 room?"
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
-    background: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
@@ -648,35 +648,35 @@ MonoBehaviour:
     dialogueText: "Anyways this is the kitchen, we share meals here and talk\u2026sometimes,
       this is the fridge we share with everyone in the unit."
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
-    background: {fileID: 0}
+    background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
     dialogueText: Rose points to the bar fridge.
     characterSprite: {fileID: 0}
-    background: {fileID: 0}
+    background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: " Who\u2019s fridge is this?"
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
-    background: {fileID: 0}
+    background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
     dialogueText: It's everyone's fridge.
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
-    background: {fileID: 0}
+    background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
     dialogueText: One bar fridge?
     characterSprite: {fileID: 0}
-    background: {fileID: 0}
+    background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
@@ -684,28 +684,28 @@ MonoBehaviour:
     dialogueText: "I opened it and I couldn't help but hide my shocked expression,
       it was empty, just a few Diet soda\u2019s and eggs. "
     characterSprite: {fileID: 0}
-    background: {fileID: 0}
+    background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
     dialogueText: 'I guess my snacks will fit. '
     characterSprite: {fileID: 0}
-    background: {fileID: 0}
+    background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
     dialogueText: "I pull out snacks my mom packed. Rose\u2019s face goes grey. "
     characterSprite: {fileID: 0}
-    background: {fileID: 0}
+    background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
     dialogueText: 'Cheonmi walks over aggressively. '
     characterSprite: {fileID: 0}
-    background: {fileID: 0}
+    background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
@@ -713,28 +713,28 @@ MonoBehaviour:
     dialogueText: "What are you doing? You\u2019re not putting\u2026 THAT\u2026 in
       there."
     characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
-    background: {fileID: 0}
+    background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: Excuse me?
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
-    background: {fileID: 0}
+    background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Cheonmi
     dialogueText: Throw it away.
     characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
-    background: {fileID: 0}
+    background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: "I grip my snacks, thinking\u2026 What should I say? "
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
-    background: {fileID: 0}
+    background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices:
     - choiceText: "No, what\u2019s your deal with my things anyways?"
       nextLineIndex: 97
@@ -755,7 +755,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: "Why would I?, you can\u2019t just tell me what -"
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
-    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     isEnding: 0
     isEndOfBranch: 0
