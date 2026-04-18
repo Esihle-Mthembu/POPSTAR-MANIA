@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -23,15 +24,39 @@ public class AudioManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (scene.name == "Main Menu")
+        {
+            PlayMainMenuMusic();
+        }
+        else
+        {
+            PlayGameMusic();
+        }
+    }
+
     //Music
     void Start()
     {
-        PlayMainMenuMusic();
+        OnSceneLoaded(SceneManager.GetActiveScene(), LoadSceneMode.Single);
     }
 
     public void PlayMainMenuMusic()
     {
         PlayMusic(mainMenuMusic);
+
+        Debug.Log("Playing Main Menu Music: " + mainMenuMusic);
     }
 
     public void PlayGameMusic()
@@ -46,9 +71,14 @@ public class AudioManager : MonoBehaviour
     }
 
     //Music and sounds control
+    private Coroutine musicCoroutine;
+
     public void PlayMusic(AudioClip clip)
     {
-        StartCoroutine(FadeMusic(clip));
+        if (musicCoroutine != null)
+            StopCoroutine(musicCoroutine);
+
+        musicCoroutine = StartCoroutine(FadeMusic(clip));
     }
 
     IEnumerator FadeMusic(AudioClip newClip)
