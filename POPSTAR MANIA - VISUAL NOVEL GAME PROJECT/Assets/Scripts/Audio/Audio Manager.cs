@@ -14,14 +14,22 @@ public class AudioManager : MonoBehaviour
 
     void Awake()
     {
-        if (Instance != null)
+        if (Instance != null && Instance != this)
         {
+            Debug.Log("Duplicate destroyed");
             Destroy(gameObject);
             return;
         }
 
         Instance = this;
         DontDestroyOnLoad(gameObject);
+
+        Debug.Log("AudioManager INSTANCE CREATED");
+    }
+
+    void Start()
+    {
+        OnSceneLoaded(SceneManager.GetActiveScene(), LoadSceneMode.Single);
     }
 
     void OnEnable()
@@ -36,22 +44,17 @@ public class AudioManager : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        Debug.Log("Scene: " + scene.name);
+
+        StopAllCoroutines();
+
         if (scene.name == "Main Menu")
-        {
             PlayMainMenuMusic();
-        }
         else
-        {
             PlayGameMusic();
-        }
     }
 
     //Music
-    void Start()
-    {
-        OnSceneLoaded(SceneManager.GetActiveScene(), LoadSceneMode.Single);
-    }
-
     public void PlayMainMenuMusic()
     {
         PlayMusic(mainMenuMusic);
@@ -70,11 +73,29 @@ public class AudioManager : MonoBehaviour
         sfxSource.PlayOneShot(clip);
     }
 
+    public void PlayClick()
+    {
+        if (sfxSource != null && clickSound != null)
+            sfxSource.PlayOneShot(clickSound);
+    }
+
     //Music and sounds control
     private Coroutine musicCoroutine;
 
     public void PlayMusic(AudioClip clip)
     {
+        if (clip == null)
+        {
+            Debug.LogError("Music clip is NULL");
+            return;
+        }
+
+        if (musicSource == null)
+        {
+            Debug.LogError("MusicSource is NULL");
+            return;
+        }
+
         if (musicCoroutine != null)
             StopCoroutine(musicCoroutine);
 

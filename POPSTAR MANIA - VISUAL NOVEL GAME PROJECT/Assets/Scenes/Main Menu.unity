@@ -1476,8 +1476,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -403.091, y: -40.1757}
-  m_SizeDelta: {x: 461.1635, y: 509.5851}
+  m_AnchoredPosition: {x: -316, y: 23}
+  m_SizeDelta: {x: 461.1635, y: 733.4559}
   m_Pivot: {x: 0.5, y: 0.49999994}
 --- !u!114 &459539204
 MonoBehaviour:
@@ -1492,7 +1492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GridLayoutGroup
   m_Padding:
-    m_Left: 25
+    m_Left: 15
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
@@ -1500,7 +1500,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 180, y: 180}
-  m_Spacing: {x: 50, y: 75}
+  m_Spacing: {x: 75, y: 140}
   m_Constraint: 1
   m_ConstraintCount: 2
 --- !u!114 &459539205
@@ -1646,9 +1646,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SettingsMenu
   settingsPanel: {fileID: 432469108}
-  masterSlider: {fileID: 108905934}
-  musicSlider: {fileID: 2100008642}
-  sfxSlider: {fileID: 368956371}
 --- !u!4 &594590723
 Transform:
   m_ObjectHideFlags: 0
@@ -1759,8 +1756,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1066706957}
-        m_TargetAssemblyTypeName: UISound, Assembly-CSharp
+      - m_Target: {fileID: 1691550423}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
         m_MethodName: PlayClick
         m_Mode: 1
         m_Arguments:
@@ -2194,50 +2191,6 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1066706955
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1066706956}
-  - component: {fileID: 1066706957}
-  m_Layer: 0
-  m_Name: UI Sound Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1066706956
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1066706955}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 492.00345, y: 387.5208, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1066706957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1066706955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24693b72ef5055546814f8b158d9b59d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UISound
 --- !u!1 &1067113496
 GameObject:
   m_ObjectHideFlags: 0
@@ -2334,8 +2287,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1066706957}
-        m_TargetAssemblyTypeName: UISound, Assembly-CSharp
+      - m_Target: {fileID: 1691550423}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
         m_MethodName: PlayClick
         m_Mode: 1
         m_Arguments:
@@ -2554,8 +2507,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1066706957}
-        m_TargetAssemblyTypeName: UISound, Assembly-CSharp
+      - m_Target: {fileID: 1691550423}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
         m_MethodName: PlayClick
         m_Mode: 1
         m_Arguments:
@@ -3684,8 +3637,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1066706957}
-        m_TargetAssemblyTypeName: UISound, Assembly-CSharp
+      - m_Target: {fileID: 1691550423}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
         m_MethodName: PlayClick
         m_Mode: 1
         m_Arguments:
@@ -4087,4 +4040,3 @@ SceneRoots:
   - {fileID: 1524921521}
   - {fileID: 594590723}
   - {fileID: 1691550424}
-  - {fileID: 1066706956}
