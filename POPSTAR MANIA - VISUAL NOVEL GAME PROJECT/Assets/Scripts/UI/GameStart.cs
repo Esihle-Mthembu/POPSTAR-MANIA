@@ -6,6 +6,6 @@ public class GameStart : MonoBehaviour
 
     void Start()
     {
-        dialogueManager.StartGame();
+        dialogueManager.StartDialogue(dialogueManager.prologueDialogue);
     }
 }

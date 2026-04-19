@@ -2,51 +2,30 @@ using UnityEngine;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine.UI;
+using System;
 
 public class LyricsGameManager : MonoBehaviour
 {
     public TextMeshProUGUI lyricText;
     public Transform wordBankPanel;
     public GameObject wordButtonPrefab;
+    public Slider energyBar;
 
+    public System.Action<int, int> onLyricsGameComplete;
+
+    int totalEnergy = 0;
+    
     public List<string> selectedWords = new List<string>();
 
     public LyricsGameData currentGame;
     private int currentLineIndex = 0;
-    private int energy = 0;
+    private int currentBlankIndex = 0;
 
     public GameObject lyricsUI;
 
-    void Start()
-    {
-        LyricsGameData testData = new LyricsGameData();
-
-        testData.lines = new LyricLines[3];
-
-        testData.lines[0] = new LyricLines
-        {
-            fullLine = "I will survive tonight",
-            missingWords = new string[] { "survive" }
-        };
-
-        testData.lines[1] = new LyricLines
-        {
-            fullLine = "We dance in the dark",
-            missingWords = new string[] { "dance", "dark" }
-        };
-
-        testData.lines[2] = new LyricLines
-        {
-            fullLine = "Feel the fire inside",
-            missingWords = new string[] { "fire" }
-        };
-
-        StartGame(testData);
-    }
-
     public void StartGame(LyricsGameData data)
     {
-        lyricsUI.SetActive(true);
+        Debug.Log("Start game called");
 
         currentGame = data;
         currentLineIndex = 0;
@@ -61,19 +40,57 @@ public class LyricsGameManager : MonoBehaviour
 
         foreach (string word in line.missingWords)
         {
-            result = result.Replace(word, "____");
+            result = ReplaceFirst(result, word, "____");
         }
 
         return result;
+
+        string ReplaceFirst(string text, string search, string replace)
+        {
+            int pos = text.IndexOf(search);
+            if (pos < 0)
+            {
+                return text;
+            }
+
+            return text.Substring(0, pos) + replace + text.Substring(pos + search.Length);
+        }
     }
 
     public void ShowCurrentLine()
     {
-        selectedWords.Clear();
-        LyricLines line = currentGame.lines[currentLineIndex];
-        string masked = GetMaskedLine(line);
-        lyricText.text = masked;
+        if (currentGame == null)
+        {
+            Debug.LogError("LyricsGameData is NOT assigned!");
+            return;
+        }
 
+        if (currentGame.lines == null || currentGame.lines.Length == 0)
+        {
+            Debug.LogError("LyricsGameData has NO lines!");
+            return;
+        }
+
+        if (currentLineIndex < 0 || currentLineIndex >= currentGame.lines.Length)
+        {
+            Debug.LogWarning("CurrentLineIndex out of range. Ending game safely.");
+            EndGame();
+            return;
+        }
+
+        Debug.Log("Lines: " + currentGame.lines.Length);
+        Debug.Log("Index: " + currentLineIndex);
+
+        LyricLines line = currentGame.lines[currentLineIndex];
+
+        //reset state
+        currentBlankIndex = 0;
+        selectedWords.Clear();
+
+        //set display
+        lyricText.text = GetMaskedLine(line);
+
+        //Generate words
         GenerateWordBank(line);
     }
 
@@ -89,14 +106,15 @@ public class LyricsGameManager : MonoBehaviour
         List<string> words = new List<string>();
 
         //Adding correct words
-        words.AddRange(line.missingWords);
+        words.AddRange(line.missingWords);//correct answers
+        words.AddRange(line.extraWords);//wrong answers
 
+        //shuffle
         for (int i = 0; i < words.Count; i++)
         {
-            string temp = words[i];
-            int randomIndex = Random.Range(0, words.Count);
-            words [i] = words[randomIndex];
-            words [randomIndex] = temp;
+            int rand = UnityEngine.Random.Range(0, words.Count);
+            (words[i], words[rand]) = (words[rand], words[i]);
+
         }
 
         //Buttons
@@ -115,14 +133,59 @@ public class LyricsGameManager : MonoBehaviour
     //Word selection
     public void SelectWord(string word, Button btn)
     {
-        selectedWords.Add(word);
-        btn.interactable = false; //preventing double click
+        LyricLines line = currentGame.lines[currentLineIndex];
 
-        Debug.Log("Selected: " + word);
+        // safety
+        if (currentBlankIndex >= line.missingWords.Length)
+            return;
+
+        selectedWords.Add(word);
+
+        // fill next blank immediately
+        FillBlank(word);
+
+        btn.interactable = false;
+
+        Debug.Log("Placed: " + word);
+    }
+
+    void FillBlank(string word)
+    {
+        LyricLines line = currentGame.lines[currentLineIndex];
+
+        string[] parts = lyricText.text.Split(new string[] { "____" }, StringSplitOptions.None);
+
+        string rebuilt = "";
+
+        for (int i = 0; i < parts.Length; i++)
+        {
+            rebuilt += parts[i];
+
+            if (i < currentBlankIndex)
+            {
+                rebuilt += "____"; // already filled
+            }
+            else if (i == currentBlankIndex)
+            {
+                rebuilt += word; // new fill
+            }
+            else if (i < line.missingWords.Length)
+            {
+                rebuilt += "____"; // remaining blanks
+            }
+        }
+
+        lyricText.text = rebuilt;
+        currentBlankIndex++;
     }
 
     public void OnSubmitPressed()
     {
+        if (selectedWords.Count == 0)
+        {
+            Debug.Log("No words selected");
+            return;
+        }
         SubmitAnswer(selectedWords.ToArray());
     }
 
@@ -130,20 +193,19 @@ public class LyricsGameManager : MonoBehaviour
     public void SubmitAnswer(string[] playerAnswers)
     {
         LyricLines line = currentGame.lines[currentLineIndex];
-        int correct = 0;
+        int correctThisLine = 0;
 
         for (int i = 0; i < line.missingWords.Length; i++)
         {
-            if (playerAnswers[i] == line.missingWords[i])
+            //Check if player provided enough answers and if they match
+            if (i < playerAnswers.Length && playerAnswers[i] == line.missingWords[i])
             {
-                correct++;
+                 correctThisLine++;
             }
         }
 
-        energy += correct * 2;
-
-        Debug.Log("Correct words: " + correct);
-        Debug.Log("Energy: " + energy);
+        //Accumulating a score
+        totalEnergy += correctThisLine * 20; //20 points per correct blank word in lyrics challenge
 
         NextLine();
     }
@@ -168,7 +230,9 @@ public class LyricsGameManager : MonoBehaviour
     {
         lyricsUI.SetActive(false);
 
-        Debug.Log("Lyrics game finished");
-        Debug.Log("Final energy: " + energy);
+        Debug.Log("Final Energy: " + totalEnergy);
+
+        //Send result back
+        onLyricsGameComplete?.Invoke(totalEnergy, 80);
     }
 }

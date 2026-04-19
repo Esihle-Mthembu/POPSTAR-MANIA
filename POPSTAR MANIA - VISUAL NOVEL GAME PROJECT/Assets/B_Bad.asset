@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e05ad892727404cbf0e9f236e5d962, type: 3}
+  m_Name: B_Bad
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: 
+    dialogueText: "My heart is pounding\u2026 that was so difficult. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I can\u2019t believe I did that bad. I really thought I\u2019d
+      get the hang of it immediately. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Everyone sounded so good. Even with their mistakes, they still
+      sounded amazing\u2026 and then there\u2019s me. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'I really need to work on my vocals. Rose sounded incredible. It
+      was like hearing an angel sing. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'All the girls sit together on the couch while the manager and
+      trainer talk on the other side of the room. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I wonder what they\u2019re saying about me\u2026 the trainer keeps
+      looking my way. I hope they don\u2019t kick me out. I wouldn\u2019t even blame
+      them. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'But to my surprise, Cheonmi is sitting alone on the other side
+      of the room. She looks at me and smiles. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "She seems genuine\u2026 but I can\u2019t shake this embarrassment. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Maybe I\u2019m just overthinking it. It is my first day after
+      all. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "That challenge was intense. What made it worse was the trainer
+      yelling at everyone\u2026 he\u2019s not as chill as I thought. Not even close. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I feel really bad for Xuan Mo though\u2026 he wouldn\u2019t get
+      off her back. Maybe I should check on her. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0

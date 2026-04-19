@@ -19,6 +19,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -28,6 +29,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -35,6 +37,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -44,6 +47,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Mom
@@ -51,6 +55,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Dad
@@ -58,6 +63,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -65,6 +71,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -72,6 +79,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -79,6 +87,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -87,6 +96,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Panel member 1
@@ -95,6 +105,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -103,6 +114,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Panel member 1
@@ -110,6 +122,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Dad
@@ -117,6 +130,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -124,6 +138,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Panel member 1
@@ -132,6 +147,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Mom
@@ -139,6 +155,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -146,6 +163,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -153,6 +171,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -161,6 +180,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Panel member 1
@@ -168,6 +188,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -175,6 +196,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Panel member 1
@@ -183,6 +205,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -190,6 +213,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -198,6 +222,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -205,6 +230,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -212,6 +238,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Panel member 1
@@ -219,6 +246,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -227,6 +255,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -235,6 +264,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -242,6 +272,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Panel member 1
@@ -250,6 +281,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -259,6 +291,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Panel member 1
@@ -266,6 +299,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Panel member 1
@@ -274,6 +308,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -281,6 +316,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -289,6 +325,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -299,6 +336,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -306,6 +344,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Cheonmi
@@ -313,6 +352,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -320,6 +360,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Cheonmi
@@ -327,6 +368,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -335,6 +377,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonseo
@@ -344,6 +387,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: e47a7ce3f72188449bc331584f5fbca2, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -352,6 +396,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Xuan Mo
@@ -359,6 +404,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: 1f51ddd53d9275e47889865fa1d989ea, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -367,6 +413,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -375,6 +422,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -383,6 +431,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -390,6 +439,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -398,6 +448,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -405,6 +456,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -412,6 +464,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -419,6 +472,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -427,6 +481,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -434,6 +489,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -441,6 +497,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -448,6 +505,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -455,6 +513,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -463,6 +522,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -470,6 +530,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -480,6 +541,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -488,6 +550,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -496,6 +559,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -503,6 +567,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -510,6 +575,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -519,6 +585,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -526,6 +593,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -533,6 +601,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -540,6 +609,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -547,6 +617,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -554,6 +625,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -561,6 +633,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -568,6 +641,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -575,6 +649,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -583,6 +658,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -590,6 +666,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -598,6 +675,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -605,6 +683,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -612,6 +691,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -619,6 +699,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -626,6 +707,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -634,6 +716,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -642,6 +725,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -650,6 +734,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -657,6 +742,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -664,6 +750,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -671,6 +758,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -678,6 +766,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -686,6 +775,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -693,6 +783,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -700,6 +791,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -707,6 +799,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Cheonmi
@@ -715,6 +808,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -722,6 +816,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Cheonmi
@@ -729,6 +824,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -738,11 +834,15 @@ MonoBehaviour:
     choices:
     - choiceText: "No, what\u2019s your deal with my things anyways?"
       nextLineIndex: 97
+      pathTag: A
     - choiceText: "My mom made these for me, so I won\u2019t waste her food."
       nextLineIndex: 97
+      pathTag: A
     - choiceText: "Oh\u2026 yeah, I get it, it\u2019s unhealthy\u2026 I\u2019ll throw
         them away, sorry. "
       nextLineIndex: 179
+      pathTag: B
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Cheonmi
@@ -750,6 +850,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -757,6 +858,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -764,6 +866,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -771,6 +874,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -779,6 +883,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -786,6 +891,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -793,6 +899,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -801,6 +908,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -808,6 +916,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -816,6 +925,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -823,6 +933,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -830,6 +941,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -837,6 +949,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -845,6 +958,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -853,6 +967,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -861,6 +976,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -868,6 +984,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -875,6 +992,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -882,6 +1000,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -889,6 +1008,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -897,6 +1017,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -905,6 +1026,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -915,6 +1037,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -923,6 +1046,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -931,6 +1055,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -938,6 +1063,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -945,6 +1071,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonseo
@@ -953,6 +1080,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: e47a7ce3f72188449bc331584f5fbca2, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -960,6 +1088,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonseo
@@ -968,6 +1097,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: e47a7ce3f72188449bc331584f5fbca2, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -975,6 +1105,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -983,6 +1114,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -992,6 +1124,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1000,6 +1133,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1009,6 +1143,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1017,6 +1152,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1025,6 +1161,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1033,6 +1170,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -1041,6 +1179,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -1048,6 +1187,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1056,6 +1196,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1064,6 +1205,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1071,6 +1213,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1079,6 +1222,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1086,6 +1230,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Manager
@@ -1095,6 +1240,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1102,6 +1248,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1110,6 +1257,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Manager
@@ -1117,6 +1265,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Xuan Mo
@@ -1124,6 +1273,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: 1f51ddd53d9275e47889865fa1d989ea, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1131,6 +1281,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -1138,6 +1289,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1146,6 +1298,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Manager
@@ -1154,6 +1307,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1162,6 +1316,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1169,6 +1324,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Manager
@@ -1177,6 +1333,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1184,6 +1341,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Manager
@@ -1191,6 +1349,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1199,6 +1358,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -1206,6 +1366,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1213,6 +1374,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Manager
@@ -1220,6 +1382,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1228,6 +1391,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Manager
@@ -1235,6 +1399,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1243,6 +1408,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Trainer
@@ -1253,6 +1419,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Trainer
@@ -1262,6 +1429,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1269,6 +1437,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Cheonmi
@@ -1277,6 +1446,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Trainer
@@ -1285,6 +1455,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1292,6 +1463,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -1299,6 +1471,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1306,6 +1479,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Trainer
@@ -1316,6 +1490,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1323,6 +1498,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Trainer
@@ -1331,6 +1507,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1338,6 +1515,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Cheonmi
@@ -1345,6 +1523,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1352,6 +1531,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1359,6 +1539,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1371,13 +1552,15 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
-    isEnding: 1
-    isEndOfBranch: 1
+    triggersLyricsGame: 1
+    isEnding: 0
+    isEndOfBranch: 0
   - speakerName: Cheonmi
     dialogueText: "Great. Don\u2019t bring that around again."
     characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1386,6 +1569,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1393,6 +1577,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -1400,6 +1585,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -1408,6 +1594,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -1415,6 +1602,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -1422,6 +1610,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -1429,6 +1618,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1438,6 +1628,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1445,6 +1636,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -1452,6 +1644,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -1459,6 +1652,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -1466,6 +1660,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1473,6 +1668,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1481,6 +1677,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -1489,6 +1686,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -1497,6 +1695,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -1504,6 +1703,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -1511,6 +1711,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1518,6 +1719,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -1525,6 +1727,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1534,6 +1737,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1542,6 +1746,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -1552,6 +1757,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1560,6 +1766,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1568,6 +1775,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1575,6 +1783,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1582,6 +1791,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonseo
@@ -1590,6 +1800,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: e47a7ce3f72188449bc331584f5fbca2, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -1597,6 +1808,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonseo
@@ -1605,6 +1817,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: e47a7ce3f72188449bc331584f5fbca2, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -1612,6 +1825,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 0}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1619,6 +1833,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1628,6 +1843,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1636,6 +1852,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1645,6 +1862,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1653,6 +1871,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1660,6 +1879,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Cheonmi
@@ -1667,6 +1887,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -1674,6 +1895,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1681,6 +1903,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1688,6 +1911,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -1695,6 +1919,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -1702,6 +1927,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -1709,6 +1935,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1717,6 +1944,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1725,6 +1953,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1732,6 +1961,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1740,6 +1970,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1747,6 +1978,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Manager
@@ -1756,6 +1988,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1763,6 +1996,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1771,6 +2005,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Manager
@@ -1778,6 +2013,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Xuan Mo
@@ -1785,6 +2021,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: 1f51ddd53d9275e47889865fa1d989ea, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1792,6 +2029,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
@@ -1799,6 +2037,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: b5934d95374002c4695b834a1305c2ff, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1807,6 +2046,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Manager
@@ -1815,6 +2055,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1823,6 +2064,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1830,6 +2072,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Manager
@@ -1838,6 +2081,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1845,6 +2089,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Manager
@@ -1852,6 +2097,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1860,6 +2106,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
@@ -1867,6 +2114,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1874,6 +2122,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Manager
@@ -1881,6 +2130,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1889,6 +2139,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Manager
@@ -1896,6 +2147,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1904,6 +2156,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Trainer
@@ -1914,6 +2167,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Trainer
@@ -1923,6 +2177,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1930,6 +2185,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Cheonmi
@@ -1938,6 +2194,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Trainer
@@ -1946,6 +2203,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1953,6 +2211,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Cheonmi
@@ -1960,6 +2219,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1967,6 +2227,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Trainer
@@ -1975,6 +2236,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -1983,6 +2245,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Trainer
@@ -1993,6 +2256,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -2000,6 +2264,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Trainer
@@ -2007,6 +2272,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Cheonmi
@@ -2014,6 +2280,7 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -2021,6 +2288,7 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
@@ -2028,13 +2296,15 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
-    dialogueText: Practice starts
+    dialogueText: Practice starts.
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
+    triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Lyrics
@@ -2045,5 +2315,6 @@ MonoBehaviour:
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
-    isEnding: 1
-    isEndOfBranch: 1
+    triggersLyricsGame: 1
+    isEnding: 0
+    isEndOfBranch: 0

@@ -1,0 +1,323 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e05ad892727404cbf0e9f236e5d962, type: 3}
+  m_Name: A_Good
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: 
+    dialogueText: "My heart is pounding\u2026 that was so difficult. I really need
+      to work on my vocals. Rose sounded amazing, even though she messed up. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'All the girls sit together on the couch while the manager and
+      trainer talk on the other side of the room. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I wonder what they\u2019re saying about me\u2026 the trainer keeps
+      looking my way. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'To my surprise, Cheonmi is sitting alone on the other side of
+      the room. She glances at me, then looks back at the wall. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Something about that glance\u2026 it almost feels like she\u2019s
+      upset that I did well. But maybe I\u2019m just overthinking it. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "That challenge was intense. What made the situation worse was
+      the trainer yelling at everyone\u2026 he\u2019s not as chill as I thought he\u2019d
+      be. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I feel really bad for Xuan Mo though\u2026 he wouldn\u2019t get
+      off her back. Maybe I should check on her. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: Hey Xuan Mo, are you okay? You're sweating a lot.
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: -4892683488605231937, guid: 5482bc231f43b5947b5996fae1d5f884, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Xuan Mo looks at me and sighs. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Xuan Mo
+    dialogueText: I'm fine.
+    characterSprite: {fileID: 21300000, guid: 1f51ddd53d9275e47889865fa1d989ea, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: " Okay\u2026 I was just worried. You seem a bit out of it right
+      now."
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Xuan Mo
+    dialogueText: You should worry about yourself here.
+    characterSprite: {fileID: 21300000, guid: 1f51ddd53d9275e47889865fa1d989ea, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Well damn\u2026 I guess this is why nobody talks to her. She makes
+      it really difficult\u2026 but I\u2019ll still try. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Cheonmi
+    dialogueText: "Leave her. She\u2019s always like this. "
+    characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: The room goes quiet.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Cheomni stares at me for a moment, like she\u2019s thinking about
+      what to say."
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Cheonmi
+    dialogueText: "Your performance was questionable, but I guess it wasn\u2019t
+      that bad\u2026 just don\u2019t start running to the top position now. "
+    characterSprite: {fileID: 21300000, guid: 28eedfae557e3ce409ceb0faab662a22, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "That didn\u2019t feel like a compliment\u2026"
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: Haahh...thanks.
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Manager
+    dialogueText: So much chatter today. I see Yeonhee is quite the talker.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Again\u2026 Why is it always me? "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "At least he broke the silence\u2026 \r\n"
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: Sorry...
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Trainer
+    dialogueText: "Let\u2019s discuss today\u2019s session. It seems we\u2019ve been
+      too soft on some of you\u2026 to the point where a newbie surpasses you on
+      her first try. Ridiculous. "
+    characterSprite: {fileID: 5524776793167180552, guid: 6a855d3b601b2f542b033b6731d00792, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: The room goes tense.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Trainer
+    dialogueText: "Yeonhee, your voice\u2026 work on it. It sounds childish. I asked
+      for cute, not toddler."
+    characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Wow\u2026 okay. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Trainer
+    dialogueText: "Xuan Mo, forgetting lyrics again. Have you even been attending
+      your language classes? Your Korean sounds choppy. \r\n"
+    characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: Xuan Mo keeps that same expressionless look she always has.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Trainer
+    dialogueText: 'Rose, your voice is too powerful. If you want to be a solo artist,
+      then leave. Stop trying to outshine everyone. At least your Korean is understandable. '
+    characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Rose looks down quietly. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Trainer
+    dialogueText: Yoenseo, you were good. Just fix the voice cracks.
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonseo
+    dialogueText: Thank you, sir!
+    characterSprite: {fileID: 21300000, guid: e47a7ce3f72188449bc331584f5fbca2, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'The trainer pauses, then looks at Cheonmi. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "As bad as it sounds\u2026 I actually can\u2019t wait for her to
+      get scolded. She\u2019s been on her high horse since I got here\u2026 and she
+      made the most mistakes out of everyone. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Trainer
+    dialogueText: Cheomni, perfect as always. Just work on remembering your lyrics
+      without stuttering.
+    characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0

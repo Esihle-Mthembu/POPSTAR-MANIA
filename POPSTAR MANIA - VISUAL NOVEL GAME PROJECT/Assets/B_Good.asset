@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e05ad892727404cbf0e9f236e5d962, type: 3}
+  m_Name: B_Good
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: 
+    dialogueText: "My heart is pounding\u2026 that was so difficult. I really need
+      to work on my vocals. Rose sounded amazing, even though she messed up. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'All the girls sit together on the couch while the manager and
+      trainer talk on the other side of the room. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I wonder what they\u2019re saying about me\u2026 the trainer keeps
+      looking my way. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'To my surprise, Cheomni is sitting alone on the other side of
+      the room. She looks at me and smiles. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "Something about that smile feels fake\u2026 it almost feels like
+      she\u2019s upset that I did well. But maybe I\u2019m just overthinking it. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "That challenge was intense. What made the situation worse was
+      the trainer yelling at everyone\u2026 he\u2019s not as chill as I thought he\u2019d
+      be. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: "I feel really bad for Xuan Mo though\u2026 he wouldn\u2019t get
+      off her back. Maybe I should check on her. "
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: "Hey Xuan Mo, are you okay? You\u2019re sweating a lot. "
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'Xuan Mo looks at me and sighs. '
+    characterSprite: {fileID: 0}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Xuan Mo
+    dialogueText: I'm fine.
+    characterSprite: {fileID: 21300000, guid: 1f51ddd53d9275e47889865fa1d989ea, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Yeonhee
+    dialogueText: "Okay\u2026 I was just worried. You seem a bit out of it right
+      now."
+    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
