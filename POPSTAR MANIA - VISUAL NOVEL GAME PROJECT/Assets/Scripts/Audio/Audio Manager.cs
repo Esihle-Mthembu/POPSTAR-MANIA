@@ -11,12 +11,15 @@ public class AudioManager : MonoBehaviour
     public AudioClip mainMenuMusic;
     public AudioClip gameMusic;
     public AudioClip clickSound;
+    public AudioClip lyricGameMusic;
+    private AudioClip previousMusicClip;
+
+    private bool allowSceneMusic = true;
 
     void Awake()
     {
         if (Instance != null && Instance != this)
         {
-            Debug.Log("Duplicate destroyed");
             Destroy(gameObject);
             return;
         }
@@ -24,7 +27,17 @@ public class AudioManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
-        Debug.Log("AudioManager INSTANCE CREATED");
+        if (musicSource != null)
+        {
+            musicSource.enabled = true;
+            musicSource.playOnAwake = false;
+        }
+
+        if (sfxSource != null)
+        {
+            sfxSource.enabled = true;
+            sfxSource.playOnAwake = false;
+        }
     }
 
     void Start()
@@ -44,14 +57,22 @@ public class AudioManager : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        Debug.Log("Scene: " + scene.name);
+        if (!allowSceneMusic)
+        {
+            Debug.Log("Scene music blocked");
+            return;
+        }
 
         StopAllCoroutines();
 
         if (scene.name == "Main Menu")
+        {
             PlayMainMenuMusic();
+        }
         else
+        {
             PlayGameMusic();
+        }
     }
 
     //Music
@@ -75,8 +96,31 @@ public class AudioManager : MonoBehaviour
 
     public void PlayClick()
     {
-        if (sfxSource != null && clickSound != null)
-            sfxSource.PlayOneShot(clickSound);
+        if (clickSound == null || sfxSource == null) return;
+
+        sfxSource.PlayOneShot(clickSound);
+    }
+
+    //Lyric game music
+    public void PlayLyricGameMusic()
+    {
+        Debug.Log("Lyric music triggered");
+
+        allowSceneMusic = false;
+
+        previousMusicClip = musicSource.clip;
+        PlayMusic(lyricGameMusic);
+    }
+
+    //Stops playing lyric game music and restores in-game music
+    public void RestorePreviousMusic()
+    {
+        allowSceneMusic = true;
+
+        if (previousMusicClip != null)
+            PlayMusic(previousMusicClip);
+        else
+            PlayGameMusic();
     }
 
     //Music and sounds control
@@ -89,6 +133,8 @@ public class AudioManager : MonoBehaviour
             Debug.LogError("Music clip is NULL");
             return;
         }
+
+        Debug.Log("Playing music: " + clip.name);
 
         if (musicSource == null)
         {
@@ -104,23 +150,26 @@ public class AudioManager : MonoBehaviour
 
     IEnumerator FadeMusic(AudioClip newClip)
     {
-        float startVolume = musicSource.volume;
+        float targetVolume = 1f;
 
         // fade out
-        for (float t = 0; t < 1; t += Time.deltaTime)
+        while (musicSource.volume > 0.01f)
         {
-            musicSource.volume = Mathf.Lerp(startVolume, 0, t);
+            musicSource.volume -= Time.deltaTime;
             yield return null;
         }
 
         musicSource.clip = newClip;
+        musicSource.volume = 0f;
         musicSource.Play();
 
         // fade in
-        for (float t = 0; t < 1; t += Time.deltaTime)
+        while (musicSource.volume < targetVolume)
         {
-            musicSource.volume = Mathf.Lerp(0, startVolume, t);
+            musicSource.volume += Time.deltaTime;
             yield return null;
         }
+
+        musicSource.volume = targetVolume;
     }
 }

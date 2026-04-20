@@ -44,31 +44,30 @@ public class DialogueManager : MonoBehaviour
     private Coroutine typingCoroutine;
     private string fullLineText;
 
+    public bool loadingFromSave = false;
+    private bool isTransitioning = false;
     private bool lyricsGameTriggered = false;
 
     private HashSet<int> triggeredLines = new HashSet<int>();
+    private DialogueLine currentLine;
+    public ScreenFader fader;
 
     void Start()
     {
         //Link to the lyrics game completion
         if (lyricsGame != null)
+        {
             lyricsGame.onLyricsGameComplete += HandleLyricsResult;
+        }
 
         //Check if a save should be loaded or start afresh
         if (PlayerPrefs.HasKey("DialogueIndex"))
         {
             LoadDialogueState();
+            return;
         }
-        else
-        {
+        
             StartDialogue(prologueDialogue);
-        }
-
-        currentPath = "";
-        isInChoice = false;
-        isAutoMode = false;
-        isSkipping = false;
-
     }
 
     void Update()
@@ -95,7 +94,15 @@ public class DialogueManager : MonoBehaviour
             }
             else
             {
-                DisplayNextLine();
+                //Check if this is the last line
+                if (currentIndex >= currentDialogue.lines.Count - 1)
+                {
+                    EndDialogue(); //trigger immediatly
+                }
+                else
+                {
+                    DisplayNextLine();
+                }
             }
         }
     }
@@ -119,27 +126,17 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayNextLine()
     {
-        if (isInChoice || currentDialogue == null)
-        {
+        if (isInChoice || currentDialogue == null || isTyping)
             return;
-        }
+
+        currentIndex++;
 
         if (currentIndex >= currentDialogue.lines.Count)
         {
             EndDialogue();
             return;
-        };
-
-        DialogueLine line = currentDialogue.lines[currentIndex];
-
-        if (line.triggersLyricsGame && !lyricsGameTriggered)
-        {
-            lyricsGameTriggered = true;
-            TransitionToLyricsGame();
-            return;
         }
 
-        currentIndex++;
         ShowCurrentLine();
     }
 
@@ -148,8 +145,8 @@ public class DialogueManager : MonoBehaviour
         if (currentDialogue == null || currentIndex >= currentDialogue.lines.Count)
             return;
 
-        DialogueLine line = currentDialogue.lines[currentIndex];
-
+        currentLine = currentDialogue.lines[currentIndex];
+        DialogueLine line = currentLine;
         speakerText.text = line.speakerName;
 
         if (line.choices != null && line.choices.Length > 0)
@@ -164,15 +161,39 @@ public class DialogueManager : MonoBehaviour
         }
 
         if (typingCoroutine != null)
+        {
             StopCoroutine(typingCoroutine);
+        }
+
+        //only trigger lyrics game after typing finishes
+        if (currentLine.triggersLyricsGame && !lyricsGameTriggered)
+        {
+            lyricsGameTriggered = true;
+            StartCoroutine(TriggerLyricsAfterTyping());
+        }
 
         typingCoroutine = StartCoroutine(TypeLine(line.dialogueText));
 
         if (line.characterSprite != null)
+        {
             uiManager.characterImage.sprite = line.characterSprite;
+        }
 
         if (line.background != null)
+        {
             uiManager.backgroundImage.sprite = line.background;
+        }
+    }
+
+    IEnumerator TriggerLyricsAfterTyping()
+    {
+        // wait until typing finishes
+        while (isTyping)
+            yield return null;
+
+        yield return new WaitForSeconds(0.3f);
+
+        TransitionToLyricsGame();
     }
 
     IEnumerator TypeLine(string text)
@@ -203,13 +224,20 @@ public class DialogueManager : MonoBehaviour
 
     public void TransitionToLyricsGame()
     {
+        StartCoroutine(LyricsGameTransition());
+    }
+
+    IEnumerator LyricsGameTransition()
+    {
+        yield return StartCoroutine(fader.FadeOut());
+
         isDialogueActive = false;
-        isAutoMode = false;
-        isSkipping = false;
 
         uiManager.gameObject.SetActive(false); //hide dialogue UI
         lyricsGame.lyricsUI.SetActive(true); //show lyrics UI
         lyricsGame.StartGame(lyricsGameData); //Start the game
+
+        yield return StartCoroutine(fader.FadeIn());
     }
 
     void HandleLyricsResult(int energy, int total)
@@ -217,6 +245,13 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("=== LYRICS RESULT ===");
         Debug.Log("Energy: " + energy);
         Debug.Log("Path: '" + currentPath);
+
+        StartCoroutine(ReturnFromLyrics(energy, total));
+    }
+
+    IEnumerator ReturnFromLyrics(int energy, int total)
+    {
+        yield return StartCoroutine(fader.FadeOut());
 
         isDialogueActive = true;
         uiManager.gameObject.SetActive(true);
@@ -245,12 +280,14 @@ public class DialogueManager : MonoBehaviour
                 ContinueDialogue(B_Bad);
             }
         }
+
+        yield return StartCoroutine(fader.FadeIn());
     }
 
     public void ContinueDialogue(DialogueData data)
     {
         currentDialogue = data;
-
+        lyricsGameTriggered = false;
         isDialogueActive = true;
         isInChoice = false;
         isAutoMode = false;
@@ -271,21 +308,50 @@ public class DialogueManager : MonoBehaviour
         if (isPrologue)
         {
             Debug.Log("Prologue ended, starting chapter 1");
-            StartCoroutine(StartNextDialogueDelayed());
+            StartCoroutine(HandleDialogueTransition());
             return;
         }
 
+        if (isTyping)
+        {
+           FinishLineInstantly();
+            return; //wait for next input instead of transitioning mid-typing
+        }
+
         Debug.Log("Dialogue finished");
+
         isDialogueActive = false;
         isAutoMode = false;
         isSkipping = false;
         uiManager.ClearChoices();
+
+        StartCoroutine(HandleDialogueTransition());
     }
 
-    IEnumerator StartNextDialogueDelayed()
+    IEnumerator HandleDialogueTransition()
     {
-        yield return null;
-        StartDialogue(chapter1Dialogue);
+        if (fader == null)
+        {
+            Debug.LogError("Fader not assigned!");
+            yield break;
+        }
+
+        //Fade to black
+        yield return StartCoroutine(fader.FadeOut());
+        yield return new WaitForSeconds(0.5f); //Pause while screen is black
+
+        if (isPrologue)
+        {
+            isPrologue = false;
+            StartDialogue(chapter1Dialogue); //starts chapter 1 dialogue
+        }
+        else
+        {
+            Debug.Log("No further dialogue assigned");
+        }
+
+        // Fade back in
+        yield return StartCoroutine(fader.FadeIn());
     }
 
     public void SelectChoice(DialogueChoice choice)
@@ -314,6 +380,11 @@ public class DialogueManager : MonoBehaviour
     //Rewind button
     public void Rewind()
     {
+        if (isTransitioning)
+        {
+            return;
+        }
+
         if (currentIndex > 0)
         {
             currentIndex --; // move back
