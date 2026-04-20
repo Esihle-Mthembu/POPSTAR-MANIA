@@ -165,7 +165,6 @@ public class AudioManager : MonoBehaviour
 
         if (!sfxSource.enabled || !sfxSource.gameObject.activeInHierarchy)
         {
-            Debug.LogWarning("SFX Source is disabled, skipping sound");
             return;
         }
 

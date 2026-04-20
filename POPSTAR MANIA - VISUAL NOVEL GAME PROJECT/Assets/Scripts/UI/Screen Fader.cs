@@ -24,7 +24,7 @@ public class ScreenFader : MonoBehaviour
         color.a = 0;
         fadeImage.color = color;
 
-        fadeImage.raycastTarget = false; //allows clicks aga
+        fadeImage.raycastTarget = false; //allows clicks again
 
         isTransitioning = false;  
 
