@@ -13,6 +13,7 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI dialogueText;
     public DialogueUIManager uiManager;
     public float typingSpeed = 30f;
+    public CanvasGroup speakerCanvasGroup;
 
     [Header ("Dialogue Data")]
     public DialogueData prologueDialogue;
@@ -21,7 +22,13 @@ public class DialogueManager : MonoBehaviour
 
     [Header ("Player Stats")]
     public int energyPoints;
-    public int friendshipPoints;
+    public int maxEnergy = 80;
+    public Slider energyBar;
+    public int totalEnergy = 0;
+
+    public Slider friendshipBar;
+    public int maxFriendship = 100;
+    public int friendshipPoints = 50;
 
     [Header ("Game Refernces")]
     public LyricsGameManager lyricsGame;
@@ -60,6 +67,12 @@ public class DialogueManager : MonoBehaviour
             lyricsGame.onLyricsGameComplete += HandleLyricsResult;
         }
 
+        energyBar.maxValue = maxEnergy;
+        energyBar.value = 0;
+
+        friendshipPoints = 50;
+        UpdateFriendshipBar();
+
         //Check if a save should be loaded or start afresh
         if (PlayerPrefs.HasKey("DialogueIndex"))
         {
@@ -68,6 +81,14 @@ public class DialogueManager : MonoBehaviour
         }
         
             StartDialogue(prologueDialogue);
+    }
+
+    void UpdateFriendshipBar()
+    {
+        if (friendshipBar == null) return;
+
+        friendshipBar.maxValue = maxFriendship;
+        friendshipBar.value = friendshipPoints;
     }
 
     void Update()
@@ -112,6 +133,9 @@ public class DialogueManager : MonoBehaviour
         currentDialogue = data;
         currentIndex = 0;
 
+        totalEnergy = 0;
+        UpdateEnergyBar();
+
         isDialogueActive = true;
         isPrologue = (data == prologueDialogue);
         isInChoice = false;
@@ -147,7 +171,36 @@ public class DialogueManager : MonoBehaviour
 
         currentLine = currentDialogue.lines[currentIndex];
         DialogueLine line = currentLine;
-        speakerText.text = line.speakerName;
+
+        if (string.IsNullOrEmpty(line.speakerName))
+        {
+            speakerText.text = "";
+            StartCoroutine(FadeSpeaker(0f));
+        }
+        else
+        {
+            speakerText.text = line.speakerName;
+            StartCoroutine(FadeSpeaker(1f));
+        }
+
+        IEnumerator FadeSpeaker(float targetAlpha)
+        {
+            float speed = 8f;
+
+            while (!Mathf.Approximately(speakerCanvasGroup.alpha, targetAlpha))
+            {
+                speakerCanvasGroup.alpha = Mathf.MoveTowards(
+                    speakerCanvasGroup.alpha,
+                    targetAlpha,
+                    Time.deltaTime * speed
+                );
+
+                yield return null;
+            }
+
+            speakerCanvasGroup.interactable = targetAlpha > 0;
+            speakerCanvasGroup.blocksRaycasts = targetAlpha > 0;
+        }
 
         if (line.choices != null && line.choices.Length > 0)
         {
@@ -174,11 +227,30 @@ public class DialogueManager : MonoBehaviour
 
         typingCoroutine = StartCoroutine(TypeLine(line.dialogueText));
 
+        //Character sprites
         if (line.characterSprite != null)
         {
             uiManager.characterImage.sprite = line.characterSprite;
+            uiManager.characterImage.enabled = true;
+        }
+        else
+        {
+            uiManager.characterImage.sprite = null;
+            uiManager.characterImage.enabled = false;
         }
 
+        RectTransform rt = uiManager.characterImage.rectTransform;
+
+        // default position Y for all characters
+        rt.anchoredPosition = new Vector2(rt.anchoredPosition.x, 328f);
+
+        // exception for Rose
+        if (line.characterSprite != null && line.characterSprite.name == "ROSE TEMP")
+        {
+            rt.anchoredPosition = new Vector2(rt.anchoredPosition.x, 250f);
+        }
+
+        //Background
         if (line.background != null)
         {
             uiManager.backgroundImage.sprite = line.background;
@@ -256,8 +328,27 @@ public class DialogueManager : MonoBehaviour
         isDialogueActive = true;
         uiManager.gameObject.SetActive(true);
 
+        //Energy system
+        totalEnergy += energy;
+        totalEnergy = Mathf.Clamp(totalEnergy, 0, maxEnergy);
+        UpdateEnergyBar();
+
         bool isGoodScore = (energy >= 40);
 
+        //Friendship bar system
+        if (currentPath == "A")
+        {
+            friendshipPoints -= 25;
+        }
+        else if (currentPath == "B")
+        {
+            friendshipPoints += 25;
+        }
+
+        friendshipPoints = Mathf.Clamp(friendshipPoints, 0, maxFriendship);
+        UpdateFriendshipBar();
+
+        //Branching
         if (currentPath == "A")
         {
             if (isGoodScore)
@@ -276,12 +367,20 @@ public class DialogueManager : MonoBehaviour
                 ContinueDialogue(B_Good);
             }
             else
-            {
+            { 
                 ContinueDialogue(B_Bad);
             }
         }
 
         yield return StartCoroutine(fader.FadeIn());
+    }
+
+    void UpdateEnergyBar()
+    {
+        if (energyBar == null) return;
+
+        energyBar.maxValue = maxEnergy;
+        energyBar.value = totalEnergy;
     }
 
     public void ContinueDialogue(DialogueData data)
@@ -292,10 +391,6 @@ public class DialogueManager : MonoBehaviour
         isInChoice = false;
         isAutoMode = false;
         isSkipping = false;
-
-        // DO NOT reset triggeredLines
-        // DO NOT reset currentPath
-        // DO NOT reset index to 0 blindly (unless intended)
 
         currentIndex = 0; // branches start at beginning
 
@@ -375,7 +470,17 @@ public class DialogueManager : MonoBehaviour
 
         currentPath = choice.pathTag;
 
-        Debug.Log("Choice selected Path: " + currentPath);
+        if (currentPath == "A")
+        {
+            friendshipPoints -= 25;
+        }
+        else if (currentPath == "B")
+        {
+            friendshipPoints += 25;
+        }
+
+        friendshipPoints = Mathf.Clamp(friendshipPoints, 0, maxFriendship);
+        UpdateFriendshipBar();
 
         //Go to line/branch linked to choice made
         currentIndex = choice.nextLineIndex;
@@ -492,7 +597,7 @@ public class DialogueManager : MonoBehaviour
         ShowCurrentLine();
     }
 
-    public void ToggleSettings()
+    public void OpenSettings()
     {
         if (SettingsMenu.Instance != null)
         {

@@ -157,19 +157,22 @@ public class AudioManager : MonoBehaviour
 
     public void PlayClick()
     {
-        if (clickSound == null || sfxSource == null) return;
-
-        // FORCE FIX EVERYTHING
-        sfxSource.gameObject.SetActive(true);
-        sfxSource.enabled = true;
-
-        if (!sfxSource.isActiveAndEnabled)
+        if (sfxSource == null)
         {
-            Debug.LogError("SFX STILL DISABLED AFTER FIX → something is breaking it");
+            Debug.LogError("SFX Source is NULL");
             return;
         }
 
-        sfxSource.PlayOneShot(clickSound);
+        if (!sfxSource.enabled || !sfxSource.gameObject.activeInHierarchy)
+        {
+            Debug.LogWarning("SFX Source is disabled, skipping sound");
+            return;
+        }
+
+        if (clickSound != null)
+        {
+            sfxSource.PlayOneShot(clickSound);
+        }
     }
 
     // Lyrics game music
