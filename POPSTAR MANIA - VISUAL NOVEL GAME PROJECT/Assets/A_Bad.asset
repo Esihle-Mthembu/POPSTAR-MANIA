@@ -110,5 +110,5 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
-    isEnding: 0
-    isEndOfBranch: 0
+    isEnding: 1
+    isEndOfBranch: 1

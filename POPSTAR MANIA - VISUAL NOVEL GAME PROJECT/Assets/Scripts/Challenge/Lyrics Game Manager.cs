@@ -14,7 +14,9 @@ public class LyricsGameManager : MonoBehaviour
     public System.Action<int, int> onLyricsGameComplete;
 
     int totalEnergy = 0;
-    
+
+    private string maskedLine;
+    private string[] currentFilledWords;
     public List<string> selectedWords = new List<string>();
 
     public LyricsGameData currentGame;
@@ -82,13 +84,21 @@ public class LyricsGameManager : MonoBehaviour
         Debug.Log("Index: " + currentLineIndex);
 
         LyricLines line = currentGame.lines[currentLineIndex];
+        currentFilledWords = new string[line.missingWords.Length];
 
         //reset state
         currentBlankIndex = 0;
         selectedWords.Clear();
 
         //set display
-        lyricText.text = GetMaskedLine(line);
+        maskedLine = line.fullLine;
+
+        for (int i = 0; i < line.missingWords.Length; i++)
+        {
+            maskedLine = ReplaceFirst(maskedLine, line.missingWords[i], "____");
+        }
+
+        lyricText.text = maskedLine;
 
         //Generate words
         GenerateWordBank(line);
@@ -153,30 +163,44 @@ public class LyricsGameManager : MonoBehaviour
     {
         LyricLines line = currentGame.lines[currentLineIndex];
 
-        string[] parts = lyricText.text.Split(new string[] { "____" }, StringSplitOptions.None);
+        if (currentBlankIndex >= currentFilledWords.Length)
+            return;
 
-        string rebuilt = "";
+        currentFilledWords[currentBlankIndex] = word;
+        currentBlankIndex++;
 
-        for (int i = 0; i < parts.Length; i++)
+        string result = maskedLine;
+        int searchStart = 0;
+
+        for (int i = 0; i < currentFilledWords.Length; i++)
         {
-            rebuilt += parts[i];
+            int blankIndex = result.IndexOf("____", searchStart);
 
-            if (i < currentBlankIndex)
-            {
-                rebuilt += "____"; // already filled
-            }
-            else if (i == currentBlankIndex)
-            {
-                rebuilt += word; // new fill
-            }
-            else if (i < line.missingWords.Length)
-            {
-                rebuilt += "____"; // remaining blanks
-            }
+            if (blankIndex == -1)
+                break;
+
+            string replacement = currentFilledWords[i];
+
+            if (string.IsNullOrEmpty(replacement))
+                replacement = "____";
+
+            result =
+                result.Substring(0, blankIndex) +
+                replacement +
+                result.Substring(blankIndex + 4);
+
+            searchStart = blankIndex + replacement.Length;
         }
 
-        lyricText.text = rebuilt;
-        currentBlankIndex++;
+        lyricText.text = result;
+    }
+
+    string ReplaceFirst(string text, string search, string replace)
+    {
+        int pos = text.IndexOf(search);
+        if (pos < 0) return text;
+
+        return text.Substring(0, pos) + replace + text.Substring(pos + search.Length);
     }
 
     public void OnSubmitPressed()

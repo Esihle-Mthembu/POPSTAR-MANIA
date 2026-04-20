@@ -126,7 +126,7 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayNextLine()
     {
-        if (isInChoice || currentDialogue == null || isTyping)
+        if (isInChoice || currentDialogue == null || isTyping || isTransitioning)
             return;
 
         currentIndex++;
@@ -330,6 +330,10 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator HandleDialogueTransition()
     {
+        isTransitioning = true;
+        isSkipping = false;
+        isAutoMode = false;
+
         if (fader == null)
         {
             Debug.LogError("Fader not assigned!");
@@ -352,6 +356,8 @@ public class DialogueManager : MonoBehaviour
 
         // Fade back in
         yield return StartCoroutine(fader.FadeIn());
+
+        isTransitioning = false;
     }
 
     public void SelectChoice(DialogueChoice choice)
@@ -420,6 +426,8 @@ public class DialogueManager : MonoBehaviour
     //Skip button
     public void ToggleSkip()
     {
+        if (isTransitioning) return;
+
         isSkipping = !isSkipping;
         isAutoMode = false;
 
@@ -433,6 +441,11 @@ public class DialogueManager : MonoBehaviour
     {
         while (isSkipping && isDialogueActive)
         {
+            if (isTransitioning)
+            {
+                yield break;
+            }
+
             if (isInChoice)
             {
                 isSkipping = false;
@@ -443,9 +456,11 @@ public class DialogueManager : MonoBehaviour
             {
                 FinishLineInstantly();
             }
+            else
+            {
+                DisplayNextLine();
+            }
 
-            // Pacing for skipping
-            DisplayNextLine();
             yield return new WaitForSeconds(0.25f);
         }
     }
