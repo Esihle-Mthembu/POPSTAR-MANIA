@@ -1377,7 +1377,7 @@ MonoBehaviour:
       pathTag: A
     triggersLyricsGame: 0
     isEnding: 0
-    isEndOfBranch: 0
+    isEndOfBranch: 1
   - speakerName: Yeonhee
     dialogueText: 49.6kg
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
@@ -2276,7 +2276,7 @@ MonoBehaviour:
       pathTag: B
     triggersLyricsGame: 0
     isEnding: 0
-    isEndOfBranch: 0
+    isEndOfBranch: 1
   - speakerName: Yeonhee
     dialogueText: 49.6kg
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
