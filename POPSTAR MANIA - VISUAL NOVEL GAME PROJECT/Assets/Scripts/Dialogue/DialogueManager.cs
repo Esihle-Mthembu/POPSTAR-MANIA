@@ -29,9 +29,49 @@ public class DialogueManager : MonoBehaviour
 
     private bool isAutoMode = false;
     private bool isSkipping = false;
+    private bool isInChoice = false;
+
+    void Start()
+    {
+        //Loading from saved progress
+        if (PlayerPrefs.HasKey("DialogueIndex"))
+        {
+            LoadDialogueState();
+        }
+        else
+        {
+            //Normal game start
+            StartGame();
+        }
+    }
+
+    void LoadDialogueState ()
+    {
+        currentIndex = PlayerPrefs.GetInt("DialogueIndex");
+        isPrologue = PlayerPrefs.GetInt("IsPrologue") == 1;
+
+        if (isPrologue)
+            currentDialogue = prologueDialogue;
+        else
+            currentDialogue = chapter1Dialogue;
+
+        isDialogueActive=true;
+
+        StartCoroutine(DelayedLoad()); //delays frame
+    }
+
+    IEnumerator DelayedLoad()
+    {
+        yield return null;
+        ShowCurrentLine();
+        Debug.Log("Loaded at index: " + currentIndex);
+    }
 
     public void StartGame()
     {
+        if (PlayerPrefs.HasKey("DialogueIndex"))
+            return;
+
         StartDialogue(prologueDialogue);
     }
 
@@ -42,11 +82,14 @@ public class DialogueManager : MonoBehaviour
 
         isDialogueActive = true;
 
-        DisplayNextLine();
+        ShowCurrentLine();
     }
 
     public void DisplayNextLine()
     {
+        if (isInChoice)
+            return;
+        
         currentIndex++;
 
         if (currentIndex >= currentDialogue.lines.Count)
@@ -68,6 +111,9 @@ public class DialogueManager : MonoBehaviour
         // Choices first
         if (line.choices != null && line.choices.Length > 0)
         {
+            isInChoice = true; //locks any other input 
+            isAutoMode = false;
+            isSkipping = false;
             uiManager.ShowChoices(line.choices);
             return;
         }
@@ -99,8 +145,8 @@ public class DialogueManager : MonoBehaviour
 
     public void SelectChoice(DialogueChoice choice)
     {
+        isInChoice = false; //unlocks input
         uiManager.ClearChoices(); // hide panel and choice buttons
-
         currentIndex = choice.nextLineIndex;
 
         ShowCurrentLine();
@@ -109,6 +155,9 @@ public class DialogueManager : MonoBehaviour
     void Update()
     {
         if (Keyboard.current == null)
+            return;
+
+        if (isInChoice)
             return;
 
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
@@ -191,7 +240,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (currentIndex > 0)
         {
-            currentIndex -= 2; // step back correctly
+            currentIndex -= 2; // move back
             DisplayNextLine();
         }
     }
@@ -207,6 +256,11 @@ public class DialogueManager : MonoBehaviour
             }
 
             yield return new WaitForSeconds(0.5f);
+        }
+
+        if (isInChoice)
+        {
+            yield return null;
         }
     }
 
@@ -231,6 +285,9 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator SkipDialogue()
     {
+        if (isInChoice)
+            yield return null;
+
         while (isSkipping)
         {
             if (currentDialogue == null)
@@ -246,8 +303,8 @@ public class DialogueManager : MonoBehaviour
             // Wait until typing is fully finished
             yield return new WaitUntil(() => !isTyping);
 
-            // SMALL CONTROLLED DELAY
-            yield return new WaitForSeconds(0.15f);
+            // Pacing
+            yield return new WaitForSeconds(0.25f);
 
             DisplayNextLine();
         }
@@ -256,18 +313,33 @@ public class DialogueManager : MonoBehaviour
     //Save button
     public void SaveGame()
     {
-        PlayerPrefs.SetInt("DialogueIndex", currentIndex);
+        //Allow saving during gameplay
+        if (currentDialogue == null  || !isDialogueActive)
+        {
+            Debug.Log("Cannot save right now");
+            return;
+        }
+
+        PlayerPrefs.SetInt("DialogueIndex", currentIndex); 
+        PlayerPrefs.SetInt("IsPrologue", isPrologue? 1:0);
+        PlayerPrefs.SetString("SceneName", SceneManager.GetActiveScene().name);
+
         PlayerPrefs.Save();
+
+        Debug.Log("Game Saved");
     }
 
-    //For loading saved game later
+    //For loading saved game
     public void LoadGame()
     {
-        if (PlayerPrefs.HasKey("DialogueIndex"))
+        if (!PlayerPrefs.HasKey("DialogueIndex"))
         {
-            currentIndex = PlayerPrefs.GetInt("DialogueIndex");
-            ShowCurrentLine();
+            Debug.Log("No save found");
+            return;
         }
+
+        string sceneName = PlayerPrefs.GetString("SceneName");
+        SceneManager.LoadScene(sceneName);
     }
 
     public void ToggleSettings()

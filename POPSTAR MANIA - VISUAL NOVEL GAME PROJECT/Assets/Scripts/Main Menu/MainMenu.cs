@@ -6,25 +6,24 @@ public class MainMenu : MonoBehaviour
     // Continue button
     public void ContinueGame()
     {
-        if (PlayerPrefs.HasKey("LastScene"))
+        if (PlayerPrefs.HasKey("SceneName"))
         {
-            string sceneName = PlayerPrefs.GetString("LastScene");
+            string sceneName = PlayerPrefs.GetString("SceneName");
+            Debug.Log("Loading scene:" + sceneName);
 
-            SceneManager.LoadScene("In-Game UI scene");
+            SceneManager.LoadScene(sceneName);
         }
         else
         {
-            Debug.Log("No saved game found");
+            Debug.Log("No saved game exists");
         }
     }
 
     // New Game button
     public void NewGame()
     {
-        PlayerPrefs.DeleteKey("DialogueIndex");
-
+        PlayerPrefs.DeleteAll();
         PlayerPrefs.SetString("StartDialogue", "Prologue");
-
         SceneManager.LoadScene("In-Game UI scene");
     }
 
@@ -37,14 +36,13 @@ public class MainMenu : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("SettingsMenu not found in scene!");
+            Debug.LogWarning("SettingsMenu not found in scene");
         }
     }
 
     // Exit button
     public void QuitGame()
     {
-        Debug.Log("Quit Game triggered");
         Application.Quit();
     }
 }
