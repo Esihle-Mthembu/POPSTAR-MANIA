@@ -142,8 +142,15 @@ MonoBehaviour:
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Panel member 1
-    dialogueText: "I\u2019m sorry, but parents aren\u2019t allowed in the dorms.
-      Not allowed? "
+    dialogueText: "I\u2019m sorry, but parents aren\u2019t allowed in the dorms.  "
+    characterSprite: {fileID: 0}
+    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: Dad
+    dialogueText: 'Not allowed...? '
     characterSprite: {fileID: 0}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     choices: []
@@ -251,7 +258,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: 
     dialogueText: As we walk through the hallway, I notice how quiet the company
-      is, even though we pass training rooms.
+      is, even when we passed training rooms.
     characterSprite: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
