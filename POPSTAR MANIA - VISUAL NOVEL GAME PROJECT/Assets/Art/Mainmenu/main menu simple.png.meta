@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 45b81a6f37eab0a4a8224e20e8899dc9
+guid: 41ec0665abc7a2b43a5890a9e089c162
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3635769074621194588
-    second: Tablet frame_0
+      213: 2206078872735803235
+    second: main menu simple_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tablet frame_0
+      name: main menu simple_0
       rect:
         serializedVersion: 2
-        x: 816
-        y: 735
-        width: 2509
-        height: 1709
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4ae5add2a472b8dc0800000000000000
-      internalID: -3635769074621194588
+      spriteID: 36769e3eb019d9e10800000000000000
+      internalID: 2206078872735803235
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tablet frame_0: -3635769074621194588
+      main menu simple_0: 2206078872735803235
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

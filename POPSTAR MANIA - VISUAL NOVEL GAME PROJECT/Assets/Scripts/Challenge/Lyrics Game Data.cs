@@ -1,7 +1,7 @@
 using UnityEngine;
 
-[System.Serializable]
-public class LyricsGameData
+[CreateAssetMenu(fileName = "NewLyricsDa", menuName = "Game/Lyrics Data")]
+public class LyricsGameData : ScriptableObject
 {
-    public LyricLines[] lines; 
+    public LyricLines[] lines;
 }

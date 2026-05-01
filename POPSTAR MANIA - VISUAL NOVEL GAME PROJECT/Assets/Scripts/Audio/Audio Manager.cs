@@ -8,15 +8,41 @@ public class AudioManager : MonoBehaviour
 
     public AudioSource musicSource;
     public AudioSource sfxSource;
+
     public AudioClip mainMenuMusic;
     public AudioClip gameMusic;
     public AudioClip clickSound;
+    public AudioClip lyricGameMusic;
+
+    private AudioClip previousMusicClip;
+    private bool allowSceneMusic = true;
+
+    private static bool created = false;
+    private Coroutine musicCoroutine;
+
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+    static void CreateAudioManager()
+    {
+        if (created) return;
+
+        GameObject obj = Resources.Load<GameObject>("Audio Manager");
+
+        if (obj != null)
+        {
+            Instantiate(obj);
+            created = true;
+        }
+        else
+        {
+            Debug.LogError("AudioManager prefab missing in Resources folder!");
+        }
+    }
+
 
     void Awake()
     {
         if (Instance != null && Instance != this)
         {
-            Debug.Log("Duplicate destroyed");
             Destroy(gameObject);
             return;
         }
@@ -24,7 +50,18 @@ public class AudioManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
-        Debug.Log("AudioManager INSTANCE CREATED");
+        if (musicSource != null)
+        {
+            musicSource.enabled = true;
+            musicSource.gameObject.SetActive(true);
+            musicSource.playOnAwake = false;
+        }
+
+        if (sfxSource != null)
+        {
+            sfxSource.enabled = true;
+            sfxSource.gameObject.SetActive(true);
+        }
     }
 
     void Start()
@@ -44,83 +81,119 @@ public class AudioManager : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        Debug.Log("Scene: " + scene.name);
+        if (!allowSceneMusic)
+        {
+            Debug.Log("Scene music blocked");
+            return;
+        }
 
         StopAllCoroutines();
 
         if (scene.name == "Main Menu")
+        {
             PlayMainMenuMusic();
+        }
         else
+        {
             PlayGameMusic();
+        }
+    }
+
+    void Update()
+    {
+        if (sfxSource != null && !sfxSource.enabled)
+        {
+            Debug.LogError("SFX DISABLED THIS FRAME → something is overriding it");
+        }
     }
 
     //Music
-    public void PlayMainMenuMusic()
-    {
-        PlayMusic(mainMenuMusic);
-
-        Debug.Log("Playing Main Menu Music: " + mainMenuMusic);
-    }
-
-    public void PlayGameMusic()
-    {
-        PlayMusic(gameMusic);
-    }
-
-    //SFX
-    public void PlaySFX(AudioClip clip)
-    {
-        sfxSource.PlayOneShot(clip);
-    }
-
-    public void PlayClick()
-    {
-        if (sfxSource != null && clickSound != null)
-            sfxSource.PlayOneShot(clickSound);
-    }
-
-    //Music and sounds control
-    private Coroutine musicCoroutine;
+    public void PlayMainMenuMusic() => PlayMusic(mainMenuMusic);
+    public void PlayGameMusic() => PlayMusic(gameMusic);
 
     public void PlayMusic(AudioClip clip)
     {
-        if (clip == null)
-        {
-            Debug.LogError("Music clip is NULL");
-            return;
-        }
-
-        if (musicSource == null)
-        {
-            Debug.LogError("MusicSource is NULL");
-            return;
-        }
+        if (clip == null) return;
 
         if (musicCoroutine != null)
+        {
             StopCoroutine(musicCoroutine);
+        }
 
         musicCoroutine = StartCoroutine(FadeMusic(clip));
     }
 
     IEnumerator FadeMusic(AudioClip newClip)
     {
-        float startVolume = musicSource.volume;
+        float targetVolume = 1f;
 
-        // fade out
-        for (float t = 0; t < 1; t += Time.deltaTime)
+        while (musicSource.volume > 0.01f)
         {
-            musicSource.volume = Mathf.Lerp(startVolume, 0, t);
+            musicSource.volume -= Time.deltaTime;
             yield return null;
         }
 
         musicSource.clip = newClip;
+        musicSource.volume = 0f;
         musicSource.Play();
 
-        // fade in
-        for (float t = 0; t < 1; t += Time.deltaTime)
+        while (musicSource.volume < targetVolume)
         {
-            musicSource.volume = Mathf.Lerp(0, startVolume, t);
+            musicSource.volume += Time.deltaTime;
             yield return null;
+        }
+
+        musicSource.volume = targetVolume;
+    }
+
+    // sfx
+    public void PlaySFX(AudioClip clip)
+    {
+        if (clip != null && sfxSource != null)
+        {
+            sfxSource.PlayOneShot(clip);
+        }
+    }
+
+    public void PlayClick()
+    {
+        if (sfxSource == null)
+        {
+            Debug.LogError("SFX Source is NULL");
+            return;
+        }
+
+        if (!sfxSource.enabled || !sfxSource.gameObject.activeInHierarchy)
+        {
+            return;
+        }
+
+        if (clickSound != null)
+        {
+            sfxSource.PlayOneShot(clickSound);
+        }
+    }
+
+    // Lyrics game music
+    public void PlayLyricGameMusic()
+    {
+        allowSceneMusic = false;
+
+        previousMusicClip = musicSource.clip;
+        PlayMusic(lyricGameMusic);
+    }
+
+    public void RestorePreviousMusic()
+    {
+        allowSceneMusic = true;
+
+        if (previousMusicClip != null)
+        {
+            PlayMusic(previousMusicClip);
+        }
+        else
+        {
+            PlayGameMusic();
         }
     }
 }

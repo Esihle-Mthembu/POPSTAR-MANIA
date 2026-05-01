@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b5934d95374002c4695b834a1305c2ff
+guid: aca5f181004dd0248b50c5437b81d71c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7880506514464538065
-    second: ROSE TEMP_0
+      213: 2012162728040136878
+    second: friendshipbar_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,10 +46,10 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 8
+  alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ROSE TEMP_0
+      name: friendshipbar_0
       rect:
         serializedVersion: 2
-        x: 167
-        y: 435
-        width: 1564
-        height: 2085
+        x: 71
+        y: 341
+        width: 1064
+        height: 344
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f22803be311d2a290800000000000000
-      internalID: -7880506514464538065
+      spriteID: ea00d1b1753aceb10800000000000000
+      internalID: 2012162728040136878
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ROSE TEMP_0: -7880506514464538065
+      friendshipbar_0: 2012162728040136878
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

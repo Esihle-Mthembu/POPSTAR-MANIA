@@ -13,6 +13,8 @@ public class DialogueLine
 
     public DialogueChoice[] choices;
 
+    public bool triggersLyricsGame;
+
     public bool isEnding;
     public bool isEndOfBranch;
 }

@@ -31,9 +31,11 @@ public class DialogueUIManager : MonoBehaviour
         ClearChoices();
 
         if (choicePanel != null)
+        {
             choicePanel.SetActive(true);
+        }
 
-        foreach (DialogueChoice choice in choices)
+            foreach (DialogueChoice choice in choices)
         {
             GameObject buttonObj = Instantiate(choiceButtonPrefab, choicesContainer);
 
@@ -47,7 +49,7 @@ public class DialogueUIManager : MonoBehaviour
             btn.onClick.AddListener(() =>
             {
                 dialogueManager.SelectChoice(capturedChoice);
-            });
+            } );  
         }
     }
 
