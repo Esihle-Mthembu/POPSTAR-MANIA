@@ -1244,7 +1244,7 @@ MonoBehaviour:
     dialogueText: "I hope you\u2019re all well rested and ready for practice. We\u2019ve
       decided to add another scale at the vocal practice room. Don\u2019t ask me
       why, I really tried to convince them otherwise girls, they just wouldn't budge."
-    characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -1269,7 +1269,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Manager
     dialogueText: "Xuan Mo, let\u2019s start with you. What is your weight?"
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -1311,7 +1311,7 @@ MonoBehaviour:
   - speakerName: Manager
     dialogueText: "You lied, Xuan Mo. When will you get your weight up? Fix this
       by next practice. Today I\u2019ll excuse you because we have a new trainee."
-    characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -1337,7 +1337,7 @@ MonoBehaviour:
   - speakerName: Manager
     dialogueText: "Hi Yeonhee, I\u2019m so upset these are our introductions\u2026
       but this is my job, you understand right\u2026"
-    characterSprite: {fileID: -659147528869708029, guid: 86000aeac8bf65d4a9728b164b1078bb, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -1353,7 +1353,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Manager
     dialogueText: What is your weight?
-    characterSprite: {fileID: -659147528869708029, guid: 86000aeac8bf65d4a9728b164b1078bb, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -1403,7 +1403,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Manager
     dialogueText: Hmmmm
-    characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -1420,7 +1420,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Manager
     dialogueText: "One decimal point wrong\u2026 and you need to start a diet."
-    characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -1447,7 +1447,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Manager
     dialogueText: 'Hmmmm '
-    characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -1472,7 +1472,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Manager
     dialogueText: Why did you lie to me Yeonhee?
-    characterSprite: {fileID: 5524776793167180552, guid: 6a855d3b601b2f542b033b6731d00792, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -1481,7 +1481,7 @@ MonoBehaviour:
   - speakerName: Manager
     dialogueText: "I hate liars\u2026. don't do tha again. You're close to 50kg.
       you need to start a diet immediately and get this under control.\r\n"
-    characterSprite: {fileID: 5524776793167180552, guid: 6a855d3b601b2f542b033b6731d00792, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -1539,7 +1539,7 @@ MonoBehaviour:
   - speakerName: Manager
     dialogueText: "Wow, thank you for being honest Yeonhee. But you need to start
       a diet soon, we don\u2019t want your weight to get uncontrollable."
-    characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -2143,7 +2143,7 @@ MonoBehaviour:
     dialogueText: " I hope you\u2019re all well rested and ready for practice. We\u2019ve
       decided to add another scale at the vocal practice room. Don\u2019t ask me
       why, I really tried to convince them otherwise girls, they just wouldn't budge."
-    characterSprite: {fileID: -659147528869708029, guid: 86000aeac8bf65d4a9728b164b1078bb, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -2168,7 +2168,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Manager
     dialogueText: " Xuan Mo, let\u2019s start with you. What is your weight?"
-    characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -2210,7 +2210,7 @@ MonoBehaviour:
   - speakerName: Manager
     dialogueText: "You lied, Xuan Mo. When will you get your weight up? Fix this
       by next practice. Today I\u2019ll excuse you because we have a new trainee."
-    characterSprite: {fileID: 5524776793167180552, guid: 6a855d3b601b2f542b033b6731d00792, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -2236,7 +2236,7 @@ MonoBehaviour:
   - speakerName: Manager
     dialogueText: "Hi Yeonhee, I\u2019m so upset these are our introductions\u2026
       but this is my job, you understand right\u2026"
-    characterSprite: {fileID: -659147528869708029, guid: 86000aeac8bf65d4a9728b164b1078bb, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -2252,7 +2252,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Manager
     dialogueText: What is your weight?
-    characterSprite: {fileID: -659147528869708029, guid: 86000aeac8bf65d4a9728b164b1078bb, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -2302,7 +2302,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Manager
     dialogueText: Hmmmm
-    characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -2327,7 +2327,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Manager
     dialogueText: "One decimal point wrong\u2026 and you need to start a diet."
-    characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -2360,7 +2360,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Manager
     dialogueText: Hmmmm
-    characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -2393,7 +2393,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Manager
     dialogueText: Why did you lie to me Yeonhee?
-    characterSprite: {fileID: 5524776793167180552, guid: 6a855d3b601b2f542b033b6731d00792, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -2402,7 +2402,7 @@ MonoBehaviour:
   - speakerName: Manager
     dialogueText: "I hate liars\u2026. don't do tha again. You're close to 50kg.
       you need to start a diet immediately and get this under control.\r\n"
-    characterSprite: {fileID: 5524776793167180552, guid: 6a855d3b601b2f542b033b6731d00792, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -2443,7 +2443,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Manager
     dialogueText: Hmmmm
-    characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -2468,7 +2468,7 @@ MonoBehaviour:
   - speakerName: Manager
     dialogueText: "Wow, thank you for being honest Yeonhee, but you need to start
       a diet soon, we don\u2019t want your weight to get uncontrollable.\r\n"
-    characterSprite: {fileID: -659147528869708029, guid: 86000aeac8bf65d4a9728b164b1078bb, type: 3}
+    characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
