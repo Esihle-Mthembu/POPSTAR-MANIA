@@ -2351,7 +2351,7 @@ MonoBehaviour:
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
-    dialogueText: I remembered, but that means my weight is really bad
+    dialogueText: I remembered, but that means my weight is really bad.
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
@@ -2384,7 +2384,7 @@ MonoBehaviour:
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
-    dialogueText: 49. 7 kg. I feel his glare pierce through me.
+    dialogueText: 49.7 kg. I feel his glare pierce through me.
     characterSprite: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
@@ -2400,7 +2400,7 @@ MonoBehaviour:
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Manager
-    dialogueText: "I hate liars\u2026. don't do tha again. You're close to 50kg.
+    dialogueText: "I hate liars\u2026. don't do that again. You're close to 50kg.
       you need to start a diet immediately and get this under control.\r\n"
     characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
