@@ -840,14 +840,14 @@ MonoBehaviour:
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices:
     - choiceText: "No, what\u2019s your deal with my things anyways?"
-      nextLineIndex: 97
+      nextLineIndex: 98
       pathTag: A
     - choiceText: "My mom made these for me, so I won\u2019t waste her food."
-      nextLineIndex: 97
+      nextLineIndex: 98
       pathTag: A
     - choiceText: "Oh\u2026 yeah, I get it, it\u2019s unhealthy\u2026 I\u2019ll throw
         them away, sorry. "
-      nextLineIndex: 195
+      nextLineIndex: 196
       pathTag: B
     triggersLyricsGame: 0
     isEnding: 0
@@ -2273,13 +2273,13 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices:
     - choiceText: 49.6kg
-      nextLineIndex: 261
+      nextLineIndex: 262
       pathTag: B
     - choiceText: 50kg
-      nextLineIndex: 268
+      nextLineIndex: 269
       pathTag: B
     - choiceText: 49.7kg
-      nextLineIndex: 278
+      nextLineIndex: 279
       pathTag: B
     triggersLyricsGame: 0
     isEnding: 0
