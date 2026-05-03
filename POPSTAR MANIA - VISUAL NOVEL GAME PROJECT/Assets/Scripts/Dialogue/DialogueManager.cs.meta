@@ -8,6 +8,7 @@ MonoImporter:
   - dialogueText: {instanceID: 0}
   - uiManager: {instanceID: 0}
   - speakerCanvasGroup: {instanceID: 0}
+  - musicSource: {fileID: 8895024572911200316, guid: 4e21ec8c527703843ad62dc13fb4c95f, type: 3}
   - prologueDialogue: {instanceID: 0}
   - chapter1Dialogue: {instanceID: 0}
   - energyBar: {instanceID: 0}
@@ -19,7 +20,6 @@ MonoImporter:
   - B_Good: {instanceID: 0}
   - B_Bad: {instanceID: 0}
   - fader: {instanceID: 0}
-  - musicSource: {fileID: 4171972503412401224, guid: 786763e1b699aee4cb6bcd120109a71f, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
