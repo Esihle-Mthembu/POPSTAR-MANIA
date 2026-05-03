@@ -15,7 +15,7 @@ MonoBehaviour:
   lines:
   - speakerName: Yeonhee
     dialogueText: Hi, I'm Lim Yeonhee
-    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    characterSprite: {fileID: 1619149986675519876, guid: d54b24c1170209e40b58043cd97bf145, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -23,7 +23,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: Your average student at Joesei Secondary school.
-    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    characterSprite: {fileID: 1619149986675519876, guid: d54b24c1170209e40b58043cd97bf145, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -32,7 +32,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: "I\u2019m in my third year of high school, which has been a bit
       hectic but fun."
-    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    characterSprite: {fileID: 1619149986675519876, guid: d54b24c1170209e40b58043cd97bf145, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -42,7 +42,7 @@ MonoBehaviour:
     dialogueText: "My study stream is Humanities, which my parents hated. They wanted
       me to become something \u201Creputable\u201D, but I don\u2019t really care
       about people\u2019s opinions that much.\r\n"
-    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    characterSprite: {fileID: -1467860032589906894, guid: 212e11e434295e74390194e1c27ecded, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -51,7 +51,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: "I\u2019m what you call a die hard kpop fan, but don\u2019t worry
       I'm not a Sasaeng. I just really love K-pop. "
-    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    characterSprite: {fileID: -6829835355102112517, guid: aab9ff66234ad1e469de1a128e2e2c6a, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -60,7 +60,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: I love the glitz and glamour around it, and I love watching Idols
       live their day to day lives.
-    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    characterSprite: {fileID: -6829835355102112517, guid: aab9ff66234ad1e469de1a128e2e2c6a, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -70,7 +70,7 @@ MonoBehaviour:
     dialogueText: "Sometimes it makes me wonder what my life would look like if I
       were a K-pop idol. If I had the opportunity to become one, I\u2019d immediately
       take it. No questions asked. "
-    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    characterSprite: {fileID: 1619149986675519876, guid: d54b24c1170209e40b58043cd97bf145, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -78,7 +78,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: "I just didn\u2019t expect that chance would come so soon."
-    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    characterSprite: {fileID: 1619149986675519876, guid: d54b24c1170209e40b58043cd97bf145, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -86,7 +86,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: ...anyways
-    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    characterSprite: {fileID: 1619149986675519876, guid: d54b24c1170209e40b58043cd97bf145, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -94,7 +94,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: I think their life is so much cooler compared to mine.
-    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    characterSprite: {fileID: -1487198400124374704, guid: 3c9ac8537be862545a3ee46d34754642, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -103,7 +103,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: It's not like I don't have any talent either, so I'd fit into the
       idol world pretty well.
-    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    characterSprite: {fileID: 1619149986675519876, guid: d54b24c1170209e40b58043cd97bf145, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -111,7 +111,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: ...and maybe I'll finally get to talk to my lovely Joon.
-    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    characterSprite: {fileID: 2585203182689735599, guid: 0fe29cc88344787498554b1eba60d34f, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -119,7 +119,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: Sigh...
-    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    characterSprite: {fileID: -1467860032589906894, guid: 212e11e434295e74390194e1c27ecded, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -128,7 +128,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: My routine is the same everyday. I get there early, meet up with
       my friends, and we sit together scrolling through posts from the night before.
-    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    characterSprite: {fileID: 1619149986675519876, guid: d54b24c1170209e40b58043cd97bf145, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -136,7 +136,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yuna
     dialogueText: Did you see the post about Starlight's new girl group?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 1665385273319271235, guid: 3e22a49ad32012144a494aaeb2c1bd8f, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -144,7 +144,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Ji-a
     dialogueText: Oh my God yes.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 7406668817537229220, guid: d8ccc4b0df5a89b4794a0efb331d2415, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -152,7 +152,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yuna
     dialogueText: They look so young, I was actually confused.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 1665385273319271235, guid: 3e22a49ad32012144a494aaeb2c1bd8f, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -160,7 +160,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yuna
     dialogueText: Apparently oldest one in the group is thirteen.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 1619149986675519876, guid: d54b24c1170209e40b58043cd97bf145, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -168,7 +168,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: I saw that too...but their concept looks really cool.
-    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    characterSprite: {fileID: -6829835355102112517, guid: aab9ff66234ad1e469de1a128e2e2c6a, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -177,7 +177,7 @@ MonoBehaviour:
   - speakerName: Yuna
     dialogueText: "That doesn\u2019t change the fact that they\u2019re probably getting
       exploited."
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 1665385273319271235, guid: 3e22a49ad32012144a494aaeb2c1bd8f, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -193,7 +193,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: I guess...
-    characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    characterSprite: {fileID: -1467860032589906894, guid: 212e11e434295e74390194e1c27ecded, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -1099,7 +1099,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: "\u201CAnother one signed.\u201D I pause for a second."
     characterSprite: {fileID: 0}
-    background: {fileID: -4956785061010765856, guid: bcbf879f04b3f0a4d9f9be5b822d822c, type: 3}
+    background: {fileID: 2519943634182448617, guid: c005be0bdcb12a54582fe3c904be5c6f, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1107,7 +1107,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: "\u2026but I shake it off and keep walking."
     characterSprite: {fileID: 0}
-    background: {fileID: -4956785061010765856, guid: bcbf879f04b3f0a4d9f9be5b822d822c, type: 3}
+    background: {fileID: 6003030491557586684, guid: 84d651bd655f231469c5ac32ebe32e08, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1115,7 +1115,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: All I can think about is my debut.
     characterSprite: {fileID: 0}
-    background: {fileID: -4956785061010765856, guid: bcbf879f04b3f0a4d9f9be5b822d822c, type: 3}
+    background: {fileID: 6003030491557586684, guid: 84d651bd655f231469c5ac32ebe32e08, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
