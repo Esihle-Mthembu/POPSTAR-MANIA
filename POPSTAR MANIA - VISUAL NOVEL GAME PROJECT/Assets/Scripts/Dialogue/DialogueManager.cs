@@ -14,7 +14,6 @@ public class DialogueManager : MonoBehaviour
     public DialogueUIManager uiManager;
     public float typingSpeed = 30f;
     public CanvasGroup speakerCanvasGroup;
-    public AudioSource musicSource;
 
     [Header ("Dialogue Data")]
     public DialogueData prologueDialogue;
@@ -59,6 +58,7 @@ public class DialogueManager : MonoBehaviour
     private HashSet<int> triggeredLines = new HashSet<int>();
     private DialogueLine currentLine;
     public ScreenFader fader;
+    public AudioSource musicSource;
 
     void Start()
     {
@@ -164,7 +164,6 @@ public class DialogueManager : MonoBehaviour
 
         ShowCurrentLine();
     }
-
     public void ShowCurrentLine()
     {
         if (currentDialogue == null || currentIndex >= currentDialogue.lines.Count)
@@ -213,13 +212,6 @@ public class DialogueManager : MonoBehaviour
             isInChoice = false;
             uiManager.ClearChoices();
         }
-        // Background music
-        if (line.backgroundMusic != null && musicSource.clip != line.backgroundMusic)
-        {
-            musicSource.clip = (AudioClip)line.backgroundMusic;
-            musicSource.loop = true;
-            musicSource.Play();
-        }
         if (typingCoroutine != null)
         {
             StopCoroutine(typingCoroutine);
@@ -232,9 +224,7 @@ public class DialogueManager : MonoBehaviour
             StartCoroutine(TriggerLyricsAfterTyping());
         }
 
-        typingCoroutine = StartCoroutine(TypeLine(line.dialogueText));
-
-        //Character sprites
+        // Character sprites
         if (line.characterSprite != null)
         {
             uiManager.characterImage.sprite = line.characterSprite;
@@ -262,6 +252,28 @@ public class DialogueManager : MonoBehaviour
         {
             uiManager.backgroundImage.sprite = line.background;
         }
+
+        // Background music handling
+        if (musicSource != null)
+        {
+            if (line.backgroundMusic != null)
+            {
+                if (musicSource.clip != line.backgroundMusic)
+                {
+                    musicSource.clip = (AudioClip)line.backgroundMusic;
+                    musicSource.loop = true;
+                    musicSource.Play();
+                }
+            }
+            else
+            {
+                if (musicSource.isPlaying)
+                    musicSource.Stop();
+                musicSource.clip = null;
+            }
+        }
+        // music to begin slightly before text)
+        typingCoroutine = StartCoroutine(TypeLine(line.dialogueText));
     }
 
     IEnumerator TriggerLyricsAfterTyping()

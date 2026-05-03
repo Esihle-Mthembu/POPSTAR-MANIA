@@ -7,8 +7,8 @@ public class DialogueData : ScriptableObject
 {
     public List<DialogueLine> lines;
 
-    public static implicit operator DialogueData(DialogueLine.Dialogue v)
+    public static implicit operator DialogueData(DialogueLine v)
     {
-        throw new NotImplementedException();
+       throw new NotImplementedException();
     }
 }
