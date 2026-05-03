@@ -307,7 +307,7 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
-  - speakerName: Yoenseo
+  - speakerName: Yeonseo
     dialogueText: 'Thank you, sir! '
     characterSprite: {fileID: 3710568451906137128, guid: 97f4273a34b09a84480ed3e44d03225f, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
@@ -589,7 +589,7 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
-  - speakerName: Yoenseo
+  - speakerName: Yeonseo
     dialogueText: "It means the manager doesn\u2019t get us dinner.\r\n "
     characterSprite: {fileID: 3710568451906137128, guid: 97f4273a34b09a84480ed3e44d03225f, type: 3}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
@@ -630,7 +630,7 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
-  - speakerName: Yoenseo
+  - speakerName: Yeonseo
     dialogueText: "You shouldn\u2019t have thrown your snacks away. We would\u2019ve
       had something to eat.\r\n "
     characterSprite: {fileID: 0}

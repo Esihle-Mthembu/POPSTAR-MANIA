@@ -494,8 +494,17 @@ MonoBehaviour:
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Rose
-    dialogueText: "Wow, you moved up already\u2026 congrats...\r\nShe smiles, but
-      she looks worried.\r\n"
+    dialogueText: "Wow, you moved up already\u2026 congrats...\r\n\r\n"
+    characterSprite: {fileID: 8144169554796340120, guid: feea1e1d23007f341864c62a1bd63d0f, type: 3}
+    background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: 'She smiles, but she looks worried.
+
+'
     characterSprite: {fileID: 8144169554796340120, guid: feea1e1d23007f341864c62a1bd63d0f, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
