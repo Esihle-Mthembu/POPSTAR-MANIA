@@ -14,6 +14,7 @@ public class DialogueManager : MonoBehaviour
     public DialogueUIManager uiManager;
     public float typingSpeed = 30f;
     public CanvasGroup speakerCanvasGroup;
+    public AudioSource musicSource;
 
     [Header ("Dialogue Data")]
     public DialogueData prologueDialogue;
