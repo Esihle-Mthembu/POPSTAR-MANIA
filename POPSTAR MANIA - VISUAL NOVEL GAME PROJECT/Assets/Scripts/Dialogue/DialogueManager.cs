@@ -228,27 +228,28 @@ public class DialogueManager : MonoBehaviour
         typingCoroutine = StartCoroutine(TypeLine(line.dialogueText));
 
         //Character sprites
-        if (line.characterSprite != null)
+        //Center character
+        if (line.centerCharacter != null)
         {
-            uiManager.characterImage.sprite = line.characterSprite;
-            uiManager.characterImage.enabled = true;
+            uiManager.centerCharacterImage.sprite = line.centerCharacter;
+            uiManager.centerCharacterImage.enabled = true;
         }
         else
         {
-            uiManager.characterImage.sprite = null;
-            uiManager.characterImage.enabled = false;
+            uiManager.centerCharacterImage.enabled = false;
         }
 
-        RectTransform rt = uiManager.characterImage.rectTransform;
-
-        // default position Y for all characters
-        rt.anchoredPosition = new Vector2(rt.anchoredPosition.x, 328f);
-
-        // exception for Rose
-        if (line.characterSprite != null && line.characterSprite.name == "ROSE TEMP")
+        //Left character
+        if (line.leftCharacter != null)
         {
-            rt.anchoredPosition = new Vector2(rt.anchoredPosition.x, 250f);
+            uiManager.leftCharacterImage.sprite = line.leftCharacter;
+            uiManager.leftCharacterImage.enabled = true;
         }
+        else
+        {
+            uiManager.leftCharacterImage.enabled = false;
+        }
+
 
         //Background
         if (line.background != null)

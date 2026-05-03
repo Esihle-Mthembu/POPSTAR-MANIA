@@ -8,8 +8,8 @@ public class DialogueLine
     [TextArea(3, 5)]
     public string dialogueText;
 
-    public Sprite characterSprite;
-    public Sprite characterSprite2;
+    public Sprite centerCharacter;
+    public Sprite leftCharacter;
     public Sprite background;
 
     public DialogueChoice[] choices;
