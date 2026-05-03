@@ -70,6 +70,8 @@ public class DialogueManager : MonoBehaviour
         energyBar.maxValue = maxEnergy;
         energyBar.value = 0;
 
+        friendshipBar.gameObject.SetActive(false);
+
         friendshipPoints = 50;
         UpdateFriendshipBar();
 
@@ -443,6 +445,7 @@ public class DialogueManager : MonoBehaviour
         if (isPrologue)
         {
             isPrologue = false;
+            friendshipBar.gameObject.SetActive(true);
             StartDialogue(chapter1Dialogue); //starts chapter 1 dialogue
         }
         else

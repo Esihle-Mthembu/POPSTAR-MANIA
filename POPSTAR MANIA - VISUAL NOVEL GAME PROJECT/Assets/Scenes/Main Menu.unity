@@ -3752,9 +3752,8 @@ GameObject:
   - component: {fileID: 1872649456}
   - component: {fileID: 1872649459}
   - component: {fileID: 1872649458}
-  - component: {fileID: 1872649457}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Animation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3779,28 +3778,6 @@ RectTransform:
   m_AnchoredPosition: {x: 474, y: -83}
   m_SizeDelta: {x: 950, y: 900}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &1872649457
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1872649455}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1872649458
 MonoBehaviour:
   m_ObjectHideFlags: 0
