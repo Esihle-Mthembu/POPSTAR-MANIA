@@ -11,7 +11,13 @@ public class DialogueLine
     public Sprite characterSprite;
     public Sprite characterSprite2;
     public Sprite background;
-    public AudioClip backgroundMusic;
+    [CreateAssetMenu(menuName = "Dialogue/Conversation")]
+    public class Dialogue : ScriptableObject
+    {
+        public AudioClip backgroundMusic; // background music for the scene
+        public DialogueLine[] lines;
+    }
+
 
     public DialogueChoice[] choices;
 
