@@ -9,6 +9,7 @@ public class DialogueLine
     public string dialogueText;
 
     public Sprite characterSprite;
+    public Sprite characterSprite2;
     public Sprite background;
 
     public DialogueChoice[] choices;
