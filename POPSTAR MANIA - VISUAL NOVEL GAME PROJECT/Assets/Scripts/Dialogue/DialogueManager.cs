@@ -1,11 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
-using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
-using static DialogueLine;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -150,23 +149,6 @@ public class DialogueManager : MonoBehaviour
         ShowCurrentLine();
     }
 
-    public void StartDialogue(Dialogue dialogue)
-    {
-        currentDialogue = dialogue;
-        currentIndex = 0;
-
-        // PLAY MUSIC ONCE
-        if (dialogue.backgroundMusic != null)
-        {
-            musicSource.clip = dialogue.backgroundMusic;
-            musicSource.loop = true;
-            musicSource.Play();
-        }
-
-        ShowCurrentLine();
-    }
-
-
     public void DisplayNextLine()
     {
         if (isInChoice || currentDialogue == null || isTyping || isTransitioning)
@@ -230,6 +212,13 @@ public class DialogueManager : MonoBehaviour
         {
             isInChoice = false;
             uiManager.ClearChoices();
+        }
+        // Background music
+        if (line.backgroundMusic != null && musicSource.clip != line.backgroundMusic)
+        {
+            musicSource.clip = (AudioClip)line.backgroundMusic;
+            musicSource.loop = true;
+            musicSource.Play();
         }
         if (typingCoroutine != null)
         {
