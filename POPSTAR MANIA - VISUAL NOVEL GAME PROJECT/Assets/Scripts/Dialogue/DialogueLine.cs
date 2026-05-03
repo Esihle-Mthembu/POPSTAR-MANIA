@@ -11,6 +11,7 @@ public class DialogueLine
     public Sprite characterSprite;
     public Sprite characterSprite2;
     public Sprite background;
+    public AudioClip backgroundMusic;
 
     public DialogueChoice[] choices;
 
