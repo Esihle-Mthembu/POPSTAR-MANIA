@@ -11,6 +11,8 @@ public class DialogueLine
     public Sprite centerCharacter;
     public Sprite leftCharacter;
     public Sprite background;
+    public AudioClip backgroundMusic;
+
 
     public DialogueChoice[] choices;
 
@@ -18,4 +20,8 @@ public class DialogueLine
 
     public bool isEnding;
     public bool isEndOfBranch;
+
+    internal class Dialogue
+    {
+    }
 }

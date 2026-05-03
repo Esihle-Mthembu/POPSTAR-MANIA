@@ -16,6 +16,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: "My heart is pounding\u2026 that was so difficult. "
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -26,6 +27,7 @@ MonoBehaviour:
       get the hang of it immediately. Everyone sounded so good, even with their mistakes\u2026
       and then you get me.  "
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -35,6 +37,7 @@ MonoBehaviour:
     dialogueText: 'I really need to work on my vocals. Rose sounded amazing, it was
       like hearing an angel sing. '
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -44,6 +47,7 @@ MonoBehaviour:
     dialogueText: 'All the girls sit together on the couch while the manager and
       trainer talk on the other side of the room. '
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -54,6 +58,7 @@ MonoBehaviour:
       looking my way. I hope they don\u2019t kick me out, I wouldn\u2019t blame them
       if they did. "
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -63,6 +68,7 @@ MonoBehaviour:
     dialogueText: 'But to my surprise, Cheomni is sitting alone on the other side
       of the room. She glances at me, then looks back at the wall. '
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -72,6 +78,7 @@ MonoBehaviour:
     dialogueText: "Something about that glance\u2026 It makes me feel uncomfortable.
       But maybe I\u2019m just overthinking it. "
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -82,6 +89,7 @@ MonoBehaviour:
       the trainer yelling at everyone\u2026 he\u2019s not as chill as I thought he\u2019d
       be. "
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -91,6 +99,7 @@ MonoBehaviour:
     dialogueText: "I feel really bad for Xuan Mo though\u2026 he wouldn\u2019t get
       off her back. Maybe I should check on her. "
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -99,6 +108,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: "Hey Xuan Mo, are you okay? You\u2019re sweating a lot."
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -107,6 +117,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: 'Xuan Mo looks at me and sighs. '
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -115,6 +126,7 @@ MonoBehaviour:
   - speakerName: Xuan Mo
     dialogueText: "I\u2019m fine."
     characterSprite: {fileID: -4993665844154305365, guid: 96ad9891f1f529b48a0dcc07ec4a3699, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -123,6 +135,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: "Okay\u2026 I was just worried. You seem a bit out of it.\r\n"
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -131,6 +144,7 @@ MonoBehaviour:
   - speakerName: Xuan Mo
     dialogueText: You should worry about yourself here.
     characterSprite: {fileID: -4993665844154305365, guid: 96ad9891f1f529b48a0dcc07ec4a3699, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -140,6 +154,7 @@ MonoBehaviour:
     dialogueText: "Well damn\u2026 I guess this is why nobody talks to her. She makes
       it really difficult\u2026 but I\u2019ll still try.\r\n"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -148,6 +163,7 @@ MonoBehaviour:
   - speakerName: Cheomni
     dialogueText: "Leave her. She\u2019s always like this. "
     characterSprite: {fileID: -4401470024306267142, guid: d506e3f48419c3e40b4896ab187b6aa8, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -156,6 +172,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: The room goes quiet.
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -165,6 +182,7 @@ MonoBehaviour:
     dialogueText: "Cheomni stares at me before speaking, like she\u2019s choosing
       her words.\r\n"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -174,6 +192,7 @@ MonoBehaviour:
     dialogueText: "Your performance was questionable, but I guess it wasn\u2019t
       that bad\u2026"
     characterSprite: {fileID: -3804725813404836229, guid: e8b4aca2d0bb63441a517f33b4bb08db, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -182,6 +201,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: "That didn\u2019t feel like a compliment\u2026"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -190,6 +210,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: "Haahh\u2026 thanks."
     characterSprite: {fileID: 21300000, guid: a090f9038118e2b438ca74ee833dc040, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -201,6 +222,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -209,6 +231,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: "Again\u2026 Why is it always me?\r\nAt least he broke the silence\u2026"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -217,6 +240,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: "Sorry\u2026"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -227,6 +251,7 @@ MonoBehaviour:
       too soft on some of you\u2026 I don\u2019t know what happened, but today\u2019s
       performance was absolutely ridiculous.\r\n"
     characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -237,6 +262,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -249,6 +275,7 @@ MonoBehaviour:
       to talk about this ridiculous performance next time. I\u2019ll create a separate
       schedule for you to practice outside of training hours. You need it.\r\n"
     characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -259,6 +286,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -268,6 +296,7 @@ MonoBehaviour:
     dialogueText: "What\u2019s her deal anyway?\r\nThis is actually so embarrassing\u2026
       he didn\u2019t have to be that harsh.\r\n"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -279,6 +308,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -289,6 +319,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -300,6 +331,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -310,6 +342,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -320,6 +353,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -330,6 +364,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: 3710568451906137128, guid: 97f4273a34b09a84480ed3e44d03225f, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -338,6 +373,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: The trainer pauses, then looks at Cheomni.
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -348,6 +384,7 @@ MonoBehaviour:
       scolded. She\u2019s been on her high horse since I got here\u2026 and she made
       the most mistakes out of everyone."
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -359,6 +396,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: -659147528869708029, guid: 86000aeac8bf65d4a9728b164b1078bb, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -367,6 +405,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: "What? That\u2019s not fair\u2026 she messed up the most.\r\n"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -376,6 +415,7 @@ MonoBehaviour:
     dialogueText: "Evaluations are over. Fix what I told you. I don\u2019t want to
       hear these mistakes again.\r\n"
     characterSprite: {fileID: 6121007346395178146, guid: ad8de605440848744b9279c8af5a42ec, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -388,6 +428,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -398,6 +439,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: -940302146551054430, guid: 253367ba33b50fb489b55d76ff4dcdf5, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -407,6 +449,7 @@ MonoBehaviour:
     dialogueText: "He looks calm\u2026 but I can literally see a vein popping on
       his forehead.\r\nWhat\u2019s wrong with him?\r\n"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -415,6 +458,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: We all start heading back to the dorm.
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -425,6 +469,7 @@ MonoBehaviour:
       It feels like we\u2019re forming a closer bond\u2026 It makes today feel a
       little less torturous.\r\n"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -433,6 +478,7 @@ MonoBehaviour:
   - speakerName: Rose
     dialogueText: " Well\u2026 I guess we\u2019re sleeping early today.\r\n"
     characterSprite: {fileID: -6858754614078135604, guid: d6f06dbadcf5cbf45b24c4822263d881, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -441,6 +487,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: Why?
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -449,6 +496,7 @@ MonoBehaviour:
   - speakerName: Yeonseo
     dialogueText: "You\u2019ll see.\r\n"
     characterSprite: {fileID: 259250072186136524, guid: 940f103f1cec95f40b3b56ba1f7257ba, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -458,6 +506,7 @@ MonoBehaviour:
     dialogueText: "I can\u2019t stop thinking about Rose\u2019s voice\u2026 I barely
       even hear the conversation.\r\n"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -467,6 +516,7 @@ MonoBehaviour:
     dialogueText: "Uh\u2026 Rose\u2026 I think you have a really beautiful voice.
       I want to sing like you someday.\r\n"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -477,6 +527,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -486,6 +537,7 @@ MonoBehaviour:
     dialogueText: "Your opinion doesn\u2019t really matter here. If you want to succeed,
       listen to the trainers\u2026 not Rose.\r\n"
     characterSprite: {fileID: -2836248283056200641, guid: 62519d04df26a2943ac54f5b626a8768, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -494,6 +546,7 @@ MonoBehaviour:
   - speakerName: Yeonseo
     dialogueText: "I guess that didn\u2019t work out for you today though.\r\n"
     characterSprite: {fileID: 259250072186136524, guid: 940f103f1cec95f40b3b56ba1f7257ba, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -503,6 +556,7 @@ MonoBehaviour:
     dialogueText: "Cheomni\u2019s expression tightens, but she says nothing and walks
       ahead. There\u2019s so much tension here\u2026\r\n"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -511,6 +565,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: Back at the dorm, everyone gathers around to check their scoreboards.
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -536,6 +591,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -546,6 +602,7 @@ MonoBehaviour:
       need to work harder.\r\nRose moved up two tiers. Just a few hours ago we were
       right next to each other.\r\n"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -554,6 +611,7 @@ MonoBehaviour:
   - speakerName: Rose
     dialogueText: "Don\u2019t worry about the scores today, you did your best."
     characterSprite: {fileID: 3254459400706888806, guid: da20eefe19db33146bc34407c83f621b, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -562,6 +620,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: "That\u2019s easy for you to say\u2026"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -570,6 +629,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: Thank you.
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -579,6 +639,7 @@ MonoBehaviour:
     dialogueText: "Despite everything\u2026 I\u2019m actually proud of myself for
       making it through that challenge. Even if my evaluation was bad.\r\n"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -587,6 +648,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: "I can\u2019t wait to see what tomorrow brings."
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -595,6 +657,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: "But first\u2026 I need food. I\u2019m starving.\r\n"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -607,6 +670,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -615,6 +679,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: "Uh\u2026 when do we eat?"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -623,6 +688,7 @@ MonoBehaviour:
   - speakerName: Cheomni
     dialogueText: " We didn\u2019t do well today."
     characterSprite: {fileID: -3804725813404836229, guid: e8b4aca2d0bb63441a517f33b4bb08db, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -631,6 +697,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: What does that have to do with anything?
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -639,6 +706,7 @@ MonoBehaviour:
   - speakerName: Yeonseo
     dialogueText: "It means the manager doesn\u2019t get us dinner."
     characterSprite: {fileID: 3710568451906137128, guid: 97f4273a34b09a84480ed3e44d03225f, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -648,6 +716,7 @@ MonoBehaviour:
     dialogueText: "What? That\u2019s insane. Xuan Mo looks like she\u2019s about
       to pass out\u2026 everyone worked so hard\u2026 and they punish us with food?\r\n"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -658,6 +727,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -666,6 +736,7 @@ MonoBehaviour:
   - speakerName: Xuan Mo
     dialogueText: "It\u2019s allowed. It\u2019s in the contract.\r\n"
     characterSprite: {fileID: 6185051109599072717, guid: f0d8f8b59b458e947857615dd86d5aec, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -674,6 +745,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: "Oh\u2026 I didn\u2019t read that.\r\n"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -684,6 +756,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: 3710568451906137128, guid: 97f4273a34b09a84480ed3e44d03225f, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -692,6 +765,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: Yeah, I do. We can eat that for dinner.
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -705,6 +779,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -713,6 +788,7 @@ MonoBehaviour:
   - speakerName: Cheomni
     dialogueText: "We\u2019ll survive without food. We always do.\r\n"
     characterSprite: {fileID: -3804725813404836229, guid: e8b4aca2d0bb63441a517f33b4bb08db, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -721,6 +797,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: Always...?
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -729,6 +806,7 @@ MonoBehaviour:
   - speakerName: Cheomni
     dialogueText: "I\u2019m not eating that junk."
     characterSprite: {fileID: -4401470024306267142, guid: d506e3f48419c3e40b4896ab187b6aa8, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -737,6 +815,7 @@ MonoBehaviour:
   - speakerName: Yeonseo
     dialogueText: "That\u2019s great then, more for us.\r\n"
     characterSprite: {fileID: 259250072186136524, guid: 940f103f1cec95f40b3b56ba1f7257ba, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -745,6 +824,7 @@ MonoBehaviour:
   - speakerName: Xuan Mo
     dialogueText: "I won\u2019t eat it either.\r\n"
     characterSprite: {fileID: -6880266814933170578, guid: 10e683ed8ec352f4bb01269bb7c38ed5, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -756,6 +836,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: -3010291779803771545, guid: adebd26fbf6e45b4593ad724d1f55ff4, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -764,6 +845,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: The room goes tense again.
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -773,6 +855,7 @@ MonoBehaviour:
     dialogueText: "My mom didn\u2019t pack that much\u2026 we\u2019ll just share
       the tteokbokki and have one bibimbap each.\r\n"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -781,6 +864,7 @@ MonoBehaviour:
   - speakerName: Rose
     dialogueText: "Ouu, I\u2019m so hungry\u2026 let\u2019s eat.\r\n"
     characterSprite: {fileID: 3254459400706888806, guid: da20eefe19db33146bc34407c83f621b, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -791,6 +875,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -800,6 +885,7 @@ MonoBehaviour:
     dialogueText: "I won\u2019t be having these snacks every day.\r\nI guess this
       really is my life now\u2026 I need to work harder.\r\n"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -809,6 +895,7 @@ MonoBehaviour:
     dialogueText: "This is actually so good\u2026 I haven\u2019t had food like this
       in a while.\r\n"
     characterSprite: {fileID: 306043529983101377, guid: 187588ad4efb9d043807673889cdeaab, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -817,6 +904,7 @@ MonoBehaviour:
   - speakerName: Xuan Mo
     dialogueText: Yeah.
     characterSprite: {fileID: 6185051109599072717, guid: f0d8f8b59b458e947857615dd86d5aec, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -825,6 +913,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: What do you guys usually eat?
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -833,6 +922,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: Everyone goes silent.
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -841,6 +931,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: Do these people even eat?
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -852,6 +943,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: 259250072186136524, guid: 940f103f1cec95f40b3b56ba1f7257ba, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -860,6 +952,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: Xuan Mo nods.
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -869,6 +962,7 @@ MonoBehaviour:
     dialogueText: "Yeah, they were really good\u2026 but we need to get rid of the
       evidence.\r\n"
     characterSprite: {fileID: 8144169554796340120, guid: feea1e1d23007f341864c62a1bd63d0f, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -877,6 +971,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: Why?
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -885,6 +980,7 @@ MonoBehaviour:
   - speakerName: Rose
     dialogueText: "He shouldn\u2019t know that we ate without his permission.\r\n"
     characterSprite: {fileID: 8144169554796340120, guid: feea1e1d23007f341864c62a1bd63d0f, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -893,6 +989,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: Huh?
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -901,6 +998,7 @@ MonoBehaviour:
   - speakerName: Yeonseo
     dialogueText: "Let\u2019s just throw it out once we\u2019re done and go to sleep.\r\n"
     characterSprite: {fileID: 3710568451906137128, guid: 97f4273a34b09a84480ed3e44d03225f, type: 3}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -910,6 +1008,7 @@ MonoBehaviour:
     dialogueText: "We all help each other clean up and throw everything away. It
       makes me feel uneasy\u2026 Why do I have to hide the fact that I ate?\r\n\r\n"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -923,6 +1022,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -931,6 +1031,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: Yoenseo goes straight to bed. I follow her.
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -942,6 +1043,7 @@ MonoBehaviour:
 
       What''s that...?'
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -952,6 +1054,7 @@ MonoBehaviour:
 
 '
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -960,6 +1063,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: "Oh\u2026 I got a message.\r\n"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -968,6 +1072,7 @@ MonoBehaviour:
   - speakerName: Anonymous
     dialogueText: Leave while you still can.
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -976,6 +1081,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: "\u201CLeave while you still can\u201D?"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -985,6 +1091,7 @@ MonoBehaviour:
     dialogueText: "Lol\u2026 What a childish way to scare competition. I\u2019m going
       to sleep.\r\n\r\n"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -993,6 +1100,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: "\u2026but what if\u2026\r\n"
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: 2519943634182448617, guid: c005be0bdcb12a54582fe3c904be5c6f, type: 3}
     choices: []
     triggersLyricsGame: 0
@@ -1001,6 +1109,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: "Ugh\u2026 never mind."
     characterSprite: {fileID: 0}
+    characterSprite2: {fileID: 0}
     background: {fileID: -4956785061010765856, guid: bcbf879f04b3f0a4d9f9be5b822d822c, type: 3}
     choices: []
     triggersLyricsGame: 0

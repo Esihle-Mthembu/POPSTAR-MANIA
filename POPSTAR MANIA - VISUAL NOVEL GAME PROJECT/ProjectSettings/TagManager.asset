@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -34,12 +34,42 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - over background
   - 
   - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: over background
+    uniqueID: 3841635101
+    locked: 0
+  - name: New Layer 2
+    uniqueID: 2680569997
+    locked: 0
+  - name: New Layer 3
+    uniqueID: 2466629049
+    locked: 0
+  - name: New Layer 4
+    uniqueID: 441921963
+    locked: 0
+  - name: New Layer 5
+    uniqueID: 4191376715
+    locked: 0
+  - name: New Layer 6
+    uniqueID: 2193672843
+    locked: 0
+  - name: New Layer 7
+    uniqueID: 3637674309
+    locked: 0
+  - name: New Layer 8
+    uniqueID: 1045966395
+    locked: 0
+  - name: New Layer 9
+    uniqueID: 3109409861
+    locked: 0
+  - name: over background
+    uniqueID: 1981670907
     locked: 0
   m_RenderingLayers:
   - Default
@@ -50,27 +80,3 @@ TagManager:
   - Light Layer 5
   - Light Layer 6
   - Light Layer 7
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 

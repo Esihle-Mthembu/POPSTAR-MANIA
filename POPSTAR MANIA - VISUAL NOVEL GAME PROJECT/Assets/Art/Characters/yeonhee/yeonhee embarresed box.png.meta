@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-guid: 672834c6367cb09479a5a058f283430e
+guid: ae9b7bc6af97eb14eadaeb20607ae147
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5900824165912128370
-    second: yeonhee angry box_0
+      213: -2391013221063869328
+    second: yeonhee embarresed box_0
   - first:
-      213: -8558832632867365642
-    second: yeonhee angry box_1
+      213: 616007359210896308
+    second: yeonhee embarresed box_1
   - first:
-      213: -1430124884947266762
-    second: yeonhee angry box_2
-  - first:
-      213: -416989893406868506
-    second: yeonhee angry box_3
-  - first:
-      213: 7726006012272528980
-    second: yeonhee angry box_4
-  - first:
-      213: -7287458952996652606
-    second: yeonhee angry box_5
+      213: -8807826666731460953
+    second: yeonhee embarresed box_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: yeonhee angry box_0
+      name: yeonhee embarresed box_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 164
-        width: 487
-        height: 532
+        x: 144
+        y: 478
+        width: 430
+        height: 453
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27bab33a050f3e150800000000000000
-      internalID: 5900824165912128370
+      spriteID: 07cb931c42a61ded0800000000000000
+      internalID: -2391013221063869328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: yeonhee angry box_1
+      name: yeonhee embarresed box_1
       rect:
         serializedVersion: 2
-        x: 629
-        y: 444
-        width: 60
-        height: 14
+        x: 690
+        y: 717
+        width: 52
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6fc5be9211be83980800000000000000
-      internalID: -8558832632867365642
+      spriteID: 4bbbac0fd6f7c8800800000000000000
+      internalID: 616007359210896308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: yeonhee angry box_2
+      name: yeonhee embarresed box_2
       rect:
         serializedVersion: 2
-        x: 218
-        y: 331
-        width: 6
-        height: 15
+        x: 311
+        y: 478
+        width: 66
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,74 +165,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 63395488efc272ce0800000000000000
-      internalID: -1430124884947266762
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yeonhee angry box_3
-      rect:
-        serializedVersion: 2
-        x: 490
-        y: 331
-        width: 8
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6eb3e88b6ed863af0800000000000000
-      internalID: -416989893406868506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yeonhee angry box_4
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 164
-        width: 72
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 45e4906b889483b60800000000000000
-      internalID: 7726006012272528980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yeonhee angry box_5
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 9
-        width: 50
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c9f46f51bebdda90800000000000000
-      internalID: -7287458952996652606
+      spriteID: 7a6224eff4054c580800000000000000
+      internalID: -8807826666731460953
       vertices: []
       indices: 
       edges: []
@@ -260,12 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      yeonhee angry box_0: 5900824165912128370
-      yeonhee angry box_1: -8558832632867365642
-      yeonhee angry box_2: -1430124884947266762
-      yeonhee angry box_3: -416989893406868506
-      yeonhee angry box_4: 7726006012272528980
-      yeonhee angry box_5: -7287458952996652606
+      yeonhee embarresed box_0: -2391013221063869328
+      yeonhee embarresed box_1: 616007359210896308
+      yeonhee embarresed box_2: -8807826666731460953
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

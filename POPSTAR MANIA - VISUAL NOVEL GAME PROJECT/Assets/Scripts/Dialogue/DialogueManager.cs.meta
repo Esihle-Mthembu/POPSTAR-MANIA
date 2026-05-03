@@ -1,2 +1,27 @@
 fileFormatVersion: 2
 guid: d7e971336b9628f4ca8eede133897f37
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - speakerText: {instanceID: 0}
+  - dialogueText: {instanceID: 0}
+  - uiManager: {instanceID: 0}
+  - speakerCanvasGroup: {instanceID: 0}
+  - prologueDialogue: {instanceID: 0}
+  - chapter1Dialogue: {instanceID: 0}
+  - energyBar: {instanceID: 0}
+  - friendshipBar: {instanceID: 0}
+  - lyricsGame: {instanceID: 0}
+  - lyricsGameData: {instanceID: 0}
+  - A_Good: {instanceID: 0}
+  - A_Bad: {instanceID: 0}
+  - B_Good: {instanceID: 0}
+  - B_Bad: {instanceID: 0}
+  - fader: {instanceID: 0}
+  - musicSource: {fileID: 4171972503412401224, guid: 786763e1b699aee4cb6bcd120109a71f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
