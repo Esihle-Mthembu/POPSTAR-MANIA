@@ -14,6 +14,7 @@ public class DialogueManager : MonoBehaviour
     public DialogueUIManager uiManager;
     public float typingSpeed = 30f;
     public CanvasGroup speakerCanvasGroup;
+    public AudioSource musicSource;
 
     [Header ("Dialogue Data")]
     public DialogueData prologueDialogue;
@@ -212,7 +213,13 @@ public class DialogueManager : MonoBehaviour
             isInChoice = false;
             uiManager.ClearChoices();
         }
-
+        // Background music
+        if (line.backgroundMusic != null && musicSource.clip != line.backgroundMusic)
+        {
+            musicSource.clip = (AudioClip)line.backgroundMusic;
+            musicSource.loop = true;
+            musicSource.Play();
+        }
         if (typingCoroutine != null)
         {
             StopCoroutine(typingCoroutine);
