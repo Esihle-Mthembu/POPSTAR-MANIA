@@ -11,6 +11,7 @@ public class AudioManager : MonoBehaviour
 
     public AudioClip mainMenuMusic;
     public AudioClip gameMusic;
+    public AudioClip gameMusic2;
     public AudioClip clickSound;
     public AudioClip lyricGameMusic;
 
