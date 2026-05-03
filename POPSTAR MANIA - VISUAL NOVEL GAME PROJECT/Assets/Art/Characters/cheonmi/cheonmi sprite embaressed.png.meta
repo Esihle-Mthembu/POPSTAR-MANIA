@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: f873f44a005a41648be5fe1e13d65a88
+guid: 8b94e6f4046ad2646ab59ca6769bd79b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4892683488605231937
-    second: classroom final_0
+      213: -3643508263575307295
+    second: cheonmi sprite embaressed_0
+  - first:
+      213: -145773988314750115
+    second: cheonmi sprite embaressed_1
+  - first:
+      213: 3397483107828241481
+    second: cheonmi sprite embaressed_2
+  - first:
+      213: 9142958611898284259
+    second: cheonmi sprite embaressed_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: classroom final_0
+      name: cheonmi sprite embaressed_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 379
+        y: 935
+        width: 17
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb424472a42b91cb0800000000000000
-      internalID: -4892683488605231937
+      spriteID: 1ebb465d988af6dc0800000000000000
+      internalID: -3643508263575307295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheonmi sprite embaressed_1
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 988
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53e109745b1afdf0800000000000000
+      internalID: -145773988314750115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheonmi sprite embaressed_2
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 952
+        width: 37
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9441e7cc2e8462f20800000000000000
+      internalID: 3397483107828241481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheonmi sprite embaressed_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 601
+        height: 951
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8bb428a6052ee70800000000000000
+      internalID: 9142958611898284259
       vertices: []
       indices: 
       edges: []
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      classroom final_0: -4892683488605231937
+      cheonmi sprite embaressed_0: -3643508263575307295
+      cheonmi sprite embaressed_1: -145773988314750115
+      cheonmi sprite embaressed_2: 3397483107828241481
+      cheonmi sprite embaressed_3: 9142958611898284259
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

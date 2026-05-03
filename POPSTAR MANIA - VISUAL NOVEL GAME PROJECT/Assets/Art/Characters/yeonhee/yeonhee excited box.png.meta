@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: f873f44a005a41648be5fe1e13d65a88
+guid: aab9ff66234ad1e469de1a128e2e2c6a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4892683488605231937
-    second: classroom final_0
+      213: -6829835355102112517
+    second: yeonhee excited box_0
+  - first:
+      213: 1731833245734997197
+    second: yeonhee excited box_1
+  - first:
+      213: 3204957016213754384
+    second: yeonhee excited box_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: classroom final_0
+      name: yeonhee excited box_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 201
+        y: 167
+        width: 281
+        height: 345
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb424472a42b91cb0800000000000000
-      internalID: -4892683488605231937
+      spriteID: bf41cb83eec8731a0800000000000000
+      internalID: -6829835355102112517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeonhee excited box_1
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 451
+        width: 60
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc0f3e4925b80810800000000000000
+      internalID: 1731833245734997197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeonhee excited box_2
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 167
+        width: 74
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01211d7fc6b4a7c20800000000000000
+      internalID: 3204957016213754384
       vertices: []
       indices: 
       edges: []
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      classroom final_0: -4892683488605231937
+      yeonhee excited box_0: -6829835355102112517
+      yeonhee excited box_1: 1731833245734997197
+      yeonhee excited box_2: 3204957016213754384
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

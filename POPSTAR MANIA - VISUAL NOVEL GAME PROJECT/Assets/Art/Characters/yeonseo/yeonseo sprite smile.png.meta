@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: f873f44a005a41648be5fe1e13d65a88
+guid: 940f103f1cec95f40b3b56ba1f7257ba
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4892683488605231937
-    second: classroom final_0
+      213: 1087780636786523416
+    second: yeonseo sprite smile_0
+  - first:
+      213: 259250072186136524
+    second: yeonseo sprite smile_1
+  - first:
+      213: -5309917996771144685
+    second: yeonseo sprite smile_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: classroom final_0
+      name: yeonseo sprite smile_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 1011
+        y: 1562
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb424472a42b91cb0800000000000000
-      internalID: -4892683488605231937
+      spriteID: 81d7531d9b2981f00800000000000000
+      internalID: 1087780636786523416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeonseo sprite smile_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 0
+        width: 565
+        height: 1201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc726ac219a099300800000000000000
+      internalID: 259250072186136524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeonseo sprite smile_2
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 761
+        width: 7
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c800017b16f46b0800000000000000
+      internalID: -5309917996771144685
       vertices: []
       indices: 
       edges: []
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      classroom final_0: -4892683488605231937
+      yeonseo sprite smile_0: 1087780636786523416
+      yeonseo sprite smile_1: 259250072186136524
+      yeonseo sprite smile_2: -5309917996771144685
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

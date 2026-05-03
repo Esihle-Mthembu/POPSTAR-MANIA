@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f873f44a005a41648be5fe1e13d65a88
+guid: da20eefe19db33146bc34407c83f621b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4892683488605231937
-    second: classroom final_0
+      213: 3254459400706888806
+    second: rose sprite neutral_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: classroom final_0
+      name: rose sprite neutral_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 195
         y: 0
-        width: 1920
-        height: 1080
+        width: 599
+        height: 923
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb424472a42b91cb0800000000000000
-      internalID: -4892683488605231937
+      spriteID: 664901305992a2d20800000000000000
+      internalID: 3254459400706888806
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      classroom final_0: -4892683488605231937
+      rose sprite neutral_0: 3254459400706888806
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

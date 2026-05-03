@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: f873f44a005a41648be5fe1e13d65a88
+guid: 212e11e434295e74390194e1c27ecded
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4892683488605231937
-    second: classroom final_0
+      213: -1467860032589906894
+    second: yeonhee annoyed box_0
+  - first:
+      213: -7134934062760714598
+    second: yeonhee annoyed box_1
+  - first:
+      213: -4281602883514822852
+    second: yeonhee annoyed box_2
+  - first:
+      213: -2258799703194957018
+    second: yeonhee annoyed box_3
+  - first:
+      213: 8473753278782973029
+    second: yeonhee annoyed box_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: classroom final_0
+      name: yeonhee annoyed box_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 207
+        y: 167
+        width: 279
+        height: 341
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +127,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb424472a42b91cb0800000000000000
-      internalID: -4892683488605231937
+      spriteID: 23c3c71d31d11abe0800000000000000
+      internalID: -1467860032589906894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeonhee annoyed box_1
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 446
+        width: 62
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e105db54f9bfc90800000000000000
+      internalID: -7134934062760714598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeonhee annoyed box_2
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 351
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f8fc2ccd0b494c0800000000000000
+      internalID: -4281602883514822852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeonhee annoyed box_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 325
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b8e4833a127a0e0800000000000000
+      internalID: -2258799703194957018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeonhee annoyed box_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 167
+        width: 75
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564292016b1d89570800000000000000
+      internalID: 8473753278782973029
       vertices: []
       indices: 
       edges: []
@@ -135,7 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      classroom final_0: -4892683488605231937
+      yeonhee annoyed box_0: -1467860032589906894
+      yeonhee annoyed box_1: -7134934062760714598
+      yeonhee annoyed box_2: -4281602883514822852
+      yeonhee annoyed box_3: -2258799703194957018
+      yeonhee annoyed box_4: 8473753278782973029
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

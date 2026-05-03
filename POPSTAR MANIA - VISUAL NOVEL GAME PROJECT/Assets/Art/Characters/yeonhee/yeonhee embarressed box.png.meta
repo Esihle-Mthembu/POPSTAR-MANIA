@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: f873f44a005a41648be5fe1e13d65a88
+guid: 3c9ac8537be862545a3ee46d34754642
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4892683488605231937
-    second: classroom final_0
+      213: -1487198400124374704
+    second: yeonhee embarressed box_0
+  - first:
+      213: -8191452186724183562
+    second: yeonhee embarressed box_1
+  - first:
+      213: -3929708223521697841
+    second: yeonhee embarressed box_2
+  - first:
+      213: 5726316364027951653
+    second: yeonhee embarressed box_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: classroom final_0
+      name: yeonhee embarressed box_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 6
+        y: 16
+        width: 560
+        height: 677
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb424472a42b91cb0800000000000000
-      internalID: -4892683488605231937
+      spriteID: 051be024fe86c5be0800000000000000
+      internalID: -1487198400124374704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeonhee embarressed box_1
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 440
+        width: 58
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f155b7e2ad125e80800000000000000
+      internalID: -8191452186724183562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeonhee embarressed box_2
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 344
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcfce02f03fd679c0800000000000000
+      internalID: -3929708223521697841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeonhee embarressed box_3
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 168
+        width: 70
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a746dc466f77f40800000000000000
+      internalID: 5726316364027951653
       vertices: []
       indices: 
       edges: []
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      classroom final_0: -4892683488605231937
+      yeonhee embarressed box_0: -1487198400124374704
+      yeonhee embarressed box_1: -8191452186724183562
+      yeonhee embarressed box_2: -3929708223521697841
+      yeonhee embarressed box_3: 5726316364027951653
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f873f44a005a41648be5fe1e13d65a88
+guid: dd785a3a96357094b80cc761b92aa1a0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4892683488605231937
-    second: classroom final_0
+      213: -1764975603679984787
+    second: rose sprite shock, awkward_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: classroom final_0
+      name: rose sprite shock, awkward_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 195
         y: 0
-        width: 1920
-        height: 1080
+        width: 599
+        height: 923
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb424472a42b91cb0800000000000000
-      internalID: -4892683488605231937
+      spriteID: d638c692a0c8187e0800000000000000
+      internalID: -1764975603679984787
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      classroom final_0: -4892683488605231937
+      rose sprite shock, awkward_0: -1764975603679984787
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
