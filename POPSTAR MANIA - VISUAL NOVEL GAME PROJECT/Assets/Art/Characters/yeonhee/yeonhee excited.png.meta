@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: aab9ff66234ad1e469de1a128e2e2c6a
+guid: 78c47421a9ae9bf40bf32e527a2111c8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6829835355102112517
-    second: yeonhee excited box_0
+      213: -5867927365513398566
+    second: yeonhee excited_0
   - first:
-      213: 1731833245734997197
-    second: yeonhee excited box_1
+      213: 8055702617308846849
+    second: yeonhee excited_1
   - first:
-      213: 3204957016213754384
-    second: yeonhee excited box_2
+      213: -855534304886694456
+    second: yeonhee excited_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: yeonhee excited box_0
+      name: yeonhee excited_0
       rect:
         serializedVersion: 2
-        x: 201
-        y: 167
-        width: 281
-        height: 345
+        x: 627
+        y: 778
+        width: 244
+        height: 295
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf41cb83eec8731a0800000000000000
-      internalID: -6829835355102112517
+      spriteID: ad6b7c2962fe09ea0800000000000000
+      internalID: -5867927365513398566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: yeonhee excited box_1
+      name: yeonhee excited_1
       rect:
         serializedVersion: 2
-        x: 613
-        y: 451
-        width: 60
-        height: 14
+        x: 985
+        y: 1020
+        width: 52
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcc0f3e4925b80810800000000000000
-      internalID: 1731833245734997197
+      spriteID: 10bd0e879da9bcf60800000000000000
+      internalID: 8055702617308846849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: yeonhee excited box_2
+      name: yeonhee excited_2
       rect:
         serializedVersion: 2
-        x: 182
-        y: 167
-        width: 74
-        height: 76
+        x: 611
+        y: 778
+        width: 64
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,8 +165,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01211d7fc6b4a7c20800000000000000
-      internalID: 3204957016213754384
+      spriteID: 8cd511025188024f0800000000000000
+      internalID: -855534304886694456
       vertices: []
       indices: 
       edges: []
@@ -185,9 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      yeonhee excited box_0: -6829835355102112517
-      yeonhee excited box_1: 1731833245734997197
-      yeonhee excited box_2: 3204957016213754384
+      yeonhee excited_0: -5867927365513398566
+      yeonhee excited_1: 8055702617308846849
+      yeonhee excited_2: -855534304886694456
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
