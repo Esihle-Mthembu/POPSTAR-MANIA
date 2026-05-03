@@ -151,8 +151,8 @@ MonoBehaviour:
   nameText: {fileID: 612078078}
   dialogueText: {fileID: 1328459434}
   backgroundImage: {fileID: 1669005946}
-  characterImage: {fileID: 1175316754}
-  characterImage2: {fileID: 1538101542}
+  centerCharacterImage: {fileID: 1175316754}
+  leftCharacterImage: {fileID: 1538101542}
   choicePanel: {fileID: 980714112}
   choiceButtonPrefab: {fileID: 6155727267924834740, guid: b86ec702b546feb4d90a655dbbc661a2, type: 3}
   choicesContainer: {fileID: 88658912}
@@ -520,7 +520,7 @@ GameObject:
   - component: {fileID: 124713362}
   - component: {fileID: 124713361}
   m_Layer: 5
-  m_Name: 'Character Background '
+  m_Name: 'Center Character Background '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3079,7 +3079,7 @@ GameObject:
   - component: {fileID: 997008686}
   - component: {fileID: 997008685}
   m_Layer: 5
-  m_Name: Character Background 2
+  m_Name: Left Character Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3462,7 +3462,7 @@ GameObject:
   - component: {fileID: 1175316755}
   - component: {fileID: 1175316754}
   m_Layer: 5
-  m_Name: CharacterSprite
+  m_Name: CenterCharacterSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4366,7 +4366,7 @@ GameObject:
   - component: {fileID: 1538101543}
   - component: {fileID: 1538101542}
   m_Layer: 5
-  m_Name: CharacterSprite2
+  m_Name: LeftCharacterSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

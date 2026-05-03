@@ -7,8 +7,8 @@ public class DialogueUIManager : MonoBehaviour
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
     public Image backgroundImage;
-    public Image characterImage;
-    public Image characterImage2;
+    public Image centerCharacterImage;
+    public Image leftCharacterImage;
 
     public GameObject choicePanel;
     public GameObject choiceButtonPrefab;
