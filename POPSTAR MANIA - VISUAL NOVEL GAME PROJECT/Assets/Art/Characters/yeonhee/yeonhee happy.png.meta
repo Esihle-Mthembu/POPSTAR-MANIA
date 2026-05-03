@@ -1,31 +1,19 @@
 fileFormatVersion: 2
-guid: 1b5f2498aaf6db64691b565b1541dff7
+guid: 076f54596326e96429313c316798cdc1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -170939260069016897
-    second: yeonhee confused box_0
+      213: 7590766953066725419
+    second: yeonhee happy_0
   - first:
-      213: 8253684284666622054
-    second: yeonhee confused box_1
+      213: -2729612492205121066
+    second: yeonhee happy_1
   - first:
-      213: 2820747236592659319
-    second: yeonhee confused box_2
+      213: -6934661094483504298
+    second: yeonhee happy_2
   - first:
-      213: 1503549548158066022
-    second: yeonhee confused box_3
-  - first:
-      213: 5298312480491194661
-    second: yeonhee confused box_4
-  - first:
-      213: -5186927467309339099
-    second: yeonhee confused box_5
-  - first:
-      213: -111889673747542982
-    second: yeonhee confused box_6
-  - first:
-      213: 5398382306932776464
-    second: yeonhee confused box_7
+      213: 6221133138015496857
+    second: yeonhee happy_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: yeonhee confused box_0
+      name: yeonhee happy_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 436
-        width: 231
-        height: 221
+        x: 328
+        y: 654
+        width: 324
+        height: 426
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fba0b6d06a3b0adf0800000000000000
-      internalID: -170939260069016897
+      spriteID: b2001528352d75960800000000000000
+      internalID: 7590766953066725419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: yeonhee confused box_1
+      name: yeonhee happy_1
       rect:
         serializedVersion: 2
-        x: 202
-        y: 170
-        width: 272
-        height: 305
+        x: 529
+        y: 1008
+        width: 47
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,85 +146,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66037c3802afa8270800000000000000
-      internalID: 8253684284666622054
+      spriteID: 6d125a386e77e1ad0800000000000000
+      internalID: -2729612492205121066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: yeonhee confused box_2
+      name: yeonhee happy_2
       rect:
         serializedVersion: 2
-        x: 287
-        y: 471
-        width: 19
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 77b254eaaae452720800000000000000
-      internalID: 2820747236592659319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yeonhee confused box_3
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 456
-        width: 35
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 66d1920195eadd410800000000000000
-      internalID: 1503549548158066022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yeonhee confused box_4
-      rect:
-        serializedVersion: 2
-        x: 436
-        y: 414
-        width: 38
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 52942bc1123678940800000000000000
-      internalID: 5298312480491194661
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yeonhee confused box_5
-      rect:
-        serializedVersion: 2
-        x: 603
-        y: 415
-        width: 58
+        x: 684
+        y: 1020
+        width: 52
         height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -246,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52e6f4333f45408b0800000000000000
-      internalID: -5186927467309339099
+      spriteID: 653d699d97223cf90800000000000000
+      internalID: -6934661094483504298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: yeonhee confused box_6
+      name: yeonhee happy_3
       rect:
         serializedVersion: 2
-        x: 466
-        y: 314
-        width: 9
-        height: 11
+        x: 312
+        y: 778
+        width: 64
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,30 +190,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3c4e3e3fec727ef0800000000000000
-      internalID: -111889673747542982
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yeonhee confused box_7
-      rect:
-        serializedVersion: 2
-        x: 184
-        y: 170
-        width: 69
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 01e5b763b18eaea40800000000000000
-      internalID: 5398382306932776464
+      spriteID: 99a23d7c0a7e55650800000000000000
+      internalID: 6221133138015496857
       vertices: []
       indices: 
       edges: []
@@ -310,14 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      yeonhee confused box_0: -170939260069016897
-      yeonhee confused box_1: 8253684284666622054
-      yeonhee confused box_2: 2820747236592659319
-      yeonhee confused box_3: 1503549548158066022
-      yeonhee confused box_4: 5298312480491194661
-      yeonhee confused box_5: -5186927467309339099
-      yeonhee confused box_6: -111889673747542982
-      yeonhee confused box_7: 5398382306932776464
+      yeonhee happy_0: 7590766953066725419
+      yeonhee happy_1: -2729612492205121066
+      yeonhee happy_2: -6934661094483504298
+      yeonhee happy_3: 6221133138015496857
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

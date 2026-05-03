@@ -1,19 +1,16 @@
 fileFormatVersion: 2
-guid: d54b24c1170209e40b58043cd97bf145
+guid: 8edf79ed21d6a4141901691248326945
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1619149986675519876
-    second: yeonhee neutral box_0
+      213: -6968717702289906063
+    second: yeonhee embarresed_0
   - first:
-      213: 7279455548487369562
-    second: yeonhee neutral box_1
+      213: -1707078494505722782
+    second: yeonhee embarresed_1
   - first:
-      213: 9196965809893107287
-    second: yeonhee neutral box_2
-  - first:
-      213: -7366458178124580734
-    second: yeonhee neutral box_3
+      213: -8977421005179116013
+    second: yeonhee embarresed_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,57 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: yeonhee neutral box_0
+      name: yeonhee embarresed_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 560
-        height: 690
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4817fd19550687610800000000000000
-      internalID: 1619149986675519876
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yeonhee neutral box_1
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 452
-        width: 57
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a5306ddc042d50560800000000000000
-      internalID: 7279455548487369562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yeonhee neutral box_2
-      rect:
-        serializedVersion: 2
-        x: 203
-        y: 342
+        x: 48
+        y: 1535
         width: 7
-        height: 14
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 756671e2daf22af70800000000000000
-      internalID: 9196965809893107287
+      spriteID: 176a80feb242a4f90800000000000000
+      internalID: -6968717702289906063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: yeonhee neutral box_3
+      name: yeonhee embarresed_1
       rect:
         serializedVersion: 2
-        x: 185
-        y: 170
-        width: 71
-        height: 80
+        x: 375
+        y: 0
+        width: 800
+        height: 1204
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,8 +143,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 288fc10f05515c990800000000000000
-      internalID: -7366458178124580734
+      spriteID: 26c174b572d3f48e0800000000000000
+      internalID: -1707078494505722782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeonhee embarresed_2
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1093
+        width: 100
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3162b23092bc96380800000000000000
+      internalID: -8977421005179116013
       vertices: []
       indices: 
       edges: []
@@ -210,10 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      yeonhee neutral box_0: 1619149986675519876
-      yeonhee neutral box_1: 7279455548487369562
-      yeonhee neutral box_2: 9196965809893107287
-      yeonhee neutral box_3: -7366458178124580734
+      yeonhee embarresed_0: -6968717702289906063
+      yeonhee embarresed_1: -1707078494505722782
+      yeonhee embarresed_2: -8977421005179116013
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
