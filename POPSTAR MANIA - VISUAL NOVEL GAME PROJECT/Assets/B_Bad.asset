@@ -952,7 +952,7 @@ MonoBehaviour:
     dialogueText: "Ugh\u2026 never mind. "
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -4956785061010765856, guid: bcbf879f04b3f0a4d9f9be5b822d822c, type: 3}
+    background: {fileID: 6003030491557586684, guid: 84d651bd655f231469c5ac32ebe32e08, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
     triggersLyricsGame: 0
