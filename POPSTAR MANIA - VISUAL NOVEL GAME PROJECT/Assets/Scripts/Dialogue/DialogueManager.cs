@@ -67,10 +67,62 @@ public class DialogueManager : MonoBehaviour
             lyricsGame.onLyricsGameComplete += HandleLyricsResult;
         }
 
-        energyBar.maxValue = maxEnergy;
-        energyBar.value = 0;
+        // --- Safety: ensure sliders are assigned to avoid NullReferenceException ---
+        if (energyBar == null)
+        {
+            // try common name first
+            var go = GameObject.Find("EnergyBar");
+            if (go != null) energyBar = go.GetComponent<Slider>();
 
-        friendshipBar.gameObject.SetActive(false);
+            // fallback to first Slider in the scene (use new API)
+            if (energyBar == null)
+            {
+                energyBar = Object.FindFirstObjectByType<Slider>();
+            }
+
+            if (energyBar == null)
+            {
+                Debug.LogWarning("DialogueManager: 'energyBar' not assigned in inspector and none found in scene. Assign it in the inspector.");
+            }
+        }
+
+        if (energyBar != null)
+        {
+            energyBar.maxValue = maxEnergy;
+            energyBar.value = 0;
+        }
+
+        // friendshipBar may be optional at start; try to auto-assign similarly
+        if (friendshipBar == null)
+        {
+            var go = GameObject.Find("FriendshipBar");
+            if (go != null) friendshipBar = go.GetComponent<Slider>();
+
+            if (friendshipBar == null)
+            {
+                // pick a different Slider than energyBar if possible
+                // use new API to get all sliders (include inactive, don't sort for performance)
+                var sliders = Object.FindObjectsByType<Slider>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+                foreach (var s in sliders)
+                {
+                    if (s != energyBar)
+                    {
+                        friendshipBar = s;
+                        break;
+                    }
+                }
+            }
+
+            if (friendshipBar == null)
+            {
+                Debug.LogWarning("DialogueManager: 'friendshipBar' not assigned in inspector and none found in scene. Some UI features will remain hidden.");
+            }
+        }
+
+        if (friendshipBar != null)
+        {
+            friendshipBar.gameObject.SetActive(false);
+        }
 
         friendshipPoints = 50;
         UpdateFriendshipBar();
@@ -173,7 +225,7 @@ public class DialogueManager : MonoBehaviour
         currentLine = currentDialogue.lines[currentIndex];
         DialogueLine line = currentLine;
 
-        // connect to MusicManager to play or stop BGM according to the current line
+        //connecting to music manager to play BGM if specified in the line
         MusicManager music = Object.FindFirstObjectByType<MusicManager>();
 
         if (music != null)
@@ -184,7 +236,6 @@ public class DialogueManager : MonoBehaviour
             }
             else
             {
-                // If the current line has no bgm assigned, stop music.
                 music.StopMusic();
             }
         }
