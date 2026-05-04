@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 5b77b766a4cc4b4468e60d261abf3fb1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2782427567677548978
+    second: yeonhee_sprite_sheet_2_png_0
+  - first:
+      213: 3256592255767684973
+    second: yeonhee_sprite_sheet_2_png_1
+  - first:
+      213: 7710097622445903465
+    second: yeonhee_sprite_sheet_2_png_2
+  - first:
+      213: 48348712469464845
+    second: yeonhee_sprite_sheet_2_png_3
+  - first:
+      213: 5046849299632595194
+    second: yeonhee_sprite_sheet_2_png_4
+  - first:
+      213: 8429743225484241250
+    second: yeonhee_sprite_sheet_2_png_5
+  - first:
+      213: 3093315623163145330
+    second: yeonhee_sprite_sheet_2_png_6
+  - first:
+      213: -5467041533095188184
+    second: yeonhee_sprite_sheet_2_png_7
+  - first:
+      213: -2368077481295403288
+    second: yeonhee_sprite_sheet_2_png_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yeonhee_sprite_sheet_2_png_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 178
+        width: 439
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9aca0812b2d9620800000000000000
+      internalID: 2782427567677548978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeonhee_sprite_sheet_2_png_1
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1014
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d672257076db13d20800000000000000
+      internalID: 3256592255767684973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeonhee_sprite_sheet_2_png_2
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 178
+        width: 634
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ec87110f4cffa60800000000000000
+      internalID: 7710097622445903465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeonhee_sprite_sheet_2_png_3
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 805
+        width: 56
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d070718d5e4cba000800000000000000
+      internalID: 48348712469464845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeonhee_sprite_sheet_2_png_4
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 178
+        width: 439
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0a78bd2b20a0640800000000000000
+      internalID: 5046849299632595194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeonhee_sprite_sheet_2_png_5
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 805
+        width: 56
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2696eb60dc67cf470800000000000000
+      internalID: 8429743225484241250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeonhee_sprite_sheet_2_png_6
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 801
+        width: 57
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c2ec09b2aadea20800000000000000
+      internalID: 3093315623163145330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeonhee_sprite_sheet_2_png_7
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 178
+        width: 439
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829ed87f0ba2124b0800000000000000
+      internalID: -5467041533095188184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeonhee_sprite_sheet_2_png_8
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 805
+        width: 56
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e629cec316e22fd0800000000000000
+      internalID: -2368077481295403288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      yeonhee_sprite_sheet_2_png_0: 2782427567677548978
+      yeonhee_sprite_sheet_2_png_1: 3256592255767684973
+      yeonhee_sprite_sheet_2_png_2: 7710097622445903465
+      yeonhee_sprite_sheet_2_png_3: 48348712469464845
+      yeonhee_sprite_sheet_2_png_4: 5046849299632595194
+      yeonhee_sprite_sheet_2_png_5: 8429743225484241250
+      yeonhee_sprite_sheet_2_png_6: 3093315623163145330
+      yeonhee_sprite_sheet_2_png_7: -5467041533095188184
+      yeonhee_sprite_sheet_2_png_8: -2368077481295403288
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

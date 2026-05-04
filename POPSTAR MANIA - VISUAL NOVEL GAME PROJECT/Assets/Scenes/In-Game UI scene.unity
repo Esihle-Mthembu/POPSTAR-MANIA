@@ -4979,7 +4979,7 @@ GameObject:
   - component: {fileID: 1935451655}
   - component: {fileID: 1935451654}
   - component: {fileID: 1935451653}
-  m_Layer: 6
+  m_Layer: 4
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5256,7 +5256,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.91515154, b: 0.85849047, a: 1}
+      maxColor: {r: 0.9245283, g: 0.78772265, b: 0.70066446, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -10220,5 +10220,5 @@ SceneRoots:
   - {fileID: 1939080925}
   - {fileID: 950265133}
   - {fileID: 6706362}
-  - {fileID: 1440375924}
   - {fileID: 1935451655}
+  - {fileID: 1440375924}
