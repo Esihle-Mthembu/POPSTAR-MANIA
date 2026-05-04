@@ -225,7 +225,7 @@ public class DialogueManager : MonoBehaviour
         currentLine = currentDialogue.lines[currentIndex];
         DialogueLine line = currentLine;
 
-        //connecting to music manager to play BGM if specified in the line
+        // connect to MusicManager to play or stop BGM according to the current line
         MusicManager music = Object.FindFirstObjectByType<MusicManager>();
 
         if (music != null)
@@ -236,6 +236,7 @@ public class DialogueManager : MonoBehaviour
             }
             else
             {
+                // If the current line has no bgm assigned, stop music.
                 music.StopMusic();
             }
         }
