@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class SettingsMenu : MonoBehaviour
 {
@@ -11,12 +12,11 @@ public class SettingsMenu : MonoBehaviour
     public Slider musicSlider;
     public Slider sfxSlider;
 
-    public AudioSource musicSource;
-    public AudioSource sfxSource;
+    public AudioMixer audioMixer;
 
     void Awake()
     {
-        if (Instance != null)
+        if (Instance == null)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
@@ -27,31 +27,31 @@ public class SettingsMenu : MonoBehaviour
         }
     }
 
+    void Start()
+    {
+        //Set default values
+        SetMasterVolume(masterSlider.value);
+        SetMusicVolume(musicSlider.value);
+        SetSFXVolume(sfxSlider.value);
+    }
+
     public void SetMasterVolume(float value)
     {
-        AudioListener.volume = value;
+        audioMixer.SetFloat("MasterVolume", Mathf.Log10(value) * 20);
     }
 
     public void SetMusicVolume(float value)
     {
-        if (musicSource != null)
-        {
-            musicSource.volume = value;
-        }
+        audioMixer.SetFloat("MusicVolume", Mathf.Log10(value) * 20);
     }
 
     public void SetSFXVolume(float value)
     {
-        if (sfxSource != null)
-        {
-            sfxSource.volume = value;
-        }
+        audioMixer.SetFloat("SFXVolume", Mathf.Log10(value) * 20);
     }
 
     public void ToggleSettings()
     {
-        Debug.Log("Settings button clicked");
-
         settingsPanel.SetActive(!settingsPanel.activeSelf);
     }
 

@@ -1,2 +1,19 @@
 fileFormatVersion: 2
 guid: e885c7ac78eee7e4987ca74ca4dffe83
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - musicManager: {instanceID: 0}
+  - lyricalChallengeMusic: {fileID: 8300000, guid: fa5dabd6b532e3b42870f9f607d004ff, type: 3}
+  - lyricText: {instanceID: 0}
+  - wordBankPanel: {instanceID: 0}
+  - wordButtonPrefab: {instanceID: 0}
+  - energyBar: {instanceID: 0}
+  - currentGame: {instanceID: 0}
+  - lyricsUI: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
