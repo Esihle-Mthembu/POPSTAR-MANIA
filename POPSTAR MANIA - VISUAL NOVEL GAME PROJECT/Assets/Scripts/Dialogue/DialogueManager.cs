@@ -14,7 +14,6 @@ public class DialogueManager : MonoBehaviour
     public DialogueUIManager uiManager;
     public float typingSpeed = 30f;
     public CanvasGroup speakerCanvasGroup;
-    public AudioSource musicSource;
 
     [Header ("Dialogue Data")]
     public DialogueData prologueDialogue;
@@ -62,7 +61,7 @@ public class DialogueManager : MonoBehaviour
 
     void Start()
     {
-        //Link to the lyrics game completion
+        // Link to the lyrics game completion
         if (lyricsGame != null)
         {
             lyricsGame.onLyricsGameComplete += HandleLyricsResult;
@@ -76,14 +75,14 @@ public class DialogueManager : MonoBehaviour
         friendshipPoints = 50;
         UpdateFriendshipBar();
 
-        //Check if a save should be loaded or start afresh
+        // Check if a save should be loaded or start afresh
         if (PlayerPrefs.HasKey("DialogueIndex"))
         {
             LoadDialogueState();
             return;
         }
         
-            StartDialogue(prologueDialogue);
+        StartDialogue(prologueDialogue);
     }
 
     void UpdateFriendshipBar()
@@ -99,7 +98,7 @@ public class DialogueManager : MonoBehaviour
         if (isInChoice || !isDialogueActive)
             return;
 
-        //Spacekey input
+        // Spacekey input
         bool spacePressed = false;
         if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame)
         {
@@ -108,7 +107,7 @@ public class DialogueManager : MonoBehaviour
         
         if (spacePressed)
         {
-            //Disable auto or skip when pressing space key
+            // Disable auto or skip when pressing space key
             isAutoMode = false;
             isSkipping = false;
 
@@ -118,10 +117,10 @@ public class DialogueManager : MonoBehaviour
             }
             else
             {
-                //Check if this is the last line
+                // Check if this is the last line
                 if (currentIndex >= currentDialogue.lines.Count - 1)
                 {
-                    EndDialogue(); //trigger immediatly
+                    EndDialogue(); // trigger immediatly
                 }
                 else
                 {
@@ -150,7 +149,6 @@ public class DialogueManager : MonoBehaviour
 
         ShowCurrentLine();
     }
-
     public void DisplayNextLine()
     {
         if (isInChoice || currentDialogue == null || isTyping || isTransitioning)
@@ -174,6 +172,16 @@ public class DialogueManager : MonoBehaviour
 
         currentLine = currentDialogue.lines[currentIndex];
         DialogueLine line = currentLine;
+
+        //connecting to music manager to play BGM if specified in the line
+        MusicManager music = Object.FindFirstObjectByType<MusicManager>();
+
+        if (music != null && line.backgroundMusic != null)
+        {
+            music.PlayMusic(line.backgroundMusic);
+        }
+
+        // The MusicManager.PlayMusic(...) above handles the AudioSource internally.
 
         if (string.IsNullOrEmpty(line.speakerName))
         {
@@ -221,7 +229,7 @@ public class DialogueManager : MonoBehaviour
             StopCoroutine(typingCoroutine);
         }
 
-        //only trigger lyrics game after typing finishes
+        // only trigger lyrics game after typing finishes
         if (currentLine.triggersLyricsGame && !lyricsGameTriggered)
         {
             lyricsGameTriggered = true;
@@ -230,8 +238,8 @@ public class DialogueManager : MonoBehaviour
 
         typingCoroutine = StartCoroutine(TypeLine(line.dialogueText));
 
-        //Character sprites
-        //Center character
+        // Character sprites
+        // Center character
         if (line.centerCharacter != null)
         {
             uiManager.centerCharacterImage.sprite = line.centerCharacter;
@@ -242,7 +250,7 @@ public class DialogueManager : MonoBehaviour
             uiManager.centerCharacterImage.enabled = false;
         }
 
-        //Left character
+        // Left character
         if (line.leftCharacter != null)
         {
             uiManager.leftCharacterImage.sprite = line.leftCharacter;
@@ -254,7 +262,7 @@ public class DialogueManager : MonoBehaviour
         }
 
 
-        //Background
+        // Background
         if (line.background != null)
         {
             uiManager.backgroundImage.sprite = line.background;
@@ -309,9 +317,9 @@ public class DialogueManager : MonoBehaviour
 
         isDialogueActive = false;
 
-        uiManager.gameObject.SetActive(false); //hide dialogue UI
-        lyricsGame.lyricsUI.SetActive(true); //show lyrics UI
-        lyricsGame.StartGame(lyricsGameData); //Start the game
+        uiManager.gameObject.SetActive(false); // hide dialogue UI
+        lyricsGame.lyricsUI.SetActive(true); // show lyrics UI
+        lyricsGame.StartGame(lyricsGameData); // Start the game
 
         yield return StartCoroutine(fader.FadeIn());
     }
@@ -332,14 +340,14 @@ public class DialogueManager : MonoBehaviour
         isDialogueActive = true;
         uiManager.gameObject.SetActive(true);
 
-        //Energy system
+        // Energy system
         totalEnergy += energy;
         totalEnergy = Mathf.Clamp(totalEnergy, 0, maxEnergy);
         UpdateEnergyBar();
 
         bool isGoodScore = (energy >= 40);
 
-        //Friendship bar system
+        // Friendship bar system
         if (currentPath == "A")
         {
             friendshipPoints -= 25;
@@ -352,7 +360,7 @@ public class DialogueManager : MonoBehaviour
         friendshipPoints = Mathf.Clamp(friendshipPoints, 0, maxFriendship);
         UpdateFriendshipBar();
 
-        //Branching
+        // Branching
         if (currentPath == "A")
         {
             if (isGoodScore)
@@ -403,7 +411,7 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
-        //Check if prologue is done
+        // Check if prologue is done
         if (isPrologue)
         {
             Debug.Log("Prologue ended, starting chapter 1");
@@ -414,7 +422,7 @@ public class DialogueManager : MonoBehaviour
         if (isTyping)
         {
            FinishLineInstantly();
-            return; //wait for next input instead of transitioning mid-typing
+            return; // wait for next input instead of transitioning mid-typing
         }
 
         Debug.Log("Dialogue finished");
@@ -439,15 +447,15 @@ public class DialogueManager : MonoBehaviour
             yield break;
         }
 
-        //Fade to black
+        // Fade to black
         yield return StartCoroutine(fader.FadeOut());
-        yield return new WaitForSeconds(0.5f); //Pause while screen is black
+        yield return new WaitForSeconds(0.5f); // Pause while screen is black
 
         if (isPrologue)
         {
             isPrologue = false;
             friendshipBar.gameObject.SetActive(true);
-            StartDialogue(chapter1Dialogue); //starts chapter 1 dialogue
+            StartDialogue(chapter1Dialogue); // starts chapter 1 dialogue
         }
         else
         {
@@ -487,13 +495,13 @@ public class DialogueManager : MonoBehaviour
         friendshipPoints = Mathf.Clamp(friendshipPoints, 0, maxFriendship);
         UpdateFriendshipBar();
 
-        //Go to line/branch linked to choice made
+        // Go to line/branch linked to choice made
         currentIndex = choice.nextLineIndex;
         ShowCurrentLine();
     }
 
-    //IN-GAME MENU BUTTONS
-    //Rewind button
+    // IN-GAME MENU BUTTONS
+    // Rewind button
     public void Rewind()
     {
         if (isTransitioning)
@@ -508,7 +516,7 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    //Auto button
+    // Auto button
     public void ToggleAuto()
     {
         isAutoMode = !isAutoMode;
@@ -533,7 +541,7 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    //Skip button
+    // Skip button
     public void ToggleSkip()
     {
         if (isTransitioning) return;
@@ -575,10 +583,10 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    //Save button
+    // Save button
     public void SaveGame()
     {
-        //Allow saving during gameplay
+        // Allow saving during gameplay
         if (currentDialogue == null  || !isDialogueActive)
         {
             return;
@@ -592,7 +600,7 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("Game Saved");
     }
 
-    //For loading saved game
+    // For loading saved game
     public void LoadDialogueState()
     {
         currentIndex = PlayerPrefs.GetInt("DialogueIndex");
@@ -610,7 +618,7 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    //Exit button
+    // Exit button
     public void ReturnToMainMenu()
     {
         SceneManager.LoadScene("Main Menu");
