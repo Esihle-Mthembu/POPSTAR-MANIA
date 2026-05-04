@@ -18,7 +18,7 @@ MonoBehaviour:
     centerCharacter: {fileID: -1631877924923921634, guid: cf5274285e8a37147953f5f31936e469, type: 3}
     leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
-    backgroundMusic: {fileID: 8300000, guid: 47527101779b7c04b9ec350d85eeb70f, type: 3}
+    backgroundMusic: {fileID: 0}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -299,7 +299,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 74b0cc6959fab6a468db8547054644b2, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -371,7 +371,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: dfafae5a8d4aa134dbd105bbda04c5ef, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
