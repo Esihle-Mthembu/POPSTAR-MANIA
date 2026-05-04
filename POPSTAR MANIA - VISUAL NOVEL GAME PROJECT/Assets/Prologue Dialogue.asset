@@ -146,7 +146,7 @@ MonoBehaviour:
     centerCharacter: {fileID: -1631877924923921634, guid: cf5274285e8a37147953f5f31936e469, type: 3}
     leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 74b0cc6959fab6a468db8547054644b2, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -526,7 +526,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 23f7bbed64ba80f44823666cf16aba3e, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -536,7 +536,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -546,7 +546,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -556,7 +556,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -566,7 +566,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -576,7 +576,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 7340835281543649793, guid: cf5274285e8a37147953f5f31936e469, type: 3}
     leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -606,7 +606,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -616,7 +616,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 67defcbe9d07b8043acadbd25f1a8604, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -647,7 +647,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4d14401aba15a3840b1103a3d764d828, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -828,17 +828,17 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
-    dialogueText: 'The teacher slams his pen against the desk.  '
+    dialogueText: 'The teacher slams his book against the desk.  '
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 23f7bbed64ba80f44823666cf16aba3e, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -868,7 +868,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 74b0cc6959fab6a468db8547054644b2, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1133,7 +1133,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 1bc368b78f898dd4a825e53722b8fe37, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1315,7 +1315,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 1a76d5d6d1e87d946b24349950ffee88, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
