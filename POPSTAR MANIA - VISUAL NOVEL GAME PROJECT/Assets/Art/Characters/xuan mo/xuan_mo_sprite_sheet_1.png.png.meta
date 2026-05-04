@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 9c90e2963e488bb42990a62282eb1c4a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3733078794275326864
+    second: xuan_mo_sprite_sheet_1.png_0
+  - first:
+      213: 2591134814749565841
+    second: xuan_mo_sprite_sheet_1.png_1
+  - first:
+      213: -6107991666331228532
+    second: xuan_mo_sprite_sheet_1.png_2
+  - first:
+      213: 7443013512173814148
+    second: xuan_mo_sprite_sheet_1.png_3
+  - first:
+      213: 785981627654020557
+    second: xuan_mo_sprite_sheet_1.png_4
+  - first:
+      213: 6802518618895431364
+    second: xuan_mo_sprite_sheet_1.png_5
+  - first:
+      213: 5688133224097666193
+    second: xuan_mo_sprite_sheet_1.png_6
+  - first:
+      213: -2301676683481462618
+    second: xuan_mo_sprite_sheet_1.png_7
+  - first:
+      213: 4246075877215243351
+    second: xuan_mo_sprite_sheet_1.png_8
+  - first:
+      213: -1266038108457931849
+    second: xuan_mo_sprite_sheet_1.png_9
+  - first:
+      213: -1701483950416790345
+    second: xuan_mo_sprite_sheet_1.png_10
+  - first:
+      213: -6796096458438333752
+    second: xuan_mo_sprite_sheet_1.png_11
+  - first:
+      213: -6187202469961653794
+    second: xuan_mo_sprite_sheet_1.png_12
+  - first:
+      213: -209392282929454757
+    second: xuan_mo_sprite_sheet_1.png_13
+  - first:
+      213: 1302687384876727905
+    second: xuan_mo_sprite_sheet_1.png_14
+  - first:
+      213: -4348785472541455576
+    second: xuan_mo_sprite_sheet_1.png_15
+  - first:
+      213: 230790951476849518
+    second: xuan_mo_sprite_sheet_1.png_16
+  - first:
+      213: 6398693052100108205
+    second: xuan_mo_sprite_sheet_1.png_17
+  - first:
+      213: -2899298329987622744
+    second: xuan_mo_sprite_sheet_1.png_18
+  - first:
+      213: 1350420248254977967
+    second: xuan_mo_sprite_sheet_1.png_19
+  - first:
+      213: 2057033716204557502
+    second: xuan_mo_sprite_sheet_1.png_20
+  - first:
+      213: -5197774350581120737
+    second: xuan_mo_sprite_sheet_1.png_21
+  - first:
+      213: -5801174005471294648
+    second: xuan_mo_sprite_sheet_1.png_22
+  - first:
+      213: 1557036574545380817
+    second: xuan_mo_sprite_sheet_1.png_23
+  - first:
+      213: -8424970912372253004
+    second: xuan_mo_sprite_sheet_1.png_24
+  - first:
+      213: -639706016861820901
+    second: xuan_mo_sprite_sheet_1.png_25
+  - first:
+      213: 4391021273194565423
+    second: xuan_mo_sprite_sheet_1.png_26
+  - first:
+      213: -3928696602373058086
+    second: xuan_mo_sprite_sheet_1.png_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_0
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 937
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b035b726f8ec330800000000000000
+      internalID: 3733078794275326864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_1
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 933
+        width: 17
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193ab46b26f85f320800000000000000
+      internalID: 2591134814749565841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_2
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 895
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86e745e0fd0c3ba0800000000000000
+      internalID: -6107991666331228532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_3
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 936
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4818d83ca55ea4760800000000000000
+      internalID: 7443013512173814148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_4
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 932
+        width: 17
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd1d44402e58ea00800000000000000
+      internalID: 785981627654020557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_5
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 894
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c63e3184a6676e50800000000000000
+      internalID: 6802518618895431364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_6
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 861
+        width: 13
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1945071c70f40fe40800000000000000
+      internalID: 5688133224097666193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_7
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 920
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8c94d404dce00e0800000000000000
+      internalID: -2301676683481462618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_8
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 917
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c05ce73871dea30800000000000000
+      internalID: 4246075877215243351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_9
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 860
+        width: 13
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbe1415c012e6ee0800000000000000
+      internalID: -1266038108457931849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_10
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 919
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcf068ac5d1368e0800000000000000
+      internalID: -1701483950416790345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_11
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 916
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca2e7f374a6fa1a0800000000000000
+      internalID: -6796096458438333752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_12
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 900
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed124808224a22aa0800000000000000
+      internalID: -6187202469961653794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_13
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 909
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51284df3d6181df0800000000000000
+      internalID: -209392282929454757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_14
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 899
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16eb5fc4643141210800000000000000
+      internalID: 1302687384876727905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_15
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 909
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b89c057a206a3c0800000000000000
+      internalID: -4348785472541455576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_16
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 179
+        width: 318
+        height: 725
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6be628c52fe33300800000000000000
+      internalID: 230790951476849518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_17
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 773
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafdf2ddd69bcc850800000000000000
+      internalID: 6398693052100108205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_18
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 177
+        width: 316
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8543fa78f93c7d0800000000000000
+      internalID: -2899298329987622744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_19
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 177
+        width: 317
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa79bba9f08adb210800000000000000
+      internalID: 1350420248254977967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_20
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 773
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4df59244d0c8c10800000000000000
+      internalID: 2057033716204557502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_21
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 177
+        width: 321
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11c9f264cbcdd7b0800000000000000
+      internalID: -5197774350581120737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_22
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 761
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b47ab5af61e7fa0800000000000000
+      internalID: -5801174005471294648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_23
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 760
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d58118d384bb9510800000000000000
+      internalID: 1557036574545380817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_24
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 712
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be9d05b79d741b80800000000000000
+      internalID: -8424970912372253004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_25
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 730
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18654854ce4f17f0800000000000000
+      internalID: -639706016861820901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_26
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 711
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f02f5559a00fc30800000000000000
+      internalID: 4391021273194565423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xuan_mo_sprite_sheet_1.png_27
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 729
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1154951477a79c0800000000000000
+      internalID: -3928696602373058086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      xuan_mo_sprite_sheet_1.png_0: 3733078794275326864
+      xuan_mo_sprite_sheet_1.png_1: 2591134814749565841
+      xuan_mo_sprite_sheet_1.png_10: -1701483950416790345
+      xuan_mo_sprite_sheet_1.png_11: -6796096458438333752
+      xuan_mo_sprite_sheet_1.png_12: -6187202469961653794
+      xuan_mo_sprite_sheet_1.png_13: -209392282929454757
+      xuan_mo_sprite_sheet_1.png_14: 1302687384876727905
+      xuan_mo_sprite_sheet_1.png_15: -4348785472541455576
+      xuan_mo_sprite_sheet_1.png_16: 230790951476849518
+      xuan_mo_sprite_sheet_1.png_17: 6398693052100108205
+      xuan_mo_sprite_sheet_1.png_18: -2899298329987622744
+      xuan_mo_sprite_sheet_1.png_19: 1350420248254977967
+      xuan_mo_sprite_sheet_1.png_2: -6107991666331228532
+      xuan_mo_sprite_sheet_1.png_20: 2057033716204557502
+      xuan_mo_sprite_sheet_1.png_21: -5197774350581120737
+      xuan_mo_sprite_sheet_1.png_22: -5801174005471294648
+      xuan_mo_sprite_sheet_1.png_23: 1557036574545380817
+      xuan_mo_sprite_sheet_1.png_24: -8424970912372253004
+      xuan_mo_sprite_sheet_1.png_25: -639706016861820901
+      xuan_mo_sprite_sheet_1.png_26: 4391021273194565423
+      xuan_mo_sprite_sheet_1.png_27: -3928696602373058086
+      xuan_mo_sprite_sheet_1.png_3: 7443013512173814148
+      xuan_mo_sprite_sheet_1.png_4: 785981627654020557
+      xuan_mo_sprite_sheet_1.png_5: 6802518618895431364
+      xuan_mo_sprite_sheet_1.png_6: 5688133224097666193
+      xuan_mo_sprite_sheet_1.png_7: -2301676683481462618
+      xuan_mo_sprite_sheet_1.png_8: 4246075877215243351
+      xuan_mo_sprite_sheet_1.png_9: -1266038108457931849
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

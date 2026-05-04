@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: 6bc7591e2cec90747ab909b04b5a1b87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5580565746129148142
+    second: cheonmi_cheonmi_sprite_sheet_1.png_0
+  - first:
+      213: -348212247348544191
+    second: cheonmi_cheonmi_sprite_sheet_1.png_1
+  - first:
+      213: 211520932313104719
+    second: cheonmi_cheonmi_sprite_sheet_1.png_2
+  - first:
+      213: -5641913576095555411
+    second: cheonmi_cheonmi_sprite_sheet_1.png_3
+  - first:
+      213: 5966397245952142445
+    second: cheonmi_cheonmi_sprite_sheet_1.png_4
+  - first:
+      213: -713786873062891167
+    second: cheonmi_cheonmi_sprite_sheet_1.png_5
+  - first:
+      213: -2283282695645151907
+    second: cheonmi_cheonmi_sprite_sheet_1.png_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cheonmi_cheonmi_sprite_sheet_1.png_0
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 947
+        width: 17
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21762406509dd82b0800000000000000
+      internalID: -5580565746129148142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheonmi_cheonmi_sprite_sheet_1.png_1
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 991
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d79525ec6ea2bf0800000000000000
+      internalID: -348212247348544191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheonmi_cheonmi_sprite_sheet_1.png_2
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 961
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f410511da297fe200800000000000000
+      internalID: 211520932313104719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheonmi_cheonmi_sprite_sheet_1.png_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 177
+        width: 504
+        height: 785
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0ee53ae75e3b1b0800000000000000
+      internalID: -5641913576095555411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheonmi_cheonmi_sprite_sheet_1.png_4
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 179
+        width: 372
+        height: 781
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ca8d11fa6ecc250800000000000000
+      internalID: 5966397245952142445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheonmi_cheonmi_sprite_sheet_1.png_5
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 179
+        width: 404
+        height: 783
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161efb9ee9e1816f0800000000000000
+      internalID: -713786873062891167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cheonmi_cheonmi_sprite_sheet_1.png_6
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 177
+        width: 383
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d36445c762050e0800000000000000
+      internalID: -2283282695645151907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cheonmi_cheonmi_sprite_sheet_1.png_0: -5580565746129148142
+      cheonmi_cheonmi_sprite_sheet_1.png_1: -348212247348544191
+      cheonmi_cheonmi_sprite_sheet_1.png_2: 211520932313104719
+      cheonmi_cheonmi_sprite_sheet_1.png_3: -5641913576095555411
+      cheonmi_cheonmi_sprite_sheet_1.png_4: 5966397245952142445
+      cheonmi_cheonmi_sprite_sheet_1.png_5: -713786873062891167
+      cheonmi_cheonmi_sprite_sheet_1.png_6: -2283282695645151907
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

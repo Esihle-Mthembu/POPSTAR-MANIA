@@ -15,8 +15,8 @@ MonoBehaviour:
   lines:
   - speakerName: Yeonhee
     dialogueText: Hi, I'm Lim Yeonhee
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: -1631877924923921634, guid: cf5274285e8a37147953f5f31936e469, type: 3}
+    leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -25,8 +25,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: Your average student at Joesei Secondary school.
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: -1631877924923921634, guid: cf5274285e8a37147953f5f31936e469, type: 3}
+    leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -36,8 +36,8 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: "I\u2019m in my third year of high school, which has been a bit
       hectic but fun."
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: -1631877924923921634, guid: cf5274285e8a37147953f5f31936e469, type: 3}
+    leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -48,8 +48,8 @@ MonoBehaviour:
     dialogueText: "My study stream is Humanities, which my parents hated. They wanted
       me to become something \u201Creputable\u201D, but I don\u2019t really care
       about people\u2019s opinions that much.\r\n"
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: -1631877924923921634, guid: cf5274285e8a37147953f5f31936e469, type: 3}
+    leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -59,8 +59,8 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: "I\u2019m what you call a die hard kpop fan, but don\u2019t worry
       I'm not a Sasaeng. I just really love K-pop. "
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 7105764956776556365, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
+    leftCharacter: {fileID: 1102536027230071805, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -70,8 +70,8 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: I love the glitz and glamour around it, and I love watching Idols
       live their day to day lives.
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 7105764956776556365, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
+    leftCharacter: {fileID: 1102536027230071805, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -82,8 +82,8 @@ MonoBehaviour:
     dialogueText: "Sometimes it makes me wonder what my life would look like if I
       were a K-pop idol. If I had the opportunity to become one, I\u2019d immediately
       take it. No questions asked. "
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: -1631877924923921634, guid: cf5274285e8a37147953f5f31936e469, type: 3}
+    leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -92,8 +92,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: "I just didn\u2019t expect that chance would come so soon."
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: -1631877924923921634, guid: cf5274285e8a37147953f5f31936e469, type: 3}
+    leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -102,8 +102,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: ...anyways
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: -1631877924923921634, guid: cf5274285e8a37147953f5f31936e469, type: 3}
+    leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -112,8 +112,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: I think their life is so much cooler compared to mine.
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 7340835281543649793, guid: cf5274285e8a37147953f5f31936e469, type: 3}
+    leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -123,8 +123,8 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: It's not like I don't have any talent either, so I'd fit into the
       idol world pretty well.
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 5596884211403795087, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
+    leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -133,8 +133,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: ...and maybe I'll finally get to talk to my lovely Joon.
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 3308583301873284892, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
+    leftCharacter: {fileID: -7555613608946788345, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -143,8 +143,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: Sigh...
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: -1631877924923921634, guid: cf5274285e8a37147953f5f31936e469, type: 3}
+    leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -154,8 +154,8 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: My routine is the same everyday. I get there early, meet up with
       my friends, and we sit together scrolling through posts from the night before.
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: -1631877924923921634, guid: cf5274285e8a37147953f5f31936e469, type: 3}
+    leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -164,7 +164,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yuna
     dialogueText: Did you see the post about Starlight's new girl group?
-    centerCharacter: {fileID: 0}
+    centerCharacter: {fileID: 4204395857586137898, guid: 3fb10999da247d147898f6ed86d1c8aa, type: 3}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
@@ -174,7 +174,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Ji-a
     dialogueText: Oh my God yes.
-    centerCharacter: {fileID: 0}
+    centerCharacter: {fileID: -6746275565422459064, guid: 416e5433bcfe09c4a92d67fa6aac1cde, type: 3}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
@@ -184,7 +184,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yuna
     dialogueText: They look so young, I was actually confused.
-    centerCharacter: {fileID: 0}
+    centerCharacter: {fileID: 4204395857586137898, guid: 3fb10999da247d147898f6ed86d1c8aa, type: 3}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
@@ -194,7 +194,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yuna
     dialogueText: Apparently oldest one in the group is thirteen.
-    centerCharacter: {fileID: 0}
+    centerCharacter: {fileID: 4204395857586137898, guid: 3fb10999da247d147898f6ed86d1c8aa, type: 3}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
@@ -204,8 +204,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: I saw that too...but their concept looks really cool.
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: -1631877924923921634, guid: cf5274285e8a37147953f5f31936e469, type: 3}
+    leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -215,7 +215,7 @@ MonoBehaviour:
   - speakerName: Yuna
     dialogueText: "That doesn\u2019t change the fact that they\u2019re probably getting
       exploited."
-    centerCharacter: {fileID: 0}
+    centerCharacter: {fileID: 4204395857586137898, guid: 3fb10999da247d147898f6ed86d1c8aa, type: 3}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
@@ -235,8 +235,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: I guess...
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 5596884211403795087, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
+    leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -255,8 +255,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: Anyways, did you see Joon's post? Oh my gosh, he looks so good.
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 3308583301873284892, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
+    leftCharacter: {fileID: -7555613608946788345, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -275,7 +275,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Ji-a
     dialogueText: His post was kind of hot. I won't lie.
-    centerCharacter: {fileID: 0}
+    centerCharacter: {fileID: -6746275565422459064, guid: 416e5433bcfe09c4a92d67fa6aac1cde, type: 3}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
@@ -286,8 +286,8 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: "I know, right? I grin, leaning back in my chair. I\u2019m actually
       so excited for their new vampire concept."
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 7105764956776556365, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
+    leftCharacter: {fileID: 1102536027230071805, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -307,8 +307,8 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: "I seriously can\u2019t wait to debut. Joon and I definitely have
       Kemi."
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 3308583301873284892, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
+    leftCharacter: {fileID: -7555613608946788345, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -317,7 +317,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: 
     dialogueText: Yuna rolls her eyes.
-    centerCharacter: {fileID: 0}
+    centerCharacter: {fileID: 4204395857586137898, guid: 3fb10999da247d147898f6ed86d1c8aa, type: 3}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
@@ -327,7 +327,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yuna
     dialogueText: "Delusional. Anyways, sir\u2019s coming."
-    centerCharacter: {fileID: 0}
+    centerCharacter: {fileID: 4204395857586137898, guid: 3fb10999da247d147898f6ed86d1c8aa, type: 3}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
@@ -388,8 +388,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: "I swear it\u2019s always something."
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 8431988143057992231, guid: 824125e5c2787ee4c932a0760f0d5993, type: 3}
+    leftCharacter: {fileID: -4193493033591885765, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -472,7 +472,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: What's this now?
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -514,7 +514,7 @@ MonoBehaviour:
     dialogueText: Wait, I mumble under my breath, leaning closer to the screen. DIAMOND
       ENT. !?
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: -8388179541503621137, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -573,8 +573,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: No, sir.
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 7340835281543649793, guid: cf5274285e8a37147953f5f31936e469, type: 3}
+    leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -664,8 +664,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: Look at this.
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 7105764956776556365, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
+    leftCharacter: {fileID: 1102536027230071805, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -684,7 +684,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Ji-a
     dialogueText: Is this real?
-    centerCharacter: {fileID: 0}
+    centerCharacter: {fileID: -6746275565422459064, guid: 416e5433bcfe09c4a92d67fa6aac1cde, type: 3}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
@@ -694,7 +694,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yuna
     dialogueText: It has to be fake.
-    centerCharacter: {fileID: 0}
+    centerCharacter: {fileID: 4204395857586137898, guid: 3fb10999da247d147898f6ed86d1c8aa, type: 3}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
@@ -704,8 +704,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: This is destiny.
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 7105764956776556365, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
+    leftCharacter: {fileID: 1102536027230071805, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -724,7 +724,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yuna
     dialogueText: "No it\u2019s not, and the wording just looks weird."
-    centerCharacter: {fileID: 0}
+    centerCharacter: {fileID: 4204395857586137898, guid: 3fb10999da247d147898f6ed86d1c8aa, type: 3}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
@@ -734,7 +734,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Ji-a
     dialogueText: Yeah, it's probably a scam.
-    centerCharacter: {fileID: 0}
+    centerCharacter: {fileID: -6746275565422459064, guid: 416e5433bcfe09c4a92d67fa6aac1cde, type: 3}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
@@ -755,8 +755,8 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: "It\u2019s literally just an advert. You guys are overthinking
       it .... Look, there\u2019s an address and everything. It\u2019s a real company."
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: -2663315883716039387, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
+    leftCharacter: {fileID: -8388179541503621137, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -775,8 +775,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: "I\u2019m going to audition this Saturday. "
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 3308583301873284892, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
+    leftCharacter: {fileID: -7555613608946788345, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -785,7 +785,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Ji-a
     dialogueText: "I don\u2019t know, Yeonhee\u2026 "
-    centerCharacter: {fileID: 0}
+    centerCharacter: {fileID: -6746275565422459064, guid: 416e5433bcfe09c4a92d67fa6aac1cde, type: 3}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
@@ -805,7 +805,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yuna
     dialogueText: "We really don\u2019t think you should."
-    centerCharacter: {fileID: 0}
+    centerCharacter: {fileID: 4204395857586137898, guid: 3fb10999da247d147898f6ed86d1c8aa, type: 3}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
@@ -855,8 +855,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: Sorry, sir. I was just showing them something for the essay.
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 7340835281543649793, guid: cf5274285e8a37147953f5f31936e469, type: 3}
+    leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -928,7 +928,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: My stomach drops as I take it in.
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: 7041811409493127568, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -938,7 +938,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: "It\u2019s\u2026 smaller than I expected."
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -949,7 +949,7 @@ MonoBehaviour:
     dialogueText: "The paint is peeling for a new company and the building feels
       strangely quiet, like no one\u2019s really there."
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: 7041811409493127568, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -959,7 +959,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: For a second, something about it feels off.
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -969,7 +969,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: 'But I ignore it. '
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -979,7 +979,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: 'This is my chance. '
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: 1102536027230071805, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -990,7 +990,7 @@ MonoBehaviour:
     dialogueText: I step out of the car and walk toward the entrance, my heart pounding
       with excitement.
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: 1102536027230071805, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -1000,7 +1000,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: "Inside, it\u2019s even quieter. "
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -1039,8 +1039,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: Yes.
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 3308583301873284892, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
+    leftCharacter: {fileID: -7555613608946788345, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -1061,7 +1061,7 @@ MonoBehaviour:
     dialogueText: 'As we walk down the hallway, I notice how empty everything looks.
       no trainees, no noise, just silence. '
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -1071,7 +1071,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: "strange\u2026 "
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: -8388179541503621137, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -1111,7 +1111,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: For some reason, it reminds me of that painting from class.
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -1120,8 +1120,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: "Hi! I\u2019m Yeonhee and I can sing and dance and-"
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 3308583301873284892, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
+    leftCharacter: {fileID: -7555613608946788345, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -1141,7 +1141,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: 'Is that a good or bad sign? '
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: 7041811409493127568, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -1192,8 +1192,8 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: "I\u2019m in the top ten of my grade. I\u2019m serious about anything
       I do."
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: -1631877924923921634, guid: cf5274285e8a37147953f5f31936e469, type: 3}
+    leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -1212,8 +1212,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: 'Please take me in. '
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 7340835281543649793, guid: cf5274285e8a37147953f5f31936e469, type: 3}
+    leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -1242,8 +1242,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: "What? Just like that? I didn\u2019t even audition. "
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: -2663315883716039387, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
+    leftCharacter: {fileID: -8388179541503621137, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -1273,7 +1273,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: 'For a moment, I hesitate.  '
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -1283,7 +1283,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: 'I should probably read it. '
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -1293,7 +1293,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: "Something in the back of my mind tells me I should\u2026"
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -1343,7 +1343,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: My dream is finally starting.
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: 1102536027230071805, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
