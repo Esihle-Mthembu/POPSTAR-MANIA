@@ -6,6 +6,8 @@ using System;
 
 public class LyricsGameManager : MonoBehaviour
 {
+    public MusicManager musicManager;
+    public AudioClip lyricalChallengeMusic;
     public TextMeshProUGUI lyricText;
     public Transform wordBankPanel;
     public GameObject wordButtonPrefab;
