@@ -19,7 +19,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -272,7 +272,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -597,7 +597,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 57efb4dc674ab324bb762de408e5052b, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -879,7 +879,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 87d0f82f492ab15479209c026f125ef2, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -959,7 +959,7 @@ MonoBehaviour:
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonseo
-    dialogueText: 'When you see your mom again, tell her we said thank you.
+    dialogueText: 'If you see your mom again, tell her we said thank you.
 
 '
     centerCharacter: {fileID: 0}
@@ -1062,6 +1062,16 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+  - speakerName: 
+    dialogueText: Notification from tablet
+    centerCharacter: {fileID: 0}
+    leftCharacter: {fileID: 0}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: 0899003a4f3eeae4e977e9b001cdec83, type: 3}
+    choices: []
+    triggersLyricsGame: 0
+    isEnding: 0
+    isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: "Notification from tablet\n\nWhat\u2019s that\u2026?\r\n"
     centerCharacter: {fileID: 0}
@@ -1122,7 +1132,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 8a012450950979040a148b8b5d4a20d7, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
