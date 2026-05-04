@@ -331,7 +331,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: c91a2ad583951844ba767577048ef205, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -364,7 +364,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: b35239605155940419f37d1385b0ea5f, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -577,7 +577,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 8a012450950979040a148b8b5d4a20d7, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -927,7 +927,7 @@ MonoBehaviour:
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Yeonhee
-    dialogueText: " Who\u2019s fridge is this?"
+    dialogueText: "Who\u2019s fridge is this?"
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
@@ -1033,7 +1033,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices:
     - choiceText: "No, what\u2019s your deal with my things anyways?"
       nextLineIndex: 98
@@ -1379,7 +1379,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 74b0cc6959fab6a468db8547054644b2, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1679,7 +1679,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1689,7 +1689,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices:
     - choiceText: 49.6kg
       nextLineIndex: 159
@@ -1760,7 +1760,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1857,7 +1857,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1929,7 +1929,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2022,7 +2022,7 @@ MonoBehaviour:
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Trainer
-    dialogueText: " Today we\u2019ll sing a new song so nobody has an advantage over
+    dialogueText: "Today we\u2019ll sing a new song so nobody has an advantage over
       Yeonhee. This song has been in progress. We\u2019re going in the direction
       of cute girl krush concepts today. When you sing it back, try to sound cute\u2026
       more aegyo."
@@ -2459,7 +2459,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 74b0cc6959fab6a468db8547054644b2, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2677,7 +2677,7 @@ MonoBehaviour:
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Manager
-    dialogueText: " Xuan Mo, let\u2019s start with you. What is your weight?"
+    dialogueText: "Xuan Mo, let\u2019s start with you. What is your weight?"
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
@@ -2796,7 +2796,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2806,7 +2806,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices:
     - choiceText: 49.6kg
       nextLineIndex: 263
@@ -2887,7 +2887,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2990,7 +2990,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -3072,7 +3072,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -3230,7 +3230,7 @@ MonoBehaviour:
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
-    dialogueText: I immediately get chills.
+    dialogueText: The trainer smiles at me, I immediately get chills.
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
