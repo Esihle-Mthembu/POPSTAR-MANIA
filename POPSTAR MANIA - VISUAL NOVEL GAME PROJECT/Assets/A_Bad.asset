@@ -16,7 +16,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: "My heart is pounding\u2026 that was so difficult. "
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -28,7 +28,7 @@ MonoBehaviour:
       get the hang of it immediately. Everyone sounded so good, even with their mistakes\u2026
       and then you get me.  "
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: 7041811409493127568, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -39,7 +39,7 @@ MonoBehaviour:
     dialogueText: 'I really need to work on my vocals. Rose sounded amazing, it was
       like hearing an angel sing. '
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -62,7 +62,7 @@ MonoBehaviour:
       looking my way. I hope they don\u2019t kick me out, I wouldn\u2019t blame them
       if they did. "
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -73,7 +73,7 @@ MonoBehaviour:
     dialogueText: 'But to my surprise, Cheomni is sitting alone on the other side
       of the room. She glances at me, then looks back at the wall. '
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -84,7 +84,7 @@ MonoBehaviour:
     dialogueText: "Something about that glance\u2026 It makes me feel uncomfortable.
       But maybe I\u2019m just overthinking it. "
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: 7041811409493127568, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -96,7 +96,7 @@ MonoBehaviour:
       the trainer yelling at everyone\u2026 he\u2019s not as chill as I thought he\u2019d
       be. "
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: 7041811409493127568, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -107,7 +107,7 @@ MonoBehaviour:
     dialogueText: "I feel really bad for Xuan Mo though\u2026 he wouldn\u2019t get
       off her back. Maybe I should check on her. "
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -116,8 +116,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Yeonhee
     dialogueText: "Hey Xuan Mo, are you okay? You\u2019re sweating a lot."
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 230790951476849518, guid: 9c90e2963e488bb42990a62282eb1c4a, type: 3}
+    leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -127,7 +127,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: 'Xuan Mo looks at me and sighs. '
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: 7041811409493127568, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -136,8 +136,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Xuan Mo
     dialogueText: "I\u2019m fine."
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 8382687041527233505, guid: e74945277a1c7ba4695a0c7f981eccd1, type: 3}
+    leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -146,8 +146,8 @@ MonoBehaviour:
     isEndOfBranch: 1
   - speakerName: Yeonhee
     dialogueText: "Okay\u2026 I was just worried. You seem a bit out of it.\r\n"
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 8382687041527233505, guid: e74945277a1c7ba4695a0c7f981eccd1, type: 3}
+    leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -156,8 +156,8 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: Xuan Mo
     dialogueText: You should worry about yourself here.
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 8382687041527233505, guid: e74945277a1c7ba4695a0c7f981eccd1, type: 3}
+    leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -168,7 +168,7 @@ MonoBehaviour:
     dialogueText: "Well damn\u2026 I guess this is why nobody talks to her. She makes
       it really difficult\u2026 but I\u2019ll still try.\r\n"
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: 7041811409493127568, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -177,8 +177,8 @@ MonoBehaviour:
     isEndOfBranch: 1
   - speakerName: Cheomni
     dialogueText: "Leave her. She\u2019s always like this. "
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 5966397245952142445, guid: 6bc7591e2cec90747ab909b04b5a1b87, type: 3}
+    leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -199,7 +199,7 @@ MonoBehaviour:
     dialogueText: "Cheomni stares at me before speaking, like she\u2019s choosing
       her words.\r\n"
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -209,8 +209,8 @@ MonoBehaviour:
   - speakerName: Cheomni
     dialogueText: "Your performance was questionable, but I guess it wasn\u2019t
       that bad\u2026"
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: -2765307166731166788, guid: 733aa15cbc0f5eb418d5c9e0723b02c9, type: 3}
+    leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -220,7 +220,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: "That didn\u2019t feel like a compliment\u2026"
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -230,7 +230,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: "Haahh\u2026 thanks."
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: -7555613608946788345, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -242,8 +242,8 @@ MonoBehaviour:
       that habit.
 
 '
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: 8822399858603782341, guid: 4ae79176973886e48ad0767919bd05d9, type: 3}
+    leftCharacter: {fileID: 7041811409493127568, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -253,7 +253,7 @@ MonoBehaviour:
   - speakerName: 
     dialogueText: "Again\u2026 Why is it always me?\r\nAt least he broke the silence\u2026"
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: -4193493033591885765, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -263,7 +263,7 @@ MonoBehaviour:
   - speakerName: Yeonhee
     dialogueText: "Sorry\u2026"
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -274,8 +274,8 @@ MonoBehaviour:
     dialogueText: "Let\u2019s discuss today\u2019s session. It seems we\u2019ve been
       too soft on some of you\u2026 I don\u2019t know what happened, but today\u2019s
       performance was absolutely ridiculous.\r\n"
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: -3963459755102996256, guid: 7ccc637e2ae6a6549b7fe74e9687f88d, type: 3}
+    leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -300,8 +300,8 @@ MonoBehaviour:
       If you want to continue in this company, pull up your socks. I don\u2019t want
       to talk about this ridiculous performance next time. I\u2019ll create a separate
       schedule for you to practice outside of training hours. You need it.\r\n"
-    centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    centerCharacter: {fileID: -3963459755102996256, guid: 7ccc637e2ae6a6549b7fe74e9687f88d, type: 3}
+    leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -324,7 +324,7 @@ MonoBehaviour:
     dialogueText: "What\u2019s her deal anyway?\r\nThis is actually so embarrassing\u2026
       he didn\u2019t have to be that harsh.\r\n"
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: -8388179541503621137, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     choices: []
@@ -336,7 +336,7 @@ MonoBehaviour:
       your language classes? Your Korean sounds choppy.
 
 '
-    centerCharacter: {fileID: 0}
+    centerCharacter: {fileID: -3963459755102996256, guid: 7ccc637e2ae6a6549b7fe74e9687f88d, type: 3}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
@@ -361,7 +361,7 @@ MonoBehaviour:
       then leave. Stop trying to outshine everyone. At least your Korean is understandable.
 
 '
-    centerCharacter: {fileID: 0}
+    centerCharacter: {fileID: -3963459755102996256, guid: 7ccc637e2ae6a6549b7fe74e9687f88d, type: 3}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
@@ -385,7 +385,7 @@ MonoBehaviour:
     dialogueText: 'Yoenseo, you were good. Just fix the voice cracks.
 
 '
-    centerCharacter: {fileID: 0}
+    centerCharacter: {fileID: -3963459755102996256, guid: 7ccc637e2ae6a6549b7fe74e9687f88d, type: 3}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
@@ -627,7 +627,22 @@ MonoBehaviour:
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 'Score of the day:'
-    dialogueText: '
+    dialogueText: 'Cheomni
+
+      Yeonseo
+
+      Kandy
+
+      Minjii
+
+      Rose
+
+      Mei
+
+      Xuan
+      Mo
+
+      Yeonhee
 
 '
     centerCharacter: {fileID: 0}
