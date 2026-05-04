@@ -9,11 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9207440552994236211}
-  - component: {fileID: 8895024572911200316}
   - component: {fileID: 7245902692586416966}
+  - component: {fileID: -1574730363356750317}
   m_Layer: 0
   m_Name: DialogueManager
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33,7 +33,42 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &8895024572911200316
+--- !u!114 &7245902692586416966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3635042098241428016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e971336b9628f4ca8eede133897f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
+  speakerText: {fileID: 0}
+  dialogueText: {fileID: 0}
+  uiManager: {fileID: 0}
+  typingSpeed: 30
+  speakerCanvasGroup: {fileID: 0}
+  musicSource: {fileID: 0}
+  prologueDialogue: {fileID: 0}
+  chapter1Dialogue: {fileID: 0}
+  energyPoints: 0
+  maxEnergy: 80
+  energyBar: {fileID: 0}
+  totalEnergy: 0
+  friendshipBar: {fileID: 0}
+  maxFriendship: 100
+  friendshipPoints: 50
+  lyricsGame: {fileID: 0}
+  lyricsGameData: {fileID: 0}
+  A_Good: {fileID: 0}
+  A_Bad: {fileID: 0}
+  B_Good: {fileID: 0}
+  B_Bad: {fileID: 0}
+  loadingFromSave: 0
+  fader: {fileID: 0}
+--- !u!82 &-1574730363356750317
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -48,7 +83,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -130,38 +165,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &7245902692586416966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3635042098241428016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e971336b9628f4ca8eede133897f37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
-  speakerText: {fileID: 0}
-  dialogueText: {fileID: 0}
-  uiManager: {fileID: 0}
-  typingSpeed: 30
-  speakerCanvasGroup: {fileID: 0}
-  musicSource: {fileID: 8895024572911200316}
-  prologueDialogue: {fileID: 0}
-  chapter1Dialogue: {fileID: 0}
-  energyPoints: 0
-  maxEnergy: 80
-  energyBar: {fileID: 0}
-  totalEnergy: 0
-  friendshipBar: {fileID: 0}
-  maxFriendship: 100
-  friendshipPoints: 50
-  lyricsGame: {fileID: 0}
-  lyricsGameData: {fileID: 0}
-  A_Good: {fileID: 0}
-  A_Bad: {fileID: 0}
-  B_Good: {fileID: 0}
-  B_Bad: {fileID: 0}
-  loadingFromSave: 0
-  fader: {fileID: 0}
