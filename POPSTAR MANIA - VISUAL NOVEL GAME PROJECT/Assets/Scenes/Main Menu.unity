@@ -2818,6 +2818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MusicManager
   musicSource: {fileID: 1205679590}
+  defaultCrossfadeDuration: 0.5
 --- !u!82 &1205679590
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2837,7 +2838,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 101
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -4450,6 +4451,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1574730363356750317, guid: 4e21ec8c527703843ad62dc13fb4c95f, type: 3}
+      propertyPath: Priority
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: -1574730363356750317, guid: 4e21ec8c527703843ad62dc13fb4c95f, type: 3}
       propertyPath: m_Enabled
       value: 1
