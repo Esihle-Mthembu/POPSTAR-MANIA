@@ -37,96 +37,84 @@ public class SettingsMenu : MonoBehaviour
 
     void Start()
     {
-        if (settingsPanel == null || masterSlider == null || musicSlider == null || sfxSlider == null || typingSpeedSlider == null || audioMixer == null)
-        {
-            Debug.LogError("SettingsMenu: One or more references are NOT assigned in the Inspector!");
-            return;
-        }
-
-        //Set default values
-        SetMasterVolume(masterSlider.value);
-        SetMusicVolume(musicSlider.value);
-        SetSFXVolume(sfxSlider.value);
-
-        //Load saved value 
-        float savedSpeed = PlayerPrefs.GetFloat("TypingSpeed", 30f);
-        typingSpeedSlider.value = savedSpeed;
-        ApplyTypingSpeed(savedSpeed);
+        LoadSettings();
     }
 
-    //UI
-    public void ToggleSettings()
+    void LoadSettings()
     {
-        if (settingsPanel == null)
-        {
-            return;
-        }
+        //Load Audio
+        float master = PlayerPrefs.GetFloat("MasterVol", 0.75f);
+        float music = PlayerPrefs.GetFloat("MusicVol", 0.75f);
+        float sfx = PlayerPrefs.GetFloat("SFXVol", 0.75f);
+        float speed = PlayerPrefs.GetFloat("TypingSpeed", 0.75f);
 
-        settingsPanel.SetActive(!settingsPanel.activeSelf);
+        // Update Sliders
+        masterSlider.value = master;
+        musicSlider.value = music;
+        sfxSlider.value = sfx;
+        typingSpeedSlider.value = speed;
+
+        // Apply to Mixer/Systems
+        SetMasterVolume(master);
+        SetMusicVolume(music);
+        SetSFXVolume(sfx);
+        ApplyTypingSpeed(speed);
     }
-
-    public void OpenSettings()
-    {
-        Debug.Log("Open settings called");
-
-        if (settingsPanel == null)
-        {
-            Debug.LogError("SettingsPanel is not assigned");
-            return;
-        }
-
-        settingsPanel.SetActive(true);
-    }
-
-    public void CloseSettings()
-    {
-        if (settingsPanel == null)
-        {
-            return;
-        }
-
-        settingsPanel.SetActive(false);
-    }
-
 
     //Audio
     public void SetMasterVolume(float value)
     {
         SetMixerVolume("MasterVolume", value);
+        PlayerPrefs.SetFloat("MasterVol", value);
     }
 
     public void SetMusicVolume(float value)
     {
         SetMixerVolume("MusicVolume", value);
+        PlayerPrefs.SetFloat("MusicVol", value);
     }
 
     public void SetSFXVolume(float value)
     {
         SetMixerVolume("SFXVolume", value);
+        PlayerPrefs.SetFloat("SFXVol", value);
     }
 
     void SetMixerVolume(string parameter, float value)
     {
         if (audioMixer == null) return;
 
-        float v = Mathf.Clamp(value, 0.0001f, 1f);
-        audioMixer.SetFloat(parameter, Mathf.Log10(v) * 20);
+        float dbValue = Mathf.Log10(Mathf.Max(0.0001f, value)) * 20f;
+        audioMixer.SetFloat(parameter, dbValue);
     }
 
     //Typing speed
     public void OnTypingSpeedChanged(float value)
     {
         ApplyTypingSpeed(value);
-
         PlayerPrefs.SetFloat("TypingSpeed", value);
-        PlayerPrefs.Save();
     }
 
     void ApplyTypingSpeed(float value)
     {
+        if (dialogueManager == null)
+        {
+            dialogueManager = Object.FindAnyObjectByType<DialogueManager>();
+        }
+
         if (dialogueManager != null)
         {
             dialogueManager.SetTypingSpeed(value);
         }
     }
+
+    public void SaveSettings()
+    {
+        PlayerPrefs.Save();
+    }
+
+    //UI
+    public void ToggleSettings() => settingsPanel.SetActive(!settingsPanel.activeSelf);
+    public void OpenSettings() => settingsPanel.SetActive(true);
+    public void CloseSettings() { settingsPanel.SetActive(false); SaveSettings(); }
 }
