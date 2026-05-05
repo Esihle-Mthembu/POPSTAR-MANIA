@@ -14,17 +14,19 @@ public class DialogueUIManager : MonoBehaviour
     public GameObject choiceButtonPrefab;
     public Transform choicesContainer;
 
-    private DialogueManager dialogueManager;
+    [SerializeField] private DialogueManager dialogueManager;
 
     void Awake()
     {
         if (choicePanel != null)
+        {
             choicePanel.SetActive(false);
-    }
+        }
 
-    void Start()
-    {
-        dialogueManager = FindFirstObjectByType<DialogueManager>();
+        if (dialogueManager == null)
+        {
+            dialogueManager = FindFirstObjectByType<DialogueManager>();
+        }
     }
 
     public void ShowChoices(DialogueChoice[] choices)
@@ -34,6 +36,12 @@ public class DialogueUIManager : MonoBehaviour
         if (choicePanel != null)
         {
             choicePanel.SetActive(true);
+        }
+
+        if (dialogueManager == null)
+        {
+            Debug.LogError("DialogueManager is missing in DialogueUIManager");
+            return;
         }
 
             foreach (DialogueChoice choice in choices)
