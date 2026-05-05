@@ -243,18 +243,23 @@ public class DialogueManager : MonoBehaviour
         currentLine = currentDialogue.lines[currentIndex];
         DialogueLine line = currentLine;
 
-        // play/stop BGM via MusicManager
-        MusicManager music = Object.FindFirstObjectByType<MusicManager>();
-        if (music != null)
+        // music BGM plays continuosly if new BGM is specified, otherwise stops if line has no BGM (can be used for silence)
+        MusicManager mm = Object.FindFirstObjectByType<MusicManager>();
+        AudioClip persistentClip = line.bgm;
+        AudioClip overlayClip = line.backgroundMusic;
+
+        if (mm != null)
         {
-            if (line.backgroundMusic != null)
-            {
-                music.PlayMusic(line.backgroundMusic);
-            }
-            else
-            {
-                music.StopMusic();
-            }
+            if (persistentClip != null) mm.PlayPersistent(persistentClip);
+            // persistent BGM intentionally left playing when null (won't stop)
+            if (overlayClip != null) mm.PlayOverlay(overlayClip);
+            else mm.StopOverlay();
+        }
+        else if (AudioManager.Instance != null)
+        {
+            // Fallback: use central AudioManager when MusicManager is missing
+            if (persistentClip != null) AudioManager.Instance.PlayMusic(persistentClip);
+            else if (overlayClip != null) AudioManager.Instance.PlayMusic(overlayClip);
         }
 
         if (string.IsNullOrEmpty(line.speakerName))

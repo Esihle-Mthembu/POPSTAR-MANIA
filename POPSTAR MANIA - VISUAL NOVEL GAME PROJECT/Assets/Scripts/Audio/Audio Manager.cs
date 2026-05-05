@@ -10,9 +10,7 @@ public class AudioManager : MonoBehaviour
     public AudioSource sfxSource;
 
     public AudioClip mainMenuMusic;
-    public AudioClip gameMusic;
-    public AudioClip gameMusic2;
-    public AudioClip eerieGameMusic3;    
+    public AudioClip gameMusic;   
     public AudioClip clickSound;
     public AudioClip lyricGameMusic;
 

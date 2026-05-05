@@ -12,7 +12,7 @@ public class DialogueLine
     public Sprite leftCharacter;
     public Sprite background;
     public AudioClip backgroundMusic;
-
+    public AudioClip bgm;
 
     public DialogueChoice[] choices;
 
