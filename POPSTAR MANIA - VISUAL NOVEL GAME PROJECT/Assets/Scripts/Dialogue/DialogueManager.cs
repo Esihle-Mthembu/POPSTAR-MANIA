@@ -74,7 +74,7 @@ public class DialogueManager : MonoBehaviour
             var go = GameObject.Find("EnergyBar");
             if (go != null) energyBar = go.GetComponent<Slider>();
 
-            // fallback to first Slider in the scene (use new API)
+            // fallback to first Slider in the scene (use new API if available)
             if (energyBar == null)
             {
                 energyBar = Object.FindFirstObjectByType<Slider>();
@@ -101,7 +101,6 @@ public class DialogueManager : MonoBehaviour
             if (friendshipBar == null)
             {
                 // pick a different Slider than energyBar if possible
-                // use new API to get all sliders (include inactive, don't sort for performance)
                 var sliders = Object.FindObjectsByType<Slider>(FindObjectsInactive.Include, FindObjectsSortMode.None);
                 foreach (var s in sliders)
                 {
@@ -148,6 +147,10 @@ public class DialogueManager : MonoBehaviour
     void Update()
     {
         if (isInChoice || !isDialogueActive)
+            return;
+
+        // defensive: ensure currentDialogue and lines exist before accessing Count
+        if (currentDialogue == null || currentDialogue.lines == null || currentDialogue.lines.Count == 0)
             return;
 
         // Spacekey input
@@ -225,9 +228,8 @@ public class DialogueManager : MonoBehaviour
         currentLine = currentDialogue.lines[currentIndex];
         DialogueLine line = currentLine;
 
-        //connecting to music manager to play BGM if specified in the line
+        // play/stop BGM via MusicManager
         MusicManager music = Object.FindFirstObjectByType<MusicManager>();
-
         if (music != null)
         {
             if (line.backgroundMusic != null)
@@ -328,7 +330,6 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator TriggerLyricsAfterTyping()
     {
-        // wait until typing finishes
         while (isTyping)
             yield return null;
 
