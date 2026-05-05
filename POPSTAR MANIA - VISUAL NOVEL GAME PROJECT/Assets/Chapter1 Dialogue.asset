@@ -1150,7 +1150,7 @@ MonoBehaviour:
     dialogueText: Are you actually joking?
     centerCharacter: {fileID: -713786873062891167, guid: 6bc7591e2cec90747ab909b04b5a1b87, type: 3}
     leftCharacter: {fileID: 7041811409493127568, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     choices: []
