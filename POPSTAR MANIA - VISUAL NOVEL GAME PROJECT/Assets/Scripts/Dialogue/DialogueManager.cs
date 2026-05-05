@@ -59,6 +59,16 @@ public class DialogueManager : MonoBehaviour
     private DialogueLine currentLine;
     public ScreenFader fader;
 
+    public DialogueUIManager uIManager;
+
+    void Awake ()
+    {
+        if (uiManager == null)
+        {
+            uiManager = FindFirstObjectByType<DialogueUIManager>();
+        }
+    }
+
     void Start()
     {
         // Link to the lyrics game completion
