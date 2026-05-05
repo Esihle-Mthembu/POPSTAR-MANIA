@@ -2395,6 +2395,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MusicManager
   musicSource: {fileID: 909132764}
   overlaySource: {fileID: 0}
+  persistentFadeDuration: 0.6
+  overlayFadeDuration: 0.25
 --- !u!4 &909132766
 Transform:
   m_ObjectHideFlags: 0

@@ -241,6 +241,7 @@ public class DialogueManager : MonoBehaviour
             return;
 
         currentLine = currentDialogue.lines[currentIndex];
+
         DialogueLine line = currentLine;
 
         // music BGM plays continuosly if new BGM is specified, otherwise stops if line has no BGM (can be used for silence)

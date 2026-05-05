@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class MusicManager : MonoBehaviour
 {
@@ -9,6 +10,13 @@ public class MusicManager : MonoBehaviour
 
     // Overlay source for per-line background music that can be started/stopped independently
     public AudioSource overlaySource;
+
+    // Fade durations 
+    public float persistentFadeDuration = 0.6f;
+    public float overlayFadeDuration = 0.25f;
+
+    private Coroutine persistentCoroutine;
+    private Coroutine overlayCoroutine;
 
     void Awake()
     {
@@ -24,12 +32,24 @@ public class MusicManager : MonoBehaviour
             return;
         }
 
-        // Ensure primary audio source exists on the GameObject
+        // Try to use AudioManager's source if ours is not assigned
+        if (musicSource == null && AudioManager.Instance != null)
+        {
+            musicSource = AudioManager.Instance.musicSource;
+            Debug.Log("[MusicManager] auto-assigned musicSource from AudioManager.Instance");
+        }
+
+       
         if (musicSource == null)
         {
-            musicSource = gameObject.AddComponent<AudioSource>();
-            musicSource.playOnAwake = false;
-            musicSource.loop = true;
+            musicSource = gameObject.GetComponent<AudioSource>();
+            if (musicSource == null)
+            {
+                musicSource = gameObject.AddComponent<AudioSource>();
+                musicSource.playOnAwake = false;
+                musicSource.loop = true;
+                Debug.Log("[MusicManager] created fallback musicSource AudioSource");
+            }
         }
 
         // Ensure overlay source exists
@@ -51,6 +71,7 @@ public class MusicManager : MonoBehaviour
                 overlaySource = gameObject.AddComponent<AudioSource>();
                 overlaySource.playOnAwake = false;
                 overlaySource.loop = true;
+                Debug.Log("[MusicManager] created overlaySource AudioSource");
             }
         }
 
@@ -65,17 +86,10 @@ public class MusicManager : MonoBehaviour
         PlayPersistent(clip);
     }
 
-    // Play or switch persistent BGM (persists across lines)
+    // Play or switch persistent BGM (persists across lines) with fade
     public void PlayPersistent(AudioClip clip)
     {
         if (clip == null) return;
-
-        // runtime fallback: try AudioManager if musicSource missing
-        if (musicSource == null)
-        {
-            var am = AudioManager.Instance;
-            if (am != null) musicSource = am.musicSource;
-        }
 
         if (musicSource == null)
         {
@@ -83,14 +97,92 @@ public class MusicManager : MonoBehaviour
             return;
         }
 
-        if (musicSource.clip == clip && musicSource.isPlaying) return;
+        // If already playing the requested clip, nothing to do
+        if (musicSource.isPlaying && musicSource.clip == clip)
+            return;
 
-        musicSource.clip = clip;
-        musicSource.loop = true;
-        musicSource.Play();
+        if (persistentCoroutine != null)
+            StopCoroutine(persistentCoroutine);
+
+        persistentCoroutine = StartCoroutine(FadePersistentTo(clip, persistentFadeDuration));
     }
 
-    // Play temporary/line background music on overlay source
+    // Fade to the new persistent clip
+    private IEnumerator FadePersistentTo(AudioClip newClip, float duration)
+    {
+        if (musicSource == null)
+        {
+            persistentCoroutine = null;
+            yield break;
+        }
+
+        if (duration <= 0f)
+        {
+            musicSource.clip = newClip;
+            musicSource.loop = true;
+            musicSource.volume = 1f;
+            if (!musicSource.isPlaying) musicSource.Play();
+            persistentCoroutine = null;
+            yield break;
+        }
+
+        // If currently not playing, just fade IN the new clip
+        if (!musicSource.isPlaying)
+        {
+            musicSource.clip = newClip;
+            musicSource.loop = true;
+            musicSource.volume = 0f;
+            musicSource.Play();
+
+            float t = 0f;
+            while (t < duration)
+            {
+                t += Time.deltaTime;
+                musicSource.volume = Mathf.Clamp01(t / duration);
+                yield return null;
+            }
+
+            musicSource.volume = 1f;
+            persistentCoroutine = null;
+            yield break;
+        }
+
+        // If playing a different clip, fade OUT, swap clip, then fade IN
+        float half = duration * 0.5f;
+        float elapsed = 0f;
+        float startVol = musicSource.volume;
+
+        // Fade out
+        while (elapsed < half)
+        {
+            elapsed += Time.deltaTime;
+            float f = Mathf.Clamp01(elapsed / half);
+            musicSource.volume = Mathf.Lerp(startVol, 0f, f);
+            yield return null;
+        }
+
+        musicSource.volume = 0f;
+        musicSource.Stop();
+
+        // Swap to new clip and fade in
+        musicSource.clip = newClip;
+        musicSource.loop = true;
+        musicSource.Play();
+
+        elapsed = 0f;
+        while (elapsed < half)
+        {
+            elapsed += Time.deltaTime;
+            float f = Mathf.Clamp01(elapsed / half);
+            musicSource.volume = Mathf.Lerp(0f, 1f, f);
+            yield return null;
+        }
+
+        musicSource.volume = 1f;
+        persistentCoroutine = null;
+    }
+
+    // Play temporary/line background music on overlay source with fade
     public void PlayOverlay(AudioClip clip)
     {
         if (clip == null)
@@ -101,37 +193,174 @@ public class MusicManager : MonoBehaviour
 
         if (overlaySource == null)
         {
+            Debug.LogWarning("MusicManager.PlayOverlay: overlaySource is NULL, creating new one");
             overlaySource = gameObject.AddComponent<AudioSource>();
             overlaySource.playOnAwake = false;
             overlaySource.loop = true;
         }
 
-        overlaySource.clip = clip;
-        overlaySource.loop = true;
-        overlaySource.Play();
+        // If already playing the requested overlay, nothing to do
+        if (overlaySource.isPlaying && overlaySource.clip == clip && overlaySource.volume >= 0.99f)
+            return;
+
+        if (overlayCoroutine != null)
+            StopCoroutine(overlayCoroutine);
+
+        overlayCoroutine = StartCoroutine(FadeOverlayIn(clip, overlayFadeDuration));
     }
 
-    // Stop the overlay (per-line) music
+    private IEnumerator FadeOverlayIn(AudioClip clip, float duration)
+    {
+        if (overlaySource == null)
+        {
+            overlayCoroutine = null;
+            yield break;
+        }
+
+        if (duration <= 0f)
+        {
+            overlaySource.clip = clip;
+            overlaySource.loop = true;
+            overlaySource.volume = 1f;
+            overlaySource.Play();
+            overlayCoroutine = null;
+            yield break;
+        }
+
+        float elapsed = 0f;
+
+        // If currently playing something else, fade it out quickly (optional)
+        if (overlaySource.isPlaying && overlaySource.clip != clip)
+        {
+            float start = overlaySource.volume;
+            while (elapsed < duration * 0.5f)
+            {
+                elapsed += Time.deltaTime;
+                overlaySource.volume = Mathf.Lerp(start, 0f, Mathf.Clamp01(elapsed / (duration * 0.5f)));
+                yield return null;
+            }
+            overlaySource.Stop();
+        }
+
+        overlaySource.clip = clip;
+        overlaySource.loop = true;
+        overlaySource.volume = 0f;
+        overlaySource.Play();
+
+        elapsed = 0f;
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            overlaySource.volume = Mathf.Clamp01(elapsed / duration);
+            yield return null;
+        }
+
+        overlaySource.volume = 1f;
+        overlayCoroutine = null;
+    }
+
+    // Stop the overlay (per-line) music with fade
     public void StopOverlay()
     {
         if (overlaySource == null) return;
-        if (overlaySource.isPlaying) overlaySource.Stop();
-        overlaySource.clip = null;
+
+        if (overlayCoroutine != null)
+            StopCoroutine(overlayCoroutine);
+
+        overlayCoroutine = StartCoroutine(FadeOverlayOut(overlayFadeDuration));
     }
 
-    // Stop all music (persistent + overlay)
-    public void StopMusic()
+    private IEnumerator FadeOverlayOut(float duration)
     {
-        if (overlaySource != null)
+        if (overlaySource == null)
         {
-            if (overlaySource.isPlaying) overlaySource.Stop();
-            overlaySource.clip = null;
+            overlayCoroutine = null;
+            yield break;
         }
 
-        if (musicSource != null)
+        if (!overlaySource.isPlaying)
         {
-            if (musicSource.isPlaying) musicSource.Stop();
-            musicSource.clip = null;
+            overlaySource.clip = null;
+            overlayCoroutine = null;
+            yield break;
         }
+
+        if (duration <= 0f)
+        {
+            overlaySource.Stop();
+            overlaySource.clip = null;
+            overlayCoroutine = null;
+            yield break;
+        }
+
+        float elapsed = 0f;
+        float startVol = overlaySource.volume;
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float t = Mathf.Clamp01(elapsed / duration);
+            overlaySource.volume = Mathf.Lerp(startVol, 0f, t);
+            yield return null;
+        }
+
+        overlaySource.Stop();
+        overlaySource.clip = null;
+        overlaySource.volume = 1f; // reset default
+        overlayCoroutine = null;
+    }
+
+    // Stop all music (persistent + overlay) with fades
+    public void StopMusic()
+    {
+        // fade out overlay quickly
+        if (overlayCoroutine != null)
+            StopCoroutine(overlayCoroutine);
+        overlayCoroutine = StartCoroutine(FadeOverlayOut(overlayFadeDuration));
+
+        // fade out persistent
+        if (persistentCoroutine != null)
+            StopCoroutine(persistentCoroutine);
+        persistentCoroutine = StartCoroutine(FadePersistentOutAndClear(persistentFadeDuration));
+    }
+
+    private IEnumerator FadePersistentOutAndClear(float duration)
+    {
+        if (musicSource == null)
+        {
+            persistentCoroutine = null;
+            yield break;
+        }
+
+        if (!musicSource.isPlaying)
+        {
+            musicSource.clip = null;
+            persistentCoroutine = null;
+            yield break;
+        }
+
+        if (duration <= 0f)
+        {
+            musicSource.Stop();
+            musicSource.clip = null;
+            persistentCoroutine = null;
+            yield break;
+        }
+
+        float elapsed = 0f;
+        float startVol = musicSource.volume;
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float t = Mathf.Clamp01(elapsed / duration);
+            musicSource.volume = Mathf.Lerp(startVol, 0f, t);
+            yield return null;
+        }
+
+        musicSource.Stop();
+        musicSource.clip = null;
+        musicSource.volume = 1f;
+        persistentCoroutine = null;
     }
 }
