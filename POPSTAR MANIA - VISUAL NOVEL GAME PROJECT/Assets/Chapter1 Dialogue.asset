@@ -2292,19 +2292,9 @@ MonoBehaviour:
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Lyrical practice
-    dialogueText: "Verse 1:\r\nDuh duh duh duh\r\nBoy \r\nLate at night \r\nI think
-      of you\r\nOh Boy \r\nNeon lights, colourblinded \r\nby you \r\n\r\nPre chorus:
-      \r\nCan\u2019t even fall asleep \r\nYou're the only one \r\nOnly one I neeeed
-      \r\nCan\u2019t even function, pleeease \r\nFeels like a constant \r\nDreaaaammm\r\n\r\nChorus:\r\nDuhh
-      duhh duhh\r\nI dream of you \r\nDuhh duhh\r\nLate at night, all the time \r\nOf
-      you \r\nI day dream, of loving you \r\nBoy \r\nUhh uhhh\r\nI dream of,  loving
-      x3\r\n\r\nVerse 2:\r\nAll the time i think of youuu\r\nCloudy skies \r\nthey
-      make me feel blue\r\nThen you show up\r\nAnd make me feel \r\nBrand new \r\nI
-      dream of you\r\n\r\nPre chorus: \r\nCan\u2019t even fall sleep \r\nYou're the
-      only one\r\nOnly one I neeeed \r\nCan\u2019t even function, pleeease \r\nFeels
-      like a constant \r\nDreaaaammm\r\n\r\nEnd:\r\nDuhh duhh duhh\r\nI dream of
-      you \r\nDuhh duhh\r\nLate at night, all the time \r\nOf you \r\nI day dream,
-      of loving you \r\nBoy \r\nUhh uhhh\r\nI dream of loving x3\r\nLoving you.\r\n\r\n"
+    dialogueText: "Late at night I think of you\r\nNeon lights, colourblinded by
+      you \r\nCloudy skies, they make me feel blue\r\nThen you show up\r\nAnd make
+      me feel, Brand new \r\nOh Boy \r\nI can't stop dreaming of you\r\n"
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
@@ -3564,20 +3554,10 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
-  - speakerName: Lyrics
-    dialogueText: "Verse 1:\r\nDuh duh duh duh\r\nBoy \r\nLate at night \r\nI think
-      of you\r\nOh Boy \r\nNeon lights, colourblinded \r\nby you \r\n\r\nPre chorus:
-      \r\nCan\u2019t even fall asleep \r\nYou're the only one \r\nOnly one I neeeed
-      \r\nCan\u2019t even function, pleeease \r\nFeels like a constant \r\nDreaaaammm\r\n\r\nChorus:\r\nDuhh
-      duhh duhh\r\nI dream of you \r\nDuhh duhh\r\nLate at night, all the time \r\nOf
-      you \r\nI day dream, of loving you \r\nBoy \r\nUhh uhhh\r\nI dream of,  loving
-      x3\r\n\r\nVerse 2:\r\nAll the time i think of youuu\r\nCloudy skies \r\nthey
-      make me feel blue\r\nThen you show up\r\nAnd make me feel \r\nBrand new \r\nI
-      dream of you\r\n\r\nPre chorus: \r\nCan\u2019t even fall sleep \r\nYou're the
-      only one\r\nOnly one I neeeed \r\nCan\u2019t even function, pleeease \r\nFeels
-      like a constant \r\nDreaaaammm\r\n\r\nEnd:\r\nDuhh duhh duhh\r\nI dream of
-      you \r\nDuhh duhh\r\nLate at night, all the time \r\nOf you \r\nI day dream,
-      of loving you \r\nBoy \r\nUhh uhhh\r\nI dream of loving x3\r\nLoving you.\r\n\r\n"
+  - speakerName: Lyrical practice
+    dialogueText: "Late at night I think of you\r\nNeon lights, colourblinded by
+      you \r\nCloudy skies, they make me feel blue\r\nThen you show up\r\nAnd make
+      me feel, Brand new \r\nOh Boy \r\nI can't stop dreaming of you\r\n"
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
