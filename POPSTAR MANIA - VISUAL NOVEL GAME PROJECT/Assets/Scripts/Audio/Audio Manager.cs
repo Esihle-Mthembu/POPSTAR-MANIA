@@ -10,7 +10,7 @@ public class AudioManager : MonoBehaviour
     public AudioSource sfxSource;
 
     public AudioClip mainMenuMusic;
-    public AudioClip gameMusic;   
+    public AudioClip gameMusic;
     public AudioClip clickSound;
     public AudioClip lyricGameMusic;
 
@@ -81,22 +81,21 @@ public class AudioManager : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (!allowSceneMusic)
-        {
-            Debug.Log("Scene music blocked");
-            return;
-        }
-
         StopAllCoroutines();
 
         if (scene.name == "Main Menu")
         {
+            allowSceneMusic = true;
             PlayMainMenuMusic();
+            return;
         }
-        else
+
+        if (!allowSceneMusic)
         {
-            PlayGameMusic();
+            return;
         }
+
+            PlayGameMusic();
     }
 
     void Update()
@@ -133,6 +132,7 @@ public class AudioManager : MonoBehaviour
             yield return null;
         }
 
+        musicSource.Stop();
         musicSource.clip = newClip;
         musicSource.volume = 0f;
         musicSource.Play();

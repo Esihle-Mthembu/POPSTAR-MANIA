@@ -159,6 +159,11 @@ public class DialogueManager : MonoBehaviour
         friendshipBar.value = friendshipPoints;
     }
 
+    public void SetTypingSpeed(float value)
+    {
+        typingSpeed = value;
+    }
+
     void Update()
     {
         if (isInChoice || !isDialogueActive || currentDialogue == null || currentDialogue.lines == null)
