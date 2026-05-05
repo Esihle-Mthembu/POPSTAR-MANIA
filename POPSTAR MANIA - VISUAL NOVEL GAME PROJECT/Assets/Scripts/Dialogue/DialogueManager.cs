@@ -67,7 +67,7 @@ public class DialogueManager : MonoBehaviour
             lyricsGame.onLyricsGameComplete += HandleLyricsResult;
         }
 
-        // --- Safety: ensure sliders are assigned to avoid NullReferenceException ---
+        // Ensure sliders are assigned to avoid NullReferenceException
         if (energyBar == null)
         {
             // try common name first
@@ -90,6 +90,11 @@ public class DialogueManager : MonoBehaviour
         {
             energyBar.maxValue = maxEnergy;
             energyBar.value = 0;
+        }
+
+        if (energyBar != null)
+        {
+            energyBar.gameObject.SetActive(false);
         }
 
         // friendshipBar may be optional at start; try to auto-assign similarly
@@ -147,7 +152,7 @@ public class DialogueManager : MonoBehaviour
 
     void Update()
     {
-        if (isInChoice || !isDialogueActive)
+        if (isInChoice || !isDialogueActive || currentDialogue == null || currentDialogue.lines == null)
             return;
 
         // Spacekey input
@@ -273,6 +278,12 @@ public class DialogueManager : MonoBehaviour
         if (line.choices != null && line.choices.Length > 0)
         {
             isInChoice = true;
+
+            if (energyBar != null && !energyBar.gameObject.activeSelf)
+            {
+                energyBar.gameObject.SetActive(true);
+            }
+
             uiManager.ShowChoices(line.choices);
         }
         else
@@ -527,19 +538,25 @@ public class DialogueManager : MonoBehaviour
 
     public void SelectChoice(DialogueChoice choice)
     {
-        isInChoice = false;
-        uiManager.ClearChoices();
-
-        DialogueLine currentLine = currentDialogue.lines[currentIndex];
-
         if (choice == null)
         {
             Debug.LogError("Choice is NULL");
             return;
         }
 
+        if (currentDialogue == null || currentDialogue.lines == null || currentDialogue.lines.Count == 0)
+        {
+            Debug.LogError("Cannot select choice: dialogue is invalid");
+            return;
+        }
+
+        isTyping = false;
+        isSkipping = false;
+        isAutoMode = false;
+
         currentPath = choice.pathTag;
 
+        //Friendship bar update
         if (currentPath == "A")
         {
             friendshipPoints -= 25;
@@ -552,8 +569,28 @@ public class DialogueManager : MonoBehaviour
         friendshipPoints = Mathf.Clamp(friendshipPoints, 0, maxFriendship);
         UpdateFriendshipBar();
 
+        //check before jumping
+        if (choice.nextLineIndex < 0 || choice.nextLineIndex >= currentDialogue.lines.Count)
+        {
+            Debug.LogError("Invalid nextLineIndex: " + choice.nextLineIndex);
+            return;
+        }
+
         // Go to line/branch linked to choice made
         currentIndex = choice.nextLineIndex;
+
+        isDialogueActive = true;
+        isTyping = false;
+
+        if (typingCoroutine != null)
+        {
+            StopCoroutine(typingCoroutine);
+            typingCoroutine = null;
+        }
+
+        isInChoice = false;
+        uiManager.ClearChoices();
+
         ShowCurrentLine();
     }
 
