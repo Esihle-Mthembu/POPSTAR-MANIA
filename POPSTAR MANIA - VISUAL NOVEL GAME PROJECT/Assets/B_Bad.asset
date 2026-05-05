@@ -668,7 +668,7 @@ MonoBehaviour:
   - speakerName: Score of the day
     dialogueText: "\r\n "
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: 0}
+    leftCharacter: {fileID: -817987454622419427, guid: 1ca60d0f5cc430f4abfad6f141dd3e5f, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 57efb4dc674ab324bb762de408e5052b, type: 3}
     bgm: {fileID: 0}

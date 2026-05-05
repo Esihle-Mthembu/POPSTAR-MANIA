@@ -107,7 +107,7 @@ public class DialogueManager : MonoBehaviour
             energyBar.gameObject.SetActive(false);
         }
 
-        // friendshipBar may be optional at start; try to auto-assign similarly
+        // friendshipBar
         if (friendshipBar == null)
         {
             var go = GameObject.Find("FriendshipBar");
@@ -320,15 +320,6 @@ public class DialogueManager : MonoBehaviour
             StopCoroutine(typingCoroutine);
         }
 
-        // only trigger lyrics game after typing finishes
-        if (currentLine.triggersLyricsGame && !lyricsGameTriggered)
-        {
-            lyricsGameTriggered = true;
-            StartCoroutine(TriggerLyricsAfterTyping());
-        }
-
-        typingCoroutine = StartCoroutine(TypeLine(line.dialogueText));
-
         // Character sprites
         // Center character
         if (line.centerCharacter != null)
@@ -358,16 +349,8 @@ public class DialogueManager : MonoBehaviour
         {
             uiManager.backgroundImage.sprite = line.background;
         }
-    }
 
-    IEnumerator TriggerLyricsAfterTyping()
-    {
-        while (isTyping)
-            yield return null;
-
-        yield return new WaitForSeconds(0.3f);
-
-        TransitionToLyricsGame();
+        typingCoroutine = StartCoroutine(TypeLine(line.dialogueText));
     }
 
     IEnumerator TypeLine(string text)
@@ -383,6 +366,18 @@ public class DialogueManager : MonoBehaviour
         }
 
         isTyping = false;
+
+        if (currentLine.triggersLyricsGame && !lyricsGameTriggered)
+        {
+            lyricsGameTriggered = true;
+            StartCoroutine(StartLyricsAfterDelay());
+        }
+    }
+
+    IEnumerator StartLyricsAfterDelay()
+    {
+        yield return new WaitForSeconds(0.3f);
+        TransitionToLyricsGame();
     }
 
     private void FinishLineInstantly()
@@ -394,6 +389,12 @@ public class DialogueManager : MonoBehaviour
 
         dialogueText.text = fullLineText;
         isTyping = false;
+
+        if (currentLine.triggersLyricsGame && !lyricsGameTriggered)
+        {
+            lyricsGameTriggered = true;
+            StartCoroutine(StartLyricsAfterDelay());
+        }
     }
 
     public void TransitionToLyricsGame()
