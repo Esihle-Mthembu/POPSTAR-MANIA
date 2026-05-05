@@ -12,13 +12,17 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI speakerText;
     public TextMeshProUGUI dialogueText;
     public DialogueUIManager uiManager;
-    public float typingSpeed = 30f;
     public CanvasGroup speakerCanvasGroup;
 
     [Header ("Dialogue Data")]
     public DialogueData prologueDialogue;
     public DialogueData chapter1Dialogue;
-    private string currentPath = ""; 
+    private string currentPath = "";
+
+    [Header ("Dialogue Settings")]
+    public float typingSpeed = 30f;
+    public float minTypingSpeed = 10f;
+    public float maxTypingSpeed = 80f;
 
     [Header ("Player Stats")]
     public int energyPoints;
@@ -151,12 +155,19 @@ public class DialogueManager : MonoBehaviour
         StartDialogue(prologueDialogue);
     }
 
+
+
     void UpdateFriendshipBar()
     {
         if (friendshipBar == null) return;
 
         friendshipBar.maxValue = maxFriendship;
         friendshipBar.value = friendshipPoints;
+    }
+
+    public void SetTypingSpeed(float speed)
+    {
+        typingSpeed = Mathf.Clamp(speed, minTypingSpeed, maxTypingSpeed);
     }
 
     void Update()
@@ -217,6 +228,11 @@ public class DialogueManager : MonoBehaviour
         currentPath = "";
         triggeredLines.Clear();
 
+        if (!isPrologue && friendshipBar != null)
+        {
+            friendshipBar.gameObject.SetActive(true);
+        }
+
         ShowCurrentLine();
     }
     public void DisplayNextLine()
@@ -242,6 +258,11 @@ public class DialogueManager : MonoBehaviour
 
         currentLine = currentDialogue.lines[currentIndex];
         DialogueLine line = currentLine;
+
+        if (!isPrologue && friendshipBar != null)
+        {
+            friendshipBar.gameObject.SetActive(true);
+        }
 
         // play/stop BGM via MusicManager
         MusicManager music = Object.FindFirstObjectByType<MusicManager>();
