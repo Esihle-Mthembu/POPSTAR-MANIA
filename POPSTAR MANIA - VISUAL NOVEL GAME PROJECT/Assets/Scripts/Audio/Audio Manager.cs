@@ -87,7 +87,29 @@ public class AudioManager : MonoBehaviour
             return;
         }
 
-        return;
+        StopMusic();
+    }
+
+    public void StopMusic()
+    {
+        if (musicCoroutine != null)
+        {
+            StopCoroutine(musicCoroutine);
+        }
+
+        StartCoroutine(FadeOutMusic());
+    }
+
+    IEnumerator FadeOutMusic()
+    {
+        while (musicSource.volume > 0.01f)
+        {
+            musicSource.volume -= Time.deltaTime;
+            yield return null;
+        }
+
+        musicSource.Stop();
+        musicSource.clip = null;
     }
 
     void Update()
