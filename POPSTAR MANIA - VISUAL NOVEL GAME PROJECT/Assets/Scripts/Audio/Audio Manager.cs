@@ -10,12 +10,10 @@ public class AudioManager : MonoBehaviour
     public AudioSource sfxSource;
 
     public AudioClip mainMenuMusic;
-    public AudioClip gameMusic;
     public AudioClip clickSound;
     public AudioClip lyricGameMusic;
 
     private AudioClip previousMusicClip;
-    private bool allowSceneMusic = true;
 
     private static bool created = false;
     private Coroutine musicCoroutine;
@@ -85,17 +83,11 @@ public class AudioManager : MonoBehaviour
 
         if (scene.name == "Main Menu")
         {
-            allowSceneMusic = true;
             PlayMainMenuMusic();
             return;
         }
 
-        if (!allowSceneMusic)
-        {
-            return;
-        }
-
-            PlayGameMusic();
+        return;
     }
 
     void Update()
@@ -108,7 +100,6 @@ public class AudioManager : MonoBehaviour
 
     //Music
     public void PlayMainMenuMusic() => PlayMusic(mainMenuMusic);
-    public void PlayGameMusic() => PlayMusic(gameMusic);
 
     public void PlayMusic(AudioClip clip)
     {
@@ -177,23 +168,19 @@ public class AudioManager : MonoBehaviour
     // Lyrics game music
     public void PlayLyricGameMusic()
     {
-        allowSceneMusic = false;
-
         previousMusicClip = musicSource.clip;
         PlayMusic(lyricGameMusic);
     }
 
     public void RestorePreviousMusic()
     {
-        allowSceneMusic = true;
-
         if (previousMusicClip != null)
         {
             PlayMusic(previousMusicClip);
         }
         else
         {
-            PlayGameMusic();
+            PlayMainMenuMusic();
         }
     }
 }
