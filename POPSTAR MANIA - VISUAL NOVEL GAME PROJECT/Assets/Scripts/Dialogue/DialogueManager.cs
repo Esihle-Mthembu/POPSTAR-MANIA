@@ -12,17 +12,13 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI speakerText;
     public TextMeshProUGUI dialogueText;
     public DialogueUIManager uiManager;
+    public float typingSpeed = 30f;
     public CanvasGroup speakerCanvasGroup;
 
     [Header ("Dialogue Data")]
     public DialogueData prologueDialogue;
     public DialogueData chapter1Dialogue;
-    private string currentPath = "";
-
-    [Header ("Dialogue Settings")]
-    public float typingSpeed = 30f;
-    public float minTypingSpeed = 10f;
-    public float maxTypingSpeed = 80f;
+    private string currentPath = ""; 
 
     [Header ("Player Stats")]
     public int energyPoints;
@@ -155,19 +151,12 @@ public class DialogueManager : MonoBehaviour
         StartDialogue(prologueDialogue);
     }
 
-
-
     void UpdateFriendshipBar()
     {
         if (friendshipBar == null) return;
 
         friendshipBar.maxValue = maxFriendship;
         friendshipBar.value = friendshipPoints;
-    }
-
-    public void SetTypingSpeed(float speed)
-    {
-        typingSpeed = Mathf.Clamp(speed, minTypingSpeed, maxTypingSpeed);
     }
 
     void Update()
@@ -228,11 +217,6 @@ public class DialogueManager : MonoBehaviour
         currentPath = "";
         triggeredLines.Clear();
 
-        if (!isPrologue && friendshipBar != null)
-        {
-            friendshipBar.gameObject.SetActive(true);
-        }
-
         ShowCurrentLine();
     }
     public void DisplayNextLine()
@@ -257,25 +241,26 @@ public class DialogueManager : MonoBehaviour
             return;
 
         currentLine = currentDialogue.lines[currentIndex];
+
         DialogueLine line = currentLine;
 
-        if (!isPrologue && friendshipBar != null)
-        {
-            friendshipBar.gameObject.SetActive(true);
-        }
+        // music BGM plays continuosly if new BGM is specified, otherwise stops if line has no BGM (can be used for silence)
+        MusicManager mm = Object.FindFirstObjectByType<MusicManager>();
+        AudioClip persistentClip = line.bgm;
+        AudioClip overlayClip = line.backgroundMusic;
 
-        // play/stop BGM via MusicManager
-        MusicManager music = Object.FindFirstObjectByType<MusicManager>();
-        if (music != null)
+        if (mm != null)
         {
-            if (line.backgroundMusic != null)
-            {
-                music.PlayMusic(line.backgroundMusic);
-            }
-            else
-            {
-                music.StopMusic();
-            }
+            if (persistentClip != null) mm.PlayPersistent(persistentClip);
+            // persistent BGM intentionally left playing when null (won't stop)
+            if (overlayClip != null) mm.PlayOverlay(overlayClip);
+            else mm.StopOverlay();
+        }
+        else if (AudioManager.Instance != null)
+        {
+            // Fallback: use central AudioManager when MusicManager is missing
+            if (persistentClip != null) AudioManager.Instance.PlayMusic(persistentClip);
+            else if (overlayClip != null) AudioManager.Instance.PlayMusic(overlayClip);
         }
 
         if (string.IsNullOrEmpty(line.speakerName))
