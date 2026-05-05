@@ -3411,8 +3411,8 @@ MonoBehaviour:
     centerCharacter: {fileID: -3963459755102996256, guid: 7ccc637e2ae6a6549b7fe74e9687f88d, type: 3}
     leftCharacter: {fileID: 7041811409493127568, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
-    backgroundMusic: {fileID: 0}
-    bgm: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
+    bgm: {fileID: 0}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
