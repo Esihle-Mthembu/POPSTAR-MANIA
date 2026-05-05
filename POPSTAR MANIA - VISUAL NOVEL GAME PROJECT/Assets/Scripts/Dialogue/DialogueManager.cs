@@ -59,6 +59,16 @@ public class DialogueManager : MonoBehaviour
     private DialogueLine currentLine;
     public ScreenFader fader;
 
+    public DialogueUIManager uIManager;
+
+    void Awake ()
+    {
+        if (uiManager == null)
+        {
+            uiManager = FindFirstObjectByType<DialogueUIManager>();
+        }
+    }
+
     void Start()
     {
         // Link to the lyrics game completion
@@ -545,15 +555,25 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        if (currentDialogue == null || currentDialogue.lines == null || currentDialogue.lines.Count == 0)
+        //Stop all dialogue movement
+        if (typingCoroutine != null)
         {
-            Debug.LogError("Cannot select choice: dialogue is invalid");
-            return;
+            StopCoroutine(typingCoroutine);
+            typingCoroutine = null;
         }
 
         isTyping = false;
+        isInChoice = false;
         isSkipping = false;
         isAutoMode = false;
+
+        if (uiManager == null)
+        {
+            Debug.LogError("uiManager is NOT assigned in DialogueManager!");
+            return;
+        }
+
+        uiManager.ClearChoices();
 
         currentPath = choice.pathTag;
 
@@ -579,19 +599,12 @@ public class DialogueManager : MonoBehaviour
 
         // Go to line/branch linked to choice made
         currentIndex = choice.nextLineIndex;
+        StartCoroutine(ContinueAfterChoice());
+    }
 
-        isDialogueActive = true;
-        isTyping = false;
-
-        if (typingCoroutine != null)
-        {
-            StopCoroutine(typingCoroutine);
-            typingCoroutine = null;
-        }
-
-        isInChoice = false;
-        uiManager.ClearChoices();
-
+    IEnumerator ContinueAfterChoice()
+    {
+        yield return null;
         ShowCurrentLine();
     }
 

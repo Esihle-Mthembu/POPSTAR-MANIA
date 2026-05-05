@@ -156,6 +156,7 @@ MonoBehaviour:
   choicePanel: {fileID: 980714112}
   choiceButtonPrefab: {fileID: 6155727267924834740, guid: b86ec702b546feb4d90a655dbbc661a2, type: 3}
   choicesContainer: {fileID: 88658912}
+  dialogueManager: {fileID: 2076024544}
 --- !u!4 &6706362
 Transform:
   m_ObjectHideFlags: 0
@@ -360,7 +361,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: 0
     m_Right: 0
-    m_Top: 0
+    m_Top: -100
     m_Bottom: 0
   m_ChildAlignment: 4
   m_Spacing: 20
@@ -1473,6 +1474,7 @@ MonoBehaviour:
   B_Bad: {fileID: 0}
   loadingFromSave: 0
   fader: {fileID: 0}
+  uIManager: {fileID: 0}
 --- !u!4 &462628086
 Transform:
   m_ObjectHideFlags: 0
@@ -4799,7 +4801,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MusicManager
   musicSource: {fileID: 1492588306}
-  defaultCrossfadeDuration: 0.5
 --- !u!4 &1492588308
 Transform:
   m_ObjectHideFlags: 0
@@ -10458,6 +10459,7 @@ MonoBehaviour:
   B_Bad: {fileID: 11400000, guid: 671773dccd3c4fb428f4873faa37d432, type: 2}
   loadingFromSave: 0
   fader: {fileID: 1440375923}
+  uIManager: {fileID: 6706361}
 --- !u!1 &2090376911
 GameObject:
   m_ObjectHideFlags: 0
