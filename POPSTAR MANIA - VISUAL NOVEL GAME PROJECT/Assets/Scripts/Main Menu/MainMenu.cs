@@ -36,7 +36,7 @@ public class MainMenu : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("SettingsMenu not found in scene");
+            Debug.LogError("SettingsMenu.Instance is null, not initialized yet");
         }
     }
 
