@@ -26,7 +26,6 @@ public class LyricsGameManager : MonoBehaviour
     private int currentBlankIndex = 0;
 
     public GameObject lyricsUI;
-
     public void StartGame(LyricsGameData data)
     {
         Debug.Log("Start game called");
@@ -36,7 +35,6 @@ public class LyricsGameManager : MonoBehaviour
 
         ShowCurrentLine();
     }
-
     //Hiding words
     public string GetMaskedLine(LyricLines line)
     {
@@ -63,6 +61,16 @@ public class LyricsGameManager : MonoBehaviour
 
     public void ShowCurrentLine()
     {
+        if (musicManager == null)
+        {
+            Debug.Log("MusicManager is NOT assigned");
+        }
+        else
+        {
+            Debug.Log("MusicManager found, playing music");
+            musicManager.PlayMusic(lyricalChallengeMusic);
+        }
+
         if (currentGame == null)
         {
             Debug.LogError("LyricsGameData is NOT assigned!");

@@ -2394,6 +2394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MusicManager
   musicSource: {fileID: 909132764}
+  overlaySource: {fileID: 0}
 --- !u!4 &909132766
 Transform:
   m_ObjectHideFlags: 0
@@ -3153,12 +3154,10 @@ MonoBehaviour:
   speakerText: {fileID: 0}
   dialogueText: {fileID: 0}
   uiManager: {fileID: 0}
+  typingSpeed: 30
   speakerCanvasGroup: {fileID: 0}
   prologueDialogue: {fileID: 0}
   chapter1Dialogue: {fileID: 0}
-  typingSpeed: 30
-  minTypingSpeed: 10
-  maxTypingSpeed: 80
   energyPoints: 0
   maxEnergy: 80
   energyBar: {fileID: 0}
@@ -4412,8 +4411,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e885c7ac78eee7e4987ca74ca4dffe83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LyricsGameManager
-  musicManager: {fileID: 0}
-  lyricalChallengeMusic: {fileID: 8300000, guid: fa5dabd6b532e3b42870f9f607d004ff, type: 3}
+  musicManager: {fileID: 909132765}
+  lyricalChallengeMusic: {fileID: 0}
   lyricText: {fileID: 0}
   wordBankPanel: {fileID: 0}
   wordButtonPrefab: {fileID: 0}
