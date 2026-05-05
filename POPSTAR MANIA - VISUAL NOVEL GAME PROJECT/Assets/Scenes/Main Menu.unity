@@ -2513,7 +2513,7 @@ MonoBehaviour:
   musicSource: {fileID: 909132764}
   overlaySource: {fileID: 0}
   persistentFadeDuration: 0.6
-  overlayFadeDuration: 0.25
+  overlayFadeDuration: 0.35
 --- !u!4 &909132766
 Transform:
   m_ObjectHideFlags: 0
