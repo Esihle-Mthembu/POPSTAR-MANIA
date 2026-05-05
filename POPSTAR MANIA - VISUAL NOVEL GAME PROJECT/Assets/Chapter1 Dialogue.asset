@@ -20,7 +20,7 @@ MonoBehaviour:
     leftCharacter: {fileID: 1102536027230071805, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     backgroundMusic: {fileID: 0}
-    bgm: {fileID: 8300000, guid: c8b77116b1cc119498cece4efe615188, type: 3}
+    bgm: {fileID: 8300000, guid: c51105d55672350478fc82ff5c94d475, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1185,7 +1185,7 @@ MonoBehaviour:
     leftCharacter: {fileID: -4193493033591885765, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
-    bgm: {fileID: 8300000, guid: c8b77116b1cc119498cece4efe615188, type: 3}
+    bgm: {fileID: 8300000, guid: c51105d55672350478fc82ff5c94d475, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2124,7 +2124,7 @@ MonoBehaviour:
     leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
-    bgm: {fileID: 0}
+    bgm: {fileID: 8300000, guid: c51105d55672350478fc82ff5c94d475, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2171,7 +2171,7 @@ MonoBehaviour:
     centerCharacter: {fileID: -3963459755102996256, guid: 7ccc637e2ae6a6549b7fe74e9687f88d, type: 3}
     leftCharacter: {fileID: 7041811409493127568, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     bgm: {fileID: 0}
     choices: []
     triggersLyricsGame: 0
@@ -2320,7 +2320,7 @@ MonoBehaviour:
     leftCharacter: {fileID: 7041811409493127568, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
-    bgm: {fileID: 8300000, guid: c8b77116b1cc119498cece4efe615188, type: 3}
+    bgm: {fileID: 8300000, guid: c51105d55672350478fc82ff5c94d475, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -3374,7 +3374,7 @@ MonoBehaviour:
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
-    bgm: {fileID: 0}
+    bgm: {fileID: 8300000, guid: c51105d55672350478fc82ff5c94d475, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -3422,7 +3422,7 @@ MonoBehaviour:
     leftCharacter: {fileID: 7041811409493127568, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
-    bgm: {fileID: 0}
+    bgm: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -3433,7 +3433,7 @@ MonoBehaviour:
     leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
-    bgm: {fileID: 0}
+    bgm: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
