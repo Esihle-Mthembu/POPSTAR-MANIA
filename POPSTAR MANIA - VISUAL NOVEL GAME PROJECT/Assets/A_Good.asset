@@ -646,7 +646,7 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
-  - speakerName: Score of the day
+  - speakerName: 
     dialogueText: 
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: -8875235986244404559, guid: 199718d2b8fe08743aec760558a17bd0, type: 3}

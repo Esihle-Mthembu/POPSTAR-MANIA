@@ -681,23 +681,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
-  - speakerName: 'Score of the day:'
-    dialogueText: 'Cheomni
-
-      Yeonseo
-
-      Kandy
-
-      Minjii
-
-      Rose
-
-      Mei
-
-      Xuan
-      Mo
-
-      Yeonhee
+  - speakerName: 
+    dialogueText: '
 
 '
     centerCharacter: {fileID: 0}
