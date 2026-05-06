@@ -734,7 +734,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (SettingsMenu.Instance != null)
         {
-            SettingsMenu.Instance.ToggleSettings();
+            SettingsMenu.Instance.OpenSettings();
         }
     }
 
