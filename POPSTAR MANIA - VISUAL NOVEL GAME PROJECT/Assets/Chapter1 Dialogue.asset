@@ -20,7 +20,7 @@ MonoBehaviour:
     leftCharacter: {fileID: 1102536027230071805, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
     backgroundMusic: {fileID: 0}
-    bgm: {fileID: 8300000, guid: c51105d55672350478fc82ff5c94d475, type: 3}
+    bgm: {fileID: 8300000, guid: e614a23963266754cb9fe19c647297a5, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1086,7 +1086,7 @@ MonoBehaviour:
     leftCharacter: {fileID: 0}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
-    bgm: {fileID: 0}
+    bgm: {fileID: 8300000, guid: 6617df9bbbfa25e4387f6b371f6fb4b8, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1197,7 +1197,7 @@ MonoBehaviour:
     leftCharacter: {fileID: -8388179541503621137, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
-    bgm: {fileID: 0}
+    bgm: {fileID: 8300000, guid: e614a23963266754cb9fe19c647297a5, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1411,12 +1411,12 @@ MonoBehaviour:
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
-    dialogueText: "Score of the day: \r\n1. Cheomni \r\n2. Yoenseo \r\n3. Kandy \r\n4.
-      Minjii \r\n5. Mei\r\n6. Xuan Mo \r\n7. Rose \r\n8. Yeonhee "
+    dialogueText: "Score of the day: \r\nCheomni, Yoenseo, Kandy, Minji, Mei, Xuan
+      Mo, Rose, Yeonhee "
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 57efb4dc674ab324bb762de408e5052b, type: 3}
     bgm: {fileID: 0}
     choices: []
     triggersLyricsGame: 0
@@ -1711,7 +1711,7 @@ MonoBehaviour:
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
-    bgm: {fileID: 8300000, guid: 87271d66143920d4d840d16afc54809f, type: 3}
+    bgm: {fileID: 8300000, guid: 6617df9bbbfa25e4387f6b371f6fb4b8, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2124,7 +2124,7 @@ MonoBehaviour:
     leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
-    bgm: {fileID: 8300000, guid: c51105d55672350478fc82ff5c94d475, type: 3}
+    bgm: {fileID: 8300000, guid: e614a23963266754cb9fe19c647297a5, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2294,7 +2294,7 @@ MonoBehaviour:
   - speakerName: Lyrical practice
     dialogueText: "Late at night I think of you\r\nNeon lights, colourblinded by
       you \r\nCloudy skies, they make me feel blue\r\nThen you show up\r\nAnd make
-      me feel, Brand new \r\nOh Boy \r\nI can't stop dreaming of you\r\n"
+      me feel, Brand new \r\nOh Boy, I can't stop dreaming of you\r\n"
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
@@ -2310,7 +2310,7 @@ MonoBehaviour:
     leftCharacter: {fileID: 7041811409493127568, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
-    bgm: {fileID: 8300000, guid: c51105d55672350478fc82ff5c94d475, type: 3}
+    bgm: {fileID: 8300000, guid: 6617df9bbbfa25e4387f6b371f6fb4b8, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2356,7 +2356,7 @@ MonoBehaviour:
     leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
-    bgm: {fileID: 0}
+    bgm: {fileID: 8300000, guid: e614a23963266754cb9fe19c647297a5, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2922,7 +2922,7 @@ MonoBehaviour:
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
-    bgm: {fileID: 8300000, guid: 87271d66143920d4d840d16afc54809f, type: 3}
+    bgm: {fileID: 8300000, guid: 6617df9bbbfa25e4387f6b371f6fb4b8, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -3364,7 +3364,7 @@ MonoBehaviour:
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
-    bgm: {fileID: 8300000, guid: c51105d55672350478fc82ff5c94d475, type: 3}
+    bgm: {fileID: 8300000, guid: e614a23963266754cb9fe19c647297a5, type: 3}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -3557,7 +3557,7 @@ MonoBehaviour:
   - speakerName: Lyrical practice
     dialogueText: "Late at night I think of you\r\nNeon lights, colourblinded by
       you \r\nCloudy skies, they make me feel blue\r\nThen you show up\r\nAnd make
-      me feel, Brand new \r\nOh Boy \r\nI can't stop dreaming of you\r\n"
+      me feel, Brand new \r\nOh Boy, I can't stop dreaming of you\r\n"
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
