@@ -2881,7 +2881,7 @@ MonoBehaviour:
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: Manager
-    dialogueText: " I hope you\u2019re all well rested and ready for practice. We\u2019ve
+    dialogueText: "I hope you\u2019re all well rested and ready for practice. We\u2019ve
       decided to add another scale at the vocal practice room. Don\u2019t ask me
       why, I really tried to convince them otherwise girls, they just wouldn't budge."
     centerCharacter: {fileID: 6654811726689088912, guid: 4ae79176973886e48ad0767919bd05d9, type: 3}
@@ -3422,8 +3422,8 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
-    backgroundMusic: {fileID: 0}
-    bgm: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
+    bgm: {fileID: 0}
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
