@@ -2736,7 +2736,7 @@ MonoBehaviour:
     isEndOfBranch: 0
   - speakerName: 
     dialogueText: 'Cheonmi walks into the room, looks up at me, and sighs. '
-    centerCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
+    centerCharacter: {fileID: 0}
     leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     backgroundMusic: {fileID: 0}
