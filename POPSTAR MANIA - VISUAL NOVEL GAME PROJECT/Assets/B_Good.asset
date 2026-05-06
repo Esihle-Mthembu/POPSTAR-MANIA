@@ -645,7 +645,7 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
-  - speakerName: Score of the day
+  - speakerName: 
     dialogueText: '
 
 '

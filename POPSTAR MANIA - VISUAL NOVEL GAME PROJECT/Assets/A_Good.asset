@@ -646,7 +646,7 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
-  - speakerName: Score of the day
+  - speakerName: 
     dialogueText: 
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: -8875235986244404559, guid: 199718d2b8fe08743aec760558a17bd0, type: 3}
@@ -1095,7 +1095,7 @@ MonoBehaviour:
   - speakerName: Rose
     dialogueText: "He shouldn\u2019t know we ate without his permission.\r\n"
     centerCharacter: {fileID: 8983882151882235503, guid: 731d6d8ff2029f04e8f0a1cc5164e541, type: 3}
-    leftCharacter: {fileID: 7522834289488228649, guid: a5c7235e2931de04183b3b9377c374da, type: 3}
+    leftCharacter: {fileID: -8388179541503621137, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
