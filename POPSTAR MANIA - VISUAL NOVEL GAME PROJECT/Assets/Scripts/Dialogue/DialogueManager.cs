@@ -169,7 +169,6 @@ public class DialogueManager : MonoBehaviour
         if (isInChoice || !isDialogueActive || currentDialogue == null || currentDialogue.lines == null)
             return;
 
-        // defensive: ensure currentDialogue and lines exist before accessing Count
         if (currentDialogue == null || currentDialogue.lines == null || currentDialogue.lines.Count == 0)
             return;
 
