@@ -1,11 +1,23 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class MainMenu : MonoBehaviour
 {
+    public AudioSource clickSound;
+
     // Continue button
     public void ContinueGame()
     {
+        StartCoroutine(ContinueAfterSound());
+    }
+
+    IEnumerator ContinueAfterSound()
+    {
+        clickSound.Play();
+
+        yield return new WaitForSeconds(0.2f);
+
         if (PlayerPrefs.HasKey("SceneName"))
         {
             string sceneName = PlayerPrefs.GetString("SceneName");
