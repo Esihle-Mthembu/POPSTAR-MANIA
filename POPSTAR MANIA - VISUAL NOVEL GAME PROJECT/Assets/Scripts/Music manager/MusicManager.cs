@@ -3,6 +3,7 @@ using System.Collections;
 
 public class MusicManager : MonoBehaviour
 {
+    public static MusicManager Instance;
     private static bool musicExists = false;
 
     // Primary persistent music source (used for BGM)
@@ -11,12 +12,18 @@ public class MusicManager : MonoBehaviour
     // Overlay source for per-line background music that can be started/stopped independently
     public AudioSource overlaySource;
 
+    // SFX for UI / clicks (optional)
+    public AudioSource sfxSource;
+    public AudioClip clickSound;
+
     // Fade durations 
     public float persistentFadeDuration = 0.6f;
     public float overlayFadeDuration = 0.25f;
 
     private Coroutine persistentCoroutine;
     private Coroutine overlayCoroutine;
+
+    private AudioClip previousMusicClip;
 
     void Awake()
     {
@@ -25,6 +32,7 @@ public class MusicManager : MonoBehaviour
         {
             DontDestroyOnLoad(gameObject);
             musicExists = true;
+            Instance = this;
         }
         else
         {
@@ -32,14 +40,21 @@ public class MusicManager : MonoBehaviour
             return;
         }
 
-        // Try to use AudioManager's source if ours is not assigned
+        // using AudioManager's source if ours is not assigned, but only if it's on the same GameObject
         if (musicSource == null && AudioManager.Instance != null)
         {
-            musicSource = AudioManager.Instance.musicSource;
-            Debug.Log("[MusicManager] auto-assigned musicSource from AudioManager.Instance");
+            if (AudioManager.Instance.gameObject == this.gameObject)
+            {
+                musicSource = AudioManager.Instance.musicSource;
+                Debug.Log("[MusicManager] auto-assigned musicSource from AudioManager.Instance (same GameObject)");
+            }
+            else
+            {
+                Debug.Log("[MusicManager] AudioManager exists on a different GameObject — not reusing its musicSource to avoid conflicts.");
+            }
         }
 
-       
+
         if (musicSource == null)
         {
             musicSource = gameObject.GetComponent<AudioSource>();
@@ -75,9 +90,25 @@ public class MusicManager : MonoBehaviour
             }
         }
 
+        // If sfxSource is not assigned, try to find any remaining AudioSource that isn't music/overlay
+        if (sfxSource == null)
+        {
+            var sources = GetComponents<AudioSource>();
+            foreach (var s in sources)
+            {
+                if (s != musicSource && s != overlaySource)
+                {
+                    sfxSource = s;
+                    break;
+                }
+            }
+            // do NOT create a persistent sfxSource automatically here; PlayClick will create one if necessary
+        }
+
         // Normalize volumes
         if (musicSource != null) musicSource.volume = 1f;
         if (overlaySource != null) overlaySource.volume = 1f;
+        if (sfxSource != null) sfxSource.volume = 1f;
     }
 
     // Backwards-compatible: treat as persistent BGM
@@ -362,5 +393,49 @@ public class MusicManager : MonoBehaviour
         musicSource.clip = null;
         musicSource.volume = 1f;
         persistentCoroutine = null;
+    }
+
+    // Store current music and play a lyric-game clip (used for temporary switches)
+    public void PlayLyricGameMusic(AudioClip lyricClip)
+    {
+        if (musicSource != null)
+            previousMusicClip = musicSource.clip;
+        PlayPersistent(lyricClip);
+    }
+
+    public void RestorePreviousMusic()
+    {
+        if (previousMusicClip != null)
+            PlayPersistent(previousMusicClip);
+        else
+            StopMusic();
+    }
+
+    // UI click SFX
+    public void PlayClick()
+    {
+        if (clickSound == null)
+        {
+            Debug.LogWarning("[MusicManager] PlayClick called but clickSound is null");
+            return;
+        }
+
+        // Ensure a usable sfxSource exists
+        if (sfxSource == null)
+        {
+            sfxSource = gameObject.AddComponent<AudioSource>();
+            sfxSource.playOnAwake = false;
+            sfxSource.spatialBlend = 0f;
+            sfxSource.loop = false;
+        }
+
+        if (!sfxSource.enabled || !sfxSource.gameObject.activeInHierarchy)
+        {
+            Debug.LogWarning("[MusicManager] sfxSource disabled or inactive");
+            return;
+        }
+
+        Debug.Log("[MusicManager] Playing clickSound: " + clickSound.name);
+        sfxSource.PlayOneShot(clickSound);
     }
 }

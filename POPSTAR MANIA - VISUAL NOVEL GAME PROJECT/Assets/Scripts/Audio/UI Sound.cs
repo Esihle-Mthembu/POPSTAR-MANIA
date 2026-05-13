@@ -5,8 +5,6 @@ using System.Collections;
 
 public class UISound : MonoBehaviour
 {
-    private static bool alreadyHooked = false;
-
     void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -16,7 +14,6 @@ public class UISound : MonoBehaviour
     void OnDisable()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
-        alreadyHooked = false; // allow re-hook on scene change
     }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -40,32 +37,36 @@ public class UISound : MonoBehaviour
 
     void HookButtons()
     {
-        if (alreadyHooked)
-        {
-            return;
-        }
-
         Button[] buttons = FindObjectsByType<Button>(FindObjectsSortMode.None);
+        int hooked = 0;
 
         foreach (Button btn in buttons)
         {
+            // remove any previous binding to avoid duplicates, then add
+            btn.onClick.RemoveListener(PlayClickSound);
             btn.onClick.AddListener(PlayClickSound);
+            hooked++;
         }
 
-        alreadyHooked = true;
-        Debug.Log("UI Buttons hooked: " + buttons.Length);
+        Debug.Log("UI Buttons hooked: " + hooked);
     }
 
     void PlayClickSound()
     {
-        if (AudioManager.Instance == null)
+        // Prefer MusicManager if present
+        if (MusicManager.Instance != null && MusicManager.Instance.clickSound != null)
         {
-            Debug.LogWarning("AudioManager missing");
+            MusicManager.Instance.PlayClick();
             return;
         }
 
-        Debug.Log("Click triggered");
+        // Fallback to AudioManager
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayClick();
+            return;
+        }
 
-        AudioManager.Instance.PlayClick();
+        Debug.LogWarning("No audio manager available for UI click.");
     }
 }

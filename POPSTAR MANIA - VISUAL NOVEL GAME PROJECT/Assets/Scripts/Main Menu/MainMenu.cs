@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class MainMenu : MonoBehaviour
 {
@@ -11,12 +12,27 @@ public class MainMenu : MonoBehaviour
             string sceneName = PlayerPrefs.GetString("SceneName");
             Debug.Log("Loading scene:" + sceneName);
 
-            SceneManager.LoadScene(sceneName);
+            // Play click (prefer AudioManager -> MusicManager delegation)
+            if (AudioManager.Instance != null)
+            {
+                AudioManager.Instance.PlayClick();
+                StartCoroutine(LoadSceneDelayed(sceneName, 0.1f)); // smsall delay to start sound
+            }
+            else
+            {
+                SceneManager.LoadScene(sceneName);
+            }
         }
         else
         {
             Debug.Log("No saved game exists");
         }
+    }
+
+    private IEnumerator LoadSceneDelayed(string sceneName, float delaySeconds)
+    {
+        yield return new WaitForSeconds(delaySeconds);
+        SceneManager.LoadScene(sceneName);
     }
 
     // New Game button
@@ -36,7 +52,7 @@ public class MainMenu : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("SettingsMenu not found in scene");
+            Debug.LogError("SettingsMenu.Instance is null, not initialized yet");
         }
     }
 

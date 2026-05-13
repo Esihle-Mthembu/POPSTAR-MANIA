@@ -172,7 +172,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -210,7 +210,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -238,10 +238,10 @@ TextureImporter:
       name: Main menu sprite animation_0
       rect:
         serializedVersion: 2
-        x: 241
-        y: 1014
-        width: 5
-        height: 4
+        x: 0
+        y: 730
+        width: 350
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: Main menu sprite animation_1
       rect:
         serializedVersion: 2
-        x: 584
-        y: 993
-        width: 30
-        height: 26
+        x: 350
+        y: 730
+        width: 350
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: Main menu sprite animation_2
       rect:
         serializedVersion: 2
-        x: 593
-        y: 1018
-        width: 5
-        height: 4
+        x: 700
+        y: 730
+        width: 350
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,10 +304,10 @@ TextureImporter:
       name: Main menu sprite animation_3
       rect:
         serializedVersion: 2
-        x: 232
-        y: 989
-        width: 30
-        height: 26
+        x: 1050
+        y: 730
+        width: 350
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +326,10 @@ TextureImporter:
       name: Main menu sprite animation_4
       rect:
         serializedVersion: 2
-        x: 805
-        y: 989
-        width: 27
-        height: 25
+        x: 1400
+        y: 730
+        width: 350
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,10 +348,10 @@ TextureImporter:
       name: Main menu sprite animation_5
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 989
-        width: 27
-        height: 25
+        x: 0
+        y: 380
+        width: 350
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +370,10 @@ TextureImporter:
       name: Main menu sprite animation_6
       rect:
         serializedVersion: 2
-        x: 1572
-        y: 984
-        width: 22
-        height: 32
+        x: 350
+        y: 380
+        width: 350
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,10 +392,10 @@ TextureImporter:
       name: Main menu sprite animation_7
       rect:
         serializedVersion: 2
-        x: 7
-        y: 741
-        width: 346
-        height: 232
+        x: 700
+        y: 380
+        width: 350
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,10 +414,10 @@ TextureImporter:
       name: Main menu sprite animation_8
       rect:
         serializedVersion: 2
-        x: 47
-        y: 939
-        width: 28
-        height: 38
+        x: 1050
+        y: 380
+        width: 350
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +436,10 @@ TextureImporter:
       name: Main menu sprite animation_9
       rect:
         serializedVersion: 2
-        x: 359
-        y: 745
-        width: 346
-        height: 232
+        x: 1400
+        y: 380
+        width: 350
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,10 +458,10 @@ TextureImporter:
       name: Main menu sprite animation_10
       rect:
         serializedVersion: 2
-        x: 399
-        y: 943
-        width: 28
-        height: 38
+        x: 0
+        y: 30
+        width: 350
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,10 +480,10 @@ TextureImporter:
       name: Main menu sprite animation_11
       rect:
         serializedVersion: 2
-        x: 704
-        y: 740
-        width: 285
-        height: 232
+        x: 350
+        y: 30
+        width: 350
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,10 +502,10 @@ TextureImporter:
       name: Main menu sprite animation_12
       rect:
         serializedVersion: 2
-        x: 808
-        y: 959
-        width: 25
-        height: 23
+        x: 700
+        y: 30
+        width: 350
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,10 +524,10 @@ TextureImporter:
       name: Main menu sprite animation_13
       rect:
         serializedVersion: 2
-        x: 1051
-        y: 740
-        width: 285
-        height: 232
+        x: 1050
+        y: 30
+        width: 350
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -538,754 +538,6 @@ TextureImporter:
       bones: []
       spriteID: fd74eef3fd24fcb00800000000000000
       internalID: 850972381214033887
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_14
-      rect:
-        serializedVersion: 2
-        x: 1155
-        y: 959
-        width: 25
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: afdeaf3e1bdef4160800000000000000
-      internalID: 7012084493129018874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_15
-      rect:
-        serializedVersion: 2
-        x: 1405
-        y: 740
-        width: 346
-        height: 233
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7dfdc850482fef720800000000000000
-      internalID: 2882007460406419415
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_16
-      rect:
-        serializedVersion: 2
-        x: 985
-        y: 942
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0172200d9c546dee0800000000000000
-      internalID: -1236724314586077424
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_17
-      rect:
-        serializedVersion: 2
-        x: 1332
-        y: 942
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fdbc09527c5b4e5e0800000000000000
-      internalID: -1881178877400658977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_18
-      rect:
-        serializedVersion: 2
-        x: 1005
-        y: 871
-        width: 20
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 32a212c30b13ffb20800000000000000
-      internalID: 3170307295684930083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_19
-      rect:
-        serializedVersion: 2
-        x: 1352
-        y: 871
-        width: 19
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 42a693f4cb5864e10800000000000000
-      internalID: 2181578113337092644
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_20
-      rect:
-        serializedVersion: 2
-        x: 979
-        y: 754
-        width: 71
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2187dfac69814bfa0800000000000000
-      internalID: -5785972585334474734
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_21
-      rect:
-        serializedVersion: 2
-        x: 1326
-        y: 754
-        width: 71
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ba0accbc85643820800000000000000
-      internalID: 2897052115443255990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_22
-      rect:
-        serializedVersion: 2
-        x: 539
-        y: 700
-        width: 38
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 954d2b209493e3aa0800000000000000
-      internalID: -6179438652965071783
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_23
-      rect:
-        serializedVersion: 2
-        x: 891
-        y: 692
-        width: 39
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ac18a40b5b3f471b0800000000000000
-      internalID: -5659630870025567798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_24
-      rect:
-        serializedVersion: 2
-        x: 1121
-        y: 682
-        width: 22
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ae44f92a8500a40e0800000000000000
-      internalID: -2285013480251636502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_25
-      rect:
-        serializedVersion: 2
-        x: 1469
-        y: 678
-        width: 22
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 700af09d8d15a9d80800000000000000
-      internalID: -8243186176151805945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_26
-      rect:
-        serializedVersion: 2
-        x: 174
-        y: 660
-        width: 22
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 21415a9a8b900b330800000000000000
-      internalID: 3724487580560200722
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_27
-      rect:
-        serializedVersion: 2
-        x: 582
-        y: 639
-        width: 33
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ca74b81054600fae0800000000000000
-      internalID: -1517706180975442004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_28
-      rect:
-        serializedVersion: 2
-        x: 935
-        y: 631
-        width: 33
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 790563cc33732d780800000000000000
-      internalID: -8659798437871071081
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_29
-      rect:
-        serializedVersion: 2
-        x: 1082
-        y: 645
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b9ec2f7d65d74f50800000000000000
-      internalID: 6865690823211411889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_30
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 416
-        width: 692
-        height: 235
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ff34b1d959246990800000000000000
-      internalID: -7393739222488432650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_31
-      rect:
-        serializedVersion: 2
-        x: 486
-        y: 628
-        width: 25
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e3b6b2ea70b693880800000000000000
-      internalID: -8630749530147820738
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_32
-      rect:
-        serializedVersion: 2
-        x: 706
-        y: 410
-        width: 690
-        height: 238
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2440ea67220bf5cd0800000000000000
-      internalID: -2567139600511400894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_33
-      rect:
-        serializedVersion: 2
-        x: 1399
-        y: 409
-        width: 345
-        height: 235
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 39c0810aa0908ac20800000000000000
-      internalID: 3217831874996472979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_34
-      rect:
-        serializedVersion: 2
-        x: 1430
-        y: 641
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad90f3946b00e3380800000000000000
-      internalID: -8989747023272015398
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_35
-      rect:
-        serializedVersion: 2
-        x: 1347
-        y: 580
-        width: 54
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 611a0a33155652920800000000000000
-      internalID: 2964887329126261014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_36
-      rect:
-        serializedVersion: 2
-        x: 1695
-        y: 576
-        width: 54
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e3ccfb07e37ed2ac0800000000000000
-      internalID: -3878189448730522562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_37
-      rect:
-        serializedVersion: 2
-        x: 703
-        y: 52
-        width: 358
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d7d8742443d21e00800000000000000
-      internalID: 1014105155734919126
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_38
-      rect:
-        serializedVersion: 2
-        x: 922
-        y: 308
-        width: 19
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2110daa7bff69bd10800000000000000
-      internalID: 2141866223677014290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_39
-      rect:
-        serializedVersion: 2
-        x: 954
-        y: 293
-        width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 906654d21fdab5130800000000000000
-      internalID: 3556627582097384969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_40
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 53
-        width: 345
-        height: 233
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f47e32d246c1dea40800000000000000
-      internalID: 5399002744866727759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_41
-      rect:
-        serializedVersion: 2
-        x: 264
-        y: 270
-        width: 19
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 477cafb09d6c3b360800000000000000
-      internalID: 7184304466097260404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_42
-      rect:
-        serializedVersion: 2
-        x: 356
-        y: 52
-        width: 345
-        height: 233
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7688af4bc8cd8c9c0800000000000000
-      internalID: -3906630179854055321
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_43
-      rect:
-        serializedVersion: 2
-        x: 613
-        y: 269
-        width: 19
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f01a3cc7589054260800000000000000
-      internalID: 7081076458038468879
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_44
-      rect:
-        serializedVersion: 2
-        x: 815
-        y: 260
-        width: 17
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 44329803f540b3590800000000000000
-      internalID: -7693550731549662396
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_45
-      rect:
-        serializedVersion: 2
-        x: 985
-        y: 216
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 51bc961cf91c86c10800000000000000
-      internalID: 2047098922528787221
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_46
-      rect:
-        serializedVersion: 2
-        x: 978
-        y: 146
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a607d6811a680449b86637b2f48542c
-      internalID: -1813460389
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu sprite animation_47
-      rect:
-        serializedVersion: 2
-        x: 978
-        y: 65
-        width: 71
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9dec288b6de94b42bf897f7e7bbd1e8
-      internalID: -947142783
       vertices: []
       indices: 
       edges: []
@@ -1304,7 +556,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":350.0,"y":350.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Main menu sprite animation_0: -6159970921137760526
       Main menu sprite animation_1: 5947101445777772688
@@ -1312,43 +564,9 @@ TextureImporter:
       Main menu sprite animation_11: 477522451392440871
       Main menu sprite animation_12: -3825030227283029358
       Main menu sprite animation_13: 850972381214033887
-      Main menu sprite animation_14: 7012084493129018874
-      Main menu sprite animation_15: 2882007460406419415
-      Main menu sprite animation_16: -1236724314586077424
-      Main menu sprite animation_17: -1881178877400658977
-      Main menu sprite animation_18: 3170307295684930083
-      Main menu sprite animation_19: 2181578113337092644
       Main menu sprite animation_2: -4636550625515880666
-      Main menu sprite animation_20: -5785972585334474734
-      Main menu sprite animation_21: 2897052115443255990
-      Main menu sprite animation_22: -6179438652965071783
-      Main menu sprite animation_23: -5659630870025567798
-      Main menu sprite animation_24: -2285013480251636502
-      Main menu sprite animation_25: -8243186176151805945
-      Main menu sprite animation_26: 3724487580560200722
-      Main menu sprite animation_27: -1517706180975442004
-      Main menu sprite animation_28: -8659798437871071081
-      Main menu sprite animation_29: 6865690823211411889
       Main menu sprite animation_3: -6056781733795475617
-      Main menu sprite animation_30: -7393739222488432650
-      Main menu sprite animation_31: -8630749530147820738
-      Main menu sprite animation_32: -2567139600511400894
-      Main menu sprite animation_33: 3217831874996472979
-      Main menu sprite animation_34: -8989747023272015398
-      Main menu sprite animation_35: 2964887329126261014
-      Main menu sprite animation_36: -3878189448730522562
-      Main menu sprite animation_37: 1014105155734919126
-      Main menu sprite animation_38: 2141866223677014290
-      Main menu sprite animation_39: 3556627582097384969
       Main menu sprite animation_4: 6002267722357501637
-      Main menu sprite animation_40: 5399002744866727759
-      Main menu sprite animation_41: 7184304466097260404
-      Main menu sprite animation_42: -3906630179854055321
-      Main menu sprite animation_43: 7081076458038468879
-      Main menu sprite animation_44: -7693550731549662396
-      Main menu sprite animation_45: 2047098922528787221
-      Main menu sprite animation_46: -1813460389
-      Main menu sprite animation_47: -947142783
       Main menu sprite animation_5: -4621205859502744989
       Main menu sprite animation_6: 2455589271466374027
       Main menu sprite animation_7: -4708765486465590278

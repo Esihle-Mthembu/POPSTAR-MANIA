@@ -6,15 +6,19 @@ public class SettingsMenu : MonoBehaviour
 {
     public static SettingsMenu Instance;
 
+    [Header ("UI")]
     public GameObject settingsPanel;
 
+    [Header ("Sliders")]
     public Slider masterSlider;
     public Slider musicSlider;
     public Slider sfxSlider;
     public Slider typingSpeedSlider;
 
+    [Header ("Audio")]
     public AudioMixer audioMixer;
 
+    [Header ("Dialogue")]
     public DialogueManager dialogueManager;
 
     void Awake()
@@ -27,77 +31,90 @@ public class SettingsMenu : MonoBehaviour
         else
         {
             Destroy(gameObject);
+            return;
         }
     }
 
     void Start()
     {
-        Debug.Log($"Master: {masterSlider}, Music: {musicSlider}, SFX: {sfxSlider}, Mixer: {audioMixer}");
-
-        if (masterSlider == null || musicSlider == null || sfxSlider == null)
-        {
-            Debug.LogError("One or more sliders are NOT assigned in the Inspector!");
-            return;
-        }
-
-        //Set default values
-        SetMasterVolume(masterSlider.value);
-        SetMusicVolume(musicSlider.value);
-        SetSFXVolume(sfxSlider.value);
-
-        //Load saved value 
-        float savedSpeed = PlayerPrefs.GetFloat("TypingSpeed", 30f);
-        typingSpeedSlider.value = savedSpeed;
-        ApplyTypingSpeed(savedSpeed);
+        LoadSettings();
     }
 
+    void LoadSettings()
+    {
+        //Load Audio
+        float master = PlayerPrefs.GetFloat("MasterVol", 0.75f);
+        float music = PlayerPrefs.GetFloat("MusicVol", 0.75f);
+        float sfx = PlayerPrefs.GetFloat("SFXVol", 0.75f);
+        float speed = PlayerPrefs.GetFloat("TypingSpeed", 0.75f);
+
+        // Update Sliders
+        masterSlider.value = master;
+        musicSlider.value = music;
+        sfxSlider.value = sfx;
+        typingSpeedSlider.value = speed;
+
+        // Apply to Mixer/Systems
+        SetMasterVolume(master);
+        SetMusicVolume(music);
+        SetSFXVolume(sfx);
+        ApplyTypingSpeed(speed);
+    }
+
+    //Audio
     public void SetMasterVolume(float value)
     {
-        audioMixer.SetFloat("MasterVolume", Mathf.Log10(value) * 20);
+        SetMixerVolume("MasterVolume", value);
+        PlayerPrefs.SetFloat("MasterVol", value);
     }
 
     public void SetMusicVolume(float value)
     {
-        audioMixer.SetFloat("MusicVolume", Mathf.Log10(value) * 20);
+        SetMixerVolume("MusicVolume", value);
+        PlayerPrefs.SetFloat("MusicVol", value);
     }
 
     public void SetSFXVolume(float value)
     {
-        audioMixer.SetFloat("SFXVolume", Mathf.Log10(value) * 20);
+        SetMixerVolume("SFXVolume", value);
+        PlayerPrefs.SetFloat("SFXVol", value);
     }
 
+    void SetMixerVolume(string parameter, float value)
+    {
+        if (audioMixer == null) return;
+
+        float dbValue = Mathf.Log10(Mathf.Max(0.0001f, value)) * 20f;
+        audioMixer.SetFloat(parameter, dbValue);
+    }
+
+    //Typing speed
     public void OnTypingSpeedChanged(float value)
     {
         ApplyTypingSpeed(value);
-
         PlayerPrefs.SetFloat("TypingSpeed", value);
-        PlayerPrefs.Save();
     }
 
     void ApplyTypingSpeed(float value)
     {
+        if (dialogueManager == null)
+        {
+            dialogueManager = Object.FindAnyObjectByType<DialogueManager>();
+        }
+
         if (dialogueManager != null)
         {
             dialogueManager.SetTypingSpeed(value);
         }
     }
 
-    public void ToggleSettings()
+    public void SaveSettings()
     {
-        if (settingsPanel == null)
-        {
-            return;
-        }
-        settingsPanel.SetActive(!settingsPanel.activeSelf);
+        PlayerPrefs.Save();
     }
 
-    public void OpenSettings()
-    {
-        settingsPanel.SetActive(true);
-    }
-
-    public void CloseSettings()
-    {
-        settingsPanel.SetActive(false);
-    }
+    //UI
+    public void ToggleSettings() => settingsPanel.SetActive(!settingsPanel.activeSelf);
+    public void OpenSettings() => settingsPanel.SetActive(true);
+    public void CloseSettings() { settingsPanel.SetActive(false); SaveSettings(); }
 }
