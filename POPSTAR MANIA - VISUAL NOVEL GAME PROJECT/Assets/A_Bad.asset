@@ -21,10 +21,7 @@ MonoBehaviour:
     backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     bgm: {fileID: 8300000, guid: 4738bdf42274e5c428f3975904410d66, type: 3}
     flicker: 0
-    flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
+    flickerDuration: 0
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -40,9 +37,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -57,9 +51,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -74,9 +65,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -92,9 +80,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -109,9 +94,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -126,9 +108,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -144,9 +123,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -161,9 +137,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -177,9 +150,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -193,9 +163,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -209,9 +176,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1
@@ -225,9 +189,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -241,9 +202,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1
@@ -258,9 +216,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1
@@ -274,9 +229,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1
@@ -290,9 +242,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1
@@ -307,9 +256,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1
@@ -324,9 +270,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1
@@ -340,9 +283,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1
@@ -356,9 +296,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1
@@ -375,9 +312,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -391,9 +325,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -407,9 +338,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -425,9 +353,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -443,9 +368,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -463,9 +385,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -481,9 +400,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -498,9 +414,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -517,9 +430,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -535,9 +445,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -554,9 +461,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -572,9 +476,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -590,9 +491,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -608,9 +506,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -624,9 +519,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -642,9 +534,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -661,9 +550,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -677,9 +563,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -694,9 +577,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -714,9 +594,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -732,9 +609,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -749,9 +623,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -765,9 +636,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -783,9 +651,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -799,9 +664,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -815,9 +677,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -831,9 +690,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -848,9 +704,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -865,9 +718,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -883,9 +733,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -900,9 +747,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -916,9 +760,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -933,9 +774,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -949,9 +787,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -967,9 +802,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -985,9 +817,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1001,9 +830,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1017,9 +843,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1033,9 +856,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1050,9 +870,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1066,9 +883,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1082,9 +896,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1102,9 +913,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1118,9 +926,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1134,9 +939,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1150,9 +952,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1166,9 +965,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1183,9 +979,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1201,9 +994,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1217,9 +1007,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1233,9 +1020,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1251,9 +1035,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1267,9 +1048,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1288,9 +1066,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1304,9 +1079,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1320,9 +1092,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1336,9 +1105,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1352,9 +1118,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1368,9 +1131,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1387,9 +1147,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1403,9 +1160,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1420,9 +1174,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1436,9 +1187,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1454,9 +1202,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1471,9 +1216,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1488,9 +1230,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1504,9 +1243,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1520,9 +1256,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1536,9 +1269,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1552,9 +1282,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1571,9 +1298,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1587,9 +1311,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1604,9 +1325,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1620,9 +1338,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1636,9 +1351,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1652,9 +1364,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1668,9 +1377,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1685,9 +1391,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1706,9 +1409,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1722,9 +1422,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1740,9 +1437,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1756,9 +1450,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1774,9 +1465,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1790,9 +1478,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1806,9 +1491,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1822,9 +1504,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1839,9 +1518,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1855,9 +1531,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1871,9 +1544,6 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1
