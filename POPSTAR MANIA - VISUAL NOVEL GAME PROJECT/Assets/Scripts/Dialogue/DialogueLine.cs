@@ -13,6 +13,14 @@ public class DialogueLine
     public Sprite background;
     public AudioClip backgroundMusic;
     public AudioClip bgm;
+   
+    [Header("Effects")]
+    public bool flicker;
+    public float flickerDuration = 1f;
+
+    //public bool shake;
+    //public float shakeDuration = 0.5f;
+    //public float shakeStrength = 5f;
 
     public DialogueChoice[] choices;
 

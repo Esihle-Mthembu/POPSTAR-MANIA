@@ -61,6 +61,7 @@ public class DialogueManager : MonoBehaviour
 
     public DialogueUIManager uIManager;
 
+
     void Awake ()
     {
         if (uiManager == null)
@@ -226,9 +227,21 @@ public class DialogueManager : MonoBehaviour
     }
     public void DisplayNextLine()
     {
+        // Flicker Effect
+        if (currentLine.flicker)
+        {
+            ScreenFlicker.Instance.StartFlicker(currentLine.flickerDuration);
+        }
+
+        //// Shake
+        //if (currentLine.shake)
+        //{
+        //    ScreenShake.Instance.StartShake(currentLine.shakeDuration, currentLine.shakeStrength);
+        //}
+
         if (isInChoice || currentDialogue == null || isTyping || isTransitioning)
             return;
-
+        
         currentIndex++;
 
         if (currentIndex >= currentDialogue.lines.Count)
