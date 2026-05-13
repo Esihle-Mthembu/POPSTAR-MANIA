@@ -1,52 +1,53 @@
-//using UnityEngine;
-//using System.Collections;
+using UnityEngine;
+using System.Collections;
 
-//public class ScreenShake : MonoBehaviour
-//{
-//    public static ScreenShake Instance;
+public class ScreenShake : MonoBehaviour
+{
+    public static ScreenShake Instance;
 
-//    private Vector3 originalPosition;
+    private Vector3 originalPosition;
 
-//    private void Awake()
-//    {
-//        // Singleton
-//        if (Instance == null)
-//        {
-//            Instance = this;
-//            DontDestroyOnLoad(gameObject);
-//        }
-//        else
-//        {
-//            Destroy(gameObject);
-//        }
-//    }
+    private void Awake()
+    {
+        // Singleton
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
-//    private void Start()
-//    {
-//        originalPosition = transform.localPosition;
-//    }
+    private void Start()
+    {
+        originalPosition = transform.position;
+    }
 
-//    public void StartShake(float duration, float strength)
-//    {
-//        StartCoroutine(Shake(duration, strength));
-//    }
+    public void StartShake(float duration, float strength)
+    {
+        StartCoroutine(Shake(duration, strength));
+    }
 
-//    IEnumerator Shake(float duration, float strength)
-//    {
-//        float timer = 0f;
+    IEnumerator Shake(float duration, float strength)
+    {
+        float elapsed = 0f;
 
-//        while (timer < duration)
-//        {
-//            float x = Random.Range(-strength, strength);
-//            float y = Random.Range(-strength, strength);
+        while (elapsed < duration)
+        {
+            Vector3 randomOffset = Random.insideUnitSphere * strength;
+            randomOffset.z = 0;
 
-//            transform.localPosition = originalPosition + new Vector3(x, y, 0);
+            transform.position = originalPosition + randomOffset;
 
-//            timer += Time.deltaTime;
+            elapsed += Time.deltaTime;
 
-//            yield return null;
-//        }
+            yield return null;
+        }
 
-//        transform.localPosition = originalPosition;
-//    }
-//}
+        transform.position = originalPosition;
+    }
+
+}

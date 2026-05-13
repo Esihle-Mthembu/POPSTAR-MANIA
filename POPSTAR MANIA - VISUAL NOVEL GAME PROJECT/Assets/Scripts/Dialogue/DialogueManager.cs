@@ -227,17 +227,19 @@ public class DialogueManager : MonoBehaviour
     }
     public void DisplayNextLine()
     {
+        // stop old effects first
+        ScreenFlicker.Instance.StopFlicker();
         // Flicker Effect
         if (currentLine.flicker)
         {
             ScreenFlicker.Instance.StartFlicker(currentLine.flickerDuration);
         }
 
-        //// Shake
-        //if (currentLine.shake)
-        //{
-        //    ScreenShake.Instance.StartShake(currentLine.shakeDuration, currentLine.shakeStrength);
-        //}
+        // Shake
+        if (currentLine.shake)
+       {
+          ScreenShake.Instance.StartShake(currentLine.shakeDuration, currentLine.shakeStrength);
+       }
 
         if (isInChoice || currentDialogue == null || isTyping || isTransitioning)
             return;
@@ -255,6 +257,7 @@ public class DialogueManager : MonoBehaviour
 
     public void ShowCurrentLine()
     {
+
         if (currentDialogue == null || currentIndex >= currentDialogue.lines.Count)
             return;
 

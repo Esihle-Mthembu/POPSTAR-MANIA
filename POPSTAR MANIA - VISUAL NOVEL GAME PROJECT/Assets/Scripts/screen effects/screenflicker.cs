@@ -9,7 +9,8 @@ public class ScreenFlicker : MonoBehaviour
     [Header("Overlay Image")]
     public Image flickerImage;
 
-  //ADD SOMETHING THAT STOPS THE MUSIC FROM CARRYING ON TO THE NEXT LINE
+    private Coroutine flickerCoroutine;
+
     private void Awake()
     {
         // Singleton
@@ -26,7 +27,26 @@ public class ScreenFlicker : MonoBehaviour
 
     public void StartFlicker(float duration)
     {
-        StartCoroutine(FlickerEffect(duration));
+        // Stop old flicker first
+        if (flickerCoroutine != null)
+        {
+            StopCoroutine(flickerCoroutine);
+        }
+
+        flickerCoroutine = StartCoroutine(FlickerEffect(duration));
+    }
+
+    public void StopFlicker()
+    {
+        if (flickerCoroutine != null)
+        {
+            StopCoroutine(flickerCoroutine);
+        }
+
+        // Reset alpha
+        Color reset = flickerImage.color;
+        reset.a = 0f;
+        flickerImage.color = reset;
     }
 
     IEnumerator FlickerEffect(float duration)
@@ -35,18 +55,16 @@ public class ScreenFlicker : MonoBehaviour
 
         while (timer < duration)
         {
-            // Random alpha flash
             Color color = flickerImage.color;
             color.a = Random.Range(0f, 0.5f);
             flickerImage.color = color;
 
-            // Tiny wait for fast flicker
             yield return new WaitForSeconds(Random.Range(0.02f, 0.08f));
 
             timer += Time.deltaTime;
         }
 
-        // Reset overlay to invisible
+        // Reset overlay
         Color reset = flickerImage.color;
         reset.a = 0f;
         flickerImage.color = reset;

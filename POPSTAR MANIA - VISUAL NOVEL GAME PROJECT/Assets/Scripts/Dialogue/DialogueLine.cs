@@ -18,9 +18,9 @@ public class DialogueLine
     public bool flicker;
     public float flickerDuration = 1f;
 
-    //public bool shake;
-    //public float shakeDuration = 0.5f;
-    //public float shakeStrength = 5f;
+    public bool shake;
+    public float shakeDuration = 0.5f;
+    public float shakeStrength = 5f;
 
     public DialogueChoice[] choices;
 
