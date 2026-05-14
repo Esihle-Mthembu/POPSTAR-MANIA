@@ -6,6 +6,7 @@ public class ScreenShake : MonoBehaviour
     public static ScreenShake Instance;
 
     private Vector3 originalPosition;
+    private Coroutine shakeCoroutine;
 
     private void Awake()
     {
@@ -13,7 +14,6 @@ public class ScreenShake : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -23,12 +23,27 @@ public class ScreenShake : MonoBehaviour
 
     private void Start()
     {
-        originalPosition = transform.position;
+        originalPosition = transform.localPosition;
     }
 
+    // Start Shake
     public void StartShake(float duration, float strength)
     {
-        StartCoroutine(Shake(duration, strength));
+        // Stop old shake first
+        StopShake();
+
+        shakeCoroutine = StartCoroutine(Shake(duration, strength));
+    }
+
+    // Stop Shake
+    public void StopShake()
+    {
+        if (shakeCoroutine != null)
+        {
+            StopCoroutine(shakeCoroutine);
+        }
+
+        transform.localPosition = originalPosition;
     }
 
     IEnumerator Shake(float duration, float strength)
@@ -37,17 +52,16 @@ public class ScreenShake : MonoBehaviour
 
         while (elapsed < duration)
         {
-            Vector3 randomOffset = Random.insideUnitSphere * strength;
-            randomOffset.z = 0;
+            float x = Random.Range(-strength, strength);
+            float y = Random.Range(-strength, strength);
 
-            transform.position = originalPosition + randomOffset;
+            transform.localPosition = originalPosition + new Vector3(x, y, 0);
 
             elapsed += Time.deltaTime;
 
             yield return null;
         }
 
-        transform.position = originalPosition;
+        transform.localPosition = originalPosition;
     }
-
 }

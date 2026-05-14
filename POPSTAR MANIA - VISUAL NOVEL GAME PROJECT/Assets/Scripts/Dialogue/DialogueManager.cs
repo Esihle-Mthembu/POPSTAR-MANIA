@@ -227,19 +227,22 @@ public class DialogueManager : MonoBehaviour
     }
     public void DisplayNextLine()
     {
+        ScreenShake.Instance.StopShake();
         // stop old effects first
         ScreenFlicker.Instance.StopFlicker();
+       
         // Flicker Effect
         if (currentLine.flicker)
         {
             ScreenFlicker.Instance.StartFlicker(currentLine.flickerDuration);
         }
 
-        // Shake
+        // Shake Effect
         if (currentLine.shake)
        {
           ScreenShake.Instance.StartShake(currentLine.shakeDuration, currentLine.shakeStrength);
        }
+
 
         if (isInChoice || currentDialogue == null || isTyping || isTransitioning)
             return;
