@@ -22,6 +22,10 @@ MonoBehaviour:
     bgm: {fileID: 8300000, guid: 4738bdf42274e5c428f3975904410d66, type: 3}
     flicker: 0
     flickerDuration: 0
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -37,6 +41,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -51,6 +59,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -65,6 +77,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -80,6 +96,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -94,6 +114,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -108,6 +132,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -123,6 +151,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -137,6 +169,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -150,6 +186,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -163,6 +203,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -176,6 +220,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1
@@ -189,6 +237,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -202,6 +254,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1
@@ -216,6 +272,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1
@@ -229,6 +289,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1
@@ -242,6 +306,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1
@@ -256,6 +324,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1
@@ -270,6 +342,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1
@@ -283,6 +359,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1
@@ -296,6 +376,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1
@@ -312,6 +396,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -325,6 +413,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -338,6 +430,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -353,6 +449,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -368,6 +468,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -385,6 +489,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -400,6 +508,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -414,6 +526,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -430,6 +546,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -445,6 +565,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -461,6 +585,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -476,6 +604,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -491,6 +623,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -506,6 +642,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -519,6 +659,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -534,6 +678,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -550,6 +698,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -563,6 +715,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -577,6 +733,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -594,6 +754,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -609,6 +773,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -623,6 +791,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -636,6 +808,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -651,6 +827,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -664,6 +844,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -677,6 +861,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -690,6 +878,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -704,6 +896,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -718,6 +914,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -733,6 +933,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -747,6 +951,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -760,6 +968,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -774,6 +986,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -787,6 +1003,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -802,6 +1022,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -817,6 +1041,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -830,6 +1058,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -843,6 +1075,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -856,6 +1092,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -870,6 +1110,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -883,6 +1127,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -896,6 +1144,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -913,6 +1165,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -926,6 +1182,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -939,6 +1199,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -952,6 +1216,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -965,6 +1233,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -979,6 +1251,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -994,6 +1270,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1007,6 +1287,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1020,6 +1304,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1035,6 +1323,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1048,6 +1340,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1066,6 +1362,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1079,6 +1379,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1092,6 +1396,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1105,6 +1413,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1118,6 +1430,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1131,6 +1447,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1147,6 +1467,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1160,6 +1484,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1174,6 +1502,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1187,6 +1519,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1202,6 +1538,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1216,6 +1556,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1230,6 +1574,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1243,6 +1591,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1256,6 +1608,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1269,6 +1625,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1282,6 +1642,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1298,6 +1662,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1311,6 +1679,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1325,6 +1697,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1338,6 +1714,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1351,6 +1731,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1364,6 +1748,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1377,6 +1765,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1391,6 +1783,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1409,6 +1805,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1422,6 +1822,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 1
+    shakeDuration: 0.2
+    shakeStrength: 2
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1437,6 +1841,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1450,6 +1858,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1465,6 +1877,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1478,6 +1894,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1491,6 +1911,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1504,6 +1928,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1518,6 +1946,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1531,6 +1963,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1544,6 +1980,10 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1

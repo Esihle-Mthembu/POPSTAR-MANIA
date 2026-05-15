@@ -1369,9 +1369,9 @@ MonoBehaviour:
     flicker: 0
     flickerDuration: 1
     shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
+    shake: 1
+    shakeDuration: 0.1
+    shakeStrength: 3
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
