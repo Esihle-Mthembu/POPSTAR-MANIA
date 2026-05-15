@@ -56,15 +56,21 @@ public class ScreenFlicker : MonoBehaviour
         while (timer < duration)
         {
             Color color = flickerImage.color;
-            color.a = Random.Range(0f, 0.5f);
+
+            color.a = Random.Range(0f, 0.6f);
+
             flickerImage.color = color;
 
-            yield return new WaitForSeconds(Random.Range(0.02f, 0.08f));
+            flickerImage.rectTransform.anchoredPosition =
+                new Vector2(Random.Range(-5f, 5f), Random.Range(-5f, 5f));
+
+            yield return new WaitForSeconds(0.02f);
 
             timer += Time.deltaTime;
         }
 
-        // Reset overlay
+        flickerImage.rectTransform.anchoredPosition = Vector2.zero;
+
         Color reset = flickerImage.color;
         reset.a = 0f;
         flickerImage.color = reset;

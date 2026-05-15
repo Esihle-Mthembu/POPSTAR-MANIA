@@ -785,7 +785,7 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 1
-    flickerDuration: 1
+    flickerDuration: 0.2
     shaderName: 
     shake: 0
     shakeDuration: 0.5

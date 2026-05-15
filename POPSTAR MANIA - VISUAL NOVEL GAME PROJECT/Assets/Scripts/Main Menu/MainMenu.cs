@@ -34,10 +34,12 @@ public class MainMenu : MonoBehaviour
         yield return new WaitForSeconds(delaySeconds);
         SceneManager.LoadScene(sceneName);
     }
-
+   
+   
     // New Game button
     public void NewGame()
     {
+
         PlayerPrefs.DeleteAll();
         PlayerPrefs.SetString("StartDialogue", "Prologue");
         SceneManager.LoadScene("In-Game UI scene");

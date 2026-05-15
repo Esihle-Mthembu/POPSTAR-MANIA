@@ -279,6 +279,7 @@ public class DialogueManager : MonoBehaviour
         AudioClip persistentClip = line.bgm;
         AudioClip overlayClip = line.backgroundMusic;
 
+
         if (mm != null)
         {
             if (persistentClip != null) mm.PlayPersistent(persistentClip);
