@@ -243,6 +243,12 @@ public class DialogueManager : MonoBehaviour
           ScreenShake.Instance.StartShake(currentLine.shakeDuration, currentLine.shakeStrength);
        }
 
+        // Shader Effect
+        if (!string.IsNullOrEmpty(currentLine.shaderName))
+        {
+            SunnyShader.Instance.PlayShader(currentLine.shaderName);
+        }
+
 
         if (isInChoice || currentDialogue == null || isTyping || isTransitioning)
             return;

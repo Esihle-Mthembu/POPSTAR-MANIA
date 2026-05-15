@@ -11,12 +11,17 @@ public class DialogueLine
     public Sprite centerCharacter;
     public Sprite leftCharacter;
     public Sprite background;
+
+    [Header("Audio")]
     public AudioClip backgroundMusic;
     public AudioClip bgm;
    
     [Header("Effects")]
     public bool flicker;
     public float flickerDuration = 1f;
+
+    [Header("Shader")]
+    public string shaderName;
 
     public bool shake;
     public float shakeDuration = 0.5f;

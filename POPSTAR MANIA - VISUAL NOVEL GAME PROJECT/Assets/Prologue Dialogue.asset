@@ -22,6 +22,7 @@ MonoBehaviour:
     bgm: {fileID: 8300000, guid: c8b77116b1cc119498cece4efe615188, type: 3}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -38,6 +39,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -55,6 +57,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -73,6 +76,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -90,6 +94,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -107,6 +112,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -125,6 +131,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -141,6 +148,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -157,6 +165,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -173,6 +182,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -190,6 +200,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -206,6 +217,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -222,6 +234,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -239,6 +252,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -255,6 +269,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -271,6 +286,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -287,6 +303,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -303,6 +320,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -319,6 +337,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -336,6 +355,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -352,6 +372,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -368,6 +389,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -384,6 +406,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -400,6 +423,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -416,6 +440,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -432,6 +457,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -449,6 +475,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -465,6 +492,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -482,6 +510,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -498,6 +527,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -514,6 +544,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -530,6 +561,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -547,6 +579,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -563,6 +596,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -579,6 +613,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -595,6 +630,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -611,6 +647,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -627,6 +664,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -644,6 +682,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -662,6 +701,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -678,6 +718,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -694,6 +735,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -710,6 +752,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -726,6 +769,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -742,6 +786,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 1
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -758,6 +803,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -775,6 +821,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -791,6 +838,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -808,6 +856,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 1
     shakeDuration: 0.5
     shakeStrength: 5
@@ -824,6 +873,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -840,6 +890,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -856,6 +907,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -872,6 +924,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -888,6 +941,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -904,6 +958,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -920,6 +975,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -936,6 +992,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -952,6 +1009,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -968,6 +1026,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -985,6 +1044,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1001,6 +1061,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1017,6 +1078,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1033,6 +1095,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1049,6 +1112,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1065,6 +1129,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1081,6 +1146,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1097,6 +1163,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1113,6 +1180,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1129,6 +1197,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1145,6 +1214,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1161,6 +1231,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1177,6 +1248,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1194,6 +1266,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1210,6 +1283,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1226,6 +1300,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1242,6 +1317,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1258,6 +1334,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1274,6 +1351,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1290,6 +1368,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1306,6 +1385,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1322,6 +1402,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1338,6 +1419,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1354,6 +1436,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1370,6 +1453,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1387,6 +1471,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1403,6 +1488,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1419,6 +1505,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1436,6 +1523,7 @@ MonoBehaviour:
     bgm: {fileID: 8300000, guid: 6617df9bbbfa25e4387f6b371f6fb4b8, type: 3}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1452,6 +1540,7 @@ MonoBehaviour:
     bgm: {fileID: 8300000, guid: 47527101779b7c04b9ec350d85eeb70f, type: 3}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1468,6 +1557,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1484,6 +1574,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1501,6 +1592,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1517,6 +1609,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1533,6 +1626,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1549,6 +1643,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1566,6 +1661,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1582,6 +1678,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1598,6 +1695,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1614,6 +1712,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1630,6 +1729,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1646,6 +1746,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1662,6 +1763,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1679,6 +1781,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1695,6 +1798,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1711,6 +1815,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1727,6 +1832,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1743,6 +1849,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1759,6 +1866,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1775,6 +1883,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1791,6 +1900,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1807,6 +1917,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1823,6 +1934,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1839,6 +1951,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1856,6 +1969,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1872,6 +1986,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1889,6 +2004,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1905,6 +2021,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1921,6 +2038,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1937,6 +2055,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1953,6 +2072,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1969,6 +2089,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1985,6 +2106,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -2001,6 +2123,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -2017,6 +2140,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -2033,6 +2157,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -2049,6 +2174,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -2065,6 +2191,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -2081,6 +2208,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -2097,6 +2225,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -2113,6 +2242,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -2129,6 +2259,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -2145,6 +2276,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -2161,6 +2293,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -2177,6 +2310,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -2193,6 +2327,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
