@@ -4,6 +4,15 @@ using System.Collections;
 
 public class MainMenu : MonoBehaviour
 {
+    // stop music if returning to main menu from in-game
+    void Start()
+    {
+        if (MusicManager.Instance != null)
+        {
+            MusicManager.Instance.StopMusic();
+        }
+    }
+
     // Continue button
     public void ContinueGame()
     {
