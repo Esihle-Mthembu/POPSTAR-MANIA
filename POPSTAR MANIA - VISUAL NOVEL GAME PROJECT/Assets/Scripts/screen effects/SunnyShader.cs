@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class SunnyShader : MonoBehaviour
 {
+    public string CurrentShader => currentShader;
     public static SunnyShader Instance;
 
     [Header("Shader Objects")]
@@ -24,10 +25,10 @@ public class SunnyShader : MonoBehaviour
 
     public void PlayShader(string shaderName)
     {
-        // Prevent replaying same shader
-        if (currentShader == shaderName)
+        if (string.IsNullOrWhiteSpace(shaderName))
             return;
 
+        // ALWAYS reset first
         DisableAllShaders();
 
         currentShader = shaderName;
@@ -35,7 +36,7 @@ public class SunnyShader : MonoBehaviour
         switch (shaderName)
         {
             case "Sunny":
-                sunnyShader.SetActive (true);
+                sunnyShader.SetActive(true);
                 break;
 
             case "None":
