@@ -22,7 +22,7 @@ MonoBehaviour:
     bgm: {fileID: 8300000, guid: c8b77116b1cc119498cece4efe615188, type: 3}
     flicker: 0
     flickerDuration: 1
-    shaderName: Particle System
+    shaderName: Sunny
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -182,7 +182,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shaderName: Particle System
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
