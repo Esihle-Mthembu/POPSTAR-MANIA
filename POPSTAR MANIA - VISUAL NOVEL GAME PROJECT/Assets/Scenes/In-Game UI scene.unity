@@ -2419,7 +2419,7 @@ GameObject:
   - component: {fileID: 659195785}
   - component: {fileID: 659195786}
   m_Layer: 0
-  m_Name: ShaderManager
+  m_Name: SunnyShaderManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
