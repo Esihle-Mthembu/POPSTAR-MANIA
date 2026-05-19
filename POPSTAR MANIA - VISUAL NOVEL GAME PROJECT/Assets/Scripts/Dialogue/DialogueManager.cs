@@ -61,6 +61,7 @@ public class DialogueManager : MonoBehaviour
 
     public DialogueUIManager uIManager;
 
+
     void Awake ()
     {
         if (uiManager == null)
@@ -226,9 +227,32 @@ public class DialogueManager : MonoBehaviour
     }
     public void DisplayNextLine()
     {
+        ScreenShake.Instance.StopShake();
+        // stop old effects first
+        ScreenFlicker.Instance.StopFlicker();
+       
+        // Flicker Effect
+        if (currentLine.flicker)
+        {
+            ScreenFlicker.Instance.StartFlicker(currentLine.flickerDuration);
+        }
+
+        // Shake Effect
+        if (currentLine.shake)
+       {
+          ScreenShake.Instance.StartShake(currentLine.shakeDuration, currentLine.shakeStrength);
+       }
+
+        // Shader Effect
+        if (!string.IsNullOrEmpty(currentLine.shaderName))
+        {
+            SunnyShader.Instance.PlayShader(currentLine.shaderName);
+        }
+
+
         if (isInChoice || currentDialogue == null || isTyping || isTransitioning)
             return;
-
+        
         currentIndex++;
 
         if (currentIndex >= currentDialogue.lines.Count)
@@ -242,6 +266,7 @@ public class DialogueManager : MonoBehaviour
 
     public void ShowCurrentLine()
     {
+
         if (currentDialogue == null || currentIndex >= currentDialogue.lines.Count)
             return;
 
@@ -253,6 +278,7 @@ public class DialogueManager : MonoBehaviour
         MusicManager mm = Object.FindFirstObjectByType<MusicManager>();
         AudioClip persistentClip = line.bgm;
         AudioClip overlayClip = line.backgroundMusic;
+
 
         if (mm != null)
         {
