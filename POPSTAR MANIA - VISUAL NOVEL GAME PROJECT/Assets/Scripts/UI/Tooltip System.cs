@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.InputSystem;
 
 public class TooltipSystem : MonoBehaviour
 {
@@ -32,8 +33,11 @@ public class TooltipSystem : MonoBehaviour
         }
 
         //Make tooltip follow mouse
-        Vector2 mousePos = Input.mousePosition;
-        tooltipPanel.transform.position = mousePos + new Vector2(15, -15);
+        if (Mouse.current != null)
+        {
+            Vector2 mousePos = Mouse.current.position.ReadValue();
+            tooltipPanel.transform.position = mousePos + new Vector2(15, -15);
+        }
     }
 
     public void Show(string message)
