@@ -116,5 +116,9 @@ public class SettingsMenu : MonoBehaviour
     //UI
     public void ToggleSettings() => settingsPanel.SetActive(!settingsPanel.activeSelf);
     public void OpenSettings() => settingsPanel.SetActive(true);
-    public void CloseSettings() { settingsPanel.SetActive(false); SaveSettings(); }
+
+    public void CloseSettings() 
+    { 
+        settingsPanel.SetActive(false); SaveSettings(); 
+    }
 }
