@@ -43,6 +43,9 @@ public class DialogueLine
     public bool isEnding;
     public bool isEndOfBranch;
 
+    public bool triggersMessage;
+    public string messageText;
+
     internal class Dialogue
     {
     }

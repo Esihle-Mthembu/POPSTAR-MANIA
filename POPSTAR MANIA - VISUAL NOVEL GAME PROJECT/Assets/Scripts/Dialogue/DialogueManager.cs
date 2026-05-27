@@ -334,6 +334,15 @@ public class DialogueManager : MonoBehaviour
 
         DialogueLine line = currentLine;
 
+        // MESSAGE SYSTEM TRIGGER
+        if (line.triggersMessage)
+        {
+            if (MessageManager.Instance != null)
+            {
+                MessageManager.Instance.ReceiveMessage(line.messageText);
+            }
+        }
+
         if (line.moveUpDownOnce)
         {
             StartCoroutine(MoveUpDownOnce());

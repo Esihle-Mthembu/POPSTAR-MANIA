@@ -29,6 +29,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "I can\u2019t believe I did that bad. I really thought I\u2019d
       get the hang of it immediately. "
@@ -46,6 +48,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "Everyone sounded so good. Even with their mistakes, they still
       sounded amazing\u2026 and then there\u2019s me. "
@@ -63,6 +67,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'I really need to work on my vocals. Rose sounded incredible. It
       was like hearing an angel sing. '
@@ -80,6 +86,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'All the girls sit together on the couch while the manager and
       trainer talk on the other side of the room. '
@@ -97,6 +105,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "I wonder what they\u2019re saying about me\u2026 the trainer keeps
       looking my way. I hope they don\u2019t kick me out. I wouldn\u2019t even blame
@@ -115,6 +125,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'But to my surprise, Cheonmi is sitting alone on the other side
       of the room. She looks at me and smiles. '
@@ -132,6 +144,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "She seems genuine\u2026 but I can\u2019t shake this embarrassment. "
     centerCharacter: {fileID: 0}
@@ -148,6 +162,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "Maybe I\u2019m just overthinking it. It is my first day after
       all. "
@@ -165,6 +181,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "That challenge was intense. What made it worse was the trainer
       yelling at everyone\u2026 he\u2019s not as chill as I thought. Not even close. "
@@ -182,6 +200,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "I feel really bad for Xuan Mo though\u2026 he wouldn\u2019t get
       off her back. Maybe I should check on her. "
@@ -199,6 +219,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: "Hey Xuan Mo, are you okay? You\u2019re sweating a lot.  "
     centerCharacter: {fileID: 230790951476849518, guid: 9c90e2963e488bb42990a62282eb1c4a, type: 3}
@@ -215,6 +237,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: Xuan Mo looks at me and sighs.
     centerCharacter: {fileID: 0}
@@ -231,6 +255,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Xuan Mo
     dialogueText: "I\u2019m fine. "
     centerCharacter: {fileID: 8382687041527233505, guid: e74945277a1c7ba4695a0c7f981eccd1, type: 3}
@@ -247,6 +273,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: "Okay\u2026 I was just worried. You seem a bit out of it.\r\n "
     centerCharacter: {fileID: 8382687041527233505, guid: e74945277a1c7ba4695a0c7f981eccd1, type: 3}
@@ -263,6 +291,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Xuan Mo
     dialogueText: "You should worry about yourself here.\r\n "
     centerCharacter: {fileID: 8382687041527233505, guid: e74945277a1c7ba4695a0c7f981eccd1, type: 3}
@@ -279,6 +309,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "Well damn\u2026 I guess this is why nobody talks to her. She makes
       it really difficult\u2026 but I\u2019ll still try.\r\n "
@@ -296,6 +328,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Cheomni
     dialogueText: "Leave her. She\u2019s always like this. Don\u2019t waste your
       breath.\r\n "
@@ -313,6 +347,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: The room goes quiet.
     centerCharacter: {fileID: 0}
@@ -329,6 +365,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Cheomni
     dialogueText: "Today your performance wasn\u2019t bad for a newbie. You\u2019ll
       get better with practice\u2026 I didn\u2019t have it figured out when I first
@@ -347,6 +385,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "She smiles.\r\n\r\nOkay\u2026 I need to give myself a break.\r\n\r\n "
     centerCharacter: {fileID: 0}
@@ -363,6 +403,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: "Thank you\u2026 that\u2019s actually comforting.\r\n "
     centerCharacter: {fileID: -1930667004211057237, guid: 733aa15cbc0f5eb418d5c9e0723b02c9, type: 3}
@@ -379,6 +421,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Manager
     dialogueText: "So much chatter coming from you, Yeonhee. You should get rid of
       that habit.\r\n "
@@ -396,6 +440,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "Again\u2026 Why is it always me?\r\nAt least he broke the silence\u2026\r\n "
     centerCharacter: {fileID: 0}
@@ -412,6 +458,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: Sorry...
     centerCharacter: {fileID: 6654811726689088912, guid: 4ae79176973886e48ad0767919bd05d9, type: 3}
@@ -428,6 +476,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Trainer
     dialogueText: "Let\u2019s discuss today\u2019s session. We\u2019ve been too soft
       on some of you\u2026 I don\u2019t know what happened, but today\u2019s performance
@@ -446,6 +496,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'The room goes tense. '
     centerCharacter: {fileID: 0}
@@ -462,6 +514,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Trainer
     dialogueText: "Yeonhee, your voice\u2026 work on it. It sounds childish. I asked
       for cute, not toddler. And what\u2019s with forgetting such a simple lyric?
@@ -481,6 +535,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "Wow\u2026 okay. He didn\u2019t have to be that harsh. "
     centerCharacter: {fileID: 0}
@@ -497,6 +553,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Trainer
     dialogueText: "Xuan Mo, forgetting lyrics again. Have you even been attending
       your language classes? Your Korean sounds choppy.\r\n "
@@ -514,6 +572,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "Xuan Mo keeps the same expressionless look.\r\n "
     centerCharacter: {fileID: 0}
@@ -530,6 +590,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Trainer
     dialogueText: " Rose, your voice is too powerful. If you want to be a solo artist,
       then leave. Stop trying to outshine everyone. At least your Korean is understandable.\r\n "
@@ -547,6 +609,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "Rose looks down quietly.\r\n "
     centerCharacter: {fileID: 0}
@@ -563,6 +627,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Trainer
     dialogueText: "Yoenseo, you were good. Just fix the voice cracks.\r\n "
     centerCharacter: {fileID: -3963459755102996256, guid: 7ccc637e2ae6a6549b7fe74e9687f88d, type: 3}
@@ -579,6 +645,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonseo
     dialogueText: 'Thank you, sir! '
     centerCharacter: {fileID: 7522834289488228649, guid: a5c7235e2931de04183b3b9377c374da, type: 3}
@@ -595,6 +663,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "The trainer pauses, then looks at Cheomni. I feel nervous for
       her\u2026 she made the most mistakes.  "
@@ -612,6 +682,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Trainer
     dialogueText: "Cheomni, perfect as always. Just work on remembering your lyrics
       without stuttering.\r\n "
@@ -629,6 +701,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "What? That\u2019s not fair\u2026 she messed up the most. Seriously\u2026
       what is she, funding the company or something?\r\n "
@@ -646,6 +720,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Trainer
     dialogueText: "Evaluations are over. Fix what I told you. I don\u2019t want to
       hear these mistakes again.\r\n "
@@ -663,6 +739,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "He leaves.\r\n\r\nThe room finally feels lighter.\r\n "
     centerCharacter: {fileID: 0}
@@ -679,6 +757,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Manager
     dialogueText: Good job, girls. We just need more practice. See you tomorrow.
     centerCharacter: {fileID: -4916068718670936503, guid: 4ae79176973886e48ad0767919bd05d9, type: 3}
@@ -695,6 +775,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "He looks calm\u2026 but I can literally see a vein popping on
       his forehead.\r\nWhat\u2019s wrong with him?\r\n "
@@ -712,6 +794,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "We all start heading back to the dorm.\r\n "
     centerCharacter: {fileID: 0}
@@ -728,6 +812,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Rose
     dialogueText: "Well\u2026 I guess we\u2019re sleeping early today.\r\n "
     centerCharacter: {fileID: 8233729589245990970, guid: 731d6d8ff2029f04e8f0a1cc5164e541, type: 3}
@@ -744,6 +830,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: Why?
     centerCharacter: {fileID: 0}
@@ -760,6 +848,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 'Yeonseo '
     dialogueText: 'You''ll see. '
     centerCharacter: {fileID: 7522834289488228649, guid: a5c7235e2931de04183b3b9377c374da, type: 3}
@@ -776,6 +866,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: Hmmm...
     centerCharacter: {fileID: 0}
@@ -792,6 +884,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "I can\u2019t stop thinking about Rose\u2019s voice. I barely even
       hear the conversation.\r\n"
@@ -809,6 +903,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: "Uh\u2026 Rose\u2026 I think you have a really beautiful voice.
       I want to sing like you someday. "
@@ -826,6 +922,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'Rose smiles softly, but before she can reply
 
@@ -844,6 +942,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Cheomni
     dialogueText: "Your opinion doesn\u2019t really matter here. If you want to succeed,
       listen to the trainers\u2026 not Rose. "
@@ -861,6 +961,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonseo
     dialogueText: "I guess that didn\u2019t work out for you today though.\r\n "
     centerCharacter: {fileID: 7522834289488228649, guid: a5c7235e2931de04183b3b9377c374da, type: 3}
@@ -877,6 +979,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Cheomni
     dialogueText: '..... '
     centerCharacter: {fileID: -5641913576095555411, guid: 6bc7591e2cec90747ab909b04b5a1b87, type: 3}
@@ -893,6 +997,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "Her expression tightens, but she says nothing and walks ahead.\r\nThere\u2019s
       so much tension here\u2026\r\n"
@@ -910,6 +1016,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'Back at the dorm, everyone gathers to check their scoreboards.
 
@@ -928,6 +1036,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "My score stayed the same\u2026 this is so disheartening. I really
       need to work harder.\r\n "
@@ -945,6 +1055,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "\r\n "
     centerCharacter: {fileID: 0}
@@ -961,6 +1073,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "Rose moved up two tiers\u2026 just a few hours ago we were right
       next to each other.\r\n "
@@ -978,6 +1092,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Rose
     dialogueText: "Don\u2019t worry about the scores today. You did your best.\r\n "
     centerCharacter: {fileID: -7551651373017172461, guid: 731d6d8ff2029f04e8f0a1cc5164e541, type: 3}
@@ -994,6 +1110,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "That\u2019s easy for you to say\u2026  "
     centerCharacter: {fileID: 0}
@@ -1010,6 +1128,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: 'Thank you. '
     centerCharacter: {fileID: -7551651373017172461, guid: 731d6d8ff2029f04e8f0a1cc5164e541, type: 3}
@@ -1026,6 +1146,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "Despite everything\u2026 I\u2019m actually proud of myself for
       making it through that challenge. Even if my evaluation was bad.\r\nI can\u2019t
@@ -1045,6 +1167,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'I walk into the kitchen. '
     centerCharacter: {fileID: 0}
@@ -1061,6 +1185,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: Nothing.
     centerCharacter: {fileID: 0}
@@ -1077,6 +1203,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: "Uh\u2026 when do we eat?\r\n "
     centerCharacter: {fileID: 0}
@@ -1093,6 +1221,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Cheomni
     dialogueText: "We didn\u2019t do well today.\r\n "
     centerCharacter: {fileID: -2283282695645151907, guid: 6bc7591e2cec90747ab909b04b5a1b87, type: 3}
@@ -1109,6 +1239,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: "What does that have to do with anything?\r\n "
     centerCharacter: {fileID: -2283282695645151907, guid: 6bc7591e2cec90747ab909b04b5a1b87, type: 3}
@@ -1125,6 +1257,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonseo
     dialogueText: "It means the manager doesn\u2019t get us dinner.\r\n "
     centerCharacter: {fileID: 8855366763698011975, guid: a5c7235e2931de04183b3b9377c374da, type: 3}
@@ -1141,6 +1275,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "What? That\u2019s insane. Xuan Mo looks like she\u2019s about
       to pass out\u2026 everyone worked so hard\u2026 and they punish us with food?\r\n "
@@ -1158,6 +1294,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: "How is that allowed?\r\n "
     centerCharacter: {fileID: 0}
@@ -1174,6 +1312,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Xuan Mo
     dialogueText: "It\u2019s allowed. It\u2019s in the contract."
     centerCharacter: {fileID: 1350420248254977967, guid: 9c90e2963e488bb42990a62282eb1c4a, type: 3}
@@ -1190,6 +1330,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "Oh\u2026 I didn\u2019t read that. "
     centerCharacter: {fileID: 0}
@@ -1206,6 +1348,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonseo
     dialogueText: "You shouldn\u2019t have thrown your snacks away. We would\u2019ve
       had something to eat.\r\n "
@@ -1223,6 +1367,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "I knew I shouldn\u2019t have done that. "
     centerCharacter: {fileID: 0}
@@ -1239,6 +1385,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Cheomni
     dialogueText: "We\u2019ll survive without food. We always do.\r\n "
     centerCharacter: {fileID: -2283282695645151907, guid: 6bc7591e2cec90747ab909b04b5a1b87, type: 3}
@@ -1255,6 +1403,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: Always...?
     centerCharacter: {fileID: 0}
@@ -1271,6 +1421,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Cheomni
     dialogueText: "Don\u2019t worry, Yeonhee. You\u2019ll adapt soon.\r\n "
     centerCharacter: {fileID: -1930667004211057237, guid: 733aa15cbc0f5eb418d5c9e0723b02c9, type: 3}
@@ -1287,6 +1439,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "She smiles again.\r\nThis time\u2026 it doesn\u2019t feel comforting
       at all.\r\n"
@@ -1304,6 +1458,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "I guess this really is my life now\u2026 I need to work harder.\r\n"
     centerCharacter: {fileID: 0}
@@ -1320,6 +1476,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: 'OKay then. '
     centerCharacter: {fileID: 0}
@@ -1336,6 +1494,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "Yoenseo rolls her eyes and heads to bed. Everyone else slowly
       disappears. I follow behind her.\r\n "
@@ -1353,6 +1513,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "The least I can do is sleep through the hunger.\r\n "
     centerCharacter: {fileID: 0}
@@ -1369,6 +1531,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'notification from tablet '
     centerCharacter: {fileID: 0}
@@ -1385,6 +1549,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: 'What''s that..? '
     centerCharacter: {fileID: 0}
@@ -1401,6 +1567,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: 'Oh....I got a message. '
     centerCharacter: {fileID: 0}
@@ -1417,6 +1585,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 1
+    messageText: 
   - speakerName: Anonymous
     dialogueText: "Leave while you still can.\r\n "
     centerCharacter: {fileID: 0}
@@ -1433,6 +1603,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 1
+    messageText: Leave while you still can.
   - speakerName: Yeonhee
     dialogueText: "\u201CLeave while you still can\u201D?\r\n "
     centerCharacter: {fileID: 0}
@@ -1449,6 +1621,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "Lol\u2026 what a childish way to scare competition. I\u2019m going
       to sleep.\r\n "
@@ -1466,6 +1640,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "\u2026but what if\u2026 "
     centerCharacter: {fileID: 0}
@@ -1482,6 +1658,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "Ugh\u2026 never mind. "
     centerCharacter: {fileID: 0}
@@ -1498,3 +1676,5 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 1
     isEndOfBranch: 1
+    triggersMessage: 0
+    messageText: 
