@@ -44,6 +44,11 @@ public class DialogueManager : MonoBehaviour
     public DialogueData B_Good;
     public DialogueData B_Bad;
 
+    [Header("PopUp Images")]
+    public Sprite advertImage;
+    public Sprite badScoreImage;
+    public Sprite goodScoreImage;
+
     private DialogueData currentDialogue;
     private int currentIndex;
     private bool isTyping;
@@ -307,6 +312,25 @@ public class DialogueManager : MonoBehaviour
             return;
 
         currentLine = currentDialogue.lines[currentIndex];
+
+        //PopUp Image system
+        switch (currentLine.popupAction)
+        {
+            case PopupAction.Show:
+                if (currentLine.popupImage != null)
+                {
+                    PopUpImageManager.Instance.ShowImage(currentLine.popupImage);
+                }
+                break;
+
+            case PopupAction.Hide:
+                PopUpImageManager.Instance.HideImage();
+                break;
+
+            case PopupAction.None:
+            default:
+                break;
+        }
 
         DialogueLine line = currentLine;
 
