@@ -49,6 +49,8 @@ public class DialogueManager : MonoBehaviour
     public Sprite badScoreImage;
     public Sprite goodScoreImage;
 
+    public RectTransform characterTransform;
+
     private DialogueData currentDialogue;
     private int currentIndex;
     private bool isTyping;
@@ -334,6 +336,11 @@ public class DialogueManager : MonoBehaviour
 
         DialogueLine line = currentLine;
 
+        if (line.moveUpDownOnce)
+        {
+            StartCoroutine(MoveUpDownOnce());
+        }
+
         // music BGM plays continuosly if new BGM is specified, otherwise stops if line has no BGM (can be used for silence)
         MusicManager mm = Object.FindFirstObjectByType<MusicManager>();
         AudioClip persistentClip = line.bgm;
@@ -563,6 +570,40 @@ public class DialogueManager : MonoBehaviour
         }
 
         yield return StartCoroutine(fader.FadeIn());
+    }
+
+    IEnumerator MoveUpDownOnce()
+    {
+        Vector3 originalPos = characterTransform.anchoredPosition;
+        Vector3 downPos = originalPos + new Vector3(0, -120f, 0);
+
+        float duration = 0.3f;
+
+        // move down
+        float t = 0;
+        while (t < duration)
+        {
+            characterTransform.anchoredPosition =
+                Vector3.Lerp(originalPos, downPos, t / duration);
+
+            t += Time.deltaTime;
+            yield return null;
+        }
+
+        characterTransform.anchoredPosition = downPos;
+
+        // move back up
+        t = 0;
+        while (t < duration)
+        {
+            characterTransform.anchoredPosition =
+                Vector3.Lerp(downPos, originalPos, t / duration);
+
+            t += Time.deltaTime;
+            yield return null;
+        }
+
+        characterTransform.anchoredPosition = originalPos;
     }
 
     void UpdateEnergyBar()

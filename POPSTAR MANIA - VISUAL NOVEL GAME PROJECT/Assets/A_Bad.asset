@@ -22,6 +22,7 @@ MonoBehaviour:
     bgm: {fileID: 8300000, guid: 4738bdf42274e5c428f3975904410d66, type: 3}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -39,6 +40,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -55,6 +57,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -71,6 +74,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -88,6 +92,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -104,6 +109,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -120,6 +126,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -137,6 +144,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -153,6 +161,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -168,6 +177,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -183,6 +193,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -198,6 +209,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -213,6 +225,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -228,6 +241,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -244,6 +258,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -259,6 +274,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -274,6 +290,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -290,6 +307,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -306,6 +324,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -321,6 +340,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -336,6 +356,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -354,6 +375,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -369,6 +391,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -384,6 +407,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -401,6 +425,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -418,6 +443,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -437,6 +463,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -454,6 +481,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -470,6 +498,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -488,6 +517,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -505,6 +535,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -523,6 +554,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -540,6 +572,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -557,6 +590,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -574,6 +608,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -589,6 +624,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -606,6 +642,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -624,6 +661,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -639,6 +677,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -655,6 +694,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -674,6 +714,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -691,6 +732,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -707,6 +749,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -722,6 +765,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -739,6 +783,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -754,6 +799,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -769,6 +815,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -784,6 +831,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -800,6 +848,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -816,6 +865,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -833,6 +883,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -849,6 +900,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -864,6 +916,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -880,6 +933,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -893,8 +947,9 @@ MonoBehaviour:
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
-    popupAction: 0
+    popupAction: 2
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -906,12 +961,13 @@ MonoBehaviour:
 
 '
     centerCharacter: {fileID: 0}
-    leftCharacter: {fileID: -817987454622419427, guid: 1ca60d0f5cc430f4abfad6f141dd3e5f, type: 3}
+    leftCharacter: {fileID: 0}
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 57efb4dc674ab324bb762de408e5052b, type: 3}
     bgm: {fileID: 0}
     popupAction: 1
     popupImage: {fileID: -817987454622419427, guid: 1ca60d0f5cc430f4abfad6f141dd3e5f, type: 3}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -929,6 +985,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 2
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -944,6 +1001,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -959,6 +1017,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -974,6 +1033,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -990,6 +1050,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1005,6 +1066,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1020,6 +1082,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1039,6 +1102,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1054,6 +1118,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1069,6 +1134,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1084,6 +1150,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1099,6 +1166,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1115,6 +1183,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1132,6 +1201,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1147,6 +1217,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1162,6 +1233,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1179,6 +1251,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1194,6 +1267,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1214,6 +1288,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1229,6 +1304,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1244,6 +1320,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1259,6 +1336,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1274,6 +1352,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1289,6 +1368,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1307,6 +1387,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1322,6 +1403,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1338,6 +1420,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1353,6 +1436,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1370,6 +1454,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1386,6 +1471,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1402,6 +1488,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1417,6 +1504,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1432,6 +1520,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1447,6 +1536,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1462,6 +1552,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1480,6 +1571,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1495,6 +1587,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1511,6 +1604,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1526,6 +1620,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1541,6 +1636,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1556,6 +1652,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1571,6 +1668,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1587,6 +1685,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1607,6 +1706,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1622,6 +1722,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1639,6 +1740,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1654,6 +1756,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1671,6 +1774,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1686,6 +1790,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1701,6 +1806,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1716,6 +1822,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1732,6 +1839,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1747,6 +1855,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []
@@ -1762,6 +1871,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
     choices: []

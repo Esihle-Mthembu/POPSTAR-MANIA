@@ -2515,6 +2515,7 @@ MonoBehaviour:
   advertImage: {fileID: 0}
   badScoreImage: {fileID: 0}
   goodScoreImage: {fileID: 0}
+  characterTransform: {fileID: 0}
   loadingFromSave: 0
   fader: {fileID: 0}
   uIManager: {fileID: 0}
@@ -8757,6 +8758,7 @@ MonoBehaviour:
   advertImage: {fileID: 2689597914538645927, guid: c4bc770bec4a4264b87d71c242173468, type: 3}
   badScoreImage: {fileID: -817987454622419427, guid: 1ca60d0f5cc430f4abfad6f141dd3e5f, type: 3}
   goodScoreImage: {fileID: -8875235986244404559, guid: 199718d2b8fe08743aec760558a17bd0, type: 3}
+  characterTransform: {fileID: 1175316753}
   loadingFromSave: 0
   fader: {fileID: 1440375923}
   uIManager: {fileID: 6706361}

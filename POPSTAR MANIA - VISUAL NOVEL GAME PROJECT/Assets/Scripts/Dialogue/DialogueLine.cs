@@ -24,6 +24,9 @@ public class DialogueLine
     //PopUp system
     public PopupAction popupAction;
     public Sprite popupImage;
+
+    [Header("Character Motion")]
+    public bool moveUpDownOnce;
    
     [Header("Effects")]
     public bool flicker;
