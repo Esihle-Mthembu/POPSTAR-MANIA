@@ -96,7 +96,7 @@ public class DialogueManager : MonoBehaviour
             var go = GameObject.Find("EnergyBar");
             if (go != null) energyBar = go.GetComponent<Slider>();
 
-            // fallback to first Slider in the scene (use new API if available)
+            // fallback to first Slider in the scene
             if (energyBar == null)
             {
                 energyBar = Object.FindFirstObjectByType<Slider>();
@@ -108,14 +108,13 @@ public class DialogueManager : MonoBehaviour
             }
         }
 
-        if (energyBar != null)
-        {
-            energyBar.maxValue = maxEnergy;
-            energyBar.value = 0;
-        }
+        totalEnergy = maxEnergy;
+        UpdateEnergyBar();
 
         if (energyBar != null)
         {
+            energyBar.maxValue = maxEnergy;
+            energyBar.value = totalEnergy;
             energyBar.gameObject.SetActive(false);
         }
 
@@ -266,7 +265,6 @@ public class DialogueManager : MonoBehaviour
         currentDialogue = data;
         currentIndex = 0;
 
-        totalEnergy = 0;
         UpdateEnergyBar();
 
         isDialogueActive = true;
