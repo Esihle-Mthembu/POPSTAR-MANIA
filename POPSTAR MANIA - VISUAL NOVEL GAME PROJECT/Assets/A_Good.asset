@@ -1862,8 +1862,8 @@ MonoBehaviour:
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
-    triggersMessage: 0
-    messageText: 
+    triggersMessage: 1
+    messageText: Leave while you still can.
   - speakerName: Yeonhee
     dialogueText: "Notification from tablet\n\nWhat\u2019s that\u2026?\r\n"
     centerCharacter: {fileID: 0}
