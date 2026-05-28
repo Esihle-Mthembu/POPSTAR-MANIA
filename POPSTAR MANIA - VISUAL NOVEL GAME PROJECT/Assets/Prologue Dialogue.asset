@@ -795,7 +795,7 @@ MonoBehaviour:
     isEnding: 0
     isEndOfBranch: 0
   - speakerName: 
-    dialogueText: 'The screen flickers slightly before the poster settles in. '
+    dialogueText: 'The screen flickers slightly before the text settles in. '
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
