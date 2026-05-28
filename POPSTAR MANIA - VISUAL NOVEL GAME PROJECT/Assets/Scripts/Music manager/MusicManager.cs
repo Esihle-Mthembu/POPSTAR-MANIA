@@ -27,18 +27,15 @@ public class MusicManager : MonoBehaviour
 
     void Awake()
     {
-        // one music manager across the scenes 
-        if (!musicExists)
-        {
-            DontDestroyOnLoad(gameObject);
-            musicExists = true;
+            if (Instance != null && Instance != this)
+            {
+                Destroy(gameObject);
+                return;
+            }
+
             Instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-            return;
-        }
+            DontDestroyOnLoad(gameObject);
+        
 
         // using AudioManager's source if ours is not assigned, but only if it's on the same GameObject
         if (musicSource == null && AudioManager.Instance != null)
