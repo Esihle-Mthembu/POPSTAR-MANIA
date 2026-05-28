@@ -7271,6 +7271,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+<<<<<<< HEAD
+=======
+  - {fileID: 1758245591}
+>>>>>>> parent of 643814d (changes to game secen)
   - {fileID: 1534039122}
   - {fileID: 786199126}
   - {fileID: 1734634074}
