@@ -2,14 +2,31 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
 
+
 public class MainMenu : MonoBehaviour
 {
+    public AudioSource menuMusicSource;
+    public AudioClip menuMusic;
+    public float fadeDuration = 1f;
+
     // stop music if returning to main menu from in-game
     void Start()
     {
+        // Stop in-game music
         if (MusicManager.Instance != null)
         {
             MusicManager.Instance.StopMusic();
+        }
+
+        // Start menu music
+        if (menuMusicSource != null && menuMusic != null)
+        {
+            menuMusicSource.clip = menuMusic;
+            menuMusicSource.volume = 0f;
+            menuMusicSource.loop = true;
+            menuMusicSource.Play();
+
+            StartCoroutine(FadeInMenuMusic());
         }
     }
 
@@ -40,11 +57,45 @@ public class MainMenu : MonoBehaviour
 
     private IEnumerator LoadSceneDelayed(string sceneName, float delaySeconds)
     {
+        if (menuMusicSource != null)
+        {
+            yield return StartCoroutine(FadeOutMenuMusic());
+        }
+
         yield return new WaitForSeconds(delaySeconds);
+
         SceneManager.LoadScene(sceneName);
     }
-   
-   
+    IEnumerator FadeInMenuMusic()
+    {
+        float time = 0f;
+
+        while (time < fadeDuration)
+        {
+            time += Time.deltaTime;
+            menuMusicSource.volume = Mathf.Lerp(0f, 1f, time / fadeDuration);
+            yield return null;
+        }
+
+        menuMusicSource.volume = 1f;
+    }
+
+    IEnumerator FadeOutMenuMusic()
+    {
+        float startVolume = menuMusicSource.volume;
+        float time = 0f;
+
+        while (time < fadeDuration)
+        {
+            time += Time.deltaTime;
+            menuMusicSource.volume = Mathf.Lerp(startVolume, 0f, time / fadeDuration);
+            yield return null;
+        }
+
+        menuMusicSource.volume = 0f;
+        menuMusicSource.Stop();
+    }
+
     // New Game button
     public void NewGame()
     {

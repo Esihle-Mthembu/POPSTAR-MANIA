@@ -230,7 +230,7 @@ MonoBehaviour:
     centerCharacter: {fileID: -1631877924923921634, guid: cf5274285e8a37147953f5f31936e469, type: 3}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
-    backgroundMusic: {fileID: 8300000, guid: 74b0cc6959fab6a468db8547054644b2, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: bded02e29bf45d146bd249322dba434d, type: 3}
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
@@ -488,7 +488,7 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
-    backgroundMusic: {fileID: 8300000, guid: 74b0cc6959fab6a468db8547054644b2, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: 09733233b7cffa8419e73d28d3518b2d, type: 3}
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
@@ -785,7 +785,7 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 1
-    flickerDuration: 0.2
+    flickerDuration: 0.3
     shaderName: 
     shake: 0
     shakeDuration: 0.5

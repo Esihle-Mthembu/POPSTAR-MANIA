@@ -1543,7 +1543,7 @@ MonoBehaviour:
     leftCharacter: {fileID: 7041811409493127568, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 8a012450950979040a148b8b5d4a20d7, type: 3}
-    bgm: {fileID: 0}
+    bgm: {fileID: 8300000, guid: b5730f07e6023fa4683e0040632ba5e6, type: 3}
     flicker: 0
     flickerDuration: 1
     shaderName: 
