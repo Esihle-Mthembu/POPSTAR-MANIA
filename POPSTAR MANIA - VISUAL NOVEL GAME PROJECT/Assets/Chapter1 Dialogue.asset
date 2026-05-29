@@ -948,8 +948,8 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
-    backgroundMusic: {fileID: 8300000, guid: 8a012450950979040a148b8b5d4a20d7, type: 3}
-    bgm: {fileID: 8300000, guid: 17304ea353f81ae41b4b80230605d607, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: 17304ea353f81ae41b4b80230605d607, type: 3}
+    bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
     shaderName: 
