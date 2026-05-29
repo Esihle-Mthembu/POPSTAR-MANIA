@@ -234,7 +234,7 @@ public class LyricsGameManager : MonoBehaviour
             //Check if player provided enough answers and if they match
             if (i < playerAnswers.Length && playerAnswers[i] == line.missingWords[i])
             {
-                 correctThisLine++;
+                correctThisLine++;
             }
         }
 

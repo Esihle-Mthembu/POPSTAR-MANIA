@@ -7,9 +7,10 @@ public class MessageNotificationUI : MonoBehaviour
 
     void Update()
     {
-        if (MessageManager.Instance == null) return;
-
-        Debug.Log(MessageManager.Instance.hasNewMessage);
+        if (MessageManager.Instance == null)
+        {
+            return;
+        }
 
         icon.SetActive(MessageManager.Instance.hasNewMessage);
     }

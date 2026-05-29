@@ -10,8 +10,7 @@ public class MessagesApp : MonoBehaviour
     {
         panel.SetActive(false);
 
-        if (MessageManager.Instance != null &&
-            MessageManager.Instance.hasNewMessage)
+        if (MessageManager.Instance != null && MessageManager.Instance.hasNewMessage)
         {
             OpenMessage();
         }
@@ -19,11 +18,11 @@ public class MessagesApp : MonoBehaviour
 
     public void OpenMessage()
     {
+        Debug.Log("MESSAGE BUTTON CLICKED");
+
         panel.SetActive(true);
 
         messageText.text = MessageManager.Instance.currentMessage;
-
-        MessageManager.Instance.ClearMessage();
     }
 
     public void CloseMessage()

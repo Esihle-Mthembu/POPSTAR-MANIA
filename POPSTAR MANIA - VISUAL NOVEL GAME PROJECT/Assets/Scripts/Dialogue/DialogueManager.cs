@@ -8,20 +8,19 @@ using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
-    [Header ("UI References")]
+    [Header("UI References")]
     public TextMeshProUGUI speakerText;
     public TextMeshProUGUI dialogueText;
     public DialogueUIManager uiManager;
     public float typingSpeed = 30f;
     public CanvasGroup speakerCanvasGroup;
 
-    [Header ("Dialogue Data")]
+    [Header("Dialogue Data")]
     public DialogueData prologueDialogue;
     public DialogueData chapter1Dialogue;
     private string currentPath = "";
 
     [Header("Player Stats")]
-    public int energyPoints = 80;
     public int maxEnergy = 80;
     public Slider energyBar;
     public int totalEnergy = 0;
@@ -34,11 +33,11 @@ public class DialogueManager : MonoBehaviour
     public int maxFriendship = 100;
     public int friendshipPoints = 50;
 
-    [Header ("Game Refernces")]
+    [Header("Game Refernces")]
     public LyricsGameManager lyricsGame;
     public LyricsGameData lyricsGameData;
 
-    [Header ("Result Branches")]
+    [Header("Result Branches")]
     public DialogueData A_Good;
     public DialogueData A_Bad;
     public DialogueData B_Good;
@@ -73,7 +72,7 @@ public class DialogueManager : MonoBehaviour
     public DialogueUIManager uIManager;
 
 
-    void Awake ()
+    void Awake()
     {
         if (uiManager == null)
         {
@@ -108,13 +107,10 @@ public class DialogueManager : MonoBehaviour
             }
         }
 
-        totalEnergy = maxEnergy;
-        UpdateEnergyBar();
-
         if (energyBar != null)
         {
             energyBar.maxValue = maxEnergy;
-            energyBar.value = totalEnergy;
+            energyBar.value = 0;
             energyBar.gameObject.SetActive(false);
         }
 
@@ -222,11 +218,14 @@ public class DialogueManager : MonoBehaviour
     void Update()
     {
         if (isInChoice || !isDialogueActive || currentDialogue == null || currentDialogue.lines == null)
+        {
             return;
+        }
 
-        // defensive: ensure currentDialogue and lines exist before accessing Count
         if (currentDialogue == null || currentDialogue.lines == null || currentDialogue.lines.Count == 0)
+        {
             return;
+        }
 
         // Spacekey input
         bool spacePressed = false;
@@ -234,7 +233,7 @@ public class DialogueManager : MonoBehaviour
         {
             spacePressed = true;
         }
-        
+
         if (spacePressed)
         {
             // Disable auto or skip when pressing space key
@@ -265,6 +264,7 @@ public class DialogueManager : MonoBehaviour
         currentDialogue = data;
         currentIndex = 0;
 
+        totalEnergy = 0;
         UpdateEnergyBar();
 
         isDialogueActive = true;
@@ -293,8 +293,10 @@ public class DialogueManager : MonoBehaviour
         //}
 
         if (isInChoice || currentDialogue == null || isTyping || isTransitioning)
+        {
             return;
-        
+        }
+
         currentIndex++;
 
         if (currentIndex >= currentDialogue.lines.Count)
@@ -518,7 +520,7 @@ public class DialogueManager : MonoBehaviour
 
     void HandleLyricsResult(int energy, int total)
     {
-        Debug.Log("=== LYRICS RESULT ===");
+        Debug.Log("LYRICS RESULT");
         Debug.Log("Energy: " + energy);
         Debug.Log("Path: '" + currentPath);
 
@@ -571,7 +573,7 @@ public class DialogueManager : MonoBehaviour
                 ContinueDialogue(B_Good);
             }
             else
-            { 
+            {
                 ContinueDialogue(B_Bad);
             }
         }
@@ -615,7 +617,10 @@ public class DialogueManager : MonoBehaviour
 
     void UpdateEnergyBar()
     {
-        if (energyBar == null) return;
+        if (energyBar == null)
+        {
+            return;
+        }
 
         energyBar.maxValue = maxEnergy;
         energyBar.value = totalEnergy;
@@ -647,7 +652,7 @@ public class DialogueManager : MonoBehaviour
 
         if (isTyping)
         {
-           FinishLineInstantly();
+            FinishLineInstantly();
             return; // wait for next input instead of transitioning mid-typing
         }
 
@@ -766,7 +771,7 @@ public class DialogueManager : MonoBehaviour
 
         if (currentIndex > 0)
         {
-            currentIndex --; // move back
+            currentIndex--; // move back
             ShowCurrentLine();
         }
     }
@@ -842,13 +847,13 @@ public class DialogueManager : MonoBehaviour
     public void SaveGame()
     {
         // Allow saving during gameplay
-        if (currentDialogue == null  || !isDialogueActive)
+        if (currentDialogue == null || !isDialogueActive)
         {
             return;
         }
 
-        PlayerPrefs.SetInt("DialogueIndex", currentIndex); 
-        PlayerPrefs.SetInt("IsPrologue", isPrologue? 1:0);
+        PlayerPrefs.SetInt("DialogueIndex", currentIndex);
+        PlayerPrefs.SetInt("IsPrologue", isPrologue ? 1 : 0);
         PlayerPrefs.SetString("SceneName", SceneManager.GetActiveScene().name);
         PlayerPrefs.Save();
 
@@ -879,3 +884,4 @@ public class DialogueManager : MonoBehaviour
         SceneManager.LoadScene("Main Menu");
     }
 }
+

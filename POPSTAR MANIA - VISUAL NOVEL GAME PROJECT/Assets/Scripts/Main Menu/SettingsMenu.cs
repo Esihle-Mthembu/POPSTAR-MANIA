@@ -26,7 +26,6 @@ public class SettingsMenu : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -64,19 +63,19 @@ public class SettingsMenu : MonoBehaviour
     //Audio
     public void SetMasterVolume(float value)
     {
-        SetMixerVolume("MasterVolume", value);
+        SetMixerVolume("Master", value);
         PlayerPrefs.SetFloat("MasterVol", value);
     }
 
     public void SetMusicVolume(float value)
     {
-        SetMixerVolume("MusicVolume", value);
+        SetMixerVolume("Music", value);
         PlayerPrefs.SetFloat("MusicVol", value);
     }
 
     public void SetSFXVolume(float value)
     {
-        SetMixerVolume("SFXVolume", value);
+        SetMixerVolume("SFX", value);
         PlayerPrefs.SetFloat("SFXVol", value);
     }
 
@@ -114,11 +113,21 @@ public class SettingsMenu : MonoBehaviour
     }
 
     //UI
-    public void ToggleSettings() => settingsPanel.SetActive(!settingsPanel.activeSelf);
-    public void OpenSettings() => settingsPanel.SetActive(true);
+    public void OpenSettings()
+    {
+        if (settingsPanel != null)
+        {
+            settingsPanel.SetActive(true);
+        }
+    }
 
-    public void CloseSettings() 
-    { 
-        settingsPanel.SetActive(false); SaveSettings(); 
+    public void CloseSettings()
+    {
+        if (settingsPanel != null)
+        {
+            settingsPanel.SetActive(false);
+        }
+
+        SaveSettings();
     }
 }

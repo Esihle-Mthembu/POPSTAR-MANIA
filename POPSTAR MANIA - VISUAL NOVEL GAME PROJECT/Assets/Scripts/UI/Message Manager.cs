@@ -26,8 +26,6 @@ public class MessageManager : MonoBehaviour
     {
         currentMessage = message;
         hasNewMessage = true;
-
-        Debug.Log("NEW MESSAGE RECEIVED: " + message);
     }
 
     public void ClearMessage()
