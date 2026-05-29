@@ -65,6 +65,8 @@ public class DialogueManager : MonoBehaviour
     private bool isTransitioning = false;
     private bool lyricsGameTriggered = false;
 
+    private bool isGameEnded = false;
+
     private HashSet<int> triggeredLines = new HashSet<int>();
     private DialogueLine currentLine;
     public ScreenFader fader;
@@ -217,6 +219,11 @@ public class DialogueManager : MonoBehaviour
 
     void Update()
     {
+        if (isGameEnded)
+        {
+            return;
+        }
+
         if (isInChoice || !isDialogueActive || currentDialogue == null || currentDialogue.lines == null)
         {
             return;
@@ -249,7 +256,8 @@ public class DialogueManager : MonoBehaviour
                 // Check if this is the last line
                 if (currentIndex >= currentDialogue.lines.Count - 1)
                 {
-                    EndDialogue(); // trigger immediatly
+                    TriggerEnding();
+                    return;
                 }
                 else
                 {
@@ -280,6 +288,11 @@ public class DialogueManager : MonoBehaviour
     }
     public void DisplayNextLine()
     {
+        if (isGameEnded)
+        {
+            return;
+        }
+
         // Flicker Effect
         if (currentLine.flicker)
         {
@@ -690,7 +703,7 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("No further dialogue assigned");
+            TriggerEnding();
         }
 
         // Fade back in
@@ -701,6 +714,11 @@ public class DialogueManager : MonoBehaviour
 
     public void SelectChoice(DialogueChoice choice)
     {
+        if (isGameEnded)
+        {
+            return;
+        }
+
         if (choice == null)
         {
             Debug.LogError("Choice is NULL");
@@ -758,6 +776,65 @@ public class DialogueManager : MonoBehaviour
     {
         yield return null;
         ShowCurrentLine();
+    }
+
+    public void TriggerEnding()
+    {
+        if (isGameEnded) return;
+
+        isGameEnded = true;
+
+        StartCoroutine(EndingSequence());
+    }
+
+    IEnumerator EndingSequence()
+    {
+        // Stop all systems
+        isDialogueActive = false;
+        isAutoMode = false;
+        isSkipping = false;
+        isInChoice = false;
+
+        // stop typing if active
+        if (typingCoroutine != null)
+        {
+            StopCoroutine(typingCoroutine);
+            typingCoroutine = null;
+        }
+
+        // clear UI choices
+        uiManager.ClearChoices();
+
+        // fade out screen
+        yield return StartCoroutine(fader.FadeOut());
+
+        // hides dialogue UI completely
+        uiManager.gameObject.SetActive(false);
+
+        speakerText.text = "";
+        dialogueText.text = "";
+
+        // disable bars so nothing shows
+        if (energyBar != null)
+            energyBar.gameObject.SetActive(false);
+
+        if (cheonmiFriendshipBar != null)
+            cheonmiFriendshipBar.gameObject.SetActive(false);
+
+        if (roseFriendshipBar != null)
+            roseFriendshipBar.gameObject.SetActive(false);
+
+        if (xuanMoFriendshipBar != null)
+            xuanMoFriendshipBar.gameObject.SetActive(false);
+
+        if (yeonseoFriendshipBar != null)
+            yeonseoFriendshipBar.gameObject.SetActive(false);
+
+        // wait briefly
+        yield return new WaitForSeconds(1f);
+
+        // Show end screen
+        Debug.Log("GAME ENDED");
     }
 
     // IN-GAME MENU BUTTONS
