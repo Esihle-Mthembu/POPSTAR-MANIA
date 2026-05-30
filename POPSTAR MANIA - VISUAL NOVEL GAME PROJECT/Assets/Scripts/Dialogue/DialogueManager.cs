@@ -923,15 +923,16 @@ public class DialogueManager : MonoBehaviour
     // Save button
     public void SaveGame()
     {
-        // Allow saving during gameplay
-        if (currentDialogue == null || !isDialogueActive)
+        if (currentDialogue == null)
         {
             return;
         }
 
         PlayerPrefs.SetInt("DialogueIndex", currentIndex);
         PlayerPrefs.SetInt("IsPrologue", isPrologue ? 1 : 0);
+        PlayerPrefs.SetInt("IsDialogueActive", isDialogueActive ? 1 : 0);
         PlayerPrefs.SetString("SceneName", SceneManager.GetActiveScene().name);
+
         PlayerPrefs.Save();
 
         Debug.Log("Game Saved");
@@ -944,6 +945,7 @@ public class DialogueManager : MonoBehaviour
         isPrologue = PlayerPrefs.GetInt("IsPrologue") == 1;
         currentDialogue = isPrologue ? prologueDialogue : chapter1Dialogue;
         isDialogueActive = true;
+
         ShowCurrentLine();
     }
 
