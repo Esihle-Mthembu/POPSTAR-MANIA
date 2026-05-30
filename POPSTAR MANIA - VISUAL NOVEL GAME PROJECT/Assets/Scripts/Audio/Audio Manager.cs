@@ -102,14 +102,17 @@ public class AudioManager : MonoBehaviour
 
     IEnumerator FadeOutMusic()
     {
-        while (musicSource.volume > 0.01f)
+        while (musicSource != null && musicSource.volume > 0.01f)
         {
             musicSource.volume -= Time.deltaTime;
             yield return null;
         }
 
-        musicSource.Stop();
-        musicSource.clip = null;
+        if (musicSource != null)
+        {
+            musicSource.Stop();
+            musicSource.clip = null;
+        }
     }
 
     void Update()
@@ -139,11 +142,13 @@ public class AudioManager : MonoBehaviour
     {
         float targetVolume = 1f;
 
-        while (musicSource.volume > 0.01f)
+        while (musicSource != null && musicSource.volume > 0.01f)
         {
             musicSource.volume -= Time.deltaTime;
             yield return null;
         }
+
+        if (musicSource == null) yield break;
 
         musicSource.Stop();
         musicSource.clip = newClip;
@@ -170,27 +175,47 @@ public class AudioManager : MonoBehaviour
 
     public void PlayClick()
     {
+        // Prefer MusicManager's click if present and assigned
+        if (MusicManager.Instance != null && MusicManager.Instance.clickSound != null)
+        {
+            Debug.Log("[AudioManager] Delegating PlayClick to MusicManager");
+            MusicManager.Instance.PlayClick();
+            return;
+        }
+
+        // If MusicManager exists but has no clip, fall back to AudioManager's clip
+        if (MusicManager.Instance != null && MusicManager.Instance.clickSound == null)
+        {
+            Debug.Log("[AudioManager] MusicManager present but no clickSound; falling back to AudioManager clickSound");
+        }
+
         if (sfxSource == null)
         {
-            Debug.LogError("SFX Source is NULL");
+            Debug.LogError("SFX Source is NULL (AudioManager)");
             return;
         }
 
         if (!sfxSource.enabled || !sfxSource.gameObject.activeInHierarchy)
         {
+            Debug.LogWarning("SFX Source disabled or inactive (AudioManager)");
             return;
         }
 
         if (clickSound != null)
         {
             sfxSource.PlayOneShot(clickSound);
+            Debug.Log("[AudioManager] Played clickSound on sfxSource");
+        }
+        else
+        {
+            Debug.LogWarning("No clickSound assigned in MusicManager or AudioManager");
         }
     }
 
     // Lyrics game music
     public void PlayLyricGameMusic()
     {
-        previousMusicClip = musicSource.clip;
+        previousMusicClip = musicSource != null ? musicSource.clip : null;
         PlayMusic(lyricGameMusic);
     }
 
