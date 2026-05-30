@@ -1865,7 +1865,7 @@ MonoBehaviour:
     triggersMessage: 1
     messageText: Leave while you still can.
   - speakerName: Yeonhee
-    dialogueText: "Notification from tablet\n\nWhat\u2019s that\u2026?\r\n"
+    dialogueText: "What\u2019s that\u2026?\r\n"
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
