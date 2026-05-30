@@ -5697,9 +5697,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 459539202}
+      - m_Target: {fileID: 459539207}
         m_TargetAssemblyTypeName: MessagesApp, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: OpenMessage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6600,6 +6600,7 @@ GameObject:
   - component: {fileID: 459539206}
   - component: {fileID: 459539205}
   - component: {fileID: 459539204}
+  - component: {fileID: 459539207}
   m_Layer: 5
   m_Name: RightPanel
   m_TagString: Untagged
@@ -6694,6 +6695,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 459539202}
   m_CullTransparentMesh: 1
+--- !u!114 &459539207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459539202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 214b549ef56a68f4cb4fd44afeaa328a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MessagesApp
+  panel: {fileID: 2049511613}
+  messageText: {fileID: 634686189}
 --- !u!1 &586477403
 GameObject:
   m_ObjectHideFlags: 0
@@ -13806,11 +13821,14 @@ MonoBehaviour:
   speakerCanvasGroup: {fileID: 0}
   prologueDialogue: {fileID: 0}
   chapter1Dialogue: {fileID: 0}
-  energyPoints: 0
+  isFinalDialogue: 0
   maxEnergy: 80
   energyBar: {fileID: 0}
   totalEnergy: 0
-  friendshipBar: {fileID: 0}
+  cheonmiFriendshipBar: {fileID: 0}
+  roseFriendshipBar: {fileID: 0}
+  xuanMoFriendshipBar: {fileID: 0}
+  yeonseoFriendshipBar: {fileID: 0}
   maxFriendship: 100
   friendshipPoints: 50
   lyricsGame: {fileID: 0}
@@ -13819,6 +13837,10 @@ MonoBehaviour:
   A_Bad: {fileID: 0}
   B_Good: {fileID: 0}
   B_Bad: {fileID: 0}
+  advertImage: {fileID: 0}
+  badScoreImage: {fileID: 0}
+  goodScoreImage: {fileID: 0}
+  characterTransform: {fileID: 0}
   loadingFromSave: 0
   fader: {fileID: 0}
   uIManager: {fileID: 0}
@@ -14821,9 +14843,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4603d925d525464c9593fd61c126f42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
-  menuMusicSource: {fileID: 1524921522}
-  menuMusic: {fileID: 8300000, guid: 4f24bea263945914586aa3873b91fe81, type: 3}
-  fadeDuration: 1
 --- !u!4 &1524921521
 Transform:
   m_ObjectHideFlags: 0

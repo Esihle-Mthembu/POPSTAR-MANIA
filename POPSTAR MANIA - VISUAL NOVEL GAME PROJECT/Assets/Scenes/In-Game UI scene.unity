@@ -3052,11 +3052,14 @@ MonoBehaviour:
   speakerCanvasGroup: {fileID: 0}
   prologueDialogue: {fileID: 0}
   chapter1Dialogue: {fileID: 0}
-  energyPoints: 0
+  isFinalDialogue: 0
   maxEnergy: 80
   energyBar: {fileID: 0}
   totalEnergy: 0
-  friendshipBar: {fileID: 0}
+  cheonmiFriendshipBar: {fileID: 0}
+  roseFriendshipBar: {fileID: 0}
+  xuanMoFriendshipBar: {fileID: 0}
+  yeonseoFriendshipBar: {fileID: 0}
   maxFriendship: 100
   friendshipPoints: 50
   lyricsGame: {fileID: 0}
@@ -3065,6 +3068,10 @@ MonoBehaviour:
   A_Bad: {fileID: 0}
   B_Good: {fileID: 0}
   B_Bad: {fileID: 0}
+  advertImage: {fileID: 0}
+  badScoreImage: {fileID: 0}
+  goodScoreImage: {fileID: 0}
+  characterTransform: {fileID: 0}
   loadingFromSave: 0
   fader: {fileID: 0}
   uIManager: {fileID: 0}
@@ -15019,6 +15026,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66cb0c03bbb59df44899a6697221d186, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PopUpImageManager
+  canvasGroup: {fileID: 0}
+  popupImage: {fileID: 0}
+  fadeSpeed: 2
 --- !u!1 &1921591474
 GameObject:
   m_ObjectHideFlags: 0
@@ -15972,8 +15982,6 @@ RectTransform:
   m_Children:
   - {fileID: 1594234812}
   - {fileID: 1534039122}
-  - {fileID: 786199126}
-  - {fileID: 1734634074}
   - {fileID: 1669005945}
   - {fileID: 124713360}
   - {fileID: 1472577797}
@@ -15982,6 +15990,8 @@ RectTransform:
   - {fileID: 176779184}
   - {fileID: 1068859229}
   - {fileID: 199684982}
+  - {fileID: 786199126}
+  - {fileID: 1734634074}
   - {fileID: 116537835}
   - {fileID: 1727803274}
   - {fileID: 292999177}
@@ -16019,11 +16029,14 @@ MonoBehaviour:
   speakerCanvasGroup: {fileID: 1696452604}
   prologueDialogue: {fileID: 11400000, guid: 78bd2454f680f3840999e0c9967e32c4, type: 2}
   chapter1Dialogue: {fileID: 11400000, guid: 18f88903c4ac9334b9f310b969b32574, type: 2}
-  energyPoints: 0
+  isFinalDialogue: 0
   maxEnergy: 80
   energyBar: {fileID: 786199127}
   totalEnergy: 0
-  friendshipBar: {fileID: 1734634075}
+  cheonmiFriendshipBar: {fileID: 1734634075}
+  roseFriendshipBar: {fileID: 116537836}
+  xuanMoFriendshipBar: {fileID: 1727803275}
+  yeonseoFriendshipBar: {fileID: 292999178}
   maxFriendship: 100
   friendshipPoints: 50
   lyricsGame: {fileID: 950265132}
@@ -16032,6 +16045,10 @@ MonoBehaviour:
   A_Bad: {fileID: 11400000, guid: 8ba932cd0b7a1654f9022a9d111715dc, type: 2}
   B_Good: {fileID: 11400000, guid: 4d597ebecdeb634498fb5e4f97deb6af, type: 2}
   B_Bad: {fileID: 11400000, guid: 671773dccd3c4fb428f4873faa37d432, type: 2}
+  advertImage: {fileID: 0}
+  badScoreImage: {fileID: -8875235986244404559, guid: 199718d2b8fe08743aec760558a17bd0, type: 3}
+  goodScoreImage: {fileID: -817987454622419427, guid: 1ca60d0f5cc430f4abfad6f141dd3e5f, type: 3}
+  characterTransform: {fileID: 0}
   loadingFromSave: 0
   fader: {fileID: 1440375923}
   uIManager: {fileID: 6706361}
