@@ -29,7 +29,10 @@ public class DialogueManager : MonoBehaviour
     public Slider energyBar;
     public int totalEnergy = 0;
 
-    public Slider friendshipBar;
+    public Slider cheonmiFriendshipBar;
+    public Slider roseFriendshipBar;
+    public Slider xuanMoFriendshipBar;
+    public Slider yeonseoFriendshipBar;
     public int maxFriendship = 100;
     public int friendshipPoints = 50;
 
@@ -114,12 +117,12 @@ public class DialogueManager : MonoBehaviour
         }
 
         // friendshipBar
-        if (friendshipBar == null)
+        if (cheonmiFriendshipBar == null)
         {
-            var go = GameObject.Find("FriendshipBar");
-            if (go != null) friendshipBar = go.GetComponent<Slider>();
+            var go = GameObject.Find("cheonmiFriendshipBar");
+            if (go != null) cheonmiFriendshipBar = go.GetComponent<Slider>();
 
-            if (friendshipBar == null)
+            if (cheonmiFriendshipBar == null)
             {
                 // pick a different Slider than energyBar if possible
                 var sliders = Object.FindObjectsByType<Slider>(FindObjectsInactive.Include, FindObjectsSortMode.None);
@@ -127,25 +130,25 @@ public class DialogueManager : MonoBehaviour
                 {
                     if (s != energyBar)
                     {
-                        friendshipBar = s;
+                        cheonmiFriendshipBar = s;
                         break;
                     }
                 }
             }
 
-            if (friendshipBar == null)
+            if (cheonmiFriendshipBar == null)
             {
                 Debug.LogWarning("DialogueManager: 'friendshipBar' not assigned in inspector and none found in scene. Some UI features will remain hidden.");
             }
         }
 
-        if (friendshipBar != null)
+        if (cheonmiFriendshipBar != null)
         {
-            friendshipBar.gameObject.SetActive(false);
+            cheonmiFriendshipBar.gameObject.SetActive(false);
         }
 
         friendshipPoints = 50;
-        UpdateFriendshipBar();
+        UpdatecheonmiFriendshipBar();
 
         // Check if a save should be loaded or start afresh
         if (PlayerPrefs.HasKey("DialogueIndex"))
@@ -157,12 +160,12 @@ public class DialogueManager : MonoBehaviour
         StartDialogue(prologueDialogue);
     }
 
-    void UpdateFriendshipBar()
+    void UpdatecheonmiFriendshipBar()
     {
-        if (friendshipBar == null) return;
+        if (cheonmiFriendshipBar == null) return;
 
-        friendshipBar.maxValue = maxFriendship;
-        friendshipBar.value = friendshipPoints;
+        cheonmiFriendshipBar.maxValue = maxFriendship;
+        cheonmiFriendshipBar.value = friendshipPoints;
     }
 
     public void SetTypingSpeed(float value)
@@ -178,7 +181,11 @@ public class DialogueManager : MonoBehaviour
         }
 
         if (currentDialogue == null || currentDialogue.lines == null || currentDialogue.lines.Count == 0)
-        if (isInChoice || !isDialogueActive || isTransitioning || currentDialogue == null || currentDialogue.lines == null)
+        {
+            return;
+        }
+
+        if (isInChoice || !isDialogueActive || isTransitioning)
         {
             return;
         }
@@ -527,7 +534,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         friendshipPoints = Mathf.Clamp(friendshipPoints, 0, maxFriendship);
-        UpdateFriendshipBar();
+        UpdatecheonmiFriendshipBar();
 
         // Branching
         if (currentPath == "A")
@@ -644,7 +651,7 @@ public class DialogueManager : MonoBehaviour
         if (isPrologue)
         {
             isPrologue = false;
-            friendshipBar.gameObject.SetActive(true);
+            cheonmiFriendshipBar.gameObject.SetActive(true);
             StartDialogue(chapter1Dialogue); // starts chapter 1 dialogue
         }
         else
@@ -704,7 +711,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         friendshipPoints = Mathf.Clamp(friendshipPoints, 0, maxFriendship);
-        UpdateFriendshipBar();
+        UpdatecheonmiFriendshipBar();
 
         //check before jumping
         if (choice.nextLineIndex < 0 || choice.nextLineIndex >= currentDialogue.lines.Count)

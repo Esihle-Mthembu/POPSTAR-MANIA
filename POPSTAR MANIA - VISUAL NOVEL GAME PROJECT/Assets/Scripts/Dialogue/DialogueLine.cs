@@ -12,6 +12,8 @@ public class DialogueLine
     public Sprite leftCharacter;
     public Sprite background;
 
+    public bool moveUpDownOnce;
+
     [Header("Audio")]
     public AudioClip backgroundMusic;
     public AudioClip bgm;

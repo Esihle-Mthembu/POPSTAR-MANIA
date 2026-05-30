@@ -20,16 +20,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 8300000, guid: c8b77116b1cc119498cece4efe615188, type: 3}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: Sunny
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: Your average student at Joesei Secondary school.
     centerCharacter: {fileID: -1631877924923921634, guid: cf5274285e8a37147953f5f31936e469, type: 3}
@@ -37,16 +38,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: "I\u2019m in my third year of high school, which has been a bit
       hectic but fun."
@@ -55,16 +57,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: "My study stream is Humanities, which my parents hated. They wanted
       me to become something \u201Creputable\u201D, but I don\u2019t really care
@@ -74,16 +77,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: "I\u2019m what you call a die hard kpop fan, but don\u2019t worry
       I'm not a Sasaeng. I just really love K-pop. "
@@ -92,16 +96,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: I love the glitz and glamour around it, and I love watching Idols
       live their day to day lives.
@@ -110,16 +115,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: "Sometimes it makes me wonder what my life would look like if I
       were a K-pop idol. If I had the opportunity to become one, I\u2019d immediately
@@ -129,16 +135,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: "I just didn\u2019t expect that chance would come so soon."
     centerCharacter: {fileID: -1631877924923921634, guid: cf5274285e8a37147953f5f31936e469, type: 3}
@@ -146,16 +153,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: ...anyways
     centerCharacter: {fileID: -1631877924923921634, guid: cf5274285e8a37147953f5f31936e469, type: 3}
@@ -163,16 +171,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: I think their life is so much cooler compared to mine.
     centerCharacter: {fileID: -1956229196876256316, guid: 97c1026676b6f7d4c824977492a041fd, type: 3}
@@ -180,16 +189,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: It's not like I don't have any talent either, so I'd fit into the
       idol world pretty well.
@@ -198,16 +208,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: ...and maybe I'll finally get to talk to my lovely Joon.
     centerCharacter: {fileID: 3308583301873284892, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
@@ -215,16 +226,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: Sigh...
     centerCharacter: {fileID: -1631877924923921634, guid: cf5274285e8a37147953f5f31936e469, type: 3}
@@ -232,16 +244,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 8300000, guid: bded02e29bf45d146bd249322dba434d, type: 3}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: My routine is the same everyday. I get there early, meet up with
       my friends, and we sit together scrolling through posts from the night before.
@@ -250,16 +263,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yuna
     dialogueText: Did you see the post about Starlight's new girl group?
     centerCharacter: {fileID: 4204395857586137898, guid: 3fb10999da247d147898f6ed86d1c8aa, type: 3}
@@ -267,16 +281,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Ji-a
     dialogueText: Oh my God yes.
     centerCharacter: {fileID: -6746275565422459064, guid: 416e5433bcfe09c4a92d67fa6aac1cde, type: 3}
@@ -284,16 +299,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yuna
     dialogueText: They look so young, I was actually confused.
     centerCharacter: {fileID: 4204395857586137898, guid: 3fb10999da247d147898f6ed86d1c8aa, type: 3}
@@ -301,16 +317,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yuna
     dialogueText: Apparently oldest one in the group is thirteen.
     centerCharacter: {fileID: 4204395857586137898, guid: 3fb10999da247d147898f6ed86d1c8aa, type: 3}
@@ -318,16 +335,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: I saw that too...but their concept looks really cool.
     centerCharacter: {fileID: -1631877924923921634, guid: cf5274285e8a37147953f5f31936e469, type: 3}
@@ -335,16 +353,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yuna
     dialogueText: "That doesn\u2019t change the fact that they\u2019re probably getting
       exploited."
@@ -353,16 +372,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: I shrug a little.
     centerCharacter: {fileID: 0}
@@ -370,16 +390,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: I guess...
     centerCharacter: {fileID: 5596884211403795087, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
@@ -387,16 +408,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: Then I turn my phone toward them, already smiling.
     centerCharacter: {fileID: 0}
@@ -404,16 +426,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: Anyways, did you see Joon's post? Oh my gosh, he looks so good.
     centerCharacter: {fileID: 3308583301873284892, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
@@ -421,16 +444,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: Yuna side eyes Yeonhee while Ji-a giggles beside her.
     centerCharacter: {fileID: 0}
@@ -438,16 +462,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Ji-a
     dialogueText: His post was kind of hot. I won't lie.
     centerCharacter: {fileID: -6746275565422459064, guid: 416e5433bcfe09c4a92d67fa6aac1cde, type: 3}
@@ -455,16 +480,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: "I know, right? I grin, leaning back in my chair. I\u2019m actually
       so excited for their new vampire concept."
@@ -473,16 +499,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: I sigh dramatically
     centerCharacter: {fileID: 0}
@@ -490,16 +517,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 09733233b7cffa8419e73d28d3518b2d, type: 3}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: "I seriously can\u2019t wait to debut. Joon and I definitely have
       Kemi."
@@ -508,16 +536,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: Yuna rolls her eyes.
     centerCharacter: {fileID: 4204395857586137898, guid: 3fb10999da247d147898f6ed86d1c8aa, type: 3}
@@ -525,16 +554,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yuna
     dialogueText: "Delusional. Anyways, sir\u2019s coming."
     centerCharacter: {fileID: 4204395857586137898, guid: 3fb10999da247d147898f6ed86d1c8aa, type: 3}
@@ -542,16 +572,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: The teacher walks into the classroom.
     centerCharacter: {fileID: 0}
@@ -559,16 +590,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Teacher
     dialogueText: Everyone back to your seats. I only want to see Art History books
       on the table. No maths, no English, or anything related to another subject.
@@ -577,16 +609,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: The class sighs loudly.
     centerCharacter: {fileID: 0}
@@ -594,16 +627,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'We move slowly, dragging chairs and bags across the floor. '
     centerCharacter: {fileID: 0}
@@ -611,16 +645,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 8300000, guid: dfafae5a8d4aa134dbd105bbda04c5ef, type: 3}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: Yeonhee mutters under her breath.
     centerCharacter: {fileID: 0}
@@ -628,16 +663,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: "I swear it\u2019s always something."
     centerCharacter: {fileID: 6583847169592440055, guid: afda51ac5062d9549be8c07576ff3068, type: 3}
@@ -645,16 +681,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'A painting appears on the screen. '
     centerCharacter: {fileID: 0}
@@ -662,16 +699,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "The Painter\u2019s Studio:A Real Allegory Summing Up Seven Years
       of My Life as an Artist by Gustave Courbet, dated 1855. "
@@ -680,16 +718,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Teacher
     dialogueText: The left side represents the exploited, the teacher explains, gesturing
       toward it. And the right side represents the exploiters. The artist stands
@@ -699,16 +738,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "I look at it for a moment, trying to see what he means\u2026"
     centerCharacter: {fileID: 0}
@@ -716,16 +756,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: I tried to focus.
     centerCharacter: {fileID: 0}
@@ -733,16 +774,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'But my attention drifts back to my laptop. '
     centerCharacter: {fileID: 0}
@@ -750,16 +792,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: A pop-up appears.
     centerCharacter: {fileID: 0}
@@ -767,16 +810,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: What's this now?
     centerCharacter: {fileID: 0}
@@ -784,16 +828,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 1
     flickerDuration: 0.3
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'The screen flickers slightly before the poster settles in. '
     centerCharacter: {fileID: 0}
@@ -801,16 +846,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "FIND YOUR DREAM AT DIAMOND ENT. \r\nGLOBAL AUDITIONS OPEN NOW.
       \r\nLOOKING FOR THE NEXT MEMBER OF A 4-MEMBER GIRL GROUP."
@@ -819,16 +865,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'My eyes widened.  '
     centerCharacter: {fileID: 0}
@@ -836,16 +883,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: Wait, I mumble under my breath, leaning closer to the screen. DIAMOND
       ENT. !?
@@ -854,16 +902,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 1
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Teacher
     dialogueText: Lim Yeonhee
     centerCharacter: {fileID: 0}
@@ -871,16 +920,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 592821de56673ec49a65571c10e27ca7, type: 3}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'I freeze and slowly look up.  '
     centerCharacter: {fileID: 0}
@@ -888,16 +938,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'The teacher is staring directly at me. '
     centerCharacter: {fileID: 0}
@@ -905,16 +956,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Teacher
     dialogueText: Would you like to share something with the class?
     centerCharacter: {fileID: 0}
@@ -922,16 +974,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: He asks flatly.
     centerCharacter: {fileID: 0}
@@ -939,16 +992,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: No, sir.
     centerCharacter: {fileID: -1956229196876256316, guid: 97c1026676b6f7d4c824977492a041fd, type: 3}
@@ -956,16 +1010,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Teacher
     dialogueText: Then I suggest you focus, this is your first warning.
     centerCharacter: {fileID: 0}
@@ -973,16 +1028,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: I quickly nod and look back down, pretending to read my notes.
     centerCharacter: {fileID: 0}
@@ -990,16 +1046,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "\u2026but my heart is already racing. "
     centerCharacter: {fileID: 0}
@@ -1007,16 +1064,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: The bell rings a few minutes later.
     centerCharacter: {fileID: 0}
@@ -1024,16 +1082,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 67defcbe9d07b8043acadbd25f1a8604, type: 3}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Teacher
     dialogueText: "Alright class, I\u2019m giving you this half period to study for
       your next assignment. No chatting."
@@ -1042,16 +1101,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'His eyes narrow and land directly on me. '
     centerCharacter: {fileID: 0}
@@ -1059,16 +1119,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'The class giggles.  '
     centerCharacter: {fileID: 0}
@@ -1076,16 +1137,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 4d14401aba15a3840b1103a3d764d828, type: 3}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: I turn to my friends immediately, pushing my laptop toward them.
     centerCharacter: {fileID: 0}
@@ -1093,16 +1155,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: Look at this.
     centerCharacter: {fileID: 7105764956776556365, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
@@ -1110,16 +1173,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: They lean in.
     centerCharacter: {fileID: 0}
@@ -1127,16 +1191,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Ji-a
     dialogueText: Is this real?
     centerCharacter: {fileID: -6746275565422459064, guid: 416e5433bcfe09c4a92d67fa6aac1cde, type: 3}
@@ -1144,16 +1209,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yuna
     dialogueText: It has to be fake.
     centerCharacter: {fileID: 4204395857586137898, guid: 3fb10999da247d147898f6ed86d1c8aa, type: 3}
@@ -1161,16 +1227,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: This is destiny.
     centerCharacter: {fileID: 7105764956776556365, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
@@ -1178,16 +1245,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: I whisper.
     centerCharacter: {fileID: 0}
@@ -1195,16 +1263,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yuna
     dialogueText: "No it\u2019s not, and the wording just looks weird."
     centerCharacter: {fileID: 4204395857586137898, guid: 3fb10999da247d147898f6ed86d1c8aa, type: 3}
@@ -1212,16 +1281,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Ji-a
     dialogueText: Yeah, it's probably a scam.
     centerCharacter: {fileID: -6746275565422459064, guid: 416e5433bcfe09c4a92d67fa6aac1cde, type: 3}
@@ -1229,16 +1299,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: I shake my head, eyes glued to the screen.
     centerCharacter: {fileID: 0}
@@ -1246,16 +1317,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: "It\u2019s literally just an advert. You guys are overthinking
       it .... Look, there\u2019s an address and everything. It\u2019s a real company."
@@ -1264,16 +1336,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: I can feel the excitement building in my chest.
     centerCharacter: {fileID: 0}
@@ -1281,16 +1354,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: "I\u2019m going to audition this Saturday. "
     centerCharacter: {fileID: 3308583301873284892, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
@@ -1298,16 +1372,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Ji-a
     dialogueText: "I don\u2019t know, Yeonhee\u2026 "
     centerCharacter: {fileID: -6746275565422459064, guid: 416e5433bcfe09c4a92d67fa6aac1cde, type: 3}
@@ -1315,16 +1390,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'They exchange a worried look.  '
     centerCharacter: {fileID: 0}
@@ -1332,16 +1408,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yuna
     dialogueText: "We really don\u2019t think you should."
     centerCharacter: {fileID: 4204395857586137898, guid: 3fb10999da247d147898f6ed86d1c8aa, type: 3}
@@ -1349,16 +1426,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Teacher
     dialogueText: GIRLS!
     centerCharacter: {fileID: 0}
@@ -1366,16 +1444,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 1
-    shakeDuration: 0.1
-    shakeStrength: 3
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: We all jump.
     centerCharacter: {fileID: 0}
@@ -1383,16 +1462,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'The teacher slams his book against the desk.  '
     centerCharacter: {fileID: 0}
@@ -1400,16 +1480,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 592821de56673ec49a65571c10e27ca7, type: 3}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Teacher
     dialogueText: 'Do I have to separate you ? '
     centerCharacter: {fileID: 0}
@@ -1417,16 +1498,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: Sorry, sir. I was just showing them something for the essay.
     centerCharacter: {fileID: -1956229196876256316, guid: 97c1026676b6f7d4c824977492a041fd, type: 3}
@@ -1434,16 +1516,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: He sighs, shaking his head.
     centerCharacter: {fileID: 0}
@@ -1451,16 +1534,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 74b0cc6959fab6a468db8547054644b2, type: 3}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Teacher
     dialogueText: 'Yeonhee, if you spent half as much time studying as you do staring
       at K-pop idols, you might actually rank first in this class. '
@@ -1469,16 +1553,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'I sit up straighter, closing my laptop. '
     centerCharacter: {fileID: 0}
@@ -1486,16 +1571,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Teacher
     dialogueText: This is your last warning.
     centerCharacter: {fileID: 0}
@@ -1503,16 +1589,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "After that day, everything in my life began to change\u2026 and
       I didn\u2019t even notice at first."
@@ -1521,16 +1608,17 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "Two mornings later, I\u2019m standing in front of the company. "
     centerCharacter: {fileID: 0}
@@ -1538,16 +1626,17 @@ MonoBehaviour:
     background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 8300000, guid: 6617df9bbbfa25e4387f6b371f6fb4b8, type: 3}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: None
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: My stomach drops as I take it in.
     centerCharacter: {fileID: 0}
@@ -1555,16 +1644,17 @@ MonoBehaviour:
     background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "It\u2019s\u2026 smaller than I expected."
     centerCharacter: {fileID: 0}
@@ -1572,16 +1662,17 @@ MonoBehaviour:
     background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "The paint is peeling for a new company and the building feels
       strangely quiet, like no one\u2019s really there."
@@ -1590,16 +1681,17 @@ MonoBehaviour:
     background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: For a second, something about it feels off.
     centerCharacter: {fileID: 0}
@@ -1607,16 +1699,17 @@ MonoBehaviour:
     background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'But I ignore it. '
     centerCharacter: {fileID: 0}
@@ -1624,16 +1717,17 @@ MonoBehaviour:
     background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'This is my chance. '
     centerCharacter: {fileID: 0}
@@ -1641,16 +1735,17 @@ MonoBehaviour:
     background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: I step out of the car and walk toward the entrance, my heart pounding
       with excitement.
@@ -1659,16 +1754,17 @@ MonoBehaviour:
     background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "Inside, it\u2019s even quieter. "
     centerCharacter: {fileID: 0}
@@ -1676,16 +1772,17 @@ MonoBehaviour:
     background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'A recruiter sits at the front desk and looks up as I approach. '
     centerCharacter: {fileID: 0}
@@ -1693,16 +1790,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Recruiter
     dialogueText: You must be Lim Yeonhee?
     centerCharacter: {fileID: 0}
@@ -1710,16 +1808,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: I bow quickly.
     centerCharacter: {fileID: 0}
@@ -1727,16 +1826,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 1
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: Yes.
     centerCharacter: {fileID: 3308583301873284892, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
@@ -1744,16 +1844,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Recruiter
     dialogueText: "Come with me. I\u2019ll take you to the boardroom."
     centerCharacter: {fileID: 0}
@@ -1761,16 +1862,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'As we walk down the hallway, I notice how empty everything looks.
       no trainees, no noise, just silence. '
@@ -1779,16 +1881,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "strange\u2026 "
     centerCharacter: {fileID: 0}
@@ -1796,16 +1899,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: The door opens.
     centerCharacter: {fileID: 0}
@@ -1813,16 +1917,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'Three people are sitting inside. '
     centerCharacter: {fileID: 0}
@@ -1830,16 +1935,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'Watching me as I stand in the middle of the room. '
     centerCharacter: {fileID: 0}
@@ -1847,16 +1953,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: For some reason, it reminds me of that painting from class.
     centerCharacter: {fileID: 0}
@@ -1864,16 +1971,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: "Hi! I\u2019m Yeonhee and I can sing and dance and-"
     centerCharacter: {fileID: 3308583301873284892, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
@@ -1881,16 +1989,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: The CEO suddenly laughs.
     centerCharacter: {fileID: 0}
@@ -1898,16 +2007,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 8300000, guid: fdf1078281e66814eb39edb1a9e07854, type: 3}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'Is that a good or bad sign? '
     centerCharacter: {fileID: 0}
@@ -1915,16 +2025,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Panel member 1
     dialogueText: "Don\u2019t worry, we already know who you are. "
     centerCharacter: {fileID: 0}
@@ -1932,16 +2043,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'A contract slides across the table toward me. '
     centerCharacter: {fileID: 0}
@@ -1949,16 +2061,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Panel member 2
     dialogueText: "He\u2019s looking for people who are willing to dedicate themselves,
       not fans chasing fantasies."
@@ -1967,16 +2080,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: I straighten my posture.
     centerCharacter: {fileID: 0}
@@ -1984,16 +2098,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: "I\u2019m in the top ten of my grade. I\u2019m serious about anything
       I do."
@@ -2002,16 +2117,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: I bow again.
     centerCharacter: {fileID: 0}
@@ -2019,16 +2135,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 1
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: 'Please take me in. '
     centerCharacter: {fileID: -1956229196876256316, guid: 97c1026676b6f7d4c824977492a041fd, type: 3}
@@ -2036,16 +2153,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: The CEO smiles.
     centerCharacter: {fileID: 0}
@@ -2053,16 +2171,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: CEO
     dialogueText: "You\u2019re in. "
     centerCharacter: {fileID: 0}
@@ -2070,16 +2189,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: Yeonhee
     dialogueText: "What? Just like that? I didn\u2019t even audition. "
     centerCharacter: {fileID: -2663315883716039387, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
@@ -2087,16 +2207,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: CEO
     dialogueText: That was the audition.
     centerCharacter: {fileID: 0}
@@ -2104,16 +2225,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'The contract sits in front of me. '
     centerCharacter: {fileID: 0}
@@ -2121,16 +2243,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'For a moment, I hesitate.  '
     centerCharacter: {fileID: 0}
@@ -2138,16 +2261,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: 'I should probably read it. '
     centerCharacter: {fileID: 0}
@@ -2155,16 +2279,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "Something in the back of my mind tells me I should\u2026"
     centerCharacter: {fileID: 0}
@@ -2172,16 +2297,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "But I don\u2019t."
     centerCharacter: {fileID: 0}
@@ -2189,16 +2315,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: I signed it without a second thought.
     centerCharacter: {fileID: 0}
@@ -2206,16 +2333,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 1a76d5d6d1e87d946b24349950ffee88, type: 3}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "The CEO\u2019s smile widens."
     centerCharacter: {fileID: 0}
@@ -2223,16 +2351,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: I stand up and bow, barely able to contain my excitement.
     centerCharacter: {fileID: 0}
@@ -2240,16 +2369,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: My dream is finally starting.
     centerCharacter: {fileID: 0}
@@ -2257,16 +2387,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: As I walk out of the room, I hear a quiet voice behind me.
     centerCharacter: {fileID: 0}
@@ -2274,16 +2405,17 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "\u201CAnother one signed.\u201D I pause for a second."
     centerCharacter: {fileID: 0}
@@ -2291,16 +2423,17 @@ MonoBehaviour:
     background: {fileID: 2519943634182448617, guid: c005be0bdcb12a54582fe3c904be5c6f, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: "\u2026but I shake it off and keep walking."
     centerCharacter: {fileID: 0}
@@ -2308,16 +2441,17 @@ MonoBehaviour:
     background: {fileID: 6003030491557586684, guid: 84d651bd655f231469c5ac32ebe32e08, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
   - speakerName: 
     dialogueText: All I can think about is my debut.
     centerCharacter: {fileID: 0}
@@ -2325,13 +2459,14 @@ MonoBehaviour:
     background: {fileID: 6003030491557586684, guid: 84d651bd655f231469c5ac32ebe32e08, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    popupAction: 0
+    popupImage: {fileID: 0}
+    moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
-    shake: 0
-    shakeDuration: 0.5
-    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
     isEndOfBranch: 0
+    triggersMessage: 0
+    messageText: 
