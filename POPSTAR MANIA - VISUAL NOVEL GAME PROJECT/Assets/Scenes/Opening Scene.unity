@@ -407,8 +407,8 @@ Canvas:
   m_GameObject: {fileID: 716082876}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 1017683930}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1228,6 +1228,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MusicManager
   musicSource: {fileID: 0}
   overlaySource: {fileID: 0}
+  sfxSource: {fileID: 0}
+  clickSound: {fileID: 0}
   persistentFadeDuration: 0.6
   overlayFadeDuration: 0.25
 --- !u!1 &2014516771
