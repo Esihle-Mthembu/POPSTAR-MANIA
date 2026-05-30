@@ -23,7 +23,6 @@ public class DialogueManager : MonoBehaviour
     [Header ("Player Stats")]
     public int energyPoints;
     public bool isFinalDialogue = false;
-    private string currentPath = "";
 
     [Header("Player Stats")]
     public int maxEnergy = 80;
