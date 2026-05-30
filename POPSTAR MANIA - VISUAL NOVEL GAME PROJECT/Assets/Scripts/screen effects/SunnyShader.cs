@@ -26,6 +26,12 @@ public class SunnyShader : MonoBehaviour
     public void PlayShader(string shaderName)
     {
         if (string.IsNullOrWhiteSpace(shaderName))
+        // Ignore empty shader names
+        if (string.IsNullOrWhiteSpace(shaderName))
+            return;
+
+        // Prevent replaying same shader
+        if (currentShader == shaderName)
             return;
 
         // ALWAYS reset first

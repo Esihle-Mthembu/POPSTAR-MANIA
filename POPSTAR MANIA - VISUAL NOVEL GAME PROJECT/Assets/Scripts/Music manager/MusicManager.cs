@@ -90,19 +90,14 @@ public class MusicManager : MonoBehaviour
             }
         }
 
-        // If sfxSource is not assigned, try to find any remaining AudioSource that isn't music/overlay
         if (sfxSource == null)
         {
-            var sources = GetComponents<AudioSource>();
-            foreach (var s in sources)
-            {
-                if (s != musicSource && s != overlaySource)
-                {
-                    sfxSource = s;
-                    break;
-                }
-            }
-            // do NOT create a persistent sfxSource automatically here; PlayClick will create one if necessary
+            sfxSource = gameObject.AddComponent<AudioSource>();
+            sfxSource.playOnAwake = false;
+            sfxSource.loop = false;
+            sfxSource.spatialBlend = 0f;
+
+            Debug.Log("[MusicManager] created dedicated sfxSource");
         }
 
         // Normalize volumes

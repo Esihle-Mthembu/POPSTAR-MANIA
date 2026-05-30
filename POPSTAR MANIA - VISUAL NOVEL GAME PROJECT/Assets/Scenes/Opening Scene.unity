@@ -1257,7 +1257,7 @@ MonoBehaviour:
   musicSource: {fileID: 0}
   overlaySource: {fileID: 0}
   sfxSource: {fileID: 0}
-  clickSound: {fileID: 0}
+  clickSound: {fileID: 8300000, guid: 2038aded55c1caf4082f89496c5f5349, type: 3}
   persistentFadeDuration: 0.6
   overlayFadeDuration: 0.25
 --- !u!1 &2014516771

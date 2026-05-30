@@ -170,7 +170,6 @@ public class DialogueManager : MonoBehaviour
         if (isInChoice || !isDialogueActive || currentDialogue == null || currentDialogue.lines == null)
             return;
 
-        // defensive: ensure currentDialogue and lines exist before accessing Count
         if (currentDialogue == null || currentDialogue.lines == null || currentDialogue.lines.Count == 0)
             return;
 
@@ -287,11 +286,31 @@ public class DialogueManager : MonoBehaviour
 
         if (mm != null)
         {
-            if (persistentClip != null) mm.PlayPersistent(persistentClip);
-            // persistent BGM intentionally left playing when null (won't stop)
-            if (overlayClip != null) mm.PlayOverlay(overlayClip);
-            else mm.StopOverlay();
+            AudioClip bgmToPlay = null;
+
+            // Search backwards for the most recent persistent BGM
+            for (int i = currentIndex; i >= 0; i--)
+            {
+                if (currentDialogue.lines[i].bgm != null)
+                {
+                    bgmToPlay = currentDialogue.lines[i].bgm;
+                    break;
+                }
+            }
+
+            // Play the correct persistent music
+            if (bgmToPlay != null)
+                mm.PlayPersistent(bgmToPlay);
+            else
+                mm.StopMusic();
+
+            // Overlay music is simpler - just play if specified, stop if null (no need to search)
+            if (overlayClip != null)
+                mm.PlayOverlay(overlayClip);
+            else
+                mm.StopOverlay();
         }
+
         else if (AudioManager.Instance != null)
         {
             // Fallback: use central AudioManager when MusicManager is missing
