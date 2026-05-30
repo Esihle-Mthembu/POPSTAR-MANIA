@@ -1214,7 +1214,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shaderName: Particle System
+    shaderName: 
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1368,7 +1368,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     flicker: 0
     flickerDuration: 1
-    shaderName: Particle System
+    shaderName: 
     shake: 1
     shakeDuration: 0.1
     shakeStrength: 3
