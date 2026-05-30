@@ -18,6 +18,7 @@ public class DialogueManager : MonoBehaviour
     [Header("Dialogue Data")]
     public DialogueData prologueDialogue;
     public DialogueData chapter1Dialogue;
+    public bool isFinalDialogue = false;
     private string currentPath = "";
 
     [Header("Player Stats")]
@@ -638,6 +639,7 @@ public class DialogueManager : MonoBehaviour
         isInChoice = false;
         isAutoMode = false;
         isSkipping = false;
+        isFinalDialogue = true;
 
         currentIndex = 0; 
 
@@ -656,6 +658,13 @@ public class DialogueManager : MonoBehaviour
         {
             Debug.Log("Prologue ended, starting chapter 1");
             StartCoroutine(HandleDialogueTransition());
+            return;
+        }
+
+        if (isFinalDialogue)
+        {
+            Debug.Log("Final dialogue ended, going to main menu");
+            TriggerEnding();
             return;
         }
 
@@ -840,6 +849,9 @@ public class DialogueManager : MonoBehaviour
 
         // Show end screen
         Debug.Log("GAME ENDED");
+
+        //Return to main menu
+        SceneManager.LoadScene("Main Menu");
     }
 
     // IN-GAME MENU BUTTONS
