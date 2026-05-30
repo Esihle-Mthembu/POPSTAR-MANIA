@@ -6,10 +6,12 @@ public class ScreenFader : MonoBehaviour
 {
     public Image fadeImage;
     public float fadeDuration = 1f;
-    public System.Action OnFadeComplete;
     public bool isTransitioning = false;
+
     public IEnumerator FadeIn()
     {
+        Debug.Log("FADE IN START");
+
         float t = 0;
         Color color = fadeImage.color;
 
@@ -27,19 +29,18 @@ public class ScreenFader : MonoBehaviour
         fadeImage.raycastTarget = false; //allows clicks again
 
         isTransitioning = false;  
-
-        OnFadeComplete?.Invoke();
     }
 
     public IEnumerator FadeOut()
     {
-        if (isTransitioning) yield break;
-        isTransitioning = true;
+        Debug.Log("FADE OUT START");
 
+        isTransitioning = true;
         fadeImage.raycastTarget = true;
 
         float t = 0;
         Color color = fadeImage.color;
+        color.a = 0;   // starts from transparent
 
         while (t < fadeDuration)
         {

@@ -224,7 +224,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        if (isInChoice || !isDialogueActive || currentDialogue == null || currentDialogue.lines == null)
+        if (isInChoice || !isDialogueActive || isTransitioning || currentDialogue == null || currentDialogue.lines == null)
         {
             return;
         }
@@ -648,13 +648,18 @@ public class DialogueManager : MonoBehaviour
         isAutoMode = false;
         isSkipping = false;
 
-        currentIndex = 0; // branches start at beginning
+        currentIndex = 0; 
 
         ShowCurrentLine();
     }
 
     public void EndDialogue()
     {
+        if (isTransitioning)
+        {
+            return;
+        }
+
         // Check if prologue is done
         if (isPrologue)
         {
@@ -681,6 +686,11 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator HandleDialogueTransition()
     {
+        if (isTransitioning)
+        {
+            yield break;
+        }
+
         isTransitioning = true;
         isSkipping = false;
         isAutoMode = false;
@@ -703,7 +713,7 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-            TriggerEnding();
+            Debug.Log("Dialogue transition completed");
         }
 
         // Fade back in
@@ -780,6 +790,8 @@ public class DialogueManager : MonoBehaviour
 
     public void TriggerEnding()
     {
+        Debug.Log("TRIGGER ENDING CALLED");
+
         if (isGameEnded) return;
 
         isGameEnded = true;
@@ -789,6 +801,8 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator EndingSequence()
     {
+        Debug.Log("ENDING SEQUENCE START");
+
         // Stop all systems
         isDialogueActive = false;
         isAutoMode = false;
