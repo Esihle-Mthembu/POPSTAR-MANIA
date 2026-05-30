@@ -66,6 +66,7 @@ public class MainMenu : MonoBehaviour
 
         SceneManager.LoadScene(sceneName);
     }
+
     IEnumerator FadeInMenuMusic()
     {
         float time = 0f;
@@ -99,7 +100,6 @@ public class MainMenu : MonoBehaviour
     // New Game button
     public void NewGame()
     {
-
         PlayerPrefs.DeleteAll();
         PlayerPrefs.SetString("StartDialogue", "Prologue");
         SceneManager.LoadScene("In-Game UI scene");

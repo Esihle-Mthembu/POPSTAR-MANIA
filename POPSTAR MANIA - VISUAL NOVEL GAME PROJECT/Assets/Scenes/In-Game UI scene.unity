@@ -1666,8 +1666,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 205.41394, y: 26.0083}
-  m_SizeDelta: {x: 400, y: 75}
+  m_AnchoredPosition: {x: 320, y: 29}
+  m_SizeDelta: {x: 600, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &199684983
 MonoBehaviour:
@@ -2151,8 +2151,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -209, y: 25.5}
-  m_SizeDelta: {x: 400, y: 75}
+  m_AnchoredPosition: {x: -324, y: 26}
+  m_SizeDelta: {x: 600, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &310433940
 MonoBehaviour:
@@ -7162,8 +7162,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85675af353e013146b1be7b97c5bc0d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PauseManager
-  pauseMenuUI: {fileID: 389974187}
-  isPaused: 0
 --- !u!1 &1246859859
 GameObject:
   m_ObjectHideFlags: 0
@@ -16045,10 +16043,10 @@ MonoBehaviour:
   A_Bad: {fileID: 11400000, guid: 8ba932cd0b7a1654f9022a9d111715dc, type: 2}
   B_Good: {fileID: 11400000, guid: 4d597ebecdeb634498fb5e4f97deb6af, type: 2}
   B_Bad: {fileID: 11400000, guid: 671773dccd3c4fb428f4873faa37d432, type: 2}
-  advertImage: {fileID: 0}
+  advertImage: {fileID: 8092175794041825482, guid: 51dac8173514e5d46bc29971c486859c, type: 3}
   badScoreImage: {fileID: -8875235986244404559, guid: 199718d2b8fe08743aec760558a17bd0, type: 3}
   goodScoreImage: {fileID: -817987454622419427, guid: 1ca60d0f5cc430f4abfad6f141dd3e5f, type: 3}
-  characterTransform: {fileID: 0}
+  characterTransform: {fileID: 1175316753}
   loadingFromSave: 0
   fader: {fileID: 1440375923}
   uIManager: {fileID: 6706361}

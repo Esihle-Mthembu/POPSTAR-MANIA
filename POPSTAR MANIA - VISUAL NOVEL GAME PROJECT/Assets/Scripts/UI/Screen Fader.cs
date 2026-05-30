@@ -28,7 +28,7 @@ public class ScreenFader : MonoBehaviour
 
         fadeImage.raycastTarget = false; //allows clicks again
 
-        isTransitioning = false;  
+        isTransitioning = false;
     }
 
     public IEnumerator FadeOut()
@@ -54,3 +54,5 @@ public class ScreenFader : MonoBehaviour
         fadeImage.color = color;
     }
 }
+
+

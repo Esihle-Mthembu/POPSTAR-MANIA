@@ -18,17 +18,15 @@ public class DialogueManager : MonoBehaviour
     [Header("Dialogue Data")]
     public DialogueData prologueDialogue;
     public DialogueData chapter1Dialogue;
-    private string currentPath = ""; 
-
-    [Header ("Player Stats")]
-    public int energyPoints;
     public bool isFinalDialogue = false;
+    private string currentPath = ""; 
 
     [Header("Player Stats")]
     public int maxEnergy = 80;
     public Slider energyBar;
     public int totalEnergy = 0;
 
+    [Header("Friendship Bars")]
     public Slider cheonmiFriendshipBar;
     public Slider roseFriendshipBar;
     public Slider xuanMoFriendshipBar;
@@ -36,7 +34,8 @@ public class DialogueManager : MonoBehaviour
     public int maxFriendship = 100;
     public int friendshipPoints = 50;
 
-    [Header("Game Refernces")]
+
+    [Header("Game References")]
     public LyricsGameManager lyricsGame;
     public LyricsGameData lyricsGameData;
 
@@ -45,6 +44,13 @@ public class DialogueManager : MonoBehaviour
     public DialogueData A_Bad;
     public DialogueData B_Good;
     public DialogueData B_Bad;
+
+    [Header("PopUp Images")]
+    public Sprite advertImage;
+    public Sprite badScoreImage;
+    public Sprite goodScoreImage;
+
+    public RectTransform characterTransform;
 
     private DialogueData currentDialogue;
     private int currentIndex;
@@ -109,17 +115,13 @@ public class DialogueManager : MonoBehaviour
         {
             energyBar.maxValue = maxEnergy;
             energyBar.value = 0;
-        }
-
-        if (energyBar != null)
-        {
             energyBar.gameObject.SetActive(false);
         }
 
         // friendshipBar
         if (cheonmiFriendshipBar == null)
         {
-            var go = GameObject.Find("cheonmiFriendshipBar");
+            var go = GameObject.Find("FriendshipBar");
             if (go != null) cheonmiFriendshipBar = go.GetComponent<Slider>();
 
             if (cheonmiFriendshipBar == null)
@@ -148,7 +150,9 @@ public class DialogueManager : MonoBehaviour
         }
 
         friendshipPoints = 50;
-        UpdatecheonmiFriendshipBar();
+        InitFriendshipBars();
+        SetStaticFriendshipBars();
+        UpdateCheonmiBar();
 
         // Check if a save should be loaded or start afresh
         if (PlayerPrefs.HasKey("DialogueIndex"))
@@ -156,17 +160,60 @@ public class DialogueManager : MonoBehaviour
             LoadDialogueState();
             return;
         }
-        
+
         StartDialogue(prologueDialogue);
     }
 
-    void UpdatecheonmiFriendshipBar()
+    void InitFriendshipBars()
+    {
+        SetupBar(cheonmiFriendshipBar);
+        SetupBar(roseFriendshipBar);
+        SetupBar(xuanMoFriendshipBar);
+        SetupBar(yeonseoFriendshipBar);
+    }
+
+    void SetupBar(Slider bar)
+    {
+        if (bar == null) return;
+        bar.maxValue = maxFriendship;
+    }
+
+    void UpdateFriendshipBar()
     {
         if (cheonmiFriendshipBar == null) return;
 
         cheonmiFriendshipBar.maxValue = maxFriendship;
         cheonmiFriendshipBar.value = friendshipPoints;
     }
+
+    void UpdateCheonmiBar()
+    {
+        if (cheonmiFriendshipBar == null) return;
+
+        cheonmiFriendshipBar.value = friendshipPoints;
+    }
+
+    void SetStaticFriendshipBars()
+    {
+        SetStatic(roseFriendshipBar);
+        SetStatic(xuanMoFriendshipBar);
+        SetStatic(yeonseoFriendshipBar);
+    }
+
+    void ShowFriendshipBars(string speaker)
+    {
+        cheonmiFriendshipBar.gameObject.SetActive(speaker == "Cheonmi");
+        roseFriendshipBar.gameObject.SetActive(speaker == "Rose");
+        xuanMoFriendshipBar.gameObject.SetActive(speaker == "Xuan Mo");
+        yeonseoFriendshipBar.gameObject.SetActive(speaker == "Yeonseo");
+    }
+
+    void SetStatic(Slider bar)
+    {
+        if (bar == null) return;
+        bar.value = maxFriendship / 2;
+    }
+
 
     public void SetTypingSpeed(float value)
     {
@@ -180,12 +227,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        if (currentDialogue == null || currentDialogue.lines == null || currentDialogue.lines.Count == 0)
-        {
-            return;
-        }
-
-        if (isInChoice || !isDialogueActive || isTransitioning)
+        if (isInChoice || !isDialogueActive || isTransitioning || currentDialogue == null || currentDialogue.lines == null)
         {
             return;
         }
@@ -238,16 +280,17 @@ public class DialogueManager : MonoBehaviour
 
         ShowCurrentLine();
     }
+
     public void DisplayNextLine()
     {
-        ScreenShake.Instance.StopShake();
-        // stop old effects first
-        ScreenFlicker.Instance.StopFlicker();
-       
         if (isGameEnded)
         {
             return;
         }
+
+        ScreenShake.Instance.StopShake();
+        // stop old effects first
+        ScreenFlicker.Instance.StopFlicker();
 
         // Flicker Effect
         if (currentLine.flicker)
@@ -296,6 +339,26 @@ public class DialogueManager : MonoBehaviour
             return;
 
         currentLine = currentDialogue.lines[currentIndex];
+
+
+        //PopUp Image system
+        switch (currentLine.popupAction)
+        {
+            case PopupAction.Show:
+                if (currentLine.popupImage != null)
+                {
+                    PopUpImageManager.Instance.ShowImage(currentLine.popupImage);
+                }
+                break;
+
+            case PopupAction.Hide:
+                PopUpImageManager.Instance.HideImage();
+                break;
+
+            case PopupAction.None:
+            default:
+                break;
+        }
 
         DialogueLine line = currentLine;
 
@@ -404,6 +467,8 @@ public class DialogueManager : MonoBehaviour
         {
             StopCoroutine(typingCoroutine);
         }
+
+        ShowFriendshipBars(line.speakerName);
 
         // Character sprites
         // Center character
@@ -534,7 +599,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         friendshipPoints = Mathf.Clamp(friendshipPoints, 0, maxFriendship);
-        UpdatecheonmiFriendshipBar();
+        UpdateCheonmiBar();
 
         // Branching
         if (currentPath == "A")
@@ -562,6 +627,41 @@ public class DialogueManager : MonoBehaviour
 
         yield return StartCoroutine(fader.FadeIn());
     }
+
+    IEnumerator MoveUpDownOnce()
+    {
+        Vector3 originalPos = characterTransform.anchoredPosition;
+        Vector3 downPos = originalPos + new Vector3(0, -120f, 0);
+
+        float duration = 0.3f;
+
+        // move down
+        float t = 0;
+        while (t < duration)
+        {
+            characterTransform.anchoredPosition =
+                Vector3.Lerp(originalPos, downPos, t / duration);
+
+            t += Time.deltaTime;
+            yield return null;
+        }
+
+        characterTransform.anchoredPosition = downPos;
+
+        // move back up
+        t = 0;
+        while (t < duration)
+        {
+            characterTransform.anchoredPosition =
+                Vector3.Lerp(downPos, originalPos, t / duration);
+
+            t += Time.deltaTime;
+            yield return null;
+        }
+
+        characterTransform.anchoredPosition = originalPos;
+    }
+
 
     void UpdateEnergyBar()
     {
@@ -711,7 +811,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         friendshipPoints = Mathf.Clamp(friendshipPoints, 0, maxFriendship);
-        UpdatecheonmiFriendshipBar();
+        UpdateCheonmiBar();
 
         //check before jumping
         if (choice.nextLineIndex < 0 || choice.nextLineIndex >= currentDialogue.lines.Count)
@@ -735,7 +835,10 @@ public class DialogueManager : MonoBehaviour
     {
         Debug.Log("TRIGGER ENDING CALLED");
 
-        if (isGameEnded) return;
+        if (isGameEnded)
+        {
+            return;
+        }
 
         isGameEnded = true;
 

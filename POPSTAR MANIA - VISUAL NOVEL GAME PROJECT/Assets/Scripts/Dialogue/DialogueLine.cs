@@ -1,5 +1,12 @@
 ﻿using UnityEngine;
 
+public enum PopupAction
+{
+    None,
+    Show,
+    Hide
+}
+
 [System.Serializable]
 public class DialogueLine
 {
@@ -12,12 +19,17 @@ public class DialogueLine
     public Sprite leftCharacter;
     public Sprite background;
 
-    public bool moveUpDownOnce;
-
     [Header("Audio")]
     public AudioClip backgroundMusic;
     public AudioClip bgm;
-   
+
+    //PopUp system
+    public PopupAction popupAction;
+    public Sprite popupImage;
+
+    [Header("Character Motion")]
+    public bool moveUpDownOnce;
+
     [Header("Effects")]
     public bool flicker;
     public float flickerDuration = 1f;
