@@ -18,12 +18,15 @@ public class HelpPopUpManager : MonoBehaviour
         popup.SetActive(true);
 
         text.text =
-        "CONTROLS\n\n" +
-        "SPACE KEY - Progress through dialogue\n\n" +
+        "CONTROLS:\n\n" +
+        "SPACE KEY - Progress through dialogue\n\n\n" +
         "UI BUTTONS: \n" +
         "Rewind - Go back in dialogue\n" +
         "Auto - Progress through dialogue automatically\n" +
-        "Skip - Fast forward dialogue\n";
+        "Skip - Fast forward dialogue\n\n\n" +
+        "IMPORTANT:\n" +
+        "Open SETTINGS to set game to your preferred volume and typing speed\n\n" +
+        "DO NOT FORGET TO SAVE YOUR PROGRESS\n";
     }
 
     public void CloseHelp()

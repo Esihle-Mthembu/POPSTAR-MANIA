@@ -8,20 +8,24 @@ using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
-    [Header ("UI References")]
+    [Header("UI References")]
     public TextMeshProUGUI speakerText;
     public TextMeshProUGUI dialogueText;
     public DialogueUIManager uiManager;
     public float typingSpeed = 30f;
     public CanvasGroup speakerCanvasGroup;
 
-    [Header ("Dialogue Data")]
+    [Header("Dialogue Data")]
     public DialogueData prologueDialogue;
     public DialogueData chapter1Dialogue;
     private string currentPath = ""; 
 
     [Header ("Player Stats")]
     public int energyPoints;
+    public bool isFinalDialogue = false;
+    private string currentPath = "";
+
+    [Header("Player Stats")]
     public int maxEnergy = 80;
     public Slider energyBar;
     public int totalEnergy = 0;
@@ -30,11 +34,11 @@ public class DialogueManager : MonoBehaviour
     public int maxFriendship = 100;
     public int friendshipPoints = 50;
 
-    [Header ("Game Refernces")]
+    [Header("Game Refernces")]
     public LyricsGameManager lyricsGame;
     public LyricsGameData lyricsGameData;
 
-    [Header ("Result Branches")]
+    [Header("Result Branches")]
     public DialogueData A_Good;
     public DialogueData A_Bad;
     public DialogueData B_Good;
@@ -55,6 +59,8 @@ public class DialogueManager : MonoBehaviour
     private bool isTransitioning = false;
     private bool lyricsGameTriggered = false;
 
+    private bool isGameEnded = false;
+
     private HashSet<int> triggeredLines = new HashSet<int>();
     private DialogueLine currentLine;
     public ScreenFader fader;
@@ -62,7 +68,7 @@ public class DialogueManager : MonoBehaviour
     public DialogueUIManager uIManager;
 
 
-    void Awake ()
+    void Awake()
     {
         if (uiManager == null)
         {
@@ -167,11 +173,21 @@ public class DialogueManager : MonoBehaviour
 
     void Update()
     {
-        if (isInChoice || !isDialogueActive || currentDialogue == null || currentDialogue.lines == null)
+        if (isGameEnded)
+        {
             return;
+        }
 
         if (currentDialogue == null || currentDialogue.lines == null || currentDialogue.lines.Count == 0)
+        if (isInChoice || !isDialogueActive || isTransitioning || currentDialogue == null || currentDialogue.lines == null)
+        {
             return;
+        }
+
+        if (currentDialogue == null || currentDialogue.lines == null || currentDialogue.lines.Count == 0)
+        {
+            return;
+        }
 
         // Spacekey input
         bool spacePressed = false;
@@ -179,7 +195,7 @@ public class DialogueManager : MonoBehaviour
         {
             spacePressed = true;
         }
-        
+
         if (spacePressed)
         {
             // Disable auto or skip when pressing space key
@@ -192,15 +208,7 @@ public class DialogueManager : MonoBehaviour
             }
             else
             {
-                // Check if this is the last line
-                if (currentIndex >= currentDialogue.lines.Count - 1)
-                {
-                    EndDialogue(); // trigger immediatly
-                }
-                else
-                {
                     DisplayNextLine();
-                }
             }
         }
     }
@@ -230,6 +238,11 @@ public class DialogueManager : MonoBehaviour
         // stop old effects first
         ScreenFlicker.Instance.StopFlicker();
        
+        if (isGameEnded)
+        {
+            return;
+        }
+
         // Flicker Effect
         if (currentLine.flicker)
         {
@@ -255,8 +268,10 @@ public class DialogueManager : MonoBehaviour
         }
 
         if (isInChoice || currentDialogue == null || isTyping || isTransitioning)
+        {
             return;
-        
+        }
+
         currentIndex++;
 
         if (currentIndex >= currentDialogue.lines.Count)
@@ -277,6 +292,20 @@ public class DialogueManager : MonoBehaviour
         currentLine = currentDialogue.lines[currentIndex];
 
         DialogueLine line = currentLine;
+
+        // MESSAGE SYSTEM TRIGGER
+        if (line.triggersMessage)
+        {
+            if (MessageManager.Instance != null)
+            {
+                MessageManager.Instance.ReceiveMessage(line.messageText);
+            }
+        }
+
+        if (line.moveUpDownOnce)
+        {
+            StartCoroutine(MoveUpDownOnce());
+        }
 
         // music BGM plays continuosly if new BGM is specified, otherwise stops if line has no BGM (can be used for silence)
         MusicManager mm = Object.FindFirstObjectByType<MusicManager>();
@@ -467,7 +496,7 @@ public class DialogueManager : MonoBehaviour
 
     void HandleLyricsResult(int energy, int total)
     {
-        Debug.Log("=== LYRICS RESULT ===");
+        Debug.Log("LYRICS RESULT");
         Debug.Log("Energy: " + energy);
         Debug.Log("Path: '" + currentPath);
 
@@ -520,7 +549,7 @@ public class DialogueManager : MonoBehaviour
                 ContinueDialogue(B_Good);
             }
             else
-            { 
+            {
                 ContinueDialogue(B_Bad);
             }
         }
@@ -530,7 +559,10 @@ public class DialogueManager : MonoBehaviour
 
     void UpdateEnergyBar()
     {
-        if (energyBar == null) return;
+        if (energyBar == null)
+        {
+            return;
+        }
 
         energyBar.maxValue = maxEnergy;
         energyBar.value = totalEnergy;
@@ -544,14 +576,20 @@ public class DialogueManager : MonoBehaviour
         isInChoice = false;
         isAutoMode = false;
         isSkipping = false;
+        isFinalDialogue = true;
 
-        currentIndex = 0; // branches start at beginning
+        currentIndex = 0; 
 
         ShowCurrentLine();
     }
 
     public void EndDialogue()
     {
+        if (isTransitioning)
+        {
+            return;
+        }
+
         // Check if prologue is done
         if (isPrologue)
         {
@@ -560,9 +598,16 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
+        if (isFinalDialogue)
+        {
+            Debug.Log("Final dialogue ended, going to main menu");
+            TriggerEnding();
+            return;
+        }
+
         if (isTyping)
         {
-           FinishLineInstantly();
+            FinishLineInstantly();
             return; // wait for next input instead of transitioning mid-typing
         }
 
@@ -578,6 +623,11 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator HandleDialogueTransition()
     {
+        if (isTransitioning)
+        {
+            yield break;
+        }
+
         isTransitioning = true;
         isSkipping = false;
         isAutoMode = false;
@@ -600,7 +650,7 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("No further dialogue assigned");
+            Debug.Log("Dialogue transition completed");
         }
 
         // Fade back in
@@ -611,6 +661,11 @@ public class DialogueManager : MonoBehaviour
 
     public void SelectChoice(DialogueChoice choice)
     {
+        if (isGameEnded)
+        {
+            return;
+        }
+
         if (choice == null)
         {
             Debug.LogError("Choice is NULL");
@@ -670,6 +725,72 @@ public class DialogueManager : MonoBehaviour
         ShowCurrentLine();
     }
 
+    public void TriggerEnding()
+    {
+        Debug.Log("TRIGGER ENDING CALLED");
+
+        if (isGameEnded) return;
+
+        isGameEnded = true;
+
+        StartCoroutine(EndingSequence());
+    }
+
+    IEnumerator EndingSequence()
+    {
+        Debug.Log("ENDING SEQUENCE START");
+
+        // Stop all systems
+        isDialogueActive = false;
+        isAutoMode = false;
+        isSkipping = false;
+        isInChoice = false;
+
+        // stop typing if active
+        if (typingCoroutine != null)
+        {
+            StopCoroutine(typingCoroutine);
+            typingCoroutine = null;
+        }
+
+        // clear UI choices
+        uiManager.ClearChoices();
+
+        // fade out screen
+        yield return StartCoroutine(fader.FadeOut());
+
+        // hides dialogue UI completely
+        uiManager.gameObject.SetActive(false);
+
+        speakerText.text = "";
+        dialogueText.text = "";
+
+        // disable bars so nothing shows
+        if (energyBar != null)
+            energyBar.gameObject.SetActive(false);
+
+        if (cheonmiFriendshipBar != null)
+            cheonmiFriendshipBar.gameObject.SetActive(false);
+
+        if (roseFriendshipBar != null)
+            roseFriendshipBar.gameObject.SetActive(false);
+
+        if (xuanMoFriendshipBar != null)
+            xuanMoFriendshipBar.gameObject.SetActive(false);
+
+        if (yeonseoFriendshipBar != null)
+            yeonseoFriendshipBar.gameObject.SetActive(false);
+
+        // wait briefly
+        yield return new WaitForSeconds(1f);
+
+        // Show end screen
+        Debug.Log("GAME ENDED");
+
+        //Return to main menu
+        SceneManager.LoadScene("Main Menu");
+    }
+
     // IN-GAME MENU BUTTONS
     // Rewind button
     public void Rewind()
@@ -681,7 +802,7 @@ public class DialogueManager : MonoBehaviour
 
         if (currentIndex > 0)
         {
-            currentIndex --; // move back
+            currentIndex--; // move back
             ShowCurrentLine();
         }
     }
@@ -756,15 +877,16 @@ public class DialogueManager : MonoBehaviour
     // Save button
     public void SaveGame()
     {
-        // Allow saving during gameplay
-        if (currentDialogue == null  || !isDialogueActive)
+        if (currentDialogue == null)
         {
             return;
         }
 
-        PlayerPrefs.SetInt("DialogueIndex", currentIndex); 
-        PlayerPrefs.SetInt("IsPrologue", isPrologue? 1:0);
+        PlayerPrefs.SetInt("DialogueIndex", currentIndex);
+        PlayerPrefs.SetInt("IsPrologue", isPrologue ? 1 : 0);
+        PlayerPrefs.SetInt("IsDialogueActive", isDialogueActive ? 1 : 0);
         PlayerPrefs.SetString("SceneName", SceneManager.GetActiveScene().name);
+
         PlayerPrefs.Save();
 
         Debug.Log("Game Saved");
@@ -777,6 +899,7 @@ public class DialogueManager : MonoBehaviour
         isPrologue = PlayerPrefs.GetInt("IsPrologue") == 1;
         currentDialogue = isPrologue ? prologueDialogue : chapter1Dialogue;
         isDialogueActive = true;
+
         ShowCurrentLine();
     }
 
@@ -794,3 +917,4 @@ public class DialogueManager : MonoBehaviour
         SceneManager.LoadScene("Main Menu");
     }
 }
+
