@@ -1113,7 +1113,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: e9041def0d5c4064ab19893a9eb03e98, type: 3}
+  m_Resource: {fileID: 8300000, guid: 3208148c316703a46a39f7a8c535008e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1228,6 +1228,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MusicManager
   musicSource: {fileID: 0}
   overlaySource: {fileID: 0}
+  sfxSource: {fileID: 0}
+  clickSound: {fileID: 8300000, guid: 2038aded55c1caf4082f89496c5f5349, type: 3}
   persistentFadeDuration: 0.6
   overlayFadeDuration: 0.25
 --- !u!1 &2014516771

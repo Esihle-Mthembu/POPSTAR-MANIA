@@ -61,6 +61,7 @@ public class DialogueManager : MonoBehaviour
 
     public DialogueUIManager uIManager;
 
+
     void Awake ()
     {
         if (uiManager == null)
@@ -225,9 +226,32 @@ public class DialogueManager : MonoBehaviour
     }
     public void DisplayNextLine()
     {
+        ScreenShake.Instance.StopShake();
+        // stop old effects first
+        ScreenFlicker.Instance.StopFlicker();
+       
+        // Flicker Effect
+        if (currentLine.flicker)
+        {
+            ScreenFlicker.Instance.StartFlicker(currentLine.flickerDuration);
+        }
+
+        // Shake Effect
+        if (currentLine.shake)
+       {
+          ScreenShake.Instance.StartShake(currentLine.shakeDuration, currentLine.shakeStrength);
+       }
+
+        // Shader Effect
+        if (!string.IsNullOrEmpty(currentLine.shaderName))
+        {
+            SunnyShader.Instance.PlayShader(currentLine.shaderName);
+        }
+
+
         if (isInChoice || currentDialogue == null || isTyping || isTransitioning)
             return;
-
+        
         currentIndex++;
 
         if (currentIndex >= currentDialogue.lines.Count)
@@ -241,6 +265,7 @@ public class DialogueManager : MonoBehaviour
 
     public void ShowCurrentLine()
     {
+
         if (currentDialogue == null || currentIndex >= currentDialogue.lines.Count)
             return;
 
@@ -253,13 +278,34 @@ public class DialogueManager : MonoBehaviour
         AudioClip persistentClip = line.bgm;
         AudioClip overlayClip = line.backgroundMusic;
 
+
         if (mm != null)
         {
-            if (persistentClip != null) mm.PlayPersistent(persistentClip);
-            // persistent BGM intentionally left playing when null (won't stop)
-            if (overlayClip != null) mm.PlayOverlay(overlayClip);
-            else mm.StopOverlay();
+            AudioClip bgmToPlay = null;
+
+            // Search backwards for the most recent persistent BGM
+            for (int i = currentIndex; i >= 0; i--)
+            {
+                if (currentDialogue.lines[i].bgm != null)
+                {
+                    bgmToPlay = currentDialogue.lines[i].bgm;
+                    break;
+                }
+            }
+
+            // Play the correct persistent music
+            if (bgmToPlay != null)
+                mm.PlayPersistent(bgmToPlay);
+            else
+                mm.StopMusic();
+
+            // Overlay music is simpler - just play if specified, stop if null (no need to search)
+            if (overlayClip != null)
+                mm.PlayOverlay(overlayClip);
+            else
+                mm.StopOverlay();
         }
+
         else if (AudioManager.Instance != null)
         {
             // Fallback: use central AudioManager when MusicManager is missing

@@ -21,6 +21,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     bgm: {fileID: 8300000, guid: 4738bdf42274e5c428f3975904410d66, type: 3}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -33,6 +39,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -45,6 +57,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -57,6 +75,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -69,6 +93,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -82,6 +112,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -94,6 +130,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -105,6 +147,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -116,6 +164,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -127,6 +181,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -139,6 +199,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -152,6 +218,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -164,6 +236,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -176,6 +254,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -187,6 +271,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -200,6 +290,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -211,6 +307,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -222,6 +324,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -235,6 +343,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -247,6 +361,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -258,6 +378,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -271,6 +397,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -282,6 +414,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 4b4d12a56e1af1f4e96414333857598c, type: 3}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -294,6 +432,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -305,6 +449,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -319,6 +469,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -332,6 +488,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -346,6 +508,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -357,6 +525,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -370,6 +544,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -383,6 +563,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -396,6 +582,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -407,6 +599,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -421,6 +619,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -432,6 +636,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -444,6 +654,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -455,6 +671,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -468,6 +690,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -480,6 +708,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -491,6 +725,12 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -502,6 +742,12 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -513,6 +759,12 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -524,6 +776,12 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -535,6 +793,12 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -547,6 +811,12 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -559,6 +829,12 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -570,6 +846,12 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -582,6 +864,12 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -593,6 +881,12 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -605,6 +899,12 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -616,6 +916,12 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -629,6 +935,12 @@ MonoBehaviour:
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -641,6 +953,12 @@ MonoBehaviour:
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -654,6 +972,12 @@ MonoBehaviour:
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 57efb4dc674ab324bb762de408e5052b, type: 3}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -665,6 +989,12 @@ MonoBehaviour:
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -678,6 +1008,12 @@ MonoBehaviour:
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -691,6 +1027,12 @@ MonoBehaviour:
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -703,6 +1045,12 @@ MonoBehaviour:
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -714,6 +1062,12 @@ MonoBehaviour:
     background: {fileID: 1420308086105476666, guid: 6e6079d8aca968a4e80e19bd62077d9b, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -727,6 +1081,12 @@ MonoBehaviour:
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -740,6 +1100,12 @@ MonoBehaviour:
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -751,6 +1117,12 @@ MonoBehaviour:
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -762,6 +1134,12 @@ MonoBehaviour:
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -773,6 +1151,12 @@ MonoBehaviour:
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -784,6 +1168,12 @@ MonoBehaviour:
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -797,6 +1187,12 @@ MonoBehaviour:
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -810,6 +1206,12 @@ MonoBehaviour:
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -821,6 +1223,12 @@ MonoBehaviour:
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -832,6 +1240,12 @@ MonoBehaviour:
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -844,6 +1258,12 @@ MonoBehaviour:
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 74b0cc6959fab6a468db8547054644b2, type: 3}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -857,6 +1277,12 @@ MonoBehaviour:
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -868,6 +1294,12 @@ MonoBehaviour:
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -879,6 +1311,12 @@ MonoBehaviour:
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -890,6 +1328,12 @@ MonoBehaviour:
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -901,6 +1345,12 @@ MonoBehaviour:
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -912,6 +1362,12 @@ MonoBehaviour:
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -923,6 +1379,12 @@ MonoBehaviour:
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -934,6 +1396,12 @@ MonoBehaviour:
     background: {fileID: -6762806206646994688, guid: 2fe95af7f855e5446856b00d0503fd1d, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -948,6 +1416,12 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -961,6 +1435,12 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 87d0f82f492ab15479209c026f125ef2, type: 3}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 1
+    shakeDuration: 0.2
+    shakeStrength: 2
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -972,6 +1452,12 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 8300000, guid: 0899003a4f3eeae4e977e9b001cdec83, type: 3}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -983,6 +1469,12 @@ MonoBehaviour:
     background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -994,6 +1486,12 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1005,6 +1503,12 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1016,6 +1520,12 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1027,6 +1537,12 @@ MonoBehaviour:
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1037,8 +1553,14 @@ MonoBehaviour:
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 7041811409493127568, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
-    backgroundMusic: {fileID: 8300000, guid: 8a012450950979040a148b8b5d4a20d7, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: b5730f07e6023fa4683e0040632ba5e6, type: 3}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1050,6 +1572,12 @@ MonoBehaviour:
     background: {fileID: 2519943634182448617, guid: c005be0bdcb12a54582fe3c904be5c6f, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1061,6 +1589,12 @@ MonoBehaviour:
     background: {fileID: 6003030491557586684, guid: 84d651bd655f231469c5ac32ebe32e08, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
+    flicker: 0
+    flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 1
