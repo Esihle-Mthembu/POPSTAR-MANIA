@@ -25,6 +25,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -43,6 +47,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -62,6 +70,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -82,6 +94,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -101,6 +117,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -120,6 +140,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -140,6 +164,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -158,6 +186,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -176,6 +208,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -194,6 +230,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -213,6 +253,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -231,6 +275,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -249,6 +297,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -268,6 +320,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -286,6 +342,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -304,6 +364,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -322,6 +386,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -340,6 +408,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -358,6 +430,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -377,6 +453,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -395,6 +475,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -413,6 +497,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -431,6 +519,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -449,6 +541,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -467,6 +563,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -485,6 +585,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -504,6 +608,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -522,6 +630,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -541,6 +653,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -559,6 +675,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -577,6 +697,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -595,6 +719,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -614,6 +742,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -632,6 +764,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -650,6 +786,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -668,6 +808,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -686,6 +830,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -704,6 +852,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -723,6 +875,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -743,6 +899,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -761,6 +921,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -779,6 +943,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -797,6 +965,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -815,6 +987,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -833,6 +1009,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 1
     flickerDuration: 0.3
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -846,11 +1026,15 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
-    popupAction: 0
+    popupAction: 2
     popupImage: {fileID: 0}
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -858,18 +1042,21 @@ MonoBehaviour:
     triggersMessage: 0
     messageText: 
   - speakerName: 
-    dialogueText: "FIND YOUR DREAM AT DIAMOND ENT. \r\nGLOBAL AUDITIONS OPEN NOW.
-      \r\nLOOKING FOR THE NEXT MEMBER OF A 4-MEMBER GIRL GROUP."
+    dialogueText: 
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
-    popupAction: 0
-    popupImage: {fileID: 0}
+    popupAction: 1
+    popupImage: {fileID: 8092175794041825482, guid: 51dac8173514e5d46bc29971c486859c, type: 3}
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -883,11 +1070,15 @@ MonoBehaviour:
     background: {fileID: -4892683488605231937, guid: f873f44a005a41648be5fe1e13d65a88, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
-    popupAction: 0
+    popupAction: 2
     popupImage: {fileID: 0}
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -907,6 +1098,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -925,6 +1120,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -943,6 +1142,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -961,6 +1164,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -979,6 +1186,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -997,6 +1208,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1015,6 +1230,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1033,6 +1252,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1051,6 +1274,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1069,6 +1296,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1087,6 +1318,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1106,6 +1341,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1124,6 +1363,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1142,6 +1385,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1160,6 +1407,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1178,6 +1429,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1196,6 +1451,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1214,6 +1473,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1232,6 +1495,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1250,6 +1517,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1268,6 +1539,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1286,6 +1561,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1304,6 +1583,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1322,6 +1605,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1341,6 +1628,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1359,6 +1650,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1377,6 +1672,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1395,6 +1694,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1413,6 +1716,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1431,6 +1738,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1449,6 +1760,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1467,6 +1782,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1485,6 +1804,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1503,6 +1826,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1521,6 +1848,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1539,6 +1870,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1558,6 +1893,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1576,6 +1915,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1594,6 +1937,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1613,6 +1960,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1631,6 +1982,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1649,6 +2004,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1667,6 +2026,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1686,6 +2049,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1704,6 +2071,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1722,6 +2093,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1740,6 +2115,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1759,6 +2138,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1777,6 +2160,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1795,6 +2182,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1813,6 +2204,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1831,6 +2226,10 @@ MonoBehaviour:
     moveUpDownOnce: 1
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1849,6 +2248,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1867,6 +2270,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1886,6 +2293,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1904,6 +2315,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1922,6 +2337,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1940,6 +2359,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1958,6 +2381,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1976,6 +2403,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -1994,6 +2425,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2012,6 +2447,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2030,6 +2469,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2048,6 +2491,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2066,6 +2513,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2085,6 +2536,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2103,6 +2558,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2122,6 +2581,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2140,6 +2603,10 @@ MonoBehaviour:
     moveUpDownOnce: 1
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2158,6 +2625,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2176,6 +2647,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2194,6 +2669,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2212,6 +2691,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2230,6 +2713,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2248,6 +2735,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2266,6 +2757,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2284,6 +2779,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2302,6 +2801,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2320,6 +2823,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2338,6 +2845,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2356,6 +2867,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2374,6 +2889,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2392,6 +2911,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2410,6 +2933,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2428,6 +2955,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2446,6 +2977,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0
@@ -2464,6 +2999,10 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
+    shaderName: 
+    shake: 0
+    shakeDuration: 0.5
+    shakeStrength: 5
     choices: []
     triggersLyricsGame: 0
     isEnding: 0

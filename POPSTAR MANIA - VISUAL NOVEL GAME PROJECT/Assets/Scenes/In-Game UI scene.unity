@@ -15024,8 +15024,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66cb0c03bbb59df44899a6697221d186, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PopUpImageManager
-  canvasGroup: {fileID: 0}
-  popupImage: {fileID: 0}
+  canvasGroup: {fileID: 1912745183}
+  popupImage: {fileID: 857668047}
   fadeSpeed: 2
 --- !u!1 &1921591474
 GameObject:

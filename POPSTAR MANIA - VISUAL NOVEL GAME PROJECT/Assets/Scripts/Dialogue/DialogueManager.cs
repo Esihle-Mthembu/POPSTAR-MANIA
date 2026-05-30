@@ -288,9 +288,24 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        ScreenShake.Instance.StopShake();
+        if (currentDialogue == null || currentDialogue.lines == null || currentDialogue.lines.Count == 0)
+        {
+            return;
+        }
+
+        if (currentLine == null)
+        {
+            Debug.LogWarning("currentLine is NULL — forcing ShowCurrentLine()");
+            ShowCurrentLine();
+            return;
+        }
+
         // stop old effects first
-        ScreenFlicker.Instance.StopFlicker();
+        if (ScreenShake.Instance != null)
+            ScreenShake.Instance.StopShake();
+
+        if (ScreenFlicker.Instance != null)
+            ScreenFlicker.Instance.StopFlicker();
 
         // Flicker Effect
         if (currentLine.flicker)
