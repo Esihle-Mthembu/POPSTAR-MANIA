@@ -25,6 +25,7 @@ public class HelpPopUpManager : MonoBehaviour
         "Auto - Progress through dialogue automatically\n" +
         "Skip - Fast forward dialogue\n\n\n" +
         "IMPORTANT:\n" +
+        "Open SETTINGS to set game to your preferred volume and typing speed\n\n" +
         "DO NOT FORGET TO SAVE YOUR PROGRESS\n";
     }
 
