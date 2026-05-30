@@ -81,6 +81,11 @@ public class AudioManager : MonoBehaviour
     {
         StopAllCoroutines();
 
+        if (SettingsMenu.Instance != null)
+        {
+            SettingsMenu.Instance.RefreshAfterSceneLoad();
+        }
+
         if (scene.name == "Main Menu")
         {
             PlayMainMenuMusic();
