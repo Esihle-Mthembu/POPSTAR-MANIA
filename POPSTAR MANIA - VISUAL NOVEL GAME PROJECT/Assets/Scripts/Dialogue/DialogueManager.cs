@@ -253,16 +253,7 @@ public class DialogueManager : MonoBehaviour
             }
             else
             {
-                // Check if this is the last line
-                if (currentIndex >= currentDialogue.lines.Count - 1)
-                {
-                    TriggerEnding();
-                    return;
-                }
-                else
-                {
                     DisplayNextLine();
-                }
             }
         }
     }
