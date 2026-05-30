@@ -826,7 +826,7 @@ MonoBehaviour:
     dialogueText: Hmmm...
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: 1087448506538228221, guid: 6d7c11184b3aa164d9a0fe4825d49c02, type: 3}
+    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0

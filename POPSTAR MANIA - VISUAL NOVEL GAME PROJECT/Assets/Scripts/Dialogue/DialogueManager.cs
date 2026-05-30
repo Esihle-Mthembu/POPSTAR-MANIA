@@ -242,12 +242,17 @@ public class DialogueManager : MonoBehaviour
           ScreenShake.Instance.StartShake(currentLine.shakeDuration, currentLine.shakeStrength);
        }
 
-        // Shader Effect
-        if (!string.IsNullOrEmpty(currentLine.shaderName))
-        {
-            SunnyShader.Instance.PlayShader(currentLine.shaderName);
-        }
+        Debug.Log("LINE " + currentLine + " shader = [" + currentLine.shaderName + "]");
+        // shader effect
+        string newShader = currentLine.shaderName;
 
+        if (!string.IsNullOrWhiteSpace(newShader))
+        {
+            if (newShader != SunnyShader.Instance.CurrentShader)
+            {
+                SunnyShader.Instance.PlayShader(newShader);
+            }
+        }
 
         if (isInChoice || currentDialogue == null || isTyping || isTransitioning)
             return;

@@ -22,7 +22,7 @@ MonoBehaviour:
     bgm: {fileID: 8300000, guid: c8b77116b1cc119498cece4efe615188, type: 3}
     flicker: 0
     flickerDuration: 1
-    shaderName: 
+    shaderName: Sunny
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1535,12 +1535,12 @@ MonoBehaviour:
     dialogueText: "Two mornings later, I\u2019m standing in front of the company. "
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 1102536027230071805, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 8300000, guid: 6617df9bbbfa25e4387f6b371f6fb4b8, type: 3}
     flicker: 0
     flickerDuration: 1
-    shaderName: 
+    shaderName: None
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1552,7 +1552,7 @@ MonoBehaviour:
     dialogueText: My stomach drops as I take it in.
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 7041811409493127568, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -1569,7 +1569,7 @@ MonoBehaviour:
     dialogueText: "It\u2019s\u2026 smaller than I expected."
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -1587,7 +1587,7 @@ MonoBehaviour:
       strangely quiet, like no one\u2019s really there."
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 7041811409493127568, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -1604,7 +1604,7 @@ MonoBehaviour:
     dialogueText: For a second, something about it feels off.
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -1621,7 +1621,7 @@ MonoBehaviour:
     dialogueText: 'But I ignore it. '
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -1638,7 +1638,7 @@ MonoBehaviour:
     dialogueText: 'This is my chance. '
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 1102536027230071805, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -1656,7 +1656,7 @@ MonoBehaviour:
       with excitement.
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 1102536027230071805, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -1673,7 +1673,7 @@ MonoBehaviour:
     dialogueText: "Inside, it\u2019s even quieter. "
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0

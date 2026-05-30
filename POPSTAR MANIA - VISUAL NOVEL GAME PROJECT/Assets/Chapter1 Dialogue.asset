@@ -18,7 +18,7 @@ MonoBehaviour:
       the news. Even my dad, who was so against the idea, finally warmed up to it. '
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 1102536027230071805, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 8300000, guid: e614a23963266754cb9fe19c647297a5, type: 3}
     flicker: 0
@@ -37,7 +37,7 @@ MonoBehaviour:
       here feels weird\u2026 I never thought this would happen to me. "
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -54,7 +54,7 @@ MonoBehaviour:
     dialogueText: "I\u2019m nervous about meeting the other girls. "
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -73,7 +73,7 @@ MonoBehaviour:
       just try to get the hang of things. "
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -90,7 +90,7 @@ MonoBehaviour:
     dialogueText: 'You should call us if anything happens, okay? '
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -107,7 +107,7 @@ MonoBehaviour:
     dialogueText: "Don\u2019t forget about your schoolwork while you're here."
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -124,7 +124,7 @@ MonoBehaviour:
     dialogueText: Hearing my dad say this while holding my bags makes it feel real.
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -141,7 +141,7 @@ MonoBehaviour:
     dialogueText: 'I roll my eyes before answering. '
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -158,7 +158,7 @@ MonoBehaviour:
     dialogueText: I won't forget and I promise to call.
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: -7555613608946788345, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -176,7 +176,7 @@ MonoBehaviour:
       out.
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -194,7 +194,7 @@ MonoBehaviour:
       I assume? "
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: -7847799068464056061, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -212,7 +212,7 @@ MonoBehaviour:
       creepy. I nod. "
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -229,7 +229,7 @@ MonoBehaviour:
     dialogueText: "Thank you for bringing her. I\u2019ll take over from here."
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -246,7 +246,7 @@ MonoBehaviour:
     dialogueText: Oh? We were hoping we could just come in and...
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -263,7 +263,7 @@ MonoBehaviour:
     dialogueText: 'The panel member cuts him off, still smiling. '
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 0}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -280,7 +280,7 @@ MonoBehaviour:
     dialogueText: "I\u2019m sorry, but parents aren\u2019t allowed in the dorms.  "
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 7041811409493127568, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -297,7 +297,7 @@ MonoBehaviour:
     dialogueText: 'Not allowed...? '
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: -2528963852601738924, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -314,7 +314,7 @@ MonoBehaviour:
     dialogueText: "Uhh\u2026 I guess it\u2019s okay. You\u2019ll be fine alone, right? "
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -331,7 +331,7 @@ MonoBehaviour:
     dialogueText: I nod, unsure
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -348,7 +348,7 @@ MonoBehaviour:
     dialogueText: "Yeah\u2026 I\u2019ll be fine. "
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: -7555613608946788345, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
@@ -366,7 +366,7 @@ MonoBehaviour:
       disappear.
     centerCharacter: {fileID: 0}
     leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
-    background: {fileID: -2569119218762868166, guid: 9c4713c311cc0cb4db5f589c1476225e, type: 3}
+    background: {fileID: -2679239362178578720, guid: 34b411e46534e5548bef7c3d89b391dc, type: 3}
     backgroundMusic: {fileID: 0}
     bgm: {fileID: 0}
     flicker: 0
