@@ -40,20 +40,6 @@ public class MusicManager : MonoBehaviour
             return;
         }
 
-        // using AudioManager's source if ours is not assigned, but only if it's on the same GameObject
-        if (musicSource == null && AudioManager.Instance != null)
-        {
-            if (AudioManager.Instance.gameObject == this.gameObject)
-            {
-                musicSource = AudioManager.Instance.musicSource;
-                Debug.Log("[MusicManager] auto-assigned musicSource from AudioManager.Instance (same GameObject)");
-            }
-            else
-            {
-                Debug.Log("[MusicManager] AudioManager exists on a different GameObject — not reusing its musicSource to avoid conflicts.");
-            }
-        }
-
 
         if (musicSource == null)
         {

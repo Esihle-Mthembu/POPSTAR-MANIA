@@ -5685,8 +5685,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8731844274044699189, guid: 33e4309312705e44db4d50d412b664f1, type: 3}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+      - m_Target: {fileID: 909132765}
+        m_TargetAssemblyTypeName: MusicManager, Assembly-CSharp
         m_MethodName: PlayClick
         m_Mode: 1
         m_Arguments:
@@ -7170,8 +7170,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 8731844274044699189, guid: 33e4309312705e44db4d50d412b664f1, type: 3}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+      - m_Target: {fileID: 909132765}
+        m_TargetAssemblyTypeName: MusicManager, Assembly-CSharp
         m_MethodName: PlayClick
         m_Mode: 1
         m_Arguments:
@@ -13252,8 +13252,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 8731844274044699189, guid: 33e4309312705e44db4d50d412b664f1, type: 3}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+      - m_Target: {fileID: 909132765}
+        m_TargetAssemblyTypeName: MusicManager, Assembly-CSharp
         m_MethodName: PlayClick
         m_Mode: 1
         m_Arguments:
@@ -14700,7 +14700,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.687
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -20969,55 +20969,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!1 &2108852117
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2108852119}
-  - component: {fileID: 2108852118}
-  m_Layer: 0
-  m_Name: AudioManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2108852118
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2108852117}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fba040a87e41af4b85ecd54677e421f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
-  musicSource: {fileID: 233770398463935822, guid: 33e4309312705e44db4d50d412b664f1, type: 3}
-  sfxSource: {fileID: 233770398463935822, guid: 33e4309312705e44db4d50d412b664f1, type: 3}
-  mainMenuMusic: {fileID: 0}
-  clickSound: {fileID: 8300000, guid: 2038aded55c1caf4082f89496c5f5349, type: 3}
-  lyricGameMusic: {fileID: 8300000, guid: fa5dabd6b532e3b42870f9f607d004ff, type: 3}
---- !u!4 &2108852119
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2108852117}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 960, y: 538.75, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2117183402
 GameObject:
   m_ObjectHideFlags: 0
@@ -21168,7 +21119,6 @@ SceneRoots:
   - {fileID: 909132766}
   - {fileID: 1655208599}
   - {fileID: 1116677241}
-  - {fileID: 2108852119}
   - {fileID: 1744765731}
   - {fileID: 1558043439}
   - {fileID: 447640745}

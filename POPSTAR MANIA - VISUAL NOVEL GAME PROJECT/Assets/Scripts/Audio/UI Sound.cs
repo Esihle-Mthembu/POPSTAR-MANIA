@@ -60,12 +60,6 @@ public class UISound : MonoBehaviour
             return;
         }
 
-        // Fallback to AudioManager
-        if (AudioManager.Instance != null)
-        {
-            AudioManager.Instance.PlayClick();
-            return;
-        }
 
         Debug.LogWarning("No audio manager available for UI click.");
     }

@@ -429,12 +429,6 @@ public class DialogueManager : MonoBehaviour
                 mm.StopOverlay();
         }
 
-        else if (AudioManager.Instance != null)
-        {
-            // Fallback: use central AudioManager when MusicManager is missing
-            if (persistentClip != null) AudioManager.Instance.PlayMusic(persistentClip);
-            else if (overlayClip != null) AudioManager.Instance.PlayMusic(overlayClip);
-        }
 
         if (string.IsNullOrEmpty(line.speakerName))
         {
