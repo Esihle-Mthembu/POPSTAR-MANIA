@@ -25,7 +25,7 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: Sunnys
+    shaderName: Sunny
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1960,7 +1960,7 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: None
+    shaderName: Sunnys
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
