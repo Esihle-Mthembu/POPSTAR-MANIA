@@ -2,58 +2,44 @@ using UnityEngine;
 
 public class SunnyShader : MonoBehaviour
 {
-    public string CurrentShader => currentShader;
     public static SunnyShader Instance;
 
-    [Header("Shader Objects")]
-    public GameObject sunnyShader;
-
-    private string currentShader = "";
+    [SerializeField] private GameObject sunnyShader;
 
     private void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        // Singleton (scene-only, not persistent)
+        Instance = this;
+
+        // Always start clean per scene
+        ForceOff();
+    }
+
+    private void Start()
+    {
+        ForceOff(); // extra safety for scene load timing
     }
 
     public void PlayShader(string shaderName)
     {
-        // Ignore empty shader names
-        if (string.IsNullOrWhiteSpace(shaderName))
+        if (sunnyShader == null)
             return;
 
-        // Prevent replaying same shader
-        if (currentShader == shaderName)
-            if (string.IsNullOrWhiteSpace(shaderName))
-                return;
-
-        // ALWAYS reset first
-        DisableAllShaders();
-
-        currentShader = shaderName;
-
-        switch (shaderName)
+        if (shaderName == "Sunny")
         {
-            case "Sunny":
-                sunnyShader.SetActive(true);
-                break;
-
-            case "None":
-                currentShader = "";
-                break;
+            sunnyShader.SetActive(true);
+        }
+        else
+        {
+            ForceOff();
         }
     }
 
-    void DisableAllShaders()
+    public void ForceOff()
     {
-        sunnyShader.SetActive(false);
+        if (sunnyShader == null)
+            return;
 
+        sunnyShader.SetActive(false);
     }
 }

@@ -13,24 +13,24 @@ public class ScreenFlicker : MonoBehaviour
 
     private void Awake()
     {
-        // Singleton
         if (Instance == null)
-        {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
         else
-        {
             Destroy(gameObject);
-        }
     }
 
     public void StartFlicker(float duration)
     {
-        // Stop old flicker first
+        if (flickerImage == null)
+        {
+            Debug.LogWarning("ScreenFlicker: flickerImage is NULL (not assigned or scene changed)");
+            return;
+        }
+
         if (flickerCoroutine != null)
         {
             StopCoroutine(flickerCoroutine);
+            flickerCoroutine = null;
         }
 
         flickerCoroutine = StartCoroutine(FlickerEffect(duration));
@@ -41,31 +41,41 @@ public class ScreenFlicker : MonoBehaviour
         if (flickerCoroutine != null)
         {
             StopCoroutine(flickerCoroutine);
+            flickerCoroutine = null;
         }
 
-        // Reset alpha
+        if (flickerImage == null) return;
+
         Color reset = flickerImage.color;
         reset.a = 0f;
         flickerImage.color = reset;
+
+        flickerImage.rectTransform.anchoredPosition = Vector2.zero;
     }
 
     IEnumerator FlickerEffect(float duration)
     {
+        if (flickerImage == null)
+        {
+            Debug.LogWarning("ScreenFlicker: flickerImage missing during effect");
+            yield break;
+        }
+
         float timer = 0f;
 
         while (timer < duration)
         {
+            if (flickerImage == null)
+                yield break;
+
             Color color = flickerImage.color;
-
-            color.a = Random.Range(0f, 0.6f);
-
+            color.a = Random.Range(0.15f, 0.28f);
             flickerImage.color = color;
 
             flickerImage.rectTransform.anchoredPosition =
-                new Vector2(Random.Range(-5f, 5f), Random.Range(-5f, 5f));
+    new Vector2(Random.Range(-1.5f, 1.5f), Random.Range(-1.5f, 1.5f));
 
-            yield return new WaitForSeconds(0.02f);
-
+            yield return new WaitForSeconds(0.05f);
             timer += Time.deltaTime;
         }
 
@@ -74,5 +84,7 @@ public class ScreenFlicker : MonoBehaviour
         Color reset = flickerImage.color;
         reset.a = 0f;
         flickerImage.color = reset;
+
+        flickerCoroutine = null;
     }
 }

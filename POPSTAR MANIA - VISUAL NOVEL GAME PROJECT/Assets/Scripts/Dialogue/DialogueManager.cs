@@ -311,7 +311,6 @@ public class DialogueManager : MonoBehaviour
 
         if (!string.IsNullOrWhiteSpace(newShader))
         {
-            if (newShader != SunnyShader.Instance.CurrentShader)
             {
                 SunnyShader.Instance.PlayShader(newShader);
             }
