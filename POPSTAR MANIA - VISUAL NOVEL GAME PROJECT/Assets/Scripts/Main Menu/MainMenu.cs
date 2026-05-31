@@ -39,12 +39,12 @@ public class MainMenu : MonoBehaviour
             Debug.Log("Loading scene:" + sceneName);
 
             // Play click (prefer AudioManager -> MusicManager delegation)
-            if (AudioManager.Instance != null)
+           // if (AudioManager.Instance != null)
             {
-                AudioManager.Instance.PlayClick();
+              //  AudioManager.Instance.PlayClick();
                 StartCoroutine(LoadSceneDelayed(sceneName, 0.1f)); // smsall delay to start sound
             }
-            else
+          //  else
             {
                 SceneManager.LoadScene(sceneName);
             }

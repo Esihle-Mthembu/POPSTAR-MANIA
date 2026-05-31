@@ -283,7 +283,40 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayNextLine()
     {
-        if (isGameEnded)
+        ScreenShake.Instance.StopShake();
+        // stop old effects first
+        ScreenFlicker.Instance.StopFlicker();
+
+        // Flicker Effect
+        if (currentLine.flicker)
+        {
+            ScreenFlicker.Instance.StartFlicker(currentLine.flickerDuration);
+        }
+
+        // Shake Effect
+        if (currentLine.shake)
+        {
+            ScreenShake.Instance.StartShake(currentLine.shakeDuration, currentLine.shakeStrength);
+        }
+
+        // Shader Effect
+        if (!string.IsNullOrEmpty(currentLine.shaderName))
+        {
+            SunnyShader.Instance.PlayShader(currentLine.shaderName);
+        }
+        
+        Debug.Log("LINE " + currentLine + " shader = [" + currentLine.shaderName + "]");
+        // shader effect
+        string newShader = currentLine.shaderName;
+
+        if (!string.IsNullOrWhiteSpace(newShader))
+        {
+            if (newShader != SunnyShader.Instance.CurrentShader)
+            {
+                SunnyShader.Instance.PlayShader(newShader);
+            }
+
+            if (isGameEnded)
         {
             return;
         }
@@ -300,35 +333,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        // stop old effects first
-        if (ScreenShake.Instance != null)
-            ScreenShake.Instance.StopShake();
-
-        if (ScreenFlicker.Instance != null)
-            ScreenFlicker.Instance.StopFlicker();
-
-        // Flicker Effect
-        if (currentLine.flicker)
-        {
-            ScreenFlicker.Instance.StartFlicker(currentLine.flickerDuration);
-        }
-
-        // Shake Effect
-        if (currentLine.shake)
-       {
-          ScreenShake.Instance.StartShake(currentLine.shakeDuration, currentLine.shakeStrength);
-       }
-
-        Debug.Log("LINE " + currentLine + " shader = [" + currentLine.shaderName + "]");
-        // shader effect
-        string newShader = currentLine.shaderName;
-
-        if (!string.IsNullOrWhiteSpace(newShader))
-        {
-            if (newShader != SunnyShader.Instance.CurrentShader)
-            {
-                SunnyShader.Instance.PlayShader(newShader);
-            }
+       
         }
 
         if (isInChoice || currentDialogue == null || isTyping || isTransitioning)
@@ -424,12 +429,6 @@ public class DialogueManager : MonoBehaviour
                 mm.StopOverlay();
         }
 
-        else if (AudioManager.Instance != null)
-        {
-            // Fallback: use central AudioManager when MusicManager is missing
-            if (persistentClip != null) AudioManager.Instance.PlayMusic(persistentClip);
-            else if (overlayClip != null) AudioManager.Instance.PlayMusic(overlayClip);
-        }
 
         if (string.IsNullOrEmpty(line.speakerName))
         {
