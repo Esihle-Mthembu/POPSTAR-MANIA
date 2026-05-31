@@ -25,7 +25,7 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
+    shaderName: Sunny
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
@@ -1008,7 +1008,7 @@ MonoBehaviour:
     popupImage: {fileID: 0}
     moveUpDownOnce: 0
     flicker: 1
-    flickerDuration: 0.3
+    flickerDuration: 0.2
     shaderName: 
     shake: 0
     shakeDuration: 0.5
@@ -1099,7 +1099,7 @@ MonoBehaviour:
     flicker: 0
     flickerDuration: 1
     shaderName: 
-    shake: 0
+    shake: 1
     shakeDuration: 0.5
     shakeStrength: 5
     choices: []
@@ -1761,7 +1761,7 @@ MonoBehaviour:
     flicker: 0
     flickerDuration: 1
     shaderName: 
-    shake: 0
+    shake: 1
     shakeDuration: 0.5
     shakeStrength: 5
     choices: []
@@ -2886,7 +2886,7 @@ MonoBehaviour:
     bgm: {fileID: 0}
     popupAction: 0
     popupImage: {fileID: 0}
-    moveUpDownOnce: 0
+    moveUpDownOnce: 1
     flicker: 0
     flickerDuration: 1
     shaderName: 
