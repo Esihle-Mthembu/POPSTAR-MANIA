@@ -4538,7 +4538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d75712ad6329b942bdd7064cc8ba292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sunnyShader: {fileID: 0}
+  sunnyShader: {fileID: 1594234811}
 --- !u!1 &706808747
 GameObject:
   m_ObjectHideFlags: 0

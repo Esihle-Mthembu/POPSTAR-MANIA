@@ -1036,8 +1036,8 @@ MonoBehaviour:
   nextSceneName: Main Menu
   audioSource: {fileID: 1401655586}
   openingMusic: {fileID: 8300000, guid: fa5dabd6b532e3b42870f9f607d004ff, type: 3}
-  fadeInDuration: 2
-  fadeOutDuration: 1.5
+  fadeInDuration: 1
+  fadeOutDuration: 0.5
 --- !u!82 &1401655586
 AudioSource:
   m_ObjectHideFlags: 0
