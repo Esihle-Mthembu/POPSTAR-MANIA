@@ -1982,7 +1982,7 @@ MonoBehaviour:
     moveUpDownOnce: 0
     flicker: 0
     flickerDuration: 1
-    shaderName: 
+    shaderName: None
     shake: 0
     shakeDuration: 0.5
     shakeStrength: 5
