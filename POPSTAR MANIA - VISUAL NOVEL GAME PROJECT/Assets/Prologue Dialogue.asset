@@ -2216,7 +2216,7 @@ MonoBehaviour:
     messageText: 
   - speakerName: 
     dialogueText: I bow quickly.
-    centerCharacter: {fileID: 0}
+    centerCharacter: {fileID: 3308583301873284892, guid: 4170d4967a5cb5241a06c5bfb08c0d3a, type: 3}
     leftCharacter: {fileID: 0}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
@@ -2593,7 +2593,7 @@ MonoBehaviour:
     messageText: 
   - speakerName: 
     dialogueText: I bow again.
-    centerCharacter: {fileID: 0}
+    centerCharacter: {fileID: -5467041533095188184, guid: 5b77b766a4cc4b4468e60d261abf3fb1, type: 3}
     leftCharacter: {fileID: 5379208666965357097, guid: 2e78d886561996c4eb61c91fdd03780e, type: 3}
     background: {fileID: 5875038362160349911, guid: 0b109640604cff64aa5599cde9d03fa7, type: 3}
     backgroundMusic: {fileID: 0}
