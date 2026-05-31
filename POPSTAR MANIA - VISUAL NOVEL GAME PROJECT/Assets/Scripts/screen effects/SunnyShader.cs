@@ -25,14 +25,13 @@ public class SunnyShader : MonoBehaviour
         if (sunnyShader == null)
             return;
 
-        if (shaderName == "Sunny")
-        {
-            sunnyShader.SetActive(true);
-        }
-        else
+        if (string.IsNullOrEmpty(shaderName) || shaderName != "Sunny")
         {
             ForceOff();
+            return;
         }
+
+        sunnyShader.SetActive(true);
     }
 
     public void ForceOff()

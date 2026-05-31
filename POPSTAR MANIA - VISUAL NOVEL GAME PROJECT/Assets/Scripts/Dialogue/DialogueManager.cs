@@ -331,7 +331,6 @@ public class DialogueManager : MonoBehaviour
             ShowCurrentLine();
             return;
         }
-
        
         }
 
